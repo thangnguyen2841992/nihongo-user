@@ -1,6 +1,7 @@
 package com.thang.nihongo_user.config;
 
 import com.thang.nihongo_user.model.Course;
+import com.thang.nihongo_user.model.CourseStatus;
 import com.thang.nihongo_user.repository.ICourseRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
@@ -40,7 +41,7 @@ public class DataInitializer {
                                     .courseDescription("Khóa học tiếng Nhật " + courseName)
                                     .originalPrice(price)
                                     .salePrice(price)
-                                    .active(true)
+                                    .active(CourseStatus.ACTIVE)
                                     .build()
                     );
                 }

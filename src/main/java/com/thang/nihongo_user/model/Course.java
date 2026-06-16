@@ -29,7 +29,8 @@ public class Course {
     @Column(nullable = false)
     private BigDecimal salePrice;
 
-    private Boolean active;
+    @Enumerated(EnumType.STRING)
+    private CourseStatus active;
 
     @CreationTimestamp
     private LocalDateTime dateCreated;

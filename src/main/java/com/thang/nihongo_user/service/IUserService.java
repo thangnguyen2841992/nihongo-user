@@ -1,5 +1,12 @@
 package com.thang.nihongo_user.service;
 
-public interface IUserService {
+import com.thang.nihongo_user.model.Course;
+import com.thang.nihongo_user.model.dto.CourseDTO;
 
+import java.util.List;
+
+public interface IUserService {
+    CourseDTO createNewCourse(Course course);
+
+    List<CourseDTO> getAllCourse();
 }
