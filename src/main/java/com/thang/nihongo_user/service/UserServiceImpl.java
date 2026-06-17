@@ -38,6 +38,8 @@ public class UserServiceImpl implements IUserService {
                 .courseName(course.getCourseName())
                 .courseDescription(course.getCourseDescription())
                 .active(course.getActive().getDescription())
+                .salePrice(course.getSalePrice())
+                .originalPrice(course.getOriginalPrice())
                 .build();
     }
 
