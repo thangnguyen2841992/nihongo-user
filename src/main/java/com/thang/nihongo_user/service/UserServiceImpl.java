@@ -1,8 +1,10 @@
 package com.thang.nihongo_user.service;
 
 import com.thang.nihongo_user.model.Course;
+import com.thang.nihongo_user.model.UserCourse;
 import com.thang.nihongo_user.model.dto.CourseDTO;
 import com.thang.nihongo_user.repository.ICourseRepository;
+import com.thang.nihongo_user.repository.IUserCourseRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,6 +17,8 @@ import java.util.List;
 public class UserServiceImpl implements IUserService {
 
     private final ICourseRepository courseRepository;
+
+    private final IUserCourseRepository userCourseRepository;
 
 
     @Override
@@ -32,6 +36,12 @@ public class UserServiceImpl implements IUserService {
                 .toList();
     }
 
+    @Override
+    @Transactional
+    public UserCourse createNewUserCourse(UserCourse userCourse) {
+        return this.userCourseRepository.save(userCourse);
+    }
+
     private CourseDTO mappingCourseToDTO(Course course) {
         return CourseDTO.builder()
                 .courseId(course.getCourseId())
@@ -40,6 +50,7 @@ public class UserServiceImpl implements IUserService {
                 .active(course.getActive().getDescription())
                 .salePrice(course.getSalePrice())
                 .originalPrice(course.getOriginalPrice())
+                .levelId(course.getLevelId())
                 .build();
     }
 

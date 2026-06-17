@@ -17,6 +17,8 @@ public class CourseDTO {
 
     private String courseDescription;
 
+    private Long levelId;
+
     private BigDecimal originalPrice;
 
     private BigDecimal salePrice;

@@ -23,6 +23,8 @@ public class Course {
 
     private String courseDescription;
 
+    private Long levelId;
+
     @Column(nullable = false)
     private BigDecimal originalPrice;
 
