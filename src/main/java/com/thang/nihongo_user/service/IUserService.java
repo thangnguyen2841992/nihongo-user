@@ -12,4 +12,7 @@ public interface IUserService {
     List<CourseDTO> getAllCourse();
 
     UserCourse createNewUserCourse(UserCourse userCourse);
+    boolean existsByCourseIdAndUserId(Long courseId, Long userId);
+
+
 }

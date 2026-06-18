@@ -42,6 +42,11 @@ public class UserServiceImpl implements IUserService {
         return this.userCourseRepository.save(userCourse);
     }
 
+    @Override
+    public boolean existsByCourseIdAndUserId(Long courseId, Long userId) {
+        return this.userCourseRepository.existsByCourseIdAndUserId(courseId, userId);
+    }
+
     private CourseDTO mappingCourseToDTO(Course course) {
         return CourseDTO.builder()
                 .courseId(course.getCourseId())
