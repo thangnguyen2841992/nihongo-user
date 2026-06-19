@@ -33,6 +33,24 @@ public class NihongoUserRestController {
         return ResponseEntity.ok(this.userService.getAllCourse());
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/my-courses")
+    public ResponseEntity<List<Long>> getMyCourseIds(
+            @AuthenticationPrincipal Jwt jwt
+    ) {
+        String email = jwt.getClaimAsString("email");
+
+        UserDTO userDTO =
+                userClient.findUserByEmail(email);
+
+        List<Long> courseIds =
+                userService.findCourseIdsByUserId(
+                        userDTO.getId()
+                );
+
+        return ResponseEntity.ok(courseIds);
+    }
+
     @PreAuthorize("hasAnyRole('ADMIN','STAFF', 'USER')")
     @PostMapping("/courses")
     public ResponseEntity<CourseDTO> createNewCourse(@RequestBody Course course) {

@@ -9,8 +9,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -46,6 +46,18 @@ public class UserServiceImpl implements IUserService {
     public boolean existsByCourseIdAndUserId(Long courseId, Long userId) {
         return this.userCourseRepository.existsByCourseIdAndUserId(courseId, userId);
     }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Optional<UserCourse> findByCourseIdAndUserId(Long courseId, Long userId) {
+        return this.userCourseRepository.findByCourseIdAndUserId(courseId, userId);
+    }
+
+    @Override
+    public List<Long> findCourseIdsByUserId(Long userId) {
+        return this.userCourseRepository.findCourseIdsByUserId(userId);
+    }
+
 
     private CourseDTO mappingCourseToDTO(Course course) {
         return CourseDTO.builder()
