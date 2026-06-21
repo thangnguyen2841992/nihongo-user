@@ -7,6 +7,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,12 +25,13 @@ public class Course {
     private String courseDescription;
 
     private Long levelId;
-
-    @Column(nullable = false)
-    private BigDecimal originalPrice;
-
-    @Column(nullable = false)
-    private BigDecimal salePrice;
+    @OneToMany(
+            mappedBy = "course",
+            fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private List<CoursePackage> packages;
 
     @Enumerated(EnumType.STRING)
     private CourseStatus active;

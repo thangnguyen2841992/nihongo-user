@@ -1,8 +1,9 @@
 package com.thang.nihongo_user.controller;
 
 import com.thang.nihongo_user.model.Course;
-import com.thang.nihongo_user.model.UserCourse;
+import com.thang.nihongo_user.model.UserSubscription;
 import com.thang.nihongo_user.model.dto.CourseDTO;
+import com.thang.nihongo_user.model.dto.MyCourseDTO;
 import com.thang.nihongo_user.model.dto.UserDTO;
 import com.thang.nihongo_user.repository.IUserClient;
 import com.thang.nihongo_user.service.IUserService;
@@ -10,12 +11,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.security.core.context.SecurityContextHolder;
-
 
 import java.util.List;
 
@@ -23,61 +21,117 @@ import java.util.List;
 @RequestMapping("/api/nihongo-user")
 @RequiredArgsConstructor
 public class NihongoUserRestController {
-    private final IUserService userService;
 
+    private final IUserService userService;
     private final IUserClient userClient;
 
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF', 'USER')")
+    // ================= COURSES =================
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/courses")
     public ResponseEntity<List<CourseDTO>> getAllCourse() {
-        return ResponseEntity.ok(this.userService.getAllCourse());
+        return ResponseEntity.ok(userService.getAllCourse());
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
-    @GetMapping("/my-courses")
-    public ResponseEntity<List<Long>> getMyCourseIds(
-            @AuthenticationPrincipal Jwt jwt
-    ) {
-        String email = jwt.getClaimAsString("email");
-
-        UserDTO userDTO =
-                userClient.findUserByEmail(email);
-
-        List<Long> courseIds =
-                userService.findCourseIdsByUserId(
-                        userDTO.getId()
-                );
-
-        return ResponseEntity.ok(courseIds);
-    }
-
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF', 'USER')")
     @PostMapping("/courses")
-    public ResponseEntity<CourseDTO> createNewCourse(@RequestBody Course course) {
+    public ResponseEntity<CourseDTO> createCourse(
+            @RequestBody Course course
+    ) {
         return ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(this.userService.createNewCourse(course));
+                .body(userService.createNewCourse(course));
     }
 
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF', 'USER')")
-    @PostMapping("/userCourses")
-    public ResponseEntity<?> createNewUserCourse(@RequestBody UserCourse course, @AuthenticationPrincipal Jwt jwt) {
+    // ================= SUBSCRIPTION CORE =================
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @PostMapping("/subscriptions")
+    public ResponseEntity<?> subscribeCourse(
+            @RequestParam Long courseId,
+            @RequestParam Long packageId,
+            @AuthenticationPrincipal Jwt jwt
+    ) {
+
         String email = jwt.getClaimAsString("email");
-        UserDTO userDTO = this.userClient.findUserByEmail(email);
-        if (userDTO == null) {
+
+        UserDTO user = userClient.findUserByEmail(email);
+
+        if (user == null) {
             return ResponseEntity
                     .status(HttpStatus.NOT_FOUND)
                     .body("Không tìm thấy người dùng");
         }
-        boolean isExist = this.userService.existsByCourseIdAndUserId(course.getCourseId(), userDTO.getId());
-        if (isExist) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Đã tồn tại rồi");
+
+        try {
+            UserSubscription subscription =
+                    userService.createSubscription(
+                            user.getId(),
+                            courseId,
+                            packageId
+                    );
+
+            return ResponseEntity
+                    .status(HttpStatus.CREATED)
+                    .body(subscription);
+
+        } catch (RuntimeException ex) {
+            return ResponseEntity
+                    .status(HttpStatus.BAD_REQUEST)
+                    .body(ex.getMessage());
         }
-        course.setUserId(userDTO.getId());
-        return ResponseEntity
-                .status(HttpStatus.CREATED)
-                .body(this.userService.createNewUserCourse(course));
+    }
+
+    // ================= MY COURSES (SUBSCRIPTION-BASED) =================
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/my-courses")
+    public ResponseEntity<List<Long>> getMyCourses(
+            @AuthenticationPrincipal Jwt jwt
+    ) {
+
+        String email = jwt.getClaimAsString("email");
+
+        UserDTO user = userClient.findUserByEmail(email);
+
+        List<Long> courseIds =
+                userService.findCourseIdsByUserId(user.getId());
+
+        return ResponseEntity.ok(courseIds);
     }
 
 
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/my-courses-dto")
+    public ResponseEntity<List<MyCourseDTO>> getMyCoursesDTO(@AuthenticationPrincipal Jwt jwt) {
+
+        String email = jwt.getClaimAsString("email");
+        UserDTO user = userClient.findUserByEmail(email);
+
+        return ResponseEntity.ok(
+                userService.findMyCourses(user.getId())
+        );
+    }
+
+    // ================= CHECK ACCESS =================
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/courses/{courseId}/access")
+    public ResponseEntity<Boolean> checkAccess(
+            @PathVariable Long courseId,
+            @AuthenticationPrincipal Jwt jwt
+    ) {
+
+        String email = jwt.getClaimAsString("email");
+
+        UserDTO user = userClient.findUserByEmail(email);
+
+        boolean hasAccess =
+                userService.hasActiveSubscription(
+                        user.getId(),
+                        courseId
+                );
+
+        return ResponseEntity.ok(hasAccess);
+    }
 }

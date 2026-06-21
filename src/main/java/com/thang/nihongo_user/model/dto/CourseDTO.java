@@ -1,16 +1,16 @@
 package com.thang.nihongo_user.model.dto;
 
-import jakarta.persistence.Column;
 import lombok.*;
 
-import java.math.BigDecimal;
+import java.util.List;
 
-@AllArgsConstructor
-@NoArgsConstructor
+@Builder
 @Getter
 @Setter
-@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class CourseDTO {
+
     private Long courseId;
 
     private String courseName;
@@ -19,9 +19,7 @@ public class CourseDTO {
 
     private Long levelId;
 
-    private BigDecimal originalPrice;
-
-    private BigDecimal salePrice;
-
     private String active;
+
+    private List<CoursePackageDTO> packages;
 }

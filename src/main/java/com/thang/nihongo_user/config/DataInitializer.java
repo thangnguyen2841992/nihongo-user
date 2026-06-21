@@ -1,7 +1,9 @@
 package com.thang.nihongo_user.config;
 
 import com.thang.nihongo_user.model.Course;
+import com.thang.nihongo_user.model.CoursePackage;
 import com.thang.nihongo_user.model.CourseStatus;
+import com.thang.nihongo_user.repository.ICoursePackageRepository;
 import com.thang.nihongo_user.repository.ICourseRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
@@ -16,6 +18,7 @@ import java.util.List;
 public class DataInitializer {
 
     private final ICourseRepository courseRepository;
+    private final ICoursePackageRepository coursePackageRepository;
 
     @Bean
     CommandLineRunner initData() {
@@ -29,24 +32,47 @@ public class DataInitializer {
                     "Khóa học N1"
             );
 
-            BigDecimal price = BigDecimal.valueOf(1_000_000);
-
             for (String courseName : courses) {
 
-                if (!courseRepository.existsByCourseName(courseName)) {
-
-                    courseRepository.save(
-                            Course.builder()
-                                    .courseName(courseName)
-                                    .courseDescription("Khóa học tiếng Nhật " + courseName)
-                                    .originalPrice(price)
-                                    .salePrice(price)
-                                    .active(CourseStatus.ACTIVE)
-                                    .build()
-                    );
+                if (courseRepository.existsByCourseName(courseName)) {
+                    continue;
                 }
 
-                price = price.add(BigDecimal.valueOf(500_000));
+                Course course = courseRepository.save(
+                        Course.builder()
+                                .courseName(courseName)
+                                .courseDescription("Khóa học tiếng Nhật " + courseName)
+                                .active(CourseStatus.ACTIVE)
+                                .build()
+                );
+
+                coursePackageRepository.saveAll(
+                        List.of(
+                                CoursePackage.builder()
+                                        .course(course)
+                                        .packageName("BASIC")
+                                        .durationDays(30)
+                                        .price(BigDecimal.valueOf(299_000))
+                                        .isActive(true)
+                                        .build(),
+
+                                CoursePackage.builder()
+                                        .course(course)
+                                        .packageName("STANDARD")
+                                        .durationDays(90)
+                                        .price(BigDecimal.valueOf(699_000))
+                                        .isActive(true)
+                                        .build(),
+
+                                CoursePackage.builder()
+                                        .course(course)
+                                        .packageName("VIP")
+                                        .durationDays(365)
+                                        .price(BigDecimal.valueOf(1_499_000))
+                                        .isActive(true)
+                                        .build()
+                        )
+                );
             }
         };
     }
