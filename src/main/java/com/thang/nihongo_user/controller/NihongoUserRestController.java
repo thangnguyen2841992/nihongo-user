@@ -2,9 +2,12 @@ package com.thang.nihongo_user.controller;
 
 import com.thang.nihongo_user.model.Course;
 import com.thang.nihongo_user.model.UserSubscription;
+import com.thang.nihongo_user.model.dto.BookResponse;
 import com.thang.nihongo_user.model.dto.CourseDTO;
 import com.thang.nihongo_user.model.dto.MyCourseDTO;
 import com.thang.nihongo_user.model.dto.UserDTO;
+import com.thang.nihongo_user.repository.ICourseRepository;
+import com.thang.nihongo_user.repository.IStaffClient;
 import com.thang.nihongo_user.repository.IUserClient;
 import com.thang.nihongo_user.service.IUserService;
 import lombok.RequiredArgsConstructor;
@@ -16,6 +19,7 @@ import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/nihongo-user")
@@ -23,7 +27,9 @@ import java.util.List;
 public class NihongoUserRestController {
 
     private final IUserService userService;
+    private final ICourseRepository courseRepository;
     private final IUserClient userClient;
+    private final IStaffClient staffClient;
 
     // ================= COURSES =================
 
@@ -112,6 +118,26 @@ public class NihongoUserRestController {
                 userService.findMyCourses(user.getId())
         );
     }
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/getBooksByLevel/{courseId}")
+    public ResponseEntity<?> getBooksByLevel(
+            @PathVariable Long courseId
+    ) {
+
+        Course course =
+                courseRepository.findById(courseId)
+                        .orElseThrow(
+                                () -> new RuntimeException("Course not found")
+                        );
+
+        return ResponseEntity.ok(
+                staffClient.getBooksByLevel(
+                        course.getLevelId()
+                )
+        );
+    }
+
 
     // ================= CHECK ACCESS =================
 

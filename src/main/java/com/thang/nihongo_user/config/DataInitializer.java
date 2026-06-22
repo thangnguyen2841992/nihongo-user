@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Map;
 
 @Configuration
 @RequiredArgsConstructor
@@ -24,15 +25,18 @@ public class DataInitializer {
     CommandLineRunner initData() {
         return args -> {
 
-            List<String> courses = List.of(
-                    "Khóa học N5",
-                    "Khóa học N4",
-                    "Khóa học N3",
-                    "Khóa học N2",
-                    "Khóa học N1"
+            Map<String, Long> courses = Map.of(
+                    "Khóa học N5", 5L,
+                    "Khóa học N4", 4L,
+                    "Khóa học N3", 3L,
+                    "Khóa học N2", 2L,
+                    "Khóa học N1", 1L
             );
 
-            for (String courseName : courses) {
+            for (Map.Entry<String, Long> entry : courses.entrySet()) {
+
+                String courseName = entry.getKey();
+                Long levelId = entry.getValue();
 
                 if (courseRepository.existsByCourseName(courseName)) {
                     continue;
@@ -41,7 +45,10 @@ public class DataInitializer {
                 Course course = courseRepository.save(
                         Course.builder()
                                 .courseName(courseName)
-                                .courseDescription("Khóa học tiếng Nhật " + courseName)
+                                .courseDescription(
+                                        "Khóa học tiếng Nhật " + courseName
+                                )
+                                .levelId(levelId)
                                 .active(CourseStatus.ACTIVE)
                                 .build()
                 );
