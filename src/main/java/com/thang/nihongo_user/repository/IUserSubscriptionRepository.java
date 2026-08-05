@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface IUserSubscriptionRepository extends JpaRepository<UserSubscription, Long> {
 
@@ -25,4 +26,9 @@ public interface IUserSubscriptionRepository extends JpaRepository<UserSubscript
     and s.expiredAt > current_timestamp
 """)
     boolean existsActive(Long userId, Long courseId);
+
+    Optional<UserSubscription> findByUserIdAndCourseId(
+            Long userId,
+            Long courseId
+    );
 }

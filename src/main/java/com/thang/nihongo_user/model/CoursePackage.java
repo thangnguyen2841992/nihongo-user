@@ -22,7 +22,6 @@ public class CoursePackage {
     private Course course;
 
     private String packageName;
-    // BASIC / STANDARD / VIP
 
     private Integer durationDays;
 

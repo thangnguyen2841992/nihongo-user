@@ -68,6 +68,34 @@ public class UserServiceImpl implements IUserService {
         return subscriptionRepository.save(sub);
     }
 
+    @Override
+    public UserSubscription renewSubscription(Long userId, Long courseId, Long packageId) {
+        UserSubscription subscription = subscriptionRepository
+                .findByUserIdAndCourseId(userId, courseId)
+                .orElseThrow(() ->
+                        new RuntimeException("Subscription not found"));
+
+        CoursePackage pack = coursePackageRepository
+                .findById(packageId)
+                .orElseThrow(() ->
+                        new RuntimeException("Package not found"));
+
+        LocalDateTime now = LocalDateTime.now();
+
+        // Nếu còn hạn thì cộng thêm
+        LocalDateTime start =
+                subscription.getExpiredAt().isAfter(now)
+                        ? subscription.getExpiredAt()
+                        : now;
+
+        subscription.setPackageId(packageId);
+        subscription.setExpiredAt(
+                start.plusDays(pack.getDurationDays())
+        );
+
+        return subscriptionRepository.save(subscription);
+    }
+
 
     @Override
     public List<Long> findCourseIdsByUserId(Long userId) {

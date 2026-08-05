@@ -20,8 +20,15 @@ public interface IUserService {
             Long packageId
     );
 
+    UserSubscription renewSubscription(
+            Long userId,
+            Long courseId,
+            Long packageId
+    );
+
     List<Long> findCourseIdsByUserId(Long userId);
 
     boolean hasActiveSubscription(Long userId, Long courseId);
     List<MyCourseDTO> findMyCourses(Long userId);
+
 }

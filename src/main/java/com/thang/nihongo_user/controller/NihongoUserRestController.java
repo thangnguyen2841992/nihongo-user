@@ -88,6 +88,37 @@ public class NihongoUserRestController {
         }
     }
 
+    @PostMapping("/subscriptions/renew")
+    public ResponseEntity<?> renewSubscription(
+            @RequestParam Long courseId,
+            @RequestParam Long packageId,
+            @AuthenticationPrincipal Jwt jwt
+    ) {
+
+        String email = jwt.getClaimAsString("email");
+
+        UserDTO user = userClient.findUserByEmail(email);
+
+        if (user == null) {
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
+                    .body("Không tìm thấy người dùng");
+        }
+        try {
+        return ResponseEntity.ok(
+                userService.renewSubscription(
+                        user.getId(),
+                        courseId,
+                        packageId
+                )
+        );
+        } catch (RuntimeException ex) {
+            return ResponseEntity
+                    .badRequest()
+                    .body(ex.getMessage());
+        }
+    }
+
     // ================= MY COURSES (SUBSCRIPTION-BASED) =================
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")

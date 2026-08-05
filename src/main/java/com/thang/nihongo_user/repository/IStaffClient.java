@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(name = "staff-service", url = "http://localhost:8085")
+@FeignClient(name = "gateway-service",
+        contextId = "staffClient", url = "http://localhost:8082")
 public interface IStaffClient {
     @GetMapping("/api/staff/getBooksByLevel")
     List<BookResponse> getBooksByLevel(@RequestParam("levelId") Long levelId);
