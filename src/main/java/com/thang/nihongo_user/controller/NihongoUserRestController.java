@@ -2,10 +2,7 @@ package com.thang.nihongo_user.controller;
 
 import com.thang.nihongo_user.model.Course;
 import com.thang.nihongo_user.model.UserSubscription;
-import com.thang.nihongo_user.model.dto.BookResponse;
-import com.thang.nihongo_user.model.dto.CourseDTO;
-import com.thang.nihongo_user.model.dto.MyCourseDTO;
-import com.thang.nihongo_user.model.dto.UserDTO;
+import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.ICourseRepository;
 import com.thang.nihongo_user.repository.IStaffClient;
 import com.thang.nihongo_user.repository.IUserClient;
@@ -19,7 +16,6 @@ import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/nihongo-user")
@@ -41,81 +37,48 @@ public class NihongoUserRestController {
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/courses")
-    public ResponseEntity<CourseDTO> createCourse(
-            @RequestBody Course course
-    ) {
-        return ResponseEntity
-                .status(HttpStatus.CREATED)
-                .body(userService.createNewCourse(course));
+    public ResponseEntity<CourseDTO> createCourse(@RequestBody Course course) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(userService.createNewCourse(course));
     }
 
     // ================= SUBSCRIPTION CORE =================
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/subscriptions")
-    public ResponseEntity<?> subscribeCourse(
-            @RequestParam Long courseId,
-            @RequestParam Long packageId,
-            @AuthenticationPrincipal Jwt jwt
-    ) {
+    public ResponseEntity<?> subscribeCourse(@RequestParam Long courseId, @RequestParam Long packageId, @AuthenticationPrincipal Jwt jwt) {
 
         String email = jwt.getClaimAsString("email");
 
         UserDTO user = userClient.findUserByEmail(email);
 
         if (user == null) {
-            return ResponseEntity
-                    .status(HttpStatus.NOT_FOUND)
-                    .body("Không tìm thấy người dùng");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Không tìm thấy người dùng");
         }
 
         try {
-            UserSubscription subscription =
-                    userService.createSubscription(
-                            user.getId(),
-                            courseId,
-                            packageId
-                    );
+            UserSubscription subscription = userService.createSubscription(user.getId(), courseId, packageId);
 
-            return ResponseEntity
-                    .status(HttpStatus.CREATED)
-                    .body(subscription);
+            return ResponseEntity.status(HttpStatus.CREATED).body(subscription);
 
         } catch (RuntimeException ex) {
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(ex.getMessage());
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
         }
     }
 
     @PostMapping("/subscriptions/renew")
-    public ResponseEntity<?> renewSubscription(
-            @RequestParam Long courseId,
-            @RequestParam Long packageId,
-            @AuthenticationPrincipal Jwt jwt
-    ) {
+    public ResponseEntity<?> renewSubscription(@RequestParam Long courseId, @RequestParam Long packageId, @AuthenticationPrincipal Jwt jwt) {
 
         String email = jwt.getClaimAsString("email");
 
         UserDTO user = userClient.findUserByEmail(email);
 
         if (user == null) {
-            return ResponseEntity
-                    .status(HttpStatus.NOT_FOUND)
-                    .body("Không tìm thấy người dùng");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Không tìm thấy người dùng");
         }
         try {
-        return ResponseEntity.ok(
-                userService.renewSubscription(
-                        user.getId(),
-                        courseId,
-                        packageId
-                )
-        );
+            return ResponseEntity.ok(userService.renewSubscription(user.getId(), courseId, packageId));
         } catch (RuntimeException ex) {
-            return ResponseEntity
-                    .badRequest()
-                    .body(ex.getMessage());
+            return ResponseEntity.badRequest().body(ex.getMessage());
         }
     }
 
@@ -123,16 +86,13 @@ public class NihongoUserRestController {
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/my-courses")
-    public ResponseEntity<List<Long>> getMyCourses(
-            @AuthenticationPrincipal Jwt jwt
-    ) {
+    public ResponseEntity<List<Long>> getMyCourses(@AuthenticationPrincipal Jwt jwt) {
 
         String email = jwt.getClaimAsString("email");
 
         UserDTO user = userClient.findUserByEmail(email);
 
-        List<Long> courseIds =
-                userService.findCourseIdsByUserId(user.getId());
+        List<Long> courseIds = userService.findCourseIdsByUserId(user.getId());
 
         return ResponseEntity.ok(courseIds);
     }
@@ -145,28 +105,16 @@ public class NihongoUserRestController {
         String email = jwt.getClaimAsString("email");
         UserDTO user = userClient.findUserByEmail(email);
 
-        return ResponseEntity.ok(
-                userService.findMyCourses(user.getId())
-        );
+        return ResponseEntity.ok(userService.findMyCourses(user.getId()));
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/getBooksByLevel/{courseId}")
-    public ResponseEntity<?> getBooksByLevel(
-            @PathVariable Long courseId
-    ) {
+    public ResponseEntity<?> getBooksByLevel(@PathVariable Long courseId) {
 
-        Course course =
-                courseRepository.findById(courseId)
-                        .orElseThrow(
-                                () -> new RuntimeException("Course not found")
-                        );
+        Course course = courseRepository.findById(courseId).orElseThrow(() -> new RuntimeException("Course not found"));
 
-        return ResponseEntity.ok(
-                staffClient.getBooksByLevel(
-                        course.getLevelId()
-                )
-        );
+        return ResponseEntity.ok(staffClient.getBooksByLevel(course.getLevelId()));
     }
 
 
@@ -174,21 +122,33 @@ public class NihongoUserRestController {
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/courses/{courseId}/access")
-    public ResponseEntity<Boolean> checkAccess(
-            @PathVariable Long courseId,
-            @AuthenticationPrincipal Jwt jwt
-    ) {
+    public ResponseEntity<Boolean> checkAccess(@PathVariable Long courseId, @AuthenticationPrincipal Jwt jwt) {
 
         String email = jwt.getClaimAsString("email");
 
         UserDTO user = userClient.findUserByEmail(email);
 
-        boolean hasAccess =
-                userService.hasActiveSubscription(
-                        user.getId(),
-                        courseId
-                );
+        boolean hasAccess = userService.hasActiveSubscription(user.getId(), courseId);
 
         return ResponseEntity.ok(hasAccess);
+    }
+
+    @PostMapping("/userExerciseAttempt")
+    public ResponseEntity<Void> submitUserExerciseAttempt(@AuthenticationPrincipal Jwt jwt, @RequestBody SubmitLessonResultRequest request) {
+        String email = jwt.getClaimAsString("email");
+        this.userService.submitExerciseAttempt(email, request);
+        return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/userExerciseAttempt")
+    public ResponseEntity<List<LessonResultResponse>> getMyResults(@AuthenticationPrincipal Jwt jwt) {
+        String email = jwt.getClaimAsString("email");
+        return ResponseEntity.ok(this.userService.getMyResults(email));
+    }
+
+    @GetMapping("/lesson-result/{lessonId}")
+    public ResponseEntity<List<LessonResultResponse>> getLessonResults(@AuthenticationPrincipal Jwt jwt, @PathVariable Long lessonId) {
+        String email = jwt.getClaimAsString("email");
+        return ResponseEntity.ok(this.userService.getLessonResults(email, lessonId));
     }
 }
