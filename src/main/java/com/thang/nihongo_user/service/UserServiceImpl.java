@@ -114,13 +114,13 @@ public class UserServiceImpl implements IUserService {
     @Override
     public List<LessonResultResponse> getMyResults(String userEmail) {
         UserDTO user = this.userClient.findUserByEmail(userEmail);
-        return this.userExerciseAttemptRepository.findByUserUserIdOrderBySubmittedAtDesc(user.getId()).stream().map(this::convert).toList();
+        return this.userExerciseAttemptRepository.findByUserIdOrderBySubmittedAtDesc(user.getId()).stream().map(this::convert).toList();
     }
 
     @Override
     public List<LessonResultResponse> getLessonResults(String userEmail, Long lessonId) {
         UserDTO user = this.userClient.findUserByEmail(userEmail);
-        return this.userExerciseAttemptRepository.findByUserUserIdAndLessonLessonIdOrderBySubmittedAtDesc(user.getId(), lessonId).stream().map(this::convert).toList();
+        return this.userExerciseAttemptRepository.findByUserIdAndLessonIdOrderBySubmittedAtDesc(user.getId(), lessonId).stream().map(this::convert).toList();
     }
 
     @Override

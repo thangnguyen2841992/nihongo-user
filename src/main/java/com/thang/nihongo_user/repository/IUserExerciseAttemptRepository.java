@@ -8,9 +8,9 @@ import java.util.List;
 
 @Repository
 public interface IUserExerciseAttemptRepository extends JpaRepository<UserExerciseAttempt, Long> {
-        List<UserExerciseAttempt> findByUserUserIdOrderBySubmittedAtDesc(Long userId);
+        List<UserExerciseAttempt> findByUserIdOrderBySubmittedAtDesc(Long userId);
 
-    List<UserExerciseAttempt> findByUserUserIdAndLessonLessonIdOrderBySubmittedAtDesc(
+    List<UserExerciseAttempt> findByUserIdAndLessonIdOrderBySubmittedAtDesc(
             Long userId,
             Long lessonId
     );

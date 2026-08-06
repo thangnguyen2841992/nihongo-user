@@ -15,6 +15,6 @@ public interface IStaffClient {
     @GetMapping("/api/staff/getBooksByLevel")
     List<BookResponse> getBooksByLevel(@RequestParam("levelId") Long levelId);
 
-    @GetMapping("/api/staff/{id}")
+    @GetMapping("/api/staff/lessons/{id}")
     LessonResponse getLessonById(@PathVariable Long id);
 }
