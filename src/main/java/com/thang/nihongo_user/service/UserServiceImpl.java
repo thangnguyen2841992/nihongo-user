@@ -1,14 +1,22 @@
 package com.thang.nihongo_user.service;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thang.nihongo_user.model.*;
 import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.*;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Mono;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
@@ -20,7 +28,10 @@ public class UserServiceImpl implements IUserService {
     private final IStaffClient staffClient;
     private final IUserClient userClient;
     private final IUserExerciseAttemptRepository userExerciseAttemptRepository;
-
+    private final WebClient openAiWebClient;
+    private final ObjectMapper objectMapper;
+    @Value("${openai.model}")
+    private String model;
     // ================= COURSE =================
 
     @Override
@@ -128,6 +139,50 @@ public class UserServiceImpl implements IUserService {
         return LessonResultResponse.builder().resultId(entity.getUserExerciseAttemptId()).lessonId(this.staffClient.getLessonById(entity.getLessonId()).getLessonId()).lessonName(this.staffClient.getLessonById(entity.getLessonId()).getName()).totalQuestion(entity.getTotalQuestion()).correctCount(entity.getCorrectCount()).wrongCount(entity.getWrongCount()).score(entity.getScore()).submittedAt(entity.getSubmittedAt()).build();
     }
 
+    @Override
+    public Mono<JapaneseAiResponse> analyzeJapanese(String text) {
+        Map<String, Object> request = new HashMap<>();
+
+        request.put("model", model);
+
+        request.put(
+                "instructions",
+                """
+                You are an expert Japanese teacher
+                helping Vietnamese students.
+
+                Analyze the Japanese sentence provided
+                by the user.
+
+                Return the answer strictly according
+                to the provided JSON schema.
+
+                All explanations must be written in Vietnamese.
+
+                Keep the Japanese words and grammar patterns
+                in Japanese.
+                """
+        );
+
+        request.put(
+                "input",
+                text
+        );
+
+        request.put(
+                "text",
+                createStructuredOutputSchema()
+        );
+
+        return openAiWebClient
+                .post()
+                .uri("/v1/responses")
+                .bodyValue(request)
+                .retrieve()
+                .bodyToMono(JsonNode.class)
+                .map(this::parseResponse);
+    }
+
     // ================= MAPPING =================
 
     private CourseDTO mappingCourseToDTO(Course course) {
@@ -137,5 +192,135 @@ public class UserServiceImpl implements IUserService {
 
     private CoursePackageDTO mappingPackageToDTO(CoursePackage p) {
         return CoursePackageDTO.builder().packageId(p.getPackageId()).packageName(p.getPackageName()).durationDays(p.getDurationDays()).price(p.getPrice()).build();
+    }
+    private Map<String, Object> createStructuredOutputSchema() {
+
+        Map<String, Object> vocabularyItem =
+                Map.of(
+                        "type", "object",
+                        "properties", Map.of(
+                                "word", Map.of(
+                                        "type", "string"
+                                ),
+                                "reading", Map.of(
+                                        "type", "string"
+                                ),
+                                "meaning", Map.of(
+                                        "type", "string"
+                                )
+                        ),
+                        "required", List.of(
+                                "word",
+                                "reading",
+                                "meaning"
+                        ),
+                        "additionalProperties", false
+                );
+
+        Map<String, Object> grammarItem =
+                Map.of(
+                        "type", "object",
+                        "properties", Map.of(
+                                "pattern", Map.of(
+                                        "type", "string"
+                                ),
+                                "explanation", Map.of(
+                                        "type", "string"
+                                )
+                        ),
+                        "required", List.of(
+                                "pattern",
+                                "explanation"
+                        ),
+                        "additionalProperties", false
+                );
+
+        Map<String, Object> schema =
+                Map.of(
+                        "type", "object",
+
+                        "properties", Map.of(
+
+                                "translation",
+                                Map.of(
+                                        "type", "string"
+                                ),
+
+                                "reading",
+                                Map.of(
+                                        "type", "string"
+                                ),
+
+                                "vocabulary",
+                                Map.of(
+                                        "type", "array",
+                                        "items", vocabularyItem
+                                ),
+
+                                "grammar",
+                                Map.of(
+                                        "type", "array",
+                                        "items", grammarItem
+                                ),
+
+                                "sentenceStructure",
+                                Map.of(
+                                        "type", "string"
+                                ),
+
+                                "examples",
+                                Map.of(
+                                        "type", "array",
+                                        "items", Map.of(
+                                                "type", "string"
+                                        )
+                                )
+                        ),
+
+                        "required", List.of(
+                                "translation",
+                                "reading",
+                                "vocabulary",
+                                "grammar",
+                                "sentenceStructure",
+                                "examples"
+                        ),
+
+                        "additionalProperties", false
+                );
+
+        return Map.of(
+                "format",
+                Map.of(
+                        "type", "json_schema",
+                        "name", "japanese_analysis",
+                        "strict", true,
+                        "schema", schema
+                )
+        );
+    }
+    private JapaneseAiResponse parseResponse(JsonNode json) {
+
+        String outputText =
+                json.path("output_text")
+                        .asText();
+
+        try {
+
+            ObjectMapper mapper =
+                    new ObjectMapper();
+
+            return mapper.readValue(
+                    outputText,
+                    JapaneseAiResponse.class
+            );
+
+        } catch (Exception e) {
+
+            throw new RuntimeException(
+                    "Cannot parse OpenAI response",
+                    e
+            );
+        }
     }
 }

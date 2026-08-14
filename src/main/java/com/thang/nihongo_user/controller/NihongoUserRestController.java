@@ -7,6 +7,7 @@ import com.thang.nihongo_user.repository.ICourseRepository;
 import com.thang.nihongo_user.repository.IStaffClient;
 import com.thang.nihongo_user.repository.IUserClient;
 import com.thang.nihongo_user.service.IUserService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.*;
+import reactor.core.publisher.Mono;
 
 import java.util.List;
 
@@ -133,6 +135,7 @@ public class NihongoUserRestController {
         return ResponseEntity.ok(hasAccess);
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/userExerciseAttempt")
     public ResponseEntity<Void> submitUserExerciseAttempt(@AuthenticationPrincipal Jwt jwt, @RequestBody SubmitLessonResultRequest request) {
         String email = jwt.getClaimAsString("email");
@@ -140,15 +143,28 @@ public class NihongoUserRestController {
         return ResponseEntity.ok().build();
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/userExerciseAttempt")
     public ResponseEntity<List<LessonResultResponse>> getMyResults(@AuthenticationPrincipal Jwt jwt) {
         String email = jwt.getClaimAsString("email");
         return ResponseEntity.ok(this.userService.getMyResults(email));
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/lesson-result/{lessonId}")
     public ResponseEntity<List<LessonResultResponse>> getLessonResults(@AuthenticationPrincipal Jwt jwt, @PathVariable Long lessonId) {
         String email = jwt.getClaimAsString("email");
         return ResponseEntity.ok(this.userService.getLessonResults(email, lessonId));
+    }
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @PostMapping("/japanese")
+    public Mono<JapaneseAiResponse> analyzeJapanese(
+            @Valid @RequestBody JapaneseAiRequest request
+    ) {
+
+        return userService.analyzeJapanese(
+                request.getText()
+        );
     }
 }

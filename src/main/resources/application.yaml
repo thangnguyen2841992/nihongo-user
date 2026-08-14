@@ -28,3 +28,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+openai:
+  api-key: "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"
+  base-url: https://api.openai.com
+  model: gpt-5
