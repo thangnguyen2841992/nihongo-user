@@ -2,12 +2,14 @@ package com.thang.nihongo_user.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.thang.nihongo_user.model.*;
+import com.thang.nihongo_user.model.Course;
+import com.thang.nihongo_user.model.CoursePackage;
+import com.thang.nihongo_user.model.UserExerciseAttempt;
+import com.thang.nihongo_user.model.UserSubscription;
 import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -28,7 +30,7 @@ public class UserServiceImpl implements IUserService {
     private final IStaffClient staffClient;
     private final IUserClient userClient;
     private final IUserExerciseAttemptRepository userExerciseAttemptRepository;
-    private final WebClient openAiWebClient;
+    private final WebClient geminiWebClient;
     private final ObjectMapper objectMapper;
     @Value("${openai.model}")
     private String model;
@@ -141,42 +143,75 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public Mono<JapaneseAiResponse> analyzeJapanese(String text) {
+
         Map<String, Object> request = new HashMap<>();
 
-        request.put("model", model);
+        Map<String, Object> part =
+                Map.of(
+                        "text",
+                        """
+                        You are an expert Japanese teacher
+                        helping Vietnamese students.
+    
+                        Analyze the Japanese sentence provided
+                        by the user.
+    
+                        Return the answer strictly according
+                        to the provided JSON schema.
+    
+                        All explanations must be written in Vietnamese.
+    
+                        Keep the Japanese words and grammar patterns
+                        in Japanese.
+    
+                        Japanese sentence:
+                        %s
+                        """.formatted(text)
+                );
 
         request.put(
-                "instructions",
-                """
-                You are an expert Japanese teacher
-                helping Vietnamese students.
+                "contents",
+                List.of(
+                        Map.of(
+                                "parts",
+                                List.of(part)
+                        )
+                )
+        );
 
-                Analyze the Japanese sentence provided
-                by the user.
+        Map<String, Object> generationConfig =
+                new HashMap<>();
 
-                Return the answer strictly according
-                to the provided JSON schema.
+        generationConfig.put(
+                "responseMimeType",
+                "application/json"
+        );
 
-                All explanations must be written in Vietnamese.
+        generationConfig.put(
+                "responseSchema",
+                createGeminiResponseSchema()
+        );
 
-                Keep the Japanese words and grammar patterns
-                in Japanese.
-                """
+        // Giảm thinking để phản hồi nhanh hơn
+        generationConfig.put(
+                "thinkingConfig",
+                Map.of(
+                        "thinkingLevel",
+                        "minimal"
+                )
         );
 
         request.put(
-                "input",
-                text
+                "generationConfig",
+                generationConfig
         );
 
-        request.put(
-                "text",
-                createStructuredOutputSchema()
-        );
-
-        return openAiWebClient
+        return geminiWebClient
                 .post()
-                .uri("/v1/responses")
+                .uri(
+                        "/v1beta/models/{model}:generateContent",
+                        model
+                )
                 .bodyValue(request)
                 .retrieve()
                 .bodyToMono(JsonNode.class)
@@ -193,117 +228,138 @@ public class UserServiceImpl implements IUserService {
     private CoursePackageDTO mappingPackageToDTO(CoursePackage p) {
         return CoursePackageDTO.builder().packageId(p.getPackageId()).packageName(p.getPackageName()).durationDays(p.getDurationDays()).price(p.getPrice()).build();
     }
-    private Map<String, Object> createStructuredOutputSchema() {
+    private Map<String, Object> createGeminiResponseSchema() {
 
         Map<String, Object> vocabularyItem =
                 Map.of(
                         "type", "object",
+
                         "properties", Map.of(
-                                "word", Map.of(
+                                "word",
+                                Map.of(
                                         "type", "string"
                                 ),
-                                "reading", Map.of(
+
+                                "reading",
+                                Map.of(
                                         "type", "string"
                                 ),
-                                "meaning", Map.of(
+
+                                "meaning",
+                                Map.of(
                                         "type", "string"
                                 )
                         ),
-                        "required", List.of(
+
+                        "required",
+                        List.of(
                                 "word",
                                 "reading",
                                 "meaning"
                         ),
-                        "additionalProperties", false
+
+                        "additionalProperties",
+                        false
                 );
 
         Map<String, Object> grammarItem =
                 Map.of(
                         "type", "object",
+
                         "properties", Map.of(
-                                "pattern", Map.of(
+                                "pattern",
+                                Map.of(
                                         "type", "string"
                                 ),
-                                "explanation", Map.of(
+
+                                "explanation",
+                                Map.of(
                                         "type", "string"
                                 )
                         ),
-                        "required", List.of(
+
+                        "required",
+                        List.of(
                                 "pattern",
                                 "explanation"
                         ),
-                        "additionalProperties", false
-                );
 
-        Map<String, Object> schema =
-                Map.of(
-                        "type", "object",
-
-                        "properties", Map.of(
-
-                                "translation",
-                                Map.of(
-                                        "type", "string"
-                                ),
-
-                                "reading",
-                                Map.of(
-                                        "type", "string"
-                                ),
-
-                                "vocabulary",
-                                Map.of(
-                                        "type", "array",
-                                        "items", vocabularyItem
-                                ),
-
-                                "grammar",
-                                Map.of(
-                                        "type", "array",
-                                        "items", grammarItem
-                                ),
-
-                                "sentenceStructure",
-                                Map.of(
-                                        "type", "string"
-                                ),
-
-                                "examples",
-                                Map.of(
-                                        "type", "array",
-                                        "items", Map.of(
-                                                "type", "string"
-                                        )
-                                )
-                        ),
-
-                        "required", List.of(
-                                "translation",
-                                "reading",
-                                "vocabulary",
-                                "grammar",
-                                "sentenceStructure",
-                                "examples"
-                        ),
-
-                        "additionalProperties", false
+                        "additionalProperties",
+                        false
                 );
 
         return Map.of(
-                "format",
-                Map.of(
-                        "type", "json_schema",
-                        "name", "japanese_analysis",
-                        "strict", true,
-                        "schema", schema
-                )
+                "type", "object",
+
+                "properties", Map.of(
+
+                        "translation",
+                        Map.of(
+                                "type", "string"
+                        ),
+
+                        "reading",
+                        Map.of(
+                                "type", "string"
+                        ),
+
+                        "vocabulary",
+                        Map.of(
+                                "type", "array",
+                                "items", vocabularyItem
+                        ),
+
+                        "grammar",
+                        Map.of(
+                                "type", "array",
+                                "items", grammarItem
+                        ),
+
+                        "sentenceStructure",
+                        Map.of(
+                                "type", "string"
+                        ),
+
+                        "examples",
+                        Map.of(
+                                "type", "array",
+                                "items",
+                                Map.of(
+                                        "type", "string"
+                                )
+                        )
+                ),
+
+                "required",
+                List.of(
+                        "translation",
+                        "reading",
+                        "vocabulary",
+                        "grammar",
+                        "sentenceStructure",
+                        "examples"
+                ),
+
+                "additionalProperties",
+                false
         );
     }
     private JapaneseAiResponse parseResponse(JsonNode json) {
 
         String outputText =
-                json.path("output_text")
+                json.path("candidates")
+                        .path(0)
+                        .path("content")
+                        .path("parts")
+                        .path(0)
+                        .path("text")
                         .asText();
+
+        if (outputText == null || outputText.isBlank()) {
+            throw new RuntimeException(
+                    "Gemini returned empty response"
+            );
+        }
 
         try {
 
@@ -318,7 +374,8 @@ public class UserServiceImpl implements IUserService {
         } catch (Exception e) {
 
             throw new RuntimeException(
-                    "Cannot parse OpenAI response",
+                    "Cannot parse Gemini response: "
+                            + outputText,
                     e
             );
         }
