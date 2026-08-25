@@ -15,4 +15,5 @@ public class Vocabulary {
     private String reading;
 
     private String meaning;
+    private String kanjiReading;
 }

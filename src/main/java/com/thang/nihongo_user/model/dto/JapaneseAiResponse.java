@@ -14,6 +14,8 @@ import java.util.List;
 @Setter
 public class JapaneseAiResponse {
 
+    private String originalText;
+
     private String translation;
 
     private String reading;

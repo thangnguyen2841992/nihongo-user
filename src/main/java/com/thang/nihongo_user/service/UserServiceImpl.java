@@ -152,27 +152,229 @@ public class UserServiceImpl implements IUserService {
                 Map.of(
                         "text",
                         """
-                        You are an expert Japanese teacher
-                        helping Vietnamese students.
+                        You are an expert Japanese language teacher specializing
+                        in teaching Japanese to Vietnamese students.
         
-                        Analyze the Japanese text provided by the user.
+                        Analyze the user's input and return the result strictly
+                        according to the provided JSON schema.
         
-                        The user's input may contain both Japanese
-                        and Vietnamese.
+                        =========================================================
+                        1. INPUT HANDLING
+                        =========================================================
         
-                        Identify the Japanese words, grammar patterns,
-                        sentence structure, and meaning requested by
-                        the user.
+                        The user may enter:
+                        - Japanese word
+                        - Japanese phrase
+                        - Japanese sentence
+                        - Multiple Japanese words
+                        - Vietnamese text
+                        - Japanese mixed with Vietnamese
         
-                        Return the answer strictly according to
-                        the provided JSON schema.
+                        IMPORTANT:
         
-                        All explanations must be written in Vietnamese.
+                        If the user input is Vietnamese only:
+                        1. Translate the Vietnamese into natural Japanese.
+                        2. Use the translated Japanese as the text to analyze.
+                        3. Put the translated Japanese in "originalText".
+                        4. Analyze vocabulary, grammar, reading and structure
+                           based on the translated Japanese.
         
-                        Keep Japanese words, readings, and grammar
-                        patterns in Japanese.
+                        Example:
         
-                        User input:
+                        User:
+                        Tôi hôm qua đã đi học.
+        
+                        originalText:
+                        私は昨日学校に行きました。
+        
+                        translation:
+                        Hôm qua tôi đã đi học.
+        
+                        If the input is Japanese:
+                        analyze the Japanese directly.
+        
+                        If the input contains both Japanese and Vietnamese:
+                        - Identify the Japanese part that should be analyzed.
+                        - Use Vietnamese as context or instruction.
+                        - Do not treat Vietnamese as Japanese vocabulary.
+        
+                        =========================================================
+                        2. ORIGINAL TEXT
+                        =========================================================
+        
+                        "originalText" must contain the Japanese text being analyzed.
+        
+                        For Japanese input:
+                        preserve the user's Japanese exactly.
+        
+                        For Vietnamese input:
+                        put the natural Japanese translation here.
+        
+                        NEVER unnecessarily replace Kanji with Hiragana.
+                        NEVER use Romaji in originalText.
+        
+                        =========================================================
+                        3. READING
+                        =========================================================
+        
+                        "reading" is the Japanese pronunciation of originalText.
+        
+                        Use Hiragana or Katakana.
+                        Do NOT use Romaji.
+        
+                        Example:
+        
+                        originalText:
+                        私は昨日学校に行きました。
+        
+                        reading:
+                        わたしはきのうがっこうにいきました。
+        
+                        =========================================================
+                        4. VOCABULARY
+                        =========================================================
+        
+                        Identify important vocabulary from the Japanese text.
+        
+                        Each item contains:
+        
+                        - word
+                        - reading
+                        - kanjiReading
+                        - meaning
+        
+                        "word":
+                        Preserve Japanese writing and Kanji.
+                        Do not replace Kanji with Hiragana.
+        
+                        "reading":
+                        Japanese pronunciation in Hiragana/Katakana.
+        
+                        "kanjiReading":
+                        Sino-Vietnamese / Hán-Việt reading of the Kanji.
+        
+                        Example:
+        
+                        word:
+                        日本
+        
+                        reading:
+                        にほん
+        
+                        kanjiReading:
+                        NHẬT BẢN
+        
+                        If there is no Kanji, use "".
+        
+                        "meaning":
+                        Natural Vietnamese meaning according to context.
+        
+                        =========================================================
+                        5. TRANSLATION
+                        =========================================================
+        
+                        "translation" must be a natural Vietnamese translation
+                        of the Japanese text.
+        
+                        If the user originally entered Vietnamese and it was
+                        translated into Japanese, translate the resulting Japanese
+                        naturally back into Vietnamese while preserving the
+                        intended meaning.
+        
+                        =========================================================
+                        6. GRAMMAR
+                        =========================================================
+        
+                        Identify important grammar patterns.
+        
+                        "pattern":
+                        Keep Japanese grammar patterns in Japanese.
+        
+                        "explanation":
+                        Explain in Vietnamese, including meaning and usage.
+        
+                        Do not unnecessarily convert Kanji to Hiragana.
+        
+                        If there is no important grammar, return [].
+        
+                        =========================================================
+                        7. SENTENCE STRUCTURE
+                        =========================================================
+        
+                        Explain the Japanese sentence structure in Vietnamese.
+        
+                        Identify relevant components such as:
+                        - Topic / subject
+                        - Object
+                        - Verb
+                        - Adjective
+                        - Particles
+                        - Time expressions
+                        - Modifiers
+        
+                        Preserve Japanese words and Kanji when showing examples.
+        
+                        For a single word, explain that it is not a complete sentence.
+        
+                        =========================================================
+                        8. EXAMPLES
+                        =========================================================
+        
+                        Provide useful Japanese example sentences related to
+                        the vocabulary or grammar.
+        
+                        Keep Kanji in example sentences.
+                        Do not convert examples to Hiragana only.
+        
+                        =========================================================
+                        9. LANGUAGE RULES
+                        =========================================================
+        
+                        Use Vietnamese for:
+                        - translation
+                        - vocabulary meaning
+                        - grammar explanation
+                        - sentence structure explanation
+        
+                        Use Japanese for:
+                        - originalText
+                        - reading
+                        - vocabulary.word
+                        - vocabulary.reading
+                        - grammar.pattern
+                        - example sentences
+        
+                        Use Hán-Việt for:
+                        - vocabulary.kanjiReading
+        
+                        =========================================================
+                        10. KANJI PRESERVATION
+                        =========================================================
+        
+                        NEVER unnecessarily remove Kanji from:
+                        - originalText
+                        - vocabulary.word
+                        - grammar.pattern
+                        - sentence structure
+                        - example sentences
+        
+                        The Japanese text should remain natural and readable
+                        for a Japanese learner.
+        
+                        =========================================================
+                        11. OUTPUT
+                        =========================================================
+        
+                        Return ONLY valid JSON according to the provided schema.
+        
+                        Do not return Markdown.
+                        Do not return ```json.
+                        Do not add explanations outside the JSON.
+        
+                        =========================================================
+                        USER INPUT
+                        =========================================================
+        
                         %s
                         """.formatted(text)
                 );
@@ -255,104 +457,102 @@ public class UserServiceImpl implements IUserService {
     private CoursePackageDTO mappingPackageToDTO(CoursePackage p) {
         return CoursePackageDTO.builder().packageId(p.getPackageId()).packageName(p.getPackageName()).durationDays(p.getDurationDays()).price(p.getPrice()).build();
     }
+
     private Map<String, Object> createGeminiResponseSchema() {
 
-        Map<String, Object> vocabularyItem =
+        Map<String, Object> vocabularySchema =
                 Map.of(
-                        "type", "object",
-
+                        "type", "OBJECT",
                         "properties", Map.of(
-                                "word",
-                                Map.of(
-                                        "type", "string"
+                                "word", Map.of(
+                                        "type", "STRING"
                                 ),
-
-                                "reading",
-                                Map.of(
-                                        "type", "string"
+                                "reading", Map.of(
+                                        "type", "STRING"
                                 ),
-
-                                "meaning",
-                                Map.of(
-                                        "type", "string"
+                                "meaning", Map.of(
+                                        "type", "STRING"
+                                ),
+                                "kanjiReading", Map.of(
+                                        "type", "STRING"
                                 )
                         ),
-
-                        "required",
-                        List.of(
+                        "required", List.of(
                                 "word",
                                 "reading",
+                                "kanjiReading",
                                 "meaning"
                         )
                 );
 
-        Map<String, Object> grammarItem =
+
+        Map<String, Object> grammarSchema =
                 Map.of(
-                        "type", "object",
-
+                        "type", "OBJECT",
                         "properties", Map.of(
-                                "pattern",
-                                Map.of(
-                                        "type", "string"
+                                "pattern", Map.of(
+                                        "type", "STRING"
                                 ),
-
-                                "explanation",
-                                Map.of(
-                                        "type", "string"
+                                "explanation", Map.of(
+                                        "type", "STRING"
                                 )
                         ),
-
-                        "required",
-                        List.of(
+                        "required", List.of(
                                 "pattern",
                                 "explanation"
                         )
                 );
 
+
         return Map.of(
-                "type", "object",
+
+                "type", "OBJECT",
 
                 "properties", Map.of(
 
+                        "originalText",
+                        Map.of(
+                                "type", "STRING"
+                        ),
+
                         "translation",
                         Map.of(
-                                "type", "string"
+                                "type", "STRING"
                         ),
 
                         "reading",
                         Map.of(
-                                "type", "string"
+                                "type", "STRING"
                         ),
 
                         "vocabulary",
                         Map.of(
-                                "type", "array",
-                                "items", vocabularyItem
+                                "type", "ARRAY",
+                                "items", vocabularySchema
                         ),
 
                         "grammar",
                         Map.of(
-                                "type", "array",
-                                "items", grammarItem
+                                "type", "ARRAY",
+                                "items", grammarSchema
                         ),
 
                         "sentenceStructure",
                         Map.of(
-                                "type", "string"
+                                "type", "STRING"
                         ),
 
                         "examples",
                         Map.of(
-                                "type", "array",
-                                "items",
-                                Map.of(
-                                        "type", "string"
+                                "type", "ARRAY",
+                                "items", Map.of(
+                                        "type", "STRING"
                                 )
                         )
                 ),
 
-                "required",
-                List.of(
+                "required", List.of(
+                        "originalText",
                         "translation",
                         "reading",
                         "vocabulary",
@@ -362,6 +562,7 @@ public class UserServiceImpl implements IUserService {
                 )
         );
     }
+
     private JapaneseAiResponse parseResponse(JsonNode json) {
 
         String outputText =
