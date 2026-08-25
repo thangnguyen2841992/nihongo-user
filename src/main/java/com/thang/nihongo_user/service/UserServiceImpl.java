@@ -1,5 +1,6 @@
 package com.thang.nihongo_user.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thang.nihongo_user.model.Course;
@@ -10,6 +11,7 @@ import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -32,7 +34,7 @@ public class UserServiceImpl implements IUserService {
     private final IUserExerciseAttemptRepository userExerciseAttemptRepository;
     private final WebClient geminiWebClient;
     private final ObjectMapper objectMapper;
-    @Value("${openai.model}")
+    @Value("${gemini.model}")
     private String model;
     // ================= COURSE =================
 
@@ -152,19 +154,25 @@ public class UserServiceImpl implements IUserService {
                         """
                         You are an expert Japanese teacher
                         helping Vietnamese students.
-    
-                        Analyze the Japanese sentence provided
-                        by the user.
-    
-                        Return the answer strictly according
-                        to the provided JSON schema.
-    
+        
+                        Analyze the Japanese text provided by the user.
+        
+                        The user's input may contain both Japanese
+                        and Vietnamese.
+        
+                        Identify the Japanese words, grammar patterns,
+                        sentence structure, and meaning requested by
+                        the user.
+        
+                        Return the answer strictly according to
+                        the provided JSON schema.
+        
                         All explanations must be written in Vietnamese.
-    
-                        Keep the Japanese words and grammar patterns
-                        in Japanese.
-    
-                        Japanese sentence:
+        
+                        Keep Japanese words, readings, and grammar
+                        patterns in Japanese.
+        
+                        User input:
                         %s
                         """.formatted(text)
                 );
@@ -205,7 +213,18 @@ public class UserServiceImpl implements IUserService {
                 "generationConfig",
                 generationConfig
         );
+        ObjectMapper mapper = new ObjectMapper();
 
+        System.out.println("========== GEMINI REQUEST ==========");
+        try {
+            System.out.println(
+                    mapper.writerWithDefaultPrettyPrinter()
+                            .writeValueAsString(request)
+            );
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("====================================");
         return geminiWebClient
                 .post()
                 .uri(
@@ -214,6 +233,14 @@ public class UserServiceImpl implements IUserService {
                 )
                 .bodyValue(request)
                 .retrieve()
+                .onStatus(
+                        status -> status.value() == 429,
+                        response -> Mono.error(
+                                new RuntimeException(
+                                        "Gemini đang hết quota, vui lòng thử lại sau."
+                                )
+                        )
+                )
                 .bodyToMono(JsonNode.class)
                 .map(this::parseResponse);
     }
@@ -256,10 +283,7 @@ public class UserServiceImpl implements IUserService {
                                 "word",
                                 "reading",
                                 "meaning"
-                        ),
-
-                        "additionalProperties",
-                        false
+                        )
                 );
 
         Map<String, Object> grammarItem =
@@ -282,10 +306,7 @@ public class UserServiceImpl implements IUserService {
                         List.of(
                                 "pattern",
                                 "explanation"
-                        ),
-
-                        "additionalProperties",
-                        false
+                        )
                 );
 
         return Map.of(
@@ -338,10 +359,7 @@ public class UserServiceImpl implements IUserService {
                         "grammar",
                         "sentenceStructure",
                         "examples"
-                ),
-
-                "additionalProperties",
-                false
+                )
         );
     }
     private JapaneseAiResponse parseResponse(JsonNode json) {

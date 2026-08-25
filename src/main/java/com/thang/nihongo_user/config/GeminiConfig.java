@@ -10,7 +10,7 @@ import reactor.netty.http.client.HttpClient;
 import java.time.Duration;
 
 @Configuration
-public class OpenAiConfig {
+public class GeminiConfig {
     @Bean
     public WebClient geminiWebClient(
             @Value("${gemini.base-url}") String baseUrl,
