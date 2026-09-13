@@ -4,9 +4,9 @@ spring:
   application:
     name: nihongo-user-service
   datasource:
-    url: jdbc:mysql://180.93.115.154:3306/nihongo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    username: nihongo_app
-    password: Nihongo@2026
+    url: jdbc:mysql://onehost-amdcloudhn022602.000nethost.com:3306/tsezwyvdhosting_nihongo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: tsezwyvdhosting_nihongo_app
+    password: thuThuy@1
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -14,11 +14,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8180/realms/nihongo
 
 eureka:
   instance:
@@ -33,3 +28,6 @@ gemini:
   api-key: ${GEMINI_API_KEY}
   base-url: https://generativelanguage.googleapis.com
   model: gemini-3.1-flash-lite
+
+jwt:
+  secret: "U7tjRTsx0baZLsRhHGcc0FA/B7MJ65IfQ0jZHvUyYrE="
