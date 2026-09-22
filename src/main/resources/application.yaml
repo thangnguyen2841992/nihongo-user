@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: nihongo-user-service
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:180.93.115.154:9092}
   datasource:
     url: jdbc:mysql://onehost-amdcloudhn022602.000nethost.com:3306/tsezwyvdhosting_nihongo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: tsezwyvdhosting_nihongo_app
@@ -39,3 +41,18 @@ gemini:
 
 jwt:
   secret: "U7tjRTsx0baZLsRhHGcc0FA/B7MJ65IfQ0jZHvUyYrE="
+# Tài khoản nhận tiền hiển thị trên trang ví; cấu hình bằng biến môi trường.
+wallet:
+  bank-name: ${WALLET_BANK_NAME:}
+  bank-account: ${WALLET_BANK_ACCOUNT:}
+  bank-account-name: ${WALLET_BANK_ACCOUNT_NAME:}
+
+  events:
+    enabled: ${WALLET_EVENTS_ENABLED:true}
+    topic: ${WALLET_EVENTS_TOPIC:wallet.events.v1}
+    partitions: ${WALLET_EVENTS_PARTITIONS:3}
+    replicas: ${WALLET_EVENTS_REPLICAS:1}
+  instance-id: ${WALLET_INSTANCE_ID:${random.uuid}}
+  websocket:
+    allowed-origins: ${FRONTEND_ORIGIN:http://localhost:5173}
+

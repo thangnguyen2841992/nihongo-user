@@ -13,7 +13,7 @@ public class WalletResponse {
 
     private Long walletId;
 
-    private Long userId;
+    private String userId;
 
     private BigDecimal balance;
 }

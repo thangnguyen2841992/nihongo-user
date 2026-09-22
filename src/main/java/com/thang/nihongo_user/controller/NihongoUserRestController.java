@@ -7,7 +7,6 @@ import com.thang.nihongo_user.repository.ICourseRepository;
 import com.thang.nihongo_user.repository.IStaffClient;
 import com.thang.nihongo_user.repository.IUserClient;
 import com.thang.nihongo_user.service.IUserService;
-import com.thang.nihongo_user.service.wallet.IWalletService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -29,7 +28,6 @@ public class NihongoUserRestController {
     private final ICourseRepository courseRepository;
     private final IUserClient userClient;
     private final IStaffClient staffClient;
-    private final IWalletService walletService;
 
     // ================= COURSES =================
 
@@ -162,16 +160,4 @@ public class NihongoUserRestController {
         return userService.analyzeJapanese(request.getText());
     }
 
-    @GetMapping("/wallets")
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
-    public ResponseEntity<WalletResponse> getWallet(@RequestParam Long userId) {
-        return ResponseEntity.ok(walletService.getWallet(userId));
-    }
-
-
-    @PostMapping("/wallets/deposit")
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
-    public ResponseEntity<WalletResponse> deposit(@RequestParam Long userId, @Valid @RequestBody DepositWalletRequest request) {
-        return ResponseEntity.ok(walletService.deposit(userId, request));
-    }
 }

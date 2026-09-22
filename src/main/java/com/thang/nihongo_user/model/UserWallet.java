@@ -21,7 +21,11 @@ public class UserWallet {
     private Long walletId;
 
     @Column(name = "user_id", nullable = false)
-    private Long userId;
+    private String userId;
+
+    @com.fasterxml.jackson.annotation.JsonIgnore
+    @Column(name = "notification_email")
+    private String notificationEmail;
 
     @Column(name = "balance", nullable = false, precision = 15, scale = 2)
     private BigDecimal balance = BigDecimal.ZERO;
