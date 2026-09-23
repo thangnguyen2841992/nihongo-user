@@ -45,6 +45,9 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.OPTIONS, "/**")
                         .permitAll()
 
+                        // Public course catalog; purchases and learning APIs still require authentication.
+                        .requestMatchers(HttpMethod.GET, "/api/nihongo-user/courses").permitAll()
+
                         // staff/admin api
                         .requestMatchers("/api/staff/**")
                         .hasAnyRole("STAFF", "ADMIN", "USER")

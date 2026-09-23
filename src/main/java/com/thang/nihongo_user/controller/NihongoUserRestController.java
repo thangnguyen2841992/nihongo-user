@@ -31,7 +31,6 @@ public class NihongoUserRestController {
 
     // ================= COURSES =================
 
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/courses")
     public ResponseEntity<List<CourseDTO>> getAllCourse() {
         return ResponseEntity.ok(userService.getAllCourse());

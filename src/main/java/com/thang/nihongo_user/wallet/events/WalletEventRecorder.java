@@ -19,7 +19,7 @@ public class WalletEventRecorder {
         Instant now = Instant.now();
         String id = UUID.randomUUID().toString();
         WalletEvent event = new WalletEvent(1, id, type, deposit.getId(), deposit.getUserId(),
-            wallet.getNotificationEmail(), deposit.getAmount(), wallet.getBalance(), now.toString());
+            wallet.getNotificationEmail(), deposit.getAmount(), wallet.getBalance(), now.toString(), deposit.getReviewNote());
         WalletOutbox row = new WalletOutbox();
         row.setId(id); row.setUserId(event.userId()); row.setCreatedAt(now); row.setNextAttemptAt(now);
         try { row.setPayload(mapper.writeValueAsString(event)); }

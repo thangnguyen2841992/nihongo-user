@@ -82,6 +82,7 @@ class WalletServiceTest {
         assertEquals(new BigDecimal("5000"), ledger.getValue().getBalanceBefore());
         assertEquals(new BigDecimal("15000"), ledger.getValue().getBalanceAfter());
         assertEquals(10L, ledger.getValue().getReferenceId());
+        verify(events, times(1)).record("APPROVED", d, wallet);
     }
     @Test void duplicateBankReferenceIsRejected() {
         reviewing(pending()); when(deposits.existsByBankReference("BANK-123")).thenReturn(true);
@@ -93,6 +94,8 @@ class WalletServiceTest {
         when(deposits.saveAndFlush(any())).thenAnswer(i -> i.getArgument(0));
         service.review(10L, "admin", review(false));
         assertEquals(PaymentStatus.CANCELLED, d.getStatus());
+        service.review(10L, "admin", review(false));
+        verify(events, times(1)).record("REJECTED", d, wallet);
         assertThrows(ResponseStatusException.class, () -> service.review(10L, "admin", review(true)));
         verifyNoInteractions(transactions);
     }
