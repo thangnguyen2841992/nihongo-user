@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(name = "gateway-service",contextId = "userClient", url = "http://localhost:8082")
+@FeignClient(name = "gateway-service",contextId = "userClient", url = "${services.gateway-url:http://localhost:8082}")
 public interface IUserClient {
     @GetMapping("/api/users/findUserByEmail")
     UserDTO findUserByEmail(@RequestParam("email") String email);

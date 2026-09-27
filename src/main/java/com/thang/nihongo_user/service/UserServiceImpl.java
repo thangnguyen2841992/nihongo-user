@@ -36,6 +36,7 @@ public class UserServiceImpl implements IUserService {
     private final ObjectMapper objectMapper;
     @Value("${gemini.model}")
     private String model;
+    @Value("${gemini.api-key:}") private String geminiKey;
     // ================= COURSE =================
 
     @Override
@@ -50,55 +51,18 @@ public class UserServiceImpl implements IUserService {
         return courseRepository.findAll().stream().map(this::mappingCourseToDTO).toList();
     }
 
-    // ================= SUBSCRIPTION =================
     @Override
-    @Transactional
-    public UserSubscription createSubscription(Long userId, Long courseId, Long packageId) {
-
-        if (subscriptionRepository.existsByUserIdAndCourseIdAndPackageId(userId, courseId, packageId)) {
-            throw new RuntimeException("Already subscribed");
-        }
-
-        CoursePackage pack = coursePackageRepository.findById(packageId).orElseThrow(() -> new RuntimeException("Package not found"));
-
-        LocalDateTime start = LocalDateTime.now();
-        LocalDateTime end = start.plusDays(pack.getDurationDays());
-
-        UserSubscription sub = UserSubscription.builder().userId(userId).courseId(courseId).packageId(packageId).progress(0).createdAt(start).expiredAt(end).build();
-
-        return subscriptionRepository.save(sub);
-    }
-
-    @Override
-    public UserSubscription renewSubscription(Long userId, Long courseId, Long packageId) {
-        UserSubscription subscription = subscriptionRepository.findByUserIdAndCourseId(userId, courseId).orElseThrow(() -> new RuntimeException("Subscription not found"));
-
-        CoursePackage pack = coursePackageRepository.findById(packageId).orElseThrow(() -> new RuntimeException("Package not found"));
-
-        LocalDateTime now = LocalDateTime.now();
-
-        // Nếu còn hạn thì cộng thêm
-        LocalDateTime start = subscription.getExpiredAt().isAfter(now) ? subscription.getExpiredAt() : now;
-
-        subscription.setPackageId(packageId);
-        subscription.setExpiredAt(start.plusDays(pack.getDurationDays()));
-
-        return subscriptionRepository.save(subscription);
-    }
-
-
-    @Override
-    public List<Long> findCourseIdsByUserId(Long userId) {
+    public List<Long> findCourseIdsByUserId(String userId) {
         return subscriptionRepository.findByUserId(userId).stream().map(UserSubscription::getCourseId).distinct().toList();
     }
 
     @Override
-    public boolean hasActiveSubscription(Long userId, Long courseId) {
+    public boolean hasActiveSubscription(String userId, Long courseId) {
         return subscriptionRepository.existsActive(userId, courseId);
     }
 
     @Override
-    public List<MyCourseDTO> findMyCourses(Long userId) {
+    public List<MyCourseDTO> findMyCourses(String userId) {
 
         return subscriptionRepository.findByUserId(userId).stream().map(sub -> {
 
@@ -113,38 +77,30 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public void submitExerciseAttempt(String userEmail, SubmitLessonResultRequest request) {
-        UserDTO user = this.userClient.findUserByEmail(userEmail);
-
-        LessonResponse lesson = this.staffClient.getLessonById(request.getLessonId());
-
-
-        double score = request.getCorrectCount() * 100.0 / request.getTotalQuestion();
-
-        UserExerciseAttempt result = UserExerciseAttempt.builder().userId(user.getId()).lessonId(lesson.getLessonId()).totalQuestion(request.getTotalQuestion()).correctCount(request.getCorrectCount()).wrongCount(request.getWrongCount()).score(score).submittedAt(LocalDateTime.now()).build();
-
-        this.userExerciseAttemptRepository.save(result);
+    public List<LessonResultResponse> getMyResults(String userId) {
+        return this.userExerciseAttemptRepository.findByUserIdOrderBySubmittedAtDesc(userId).stream().map(this::convert).toList();
     }
 
     @Override
-    public List<LessonResultResponse> getMyResults(String userEmail) {
-        UserDTO user = this.userClient.findUserByEmail(userEmail);
-        return this.userExerciseAttemptRepository.findByUserIdOrderBySubmittedAtDesc(user.getId()).stream().map(this::convert).toList();
-    }
-
-    @Override
-    public List<LessonResultResponse> getLessonResults(String userEmail, Long lessonId) {
-        UserDTO user = this.userClient.findUserByEmail(userEmail);
-        return this.userExerciseAttemptRepository.findByUserIdAndLessonIdOrderBySubmittedAtDesc(user.getId(), lessonId).stream().map(this::convert).toList();
+    public List<LessonResultResponse> getLessonResults(String userId, Long lessonId) {
+        return this.userExerciseAttemptRepository.findByUserIdAndLessonIdOrderBySubmittedAtDesc(userId, lessonId).stream().map(this::convert).toList();
     }
 
     @Override
     public LessonResultResponse convert(UserExerciseAttempt entity) {
-        return LessonResultResponse.builder().resultId(entity.getUserExerciseAttemptId()).lessonId(this.staffClient.getLessonById(entity.getLessonId()).getLessonId()).lessonName(this.staffClient.getLessonById(entity.getLessonId()).getName()).totalQuestion(entity.getTotalQuestion()).correctCount(entity.getCorrectCount()).wrongCount(entity.getWrongCount()).score(entity.getScore()).submittedAt(entity.getSubmittedAt()).build();
+        String lessonName = "Bài học " + entity.getLessonId();
+        try {
+            lessonName = staffClient.getLessonById(entity.getLessonId()).getName();
+        } catch (feign.FeignException e) {
+            // An expired subscription does not remove ownership of past results.
+            if (e.status() != 403 && e.status() != 404) throw e;
+        }
+        return LessonResultResponse.builder().resultId(entity.getUserExerciseAttemptId()).lessonId(entity.getLessonId()).lessonName(lessonName).totalQuestion(entity.getTotalQuestion()).correctCount(entity.getCorrectCount()).wrongCount(entity.getWrongCount()).score(entity.getScore()).submittedAt(entity.getSubmittedAt()).build();
     }
 
     @Override
     public Mono<JapaneseAiResponse> analyzeJapanese(String text) {
+        if (geminiKey == null || geminiKey.isBlank()) return Mono.error(new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE,"Chức năng AI chưa được cấu hình"));
 
         Map<String, Object> request = new HashMap<>();
 

@@ -22,10 +22,22 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 class PublicCoursesTest {
     @Autowired MockMvc mvc;
     @MockitoBean IUserService service;
+    @MockitoBean com.thang.nihongo_user.service.CoursePurchaseService purchases;
+    @MockitoBean com.thang.nihongo_user.service.ExerciseAttemptService exerciseAttempts;
+    @MockitoBean IUserSubscriptionRepository subscriptions;
     @MockitoBean ICourseRepository courses;
     @MockitoBean IUserClient users;
     @MockitoBean IStaffClient staff;
     @MockitoBean JwtDecoder decoder;
+    @Test void userCannotCreateButStaffCanCreateCourse() throws Exception {
+        String body = "{\"courseName\":\"N5\",\"levelId\":1,\"active\":\"ACTIVE\"}";
+        mvc.perform(post("/api/nihongo-user/courses").with(org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt().authorities(new org.springframework.security.core.authority.SimpleGrantedAuthority("ROLE_USER")))
+            .contentType("application/json").content(body)).andExpect(status().isForbidden());
+        verifyNoInteractions(service);
+        mvc.perform(post("/api/nihongo-user/courses").with(org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt().authorities(new org.springframework.security.core.authority.SimpleGrantedAuthority("ROLE_STAFF")))
+            .contentType("application/json").content(body)).andExpect(status().isCreated());
+        verify(service).createNewCourse(any());
+    }
     @Test void anonymousCanReadCatalog() throws Exception {
         when(service.getAllCourse()).thenReturn(List.of());
         mvc.perform(get("/api/nihongo-user/courses")).andExpect(status().isOk()).andExpect(content().json("[]"));

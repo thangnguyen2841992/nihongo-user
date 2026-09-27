@@ -8,10 +8,10 @@ import java.util.List;
 
 @Repository
 public interface IUserExerciseAttemptRepository extends JpaRepository<UserExerciseAttempt, Long> {
-        List<UserExerciseAttempt> findByUserIdOrderBySubmittedAtDesc(Long userId);
+        List<UserExerciseAttempt> findByUserIdOrderBySubmittedAtDesc(String userId);
 
     List<UserExerciseAttempt> findByUserIdAndLessonIdOrderBySubmittedAtDesc(
-            Long userId,
+            String userId,
             Long lessonId
     );
 

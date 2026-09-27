@@ -5,14 +5,12 @@ Flow: create PENDING request -> admin verifies bank transfer -> transaction upda
 REJECTED corresponds to CANCELLED in the deposit API. It does not credit the wallet. Request validation errors and network timeouts are not definitive payment failures and must not produce failure emails. This flow still requires manual bank reconciliation; it does not implement a bank webhook.
 
 ## Build and run
-Install the shared contract before building services, from the workspace root:
+The canonical shared contract is `microservice/common-events`, referenced by both workspace verification reactors. `nihongo-user/common-events/pom.xml` is now a compatibility aggregator pointing to that canonical module; its duplicate Java source was removed. `WalletEvent` includes optional `reviewNote` and keeps its original nine-argument constructor for compatibility. Install the root shared contract before building services, from the workspace root:
 ```powershell
-Push-Location nihongo-user
-./mvnw.cmd -f common-events/pom.xml install
-Pop-Location
+./nihongo-user/mvnw.cmd -f common-events/pom.xml install
 ./common-security/mvnw.cmd -f common-security/pom.xml install -DskipTests
 ./nihongo-user/mvnw.cmd -f nihongo-user/pom.xml test "-Dtest=Wallet*Test"
-./notification-service/mvnw.cmd -f notification-service/pom.xml test "-Dtest=WalletNotificationTest"
+./nihongo-notification/mvnw.cmd -f nihongo-notification/pom.xml test "-Dtest=WalletNotificationTest"
 ```
 
 Configure KAFKA_BOOTSTRAP_SERVERS identically on both services and WALLET_EVENTS_TOPIC (default wallet.events.v1). Start MySQL, Kafka, discovery, gateway, nihongo-user and notification-service. Notification-service defaults to the same hosting database as nihongo-user. That server runs MariaDB, so notification-service uses MariaDB Connector/J and a jdbc:mariadb URL. Existing jdbc:mysql URL overrides are accepted through permitMysqlScheme. This avoids the MySQL driver metadata error "Unknown column RESERVED" during Hibernate startup. Override NOTIFICATION_DB_URL, NOTIFICATION_DB_USERNAME and NOTIFICATION_DB_PASSWORD if using a separate database; configure SMTP settings in notification-service. Wallet events/mail must be enabled. Each nihongo-user instance requires a distinct wallet.instance-id if explicitly configured, because its local WebSocket broker needs every event. Set wallet.websocket.allowed-origins to the frontend origin.

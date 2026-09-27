@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 @FeignClient(name = "gateway-service",
-        contextId = "staffClient", url = "http://localhost:8082")
+        contextId = "staffClient", url = "${services.gateway-url:http://localhost:8082}")
 public interface IStaffClient {
+    @org.springframework.web.bind.annotation.PostMapping("/api/staff/lessons/{id}/grade")
+    com.thang.nihongo_user.model.dto.ExerciseGrade grade(@PathVariable("id") Long id, @org.springframework.web.bind.annotation.RequestBody java.util.Map<Long,String> answers);
     @GetMapping("/api/staff/getBooksByLevel")
     List<BookResponse> getBooksByLevel(@RequestParam("levelId") Long levelId);
 

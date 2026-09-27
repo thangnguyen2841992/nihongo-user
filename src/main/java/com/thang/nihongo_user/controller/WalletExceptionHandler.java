@@ -7,8 +7,13 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import java.util.Map;
 
-@RestControllerAdvice(assignableTypes = WalletController.class)
+@RestControllerAdvice(assignableTypes = {WalletController.class, NihongoUserRestController.class})
 public class WalletExceptionHandler {
+    @ExceptionHandler(feign.FeignException.class)
+    public ResponseEntity<?> upstream(feign.FeignException e) {
+        int status = e.status() == 403 ? 403 : e.status() == 404 ? 404 : e.status() == 400 ? 400 : 503;
+        return ResponseEntity.status(status).body(Map.of("message", status == 403 ? "Bạn chưa có quyền truy cập nội dung này" : "Không thể xử lý nội dung. Vui lòng kiểm tra dữ liệu hoặc thử lại"));
+    }
     @ExceptionHandler(ResponseStatusException.class)
     public ResponseEntity<?> status(ResponseStatusException e) {
         return ResponseEntity.status(e.getStatusCode()).body(Map.of("message", e.getReason() == null ? "Yêu cầu không hợp lệ" : e.getReason()));

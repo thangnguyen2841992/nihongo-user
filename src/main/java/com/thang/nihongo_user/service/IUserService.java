@@ -15,25 +15,12 @@ public interface IUserService {
 
     List<CourseDTO> getAllCourse();
 
-    UserSubscription createSubscription(
-            Long userId,
-            Long courseId,
-            Long packageId
-    );
+    List<Long> findCourseIdsByUserId(String userId);
 
-    UserSubscription renewSubscription(
-            Long userId,
-            Long courseId,
-            Long packageId
-    );
-
-    List<Long> findCourseIdsByUserId(Long userId);
-
-    boolean hasActiveSubscription(Long userId, Long courseId);
-    List<MyCourseDTO> findMyCourses(Long userId);
-    void submitExerciseAttempt(String userEmail, SubmitLessonResultRequest request);
-    List<LessonResultResponse> getMyResults(String userEmail);
-    List<LessonResultResponse> getLessonResults(String userEmail, Long lessonId);
+    boolean hasActiveSubscription(String userId, Long courseId);
+    List<MyCourseDTO> findMyCourses(String userId);
+    List<LessonResultResponse> getMyResults(String userId);
+    List<LessonResultResponse> getLessonResults(String userId, Long lessonId);
     LessonResultResponse convert(UserExerciseAttempt entity);
     Mono<JapaneseAiResponse> analyzeJapanese(String text);
 }

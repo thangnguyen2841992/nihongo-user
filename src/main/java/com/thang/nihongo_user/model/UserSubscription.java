@@ -10,14 +10,14 @@ import java.time.LocalDateTime;
 @Entity
 @Table(
         indexes = {
-                @Index(name = "idx_user_id", columnList = "userId"),
+                @Index(name = "idx_user_id", columnList = "user_uuid"),
                 @Index(name = "idx_course_id", columnList = "courseId"),
                 @Index(name = "idx_status", columnList = "status")
         },
         uniqueConstraints = {
                 @UniqueConstraint(
-                        name = "uk_user_course_package",
-                        columnNames = {"userId", "courseId", "packageId"}
+                        name = "uk_subscription_owner_course",
+                        columnNames = {"user_uuid", "courseId"}
                 )
         }
 )
@@ -32,7 +32,8 @@ public class UserSubscription {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long userId;
+    @Column(name = "user_uuid", length = 36)
+    private String userId;
 
     private Long courseId;
 

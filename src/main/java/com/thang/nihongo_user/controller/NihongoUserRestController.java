@@ -26,7 +26,9 @@ public class NihongoUserRestController {
 
     private final IUserService userService;
     private final ICourseRepository courseRepository;
-    private final IUserClient userClient;
+    private final com.thang.nihongo_user.service.CoursePurchaseService purchases;
+    private final com.thang.nihongo_user.service.ExerciseAttemptService exerciseAttempts;
+    private final com.thang.nihongo_user.repository.IUserSubscriptionRepository subscriptions;
     private final IStaffClient staffClient;
 
     // ================= COURSES =================
@@ -36,51 +38,28 @@ public class NihongoUserRestController {
         return ResponseEntity.ok(userService.getAllCourse());
     }
 
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF')")
     @PostMapping("/courses")
-    public ResponseEntity<CourseDTO> createCourse(@RequestBody Course course) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(userService.createNewCourse(course));
+    public ResponseEntity<CourseDTO> createCourse(@Valid @RequestBody CreateCourseRequest course) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(userService.createNewCourse(course.toEntity()));
     }
-
-    // ================= SUBSCRIPTION CORE =================
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/subscriptions")
-    public ResponseEntity<?> subscribeCourse(@RequestParam Long courseId, @RequestParam Long packageId, @AuthenticationPrincipal Jwt jwt) {
-
-        String email = jwt.getClaimAsString("email");
-
-        UserDTO user = userClient.findUserByEmail(email);
-
-        if (user == null) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Không tìm thấy người dùng");
-        }
-
-        try {
-            UserSubscription subscription = userService.createSubscription(user.getId(), courseId, packageId);
-
-            return ResponseEntity.status(HttpStatus.CREATED).body(subscription);
-
-        } catch (RuntimeException ex) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
-        }
+    public ResponseEntity<UserSubscription> subscribeCourse(@RequestParam Long courseId, @RequestParam Long packageId,
+            @RequestHeader("Idempotency-Key") String key, @AuthenticationPrincipal Jwt jwt) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(purchases.purchase(jwt.getSubject(),courseId,packageId,key,false));
     }
-
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/subscriptions/renew")
-    public ResponseEntity<?> renewSubscription(@RequestParam Long courseId, @RequestParam Long packageId, @AuthenticationPrincipal Jwt jwt) {
-
-        String email = jwt.getClaimAsString("email");
-
-        UserDTO user = userClient.findUserByEmail(email);
-
-        if (user == null) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Không tìm thấy người dùng");
-        }
-        try {
-            return ResponseEntity.ok(userService.renewSubscription(user.getId(), courseId, packageId));
-        } catch (RuntimeException ex) {
-            return ResponseEntity.badRequest().body(ex.getMessage());
-        }
+    public ResponseEntity<UserSubscription> renewSubscription(@RequestParam Long courseId, @RequestParam Long packageId,
+            @RequestHeader("Idempotency-Key") String key, @AuthenticationPrincipal Jwt jwt) {
+        return ResponseEntity.ok(purchases.purchase(jwt.getSubject(),courseId,packageId,key,true));
+    }
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/access/levels/{levelId}")
+    public boolean levelAccess(@PathVariable Long levelId, @AuthenticationPrincipal Jwt jwt) {
+        return subscriptions.hasLevelAccess(jwt.getSubject(),levelId);
     }
 
     // ================= MY COURSES (SUBSCRIPTION-BASED) =================
@@ -89,11 +68,9 @@ public class NihongoUserRestController {
     @GetMapping("/my-courses")
     public ResponseEntity<List<Long>> getMyCourses(@AuthenticationPrincipal Jwt jwt) {
 
-        String email = jwt.getClaimAsString("email");
+        String userId = jwt.getSubject();
 
-        UserDTO user = userClient.findUserByEmail(email);
-
-        List<Long> courseIds = userService.findCourseIdsByUserId(user.getId());
+        List<Long> courseIds = userService.findCourseIdsByUserId(userId);
 
         return ResponseEntity.ok(courseIds);
     }
@@ -103,16 +80,19 @@ public class NihongoUserRestController {
     @GetMapping("/my-courses-dto")
     public ResponseEntity<List<MyCourseDTO>> getMyCoursesDTO(@AuthenticationPrincipal Jwt jwt) {
 
-        String email = jwt.getClaimAsString("email");
-        UserDTO user = userClient.findUserByEmail(email);
+        String userId = jwt.getSubject();
 
-        return ResponseEntity.ok(userService.findMyCourses(user.getId()));
+        return ResponseEntity.ok(userService.findMyCourses(userId));
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/getBooksByLevel/{courseId}")
-    public ResponseEntity<?> getBooksByLevel(@PathVariable Long courseId) {
+    public ResponseEntity<?> getBooksByLevel(@PathVariable Long courseId, @AuthenticationPrincipal Jwt jwt) {
 
+        var roles = jwt.getClaimAsStringList("roles");
+        if ((roles == null || roles.stream().noneMatch(r -> r.equals("ADMIN") || r.equals("STAFF")))
+                && !userService.hasActiveSubscription(jwt.getSubject(), courseId))
+            throw new org.springframework.web.server.ResponseStatusException(HttpStatus.FORBIDDEN,"Bạn chưa có quyền học khóa này");
         Course course = courseRepository.findById(courseId).orElseThrow(() -> new RuntimeException("Course not found"));
 
         return ResponseEntity.ok(staffClient.getBooksByLevel(course.getLevelId()));
@@ -125,32 +105,29 @@ public class NihongoUserRestController {
     @GetMapping("/courses/{courseId}/access")
     public ResponseEntity<Boolean> checkAccess(@PathVariable Long courseId, @AuthenticationPrincipal Jwt jwt) {
 
-        String email = jwt.getClaimAsString("email");
-        UserDTO user = userClient.findUserByEmail(email);
-        boolean hasAccess = userService.hasActiveSubscription(user.getId(), courseId);
+        String userId = jwt.getSubject();
+        boolean hasAccess = userService.hasActiveSubscription(userId, courseId);
         return ResponseEntity.ok(hasAccess);
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/userExerciseAttempt")
-    public ResponseEntity<Void> submitUserExerciseAttempt(@AuthenticationPrincipal Jwt jwt, @RequestBody SubmitLessonResultRequest request) {
-        String email = jwt.getClaimAsString("email");
-        this.userService.submitExerciseAttempt(email, request);
-        return ResponseEntity.ok().build();
+    public ResponseEntity<ExerciseGrade> submitUserExerciseAttempt(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody SubmitLessonResultRequest request) {
+        return ResponseEntity.ok(exerciseAttempts.submit(jwt.getSubject(), request));
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/userExerciseAttempt")
     public ResponseEntity<List<LessonResultResponse>> getMyResults(@AuthenticationPrincipal Jwt jwt) {
-        String email = jwt.getClaimAsString("email");
-        return ResponseEntity.ok(this.userService.getMyResults(email));
+        String userId = jwt.getSubject();
+        return ResponseEntity.ok(this.userService.getMyResults(userId));
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/lesson-result/{lessonId}")
     public ResponseEntity<List<LessonResultResponse>> getLessonResults(@AuthenticationPrincipal Jwt jwt, @PathVariable Long lessonId) {
-        String email = jwt.getClaimAsString("email");
-        return ResponseEntity.ok(this.userService.getLessonResults(email, lessonId));
+        String userId = jwt.getSubject();
+        return ResponseEntity.ok(this.userService.getLessonResults(userId, lessonId));
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")

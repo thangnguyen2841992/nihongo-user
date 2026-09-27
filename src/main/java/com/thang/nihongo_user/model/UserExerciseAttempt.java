@@ -21,7 +21,8 @@ public class UserExerciseAttempt {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userExerciseAttemptId;
 
-    private long userId;
+    @jakarta.persistence.Column(name="user_uuid", length=36)
+    private String userId;
 
     private long lessonId;
 

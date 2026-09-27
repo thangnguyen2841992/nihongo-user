@@ -64,5 +64,12 @@ class WalletControllerTest {
             .andExpect(status().isOk());
         verify(wallets).history("owner");
     }
+    @Test void missingReceivingAccountDoesNotCreateDeposit() throws Exception {
+        mvc.perform(post("/api/nihongo-user/wallets/deposit")
+            .with(jwt().authorities(new SimpleGrantedAuthority("ROLE_USER")))
+            .contentType("application/json").content("{\"amount\":10000,\"requestKey\":\"00000000-0000-0000-0000-000000000001\"}"))
+            .andExpect(status().isServiceUnavailable());
+        verifyNoInteractions(wallets);
+    }
 }
 

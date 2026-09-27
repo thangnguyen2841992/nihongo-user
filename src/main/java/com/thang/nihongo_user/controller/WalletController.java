@@ -26,6 +26,10 @@ public class WalletController {
     public WalletResponse wallet(@AuthenticationPrincipal Jwt jwt) { return wallets.getWallet(jwt.getSubject(), jwt.getClaimAsString("email")); }
     @PostMapping("/deposit")
     public WalletDeposit deposit(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody DepositWalletRequest request) {
+        if (bankName.isBlank() || bankAccount.isBlank() || bankAccountName.isBlank()) {
+            throw new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE,
+                    "Chưa cấu hình tài khoản nhận tiền. Vui lòng liên hệ quản trị viên");
+        }
         return wallets.deposit(jwt.getSubject(), jwt.getClaimAsString("email"), request);
     }
     @GetMapping("/deposits")
