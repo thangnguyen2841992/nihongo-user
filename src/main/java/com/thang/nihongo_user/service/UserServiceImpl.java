@@ -10,19 +10,27 @@ import com.thang.nihongo_user.model.UserSubscription;
 import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.*;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatusCode;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.server.ResponseStatusException;
+import org.springframework.web.reactive.function.client.WebClientRequestException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
+import org.springframework.web.reactive.function.client.WebClientResponseException;
 import reactor.core.publisher.Mono;
 
 import java.time.LocalDateTime;
+import java.time.Duration;
+import java.util.concurrent.TimeoutException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @Service
+@Slf4j
 @RequiredArgsConstructor
 public class UserServiceImpl implements IUserService {
 
@@ -100,6 +108,11 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public Mono<JapaneseAiResponse> analyzeJapanese(String text) {
+        if (text == null || text.isBlank() || text.length() > 2000) {
+            return Mono.error(new ResponseStatusException(HttpStatus.BAD_REQUEST,
+                    "Nhập từ hoặc câu không quá 2.000 ký tự."));
+        }
+        text = text.trim();
         if (geminiKey == null || geminiKey.isBlank()) return Mono.error(new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE,"Chức năng AI chưa được cấu hình"));
 
         Map<String, Object> request = new HashMap<>();
@@ -371,18 +384,6 @@ public class UserServiceImpl implements IUserService {
                 "generationConfig",
                 generationConfig
         );
-        ObjectMapper mapper = new ObjectMapper();
-
-        System.out.println("========== GEMINI REQUEST ==========");
-        try {
-            System.out.println(
-                    mapper.writerWithDefaultPrettyPrinter()
-                            .writeValueAsString(request)
-            );
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
-        }
-        System.out.println("====================================");
         return geminiWebClient
                 .post()
                 .uri(
@@ -392,18 +393,56 @@ public class UserServiceImpl implements IUserService {
                 .bodyValue(request)
                 .retrieve()
                 .onStatus(
-                        status -> status.value() == 429,
-                        response -> Mono.error(
-                                new RuntimeException(
-                                        "Gemini đang hết quota, vui lòng thử lại sau."
-                                )
-                        )
+                        HttpStatusCode::isError,
+                        response -> response.createException().map(error -> {
+                            logGeminiError(error);
+                            if (error.getStatusCode().value() == 429) {
+                                return new ResponseStatusException(HttpStatus.TOO_MANY_REQUESTS,
+                                        "AI đang đạt giới hạn sử dụng. Vui lòng thử lại sau.");
+                            }
+                            return new ResponseStatusException(HttpStatus.SERVICE_UNAVAILABLE,
+                                    "Dịch vụ AI hiện chưa khả dụng. Vui lòng thử lại sau.");
+                        })
                 )
                 .bodyToMono(JsonNode.class)
-                .map(this::parseResponse);
+                .map(this::parseResponse)
+                .timeout(Duration.ofSeconds(65))
+                .onErrorMap(TimeoutException.class, error -> new ResponseStatusException(
+                        HttpStatus.GATEWAY_TIMEOUT, "AI phản hồi quá lâu. Vui lòng thử lại."))
+                .onErrorMap(WebClientRequestException.class, error -> new ResponseStatusException(
+                        error.getCause() instanceof io.netty.handler.timeout.ReadTimeoutException
+                                ? HttpStatus.GATEWAY_TIMEOUT : HttpStatus.SERVICE_UNAVAILABLE,
+                        error.getCause() instanceof io.netty.handler.timeout.ReadTimeoutException
+                                ? "AI phản hồi quá lâu. Vui lòng thử lại."
+                                : "Không kết nối được dịch vụ AI. Vui lòng thử lại sau."));
     }
 
     // ================= MAPPING =================
+
+    private void logGeminiError(WebClientResponseException error) {
+        String status = "UNKNOWN";
+        String message = "Phản hồi lỗi không có error.message dạng JSON.";
+        try {
+            JsonNode details = objectMapper.readTree(error.getResponseBodyAsString());
+            if (details != null) {
+                status = details.path("error").path("status").asText("UNKNOWN");
+                message = details.path("error").path("message").asText(message);
+            }
+        } catch (JsonProcessingException ignored) {
+            // Do not dump HTML or request headers into logs.
+        }
+        log.warn("Gemini API error: HTTP {}, status={}, message={}",
+                error.getStatusCode().value(), sanitizeGeminiError(status), sanitizeGeminiError(message));
+    }
+
+    private String sanitizeGeminiError(String value) {
+        if (geminiKey != null && !geminiKey.isBlank()) {
+            value = value.replace(geminiKey, "[REDACTED]");
+        }
+        value = value.replaceAll("AIza[\\w-]+", "[REDACTED]")
+                .replaceAll("[\\r\\n\\t]", " ");
+        return value.substring(0, Math.min(value.length(), 2000));
+    }
 
     private CourseDTO mappingCourseToDTO(Course course) {
 
@@ -520,39 +559,48 @@ public class UserServiceImpl implements IUserService {
     }
 
     private JapaneseAiResponse parseResponse(JsonNode json) {
-
-        String outputText =
-                json.path("candidates")
-                        .path(0)
-                        .path("content")
-                        .path("parts")
-                        .path(0)
-                        .path("text")
-                        .asText();
-
-        if (outputText == null || outputText.isBlank()) {
-            throw new RuntimeException(
-                    "Gemini returned empty response"
-            );
+        JsonNode candidate = json.path("candidates").path(0);
+        String finishReason = candidate.path("finishReason").asText();
+        if (!json.path("promptFeedback").path("blockReason").asText().isBlank()
+                || List.of("SAFETY", "RECITATION", "BLOCKLIST", "PROHIBITED_CONTENT", "SPII").contains(finishReason)) {
+            throw new ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY,
+                    "AI không thể phân tích nội dung này. Hãy thử từ hoặc câu khác.");
         }
-
+        if (!"STOP".equals(finishReason)) {
+            throw new ResponseStatusException(HttpStatus.BAD_GATEWAY,
+                    "AI chưa trả về kết quả đầy đủ. Hãy thử câu ngắn hơn hoặc thử lại.");
+        }
+        StringBuilder output = new StringBuilder();
+        for (JsonNode part : candidate.path("content").path("parts")) {
+            if (!part.path("thought").asBoolean(false) && part.path("text").isTextual()) {
+                output.append(part.path("text").asText());
+            }
+        }
         try {
-
-            ObjectMapper mapper =
-                    new ObjectMapper();
-
-            return mapper.readValue(
-                    outputText,
-                    JapaneseAiResponse.class
-            );
-
-        } catch (Exception e) {
-
-            throw new RuntimeException(
-                    "Cannot parse Gemini response: "
-                            + outputText,
-                    e
-            );
+            JsonNode body = objectMapper.readTree(output.toString());
+            if (body == null || !body.isObject()) throw new IllegalArgumentException();
+            for (String field : List.of("originalText", "translation", "reading", "sentenceStructure")) {
+                if (!body.path(field).isTextual() || body.path(field).asText().isBlank()) throw new IllegalArgumentException();
+            }
+            for (String field : List.of("vocabulary", "grammar", "examples")) {
+                if (!body.path(field).isArray()) throw new IllegalArgumentException();
+            }
+            for (JsonNode item : body.path("vocabulary")) {
+                for (String field : List.of("word", "reading", "kanjiReading", "meaning")) {
+                    if (!item.path(field).isTextual()) throw new IllegalArgumentException();
+                }
+            }
+            for (JsonNode item : body.path("grammar")) {
+                if (!item.path("pattern").isTextual() || !item.path("explanation").isTextual()) throw new IllegalArgumentException();
+            }
+            for (JsonNode item : body.path("examples")) {
+                if (!item.isTextual()) throw new IllegalArgumentException();
+            }
+            return objectMapper.treeToValue(body, JapaneseAiResponse.class);
+        } catch (JsonProcessingException | IllegalArgumentException e) {
+            log.warn("Gemini response could not be parsed or did not match the analysis schema");
+            throw new ResponseStatusException(HttpStatus.BAD_GATEWAY,
+                    "AI trả về kết quả không hợp lệ. Vui lòng thử lại.");
         }
     }
 }
