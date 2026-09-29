@@ -2,7 +2,7 @@ server:
   port: 8086
 spring:
   config:
-    import: "optional:file:./.local/nihongo-user.properties,optional:file:../.local/nihongo-user.properties"
+    import: "optional:file:./.local/nihongo-user.properties,optional:file:../.local/nihongo-user.properties,optional:file:./.local/audit-secrets-nihongo-user.properties,optional:file:./nihongo-user/.local/audit-secrets-nihongo-user.properties"
   application:
     name: nihongo-user-service
   kafka:
@@ -42,7 +42,7 @@ gemini:
   model: gemini-3.1-flash-lite
 
 jwt:
-  secret: "U7tjRTsx0baZLsRhHGcc0FA/B7MJ65IfQ0jZHvUyYrE="
+  secret: ${JWT_SECRET}
 
 
 wallet:

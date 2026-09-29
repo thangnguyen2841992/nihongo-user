@@ -26,7 +26,6 @@ class PublicCoursesTest {
     @MockitoBean com.thang.nihongo_user.service.ExerciseAttemptService exerciseAttempts;
     @MockitoBean IUserSubscriptionRepository subscriptions;
     @MockitoBean ICourseRepository courses;
-    @MockitoBean IUserClient users;
     @MockitoBean IStaffClient staff;
     @MockitoBean JwtDecoder decoder;
     @Test void userCannotCreateButStaffCanCreateCourse() throws Exception {

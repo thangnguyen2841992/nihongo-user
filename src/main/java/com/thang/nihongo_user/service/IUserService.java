@@ -2,12 +2,10 @@ package com.thang.nihongo_user.service;
 
 import com.thang.nihongo_user.model.Course;
 import com.thang.nihongo_user.model.UserExerciseAttempt;
-import com.thang.nihongo_user.model.UserSubscription;
 import com.thang.nihongo_user.model.dto.*;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface IUserService {
 

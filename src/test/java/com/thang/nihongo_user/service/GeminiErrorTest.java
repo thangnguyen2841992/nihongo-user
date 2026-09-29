@@ -19,12 +19,12 @@ import reactor.core.publisher.Mono;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GeminiErrorTest {
-    private UserServiceImpl service(HttpStatus status, String body) {
+    private JapaneseAiService service(HttpStatus status, String body) {
         WebClient client = WebClient.builder().baseUrl("https://example.test")
                 .exchangeFunction(request -> Mono.just(ClientResponse.create(status)
                         .header("Content-Type", MediaType.APPLICATION_JSON_VALUE).body(body).build()))
                 .build();
-        var service = new UserServiceImpl(null, null, null, null, null, null, client, new ObjectMapper());
+        var service = new JapaneseAiService(client, new ObjectMapper());
         ReflectionTestUtils.setField(service, "geminiKey", "diagnostic-test-key");
         ReflectionTestUtils.setField(service, "model", "test-model");
         return service;
@@ -32,7 +32,7 @@ class GeminiErrorTest {
 
     @Test
     void logsGoogleErrorWithoutExposingConfiguredKey() {
-        Logger logger = (Logger) LoggerFactory.getLogger(UserServiceImpl.class);
+        Logger logger = (Logger) LoggerFactory.getLogger(JapaneseAiService.class);
         var appender = new ListAppender<ILoggingEvent>();
         appender.start();
         logger.addAppender(appender);

@@ -1,7 +1,6 @@
 package com.thang.nihongo_user.model;
 
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
 public enum CourseStatus {

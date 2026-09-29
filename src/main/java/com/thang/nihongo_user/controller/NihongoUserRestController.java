@@ -5,7 +5,6 @@ import com.thang.nihongo_user.model.UserSubscription;
 import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.ICourseRepository;
 import com.thang.nihongo_user.repository.IStaffClient;
-import com.thang.nihongo_user.repository.IUserClient;
 import com.thang.nihongo_user.service.IUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
