@@ -43,7 +43,8 @@ gemini:
 
 jwt:
   secret: "U7tjRTsx0baZLsRhHGcc0FA/B7MJ65IfQ0jZHvUyYrE="
-# Tài khoản nhận tiền hiển thị trên trang ví; cấu hình bằng biến môi trường.
+
+
 wallet:
   bank-name: ${WALLET_BANK_NAME:}
   bank-account: ${WALLET_BANK_ACCOUNT:}
