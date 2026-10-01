@@ -17,7 +17,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.mockito.Mockito.*;
 
-@WebMvcTest(WalletController.class)
+@WebMvcTest(value = WalletController.class, properties = {
+        "wallet.bank-name=", "wallet.bank-account=", "wallet.bank-account-name="
+})
 @Import({SecurityConfig.class, CommonSecurityConfig.class})
 class WalletControllerTest {
     @Autowired MockMvc mvc;

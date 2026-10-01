@@ -6,7 +6,7 @@ spring:
   application:
     name: nihongo-user-service
   kafka:
-    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:160.22.107.232:9092}
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:127.0.0.1:9092}
   datasource:
     url: jdbc:mysql://onehost-amdcloudhn022602.000nethost.com:3306/tsezwyvdhosting_nihongo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: tsezwyvdhosting_nihongo_app
