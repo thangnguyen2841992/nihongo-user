@@ -18,7 +18,7 @@ class CourseQueryTest {
 
     @Test void loadsCourseAndPackageDetailsInBatches() {
         when(subscriptions.findByUserId("owner")).thenReturn(List.of(
-                UserSubscription.builder().courseId(1L).packageId(11L).progress(30).build(),
+                UserSubscription.builder().courseId(1L).packageId(11L).progress(30).startedAt(java.time.LocalDateTime.of(2026, 10, 2, 9, 0)).lastBookId(3L).lastLessonId(7L).build(),
                 UserSubscription.builder().courseId(2L).packageId(12L).progress(80).build()));
         Course one = new Course(); one.setCourseId(1L); one.setCourseName("N5");
         Course two = new Course(); two.setCourseId(2L); two.setCourseName("N4");
@@ -29,6 +29,8 @@ class CourseQueryTest {
         var result = service.findMyCourses("owner");
         assertEquals("N5", result.get(0).getCourseName());
         assertEquals("Monthly", result.get(0).getPackageName());
+        assertEquals(3L, result.get(0).getLastBookId());
+        assertEquals(7L, result.get(0).getLastLessonId());
         assertEquals(80, result.get(1).getProgress());
         verify(courses, never()).findById(any()); verify(packages, never()).findById(any());
     }

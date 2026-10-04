@@ -41,6 +41,7 @@ class GeminiErrorTest {
                     "{\"error\":{\"status\":\"PERMISSION_DENIED\",\"message\":\"Key diagnostic-test-key is blocked\"}}");
             var error = assertThrows(ResponseStatusException.class, () -> service.analyzeJapanese("食べる").block());
             assertEquals(HttpStatus.SERVICE_UNAVAILABLE, error.getStatusCode());
+            assertTrue(error.getReason().contains("chưa được cấp quyền truy cập"));
             assertFalse(error.getReason().contains("diagnostic-test-key"));
             String logged = appender.list.get(0).getFormattedMessage();
             assertTrue(logged.contains("HTTP 403"));

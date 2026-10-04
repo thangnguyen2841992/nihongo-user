@@ -14,6 +14,10 @@ public class MyCourseDTO {
     private String courseName;
     private String packageName;
     private Integer progress;
+    private LocalDateTime startedAt;
+    private Long lastBookId;
+    private Long lastLessonId;
+    private LocalDateTime lastStudiedAt;
     private LocalDateTime enrolledAt;
     private LocalDateTime expiredAt;
 }

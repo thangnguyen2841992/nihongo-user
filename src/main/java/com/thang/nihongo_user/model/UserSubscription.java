@@ -41,6 +41,10 @@ public class UserSubscription {
 
     // 🔥 tiến độ học
     private Integer progress = 0;
+    private LocalDateTime startedAt;
+    private Long lastBookId;
+    private Long lastLessonId;
+    private LocalDateTime lastStudiedAt;
     @Enumerated(EnumType.STRING)
     private SubscriptionStatus status;
     // 🔥 ngày đăng ký

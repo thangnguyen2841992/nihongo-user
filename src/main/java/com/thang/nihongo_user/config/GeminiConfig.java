@@ -14,11 +14,12 @@ public class GeminiConfig {
     @Bean
     public WebClient geminiWebClient(
             @Value("${gemini.base-url}") String baseUrl,
-            @Value("${gemini.api-key}") String apiKey
+            @Value("${gemini.access-key:}") String apiKey
     ) {
 
         HttpClient httpClient =
                 HttpClient.create()
+                        .option(io.netty.channel.ChannelOption.CONNECT_TIMEOUT_MILLIS, 5000)
                         .responseTimeout(
                                 Duration.ofSeconds(60)
                         );

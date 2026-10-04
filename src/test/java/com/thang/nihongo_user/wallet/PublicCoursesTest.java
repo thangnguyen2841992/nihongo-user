@@ -24,6 +24,7 @@ class PublicCoursesTest {
     @MockitoBean IUserService service;
     @MockitoBean com.thang.nihongo_user.service.CoursePurchaseService purchases;
     @MockitoBean com.thang.nihongo_user.service.ExerciseAttemptService exerciseAttempts;
+    @MockitoBean com.thang.nihongo_user.service.LearningPositionService learningPositions;
     @MockitoBean IUserSubscriptionRepository subscriptions;
     @MockitoBean ICourseRepository courses;
     @MockitoBean IStaffClient staff;

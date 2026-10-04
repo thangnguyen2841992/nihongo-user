@@ -2,13 +2,13 @@ server:
   port: 8086
 spring:
   config:
-    import: "optional:file:./.local/shared.properties,optional:file:../.local/shared.properties"
+    import: "optional:file:./.local/shared.properties,optional:file:../.local/shared.properties,optional:file:./.local/gemini.properties,optional:file:../.local/gemini.properties"
   application:
     name: nihongo-user-service
   kafka:
     bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:127.0.0.1:9092}
   datasource:
-    url: jdbc:mysql://onehost-amdcloudhn022602.000nethost.com:3306/tsezwyvdhosting_nihongo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://onehost-amdcloudhn022602.000nethost.com:3306/tsezwyvdhosting_nihongo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&connectTimeout=10000&socketTimeout=15000
     username: tsezwyvdhosting_nihongo_app
     password: ${SPRING_DATASOURCE_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -37,9 +37,9 @@ eureka:
       defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
 
 gemini:
-  api-key: ${GEMINI_API_KEY}
+  access-key: ${gemini.local-api-key:${GEMINI_API_KEY:${gemini.api-key:}}}
   base-url: https://generativelanguage.googleapis.com
-  model: gemini-3.1-flash-lite
+  model: ${GEMINI_MODEL:gemini-3.1-flash-lite}
 
 jwt:
   secret: ${JWT_SECRET}

@@ -68,7 +68,9 @@ public class UserServiceImpl implements IUserService {
             if (course == null) throw new IllegalStateException("Course not found");
             if (pack == null) throw new IllegalStateException("Package not found");
 
-            return MyCourseDTO.builder().courseId(course.getCourseId()).courseName(course.getCourseName()).packageName(pack.getPackageName()).progress(sub.getProgress()).enrolledAt(sub.getCreatedAt())   // ✅ FIX
+            return MyCourseDTO.builder().courseId(course.getCourseId()).courseName(course.getCourseName()).packageName(pack.getPackageName()).progress(sub.getProgress())
+                    .startedAt(sub.getStartedAt()).lastBookId(sub.getLastBookId()).lastLessonId(sub.getLastLessonId()).lastStudiedAt(sub.getLastStudiedAt())
+                    .enrolledAt(sub.getCreatedAt())
                     .expiredAt(sub.getExpiredAt())    // ✅ FIX
                     .build();
         }).toList();

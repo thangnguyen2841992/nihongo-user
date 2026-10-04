@@ -24,6 +24,7 @@ import java.util.List;
 public class NihongoUserRestController {
 
     private final IUserService userService;
+    private final com.thang.nihongo_user.service.LearningPositionService learningPositions;
     private final ICourseRepository courseRepository;
     private final com.thang.nihongo_user.service.CoursePurchaseService purchases;
     private final com.thang.nihongo_user.service.ExerciseAttemptService exerciseAttempts;
@@ -82,6 +83,14 @@ public class NihongoUserRestController {
         String userId = jwt.getSubject();
 
         return ResponseEntity.ok(userService.findMyCourses(userId));
+    }
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @PutMapping("/courses/{courseId}/learning-position")
+    public ResponseEntity<Void> saveLearningPosition(@PathVariable Long courseId,
+            @RequestBody LearningPositionRequest request, @AuthenticationPrincipal Jwt jwt) {
+        learningPositions.save(jwt.getSubject(), courseId, request);
+        return ResponseEntity.noContent().build();
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")

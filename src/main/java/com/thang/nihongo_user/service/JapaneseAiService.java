@@ -21,6 +21,8 @@ import java.util.concurrent.TimeoutException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
 
 
 @Service
@@ -30,7 +32,11 @@ public class JapaneseAiService {
     private final WebClient geminiWebClient;
     private final ObjectMapper objectMapper;
     @Value("${gemini.model}") private String model;
-    @Value("${gemini.api-key:}") private String geminiKey;
+    @Value("${gemini.access-key:}") private String geminiKey;
+    @Value("${gemini.cache.enabled:true}") private boolean cacheEnabled = true;
+    private static final Duration CACHE_TTL = Duration.ofMinutes(5);
+    private final Cache<String, Mono<JapaneseAiResponse>> analysisCache = Caffeine.newBuilder()
+            .maximumSize(256).expireAfterWrite(CACHE_TTL).build();
 
     public Mono<JapaneseAiResponse> analyzeJapanese(String text) {
         if (text == null || text.isBlank() || text.length() > 2000) {
@@ -39,6 +45,16 @@ public class JapaneseAiService {
         }
         text = text.trim();
         if (geminiKey == null || geminiKey.isBlank()) return Mono.error(new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE,"Chức năng AI chưa được cấu hình"));
+
+        String input = text;
+        return Mono.defer(() -> cacheEnabled
+                ? analysisCache.get(model + ':' + input, ignored -> requestAnalysis(input)
+                    // Concurrent searches share one request; failures can be retried immediately.
+                    .cache(value -> CACHE_TTL, error -> Duration.ZERO, () -> Duration.ZERO))
+                : requestAnalysis(input));
+    }
+
+    private Mono<JapaneseAiResponse> requestAnalysis(String text) {
 
         Map<String, Object> request = new HashMap<>();
 
@@ -324,6 +340,10 @@ public class JapaneseAiService {
                             if (error.getStatusCode().value() == 429) {
                                 return new ResponseStatusException(HttpStatus.TOO_MANY_REQUESTS,
                                         "AI đang đạt giới hạn sử dụng. Vui lòng thử lại sau.");
+                            }
+                            if (error.getStatusCode().value() == 401 || error.getStatusCode().value() == 403) {
+                                return new ResponseStatusException(HttpStatus.SERVICE_UNAVAILABLE,
+                                        "Tìm kiếm AI đang tạm ngưng do dịch vụ chưa được cấp quyền truy cập. Vui lòng liên hệ quản trị viên.");
                             }
                             return new ResponseStatusException(HttpStatus.SERVICE_UNAVAILABLE,
                                     "Dịch vụ AI hiện chưa khả dụng. Vui lòng thử lại sau.");
