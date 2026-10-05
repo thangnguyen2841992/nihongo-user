@@ -17,6 +17,7 @@ spring:
       maximum-pool-size: 10
       minimum-idle: 2
       max-lifetime: 45000
+      keepalive-time: 30000
       idle-timeout: 30000
       connection-timeout: 30000
       validation-timeout: 5000
