@@ -1,7 +1,7 @@
 package com.thang.nihongo_user.service;
 
 import com.thang.nihongo_user.model.*;
-import com.thang.nihongo_user.model.dto.LessonResponse;
+import com.thang.nihongo_user.model.dto.ContentLocationResponse;
 import com.thang.nihongo_user.repository.*;
 import org.junit.jupiter.api.Test;
 import java.util.List;
@@ -39,10 +39,10 @@ class CourseQueryTest {
         when(attempts.findByUserIdOrderBySubmittedAtDesc("owner")).thenReturn(List.of(
                 UserExerciseAttempt.builder().lessonId(1L).score(50D).build(),
                 UserExerciseAttempt.builder().lessonId(1L).score(90D).build()));
-        when(staff.getLessonById(1L)).thenReturn(new LessonResponse(1L, 1L, "Lesson", "", ""));
+        when(staff.getLessonLocation(1L)).thenReturn(new ContentLocationResponse(1L, 1L, "Lesson"));
         var result = service.getMyResults("owner");
         assertEquals(2, result.size()); assertEquals("Lesson", result.get(0).getLessonName());
         assertEquals(90D, result.get(1).getScore());
-        verify(staff, times(1)).getLessonById(1L);
+        verify(staff, times(1)).getLessonLocation(1L);
     }
 }

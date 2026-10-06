@@ -2,6 +2,7 @@ package com.thang.nihongo_user.service;
 
 import com.thang.nihongo_user.model.UserSubscription;
 import com.thang.nihongo_user.model.dto.LearningPositionRequest;
+import com.thang.nihongo_user.model.dto.ContentLocationResponse;
 import com.thang.nihongo_user.repository.ICourseRepository;
 import com.thang.nihongo_user.repository.IStaffClient;
 import com.thang.nihongo_user.repository.IUserSubscriptionRepository;
@@ -40,12 +41,13 @@ public class LearningPositionService {
             Long levelId = courses.findById(courseId)
                     .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Không tìm thấy khóa học"))
                     .getLevelId();
-            boolean bookBelongsToCourse = staff.getBooksByLevel(levelId).stream()
-                    .anyMatch(book -> Objects.equals(bookId, book.getBookId()));
-            if (!bookBelongsToCourse) {
+            ContentLocationResponse location = lessonId == null
+                    ? staff.getBookLocation(bookId)
+                    : staff.getLessonLocation(lessonId);
+            if (!Objects.equals(levelId, location.levelId())) {
                 throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Giáo trình không thuộc khóa học");
             }
-            if (lessonId != null && !Objects.equals(staff.getLessonById(lessonId).getBookId(), bookId)) {
+            if (!Objects.equals(bookId, location.bookId())) {
                 throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Bài học không thuộc giáo trình");
             }
             subscription.setLastBookId(bookId);

@@ -100,7 +100,7 @@ public class UserServiceImpl implements IUserService {
     private String lessonName(Long lessonId) {
         String lessonName = "Bài học " + lessonId;
         try {
-            lessonName = staffClient.getLessonById(lessonId).getName();
+            lessonName = staffClient.getLessonLocation(lessonId).name();
         } catch (feign.FeignException e) {
             // An expired subscription does not remove ownership of past results.
             if (e.status() != 403 && e.status() != 404) throw e;

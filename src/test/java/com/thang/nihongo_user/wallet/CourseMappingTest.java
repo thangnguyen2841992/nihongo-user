@@ -19,7 +19,7 @@ class CourseMappingTest {
  }
  @Test void expiredContentAccessDoesNotHideOwnedResults(){
   var request=feign.Request.create(feign.Request.HttpMethod.GET,"http://staff/lessons/1",Map.of(),null,StandardCharsets.UTF_8,null);
-  when(staff.getLessonById(1L)).thenThrow(new feign.FeignException.Forbidden("expired",request,null,Map.of()));
+  when(staff.getLessonLocation(1L)).thenThrow(new feign.FeignException.Forbidden("expired",request,null,Map.of()));
   var result=service.convert(UserExerciseAttempt.builder().lessonId(1L).userId("owner").totalQuestion(2).correctCount(1).wrongCount(1).score(50.0).build());
   assertEquals("Bài học 1",result.getLessonName());assertEquals(50.0,result.getScore());
  }

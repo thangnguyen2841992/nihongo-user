@@ -1,6 +1,7 @@
 package com.thang.nihongo_user.repository;
 
 import com.thang.nihongo_user.model.dto.BookResponse;
+import com.thang.nihongo_user.model.dto.ContentLocationResponse;
 import com.thang.nihongo_user.model.dto.LessonResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,4 +20,10 @@ public interface IStaffClient {
 
     @GetMapping("/api/staff/lessons/{id}")
     LessonResponse getLessonById(@PathVariable Long id);
+
+    @GetMapping("/api/staff/books/{bookId}/location")
+    ContentLocationResponse getBookLocation(@PathVariable("bookId") Long bookId);
+
+    @GetMapping("/api/staff/lessons/{id}/location")
+    ContentLocationResponse getLessonLocation(@PathVariable("id") Long id);
 }

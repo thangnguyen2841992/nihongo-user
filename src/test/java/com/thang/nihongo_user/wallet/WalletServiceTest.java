@@ -47,6 +47,12 @@ class WalletServiceTest {
     @Test void firstWalletIsEnsuredAndReadUsingAuthenticatedOwner() {
         lock(); assertEquals(owner, service.getWallet(owner, "owner@example.com").getUserId());
         verify(wallets).ensureWallet(owner);
+        verify(wallets, never()).save(any());
+    }
+    @Test void updatedEmailIsPersistedForDepositNotifications() {
+        lock(); service.getWallet(owner, "new@example.com");
+        assertEquals("new@example.com", wallet.getNotificationEmail());
+        verify(wallets).save(wallet);
     }
     @Test void requestDoesNotCreditBalance() {
         lock(); when(deposits.save(any())).thenAnswer(i -> i.getArgument(0));
@@ -110,4 +116,3 @@ class WalletServiceTest {
         verifyNoInteractions(transactions);
     }
 }
-

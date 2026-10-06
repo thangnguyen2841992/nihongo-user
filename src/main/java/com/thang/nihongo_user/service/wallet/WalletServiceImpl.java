@@ -123,8 +123,10 @@ public class WalletServiceImpl implements IWalletService {
         if (email == null || !email.matches("[^\\s@]+@[^\\s@]+\\.[^\\s@]+"))
             throw badRequest("Phiên đăng nhập thiếu email hợp lệ. Vui lòng đăng nhập lại.");
         // Only the signed JWT claim reaches this method, never a request-body email.
-        wallet.setNotificationEmail(email);
-        wallets.save(wallet);
+        if (!email.equals(wallet.getNotificationEmail())) {
+            wallet.setNotificationEmail(email);
+            wallets.save(wallet);
+        }
     }
 
     private UserWallet lockWallet(String userId) {
