@@ -109,7 +109,8 @@ public class UserServiceImpl implements IUserService {
     }
 
     private LessonResultResponse convert(UserExerciseAttempt entity, String lessonName) {
-        return LessonResultResponse.builder().resultId(entity.getUserExerciseAttemptId()).lessonId(entity.getLessonId()).lessonName(lessonName).totalQuestion(entity.getTotalQuestion()).correctCount(entity.getCorrectCount()).wrongCount(entity.getWrongCount()).score(entity.getScore()).submittedAt(entity.getSubmittedAt()).build();
+        var snapshot = entity.getSnapshot();
+        return LessonResultResponse.builder().resultId(entity.getUserExerciseAttemptId()).lessonId(entity.getLessonId()).lessonName(lessonName).totalQuestion(entity.getTotalQuestion()).correctCount(entity.getCorrectCount()).wrongCount(entity.getWrongCount()).unansweredCount(entity.getUnansweredCount()).chosenAnswers(snapshot == null ? null : snapshot.chosenAnswers()).correctAnswers(snapshot == null ? null : snapshot.grade().correctAnswers()).score(entity.getScore()).submittedAt(entity.getSubmittedAt()).build();
     }
 
     @Override

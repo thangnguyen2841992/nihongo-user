@@ -27,7 +27,7 @@ public class NihongoUserRestController {
     private final com.thang.nihongo_user.service.LearningPositionService learningPositions;
     private final ICourseRepository courseRepository;
     private final com.thang.nihongo_user.service.CoursePurchaseService purchases;
-    private final com.thang.nihongo_user.service.ExerciseAttemptService exerciseAttempts;
+    private final com.thang.nihongo_user.service.ExerciseSubmissionService exerciseAttempts;
     private final com.thang.nihongo_user.repository.IUserSubscriptionRepository subscriptions;
     private final IStaffClient staffClient;
 

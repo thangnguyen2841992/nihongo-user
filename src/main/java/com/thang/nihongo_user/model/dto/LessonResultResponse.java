@@ -21,6 +21,9 @@ public class LessonResultResponse {
     private Integer correctCount;
 
     private Integer wrongCount;
+    private Integer unansweredCount;
+    private java.util.Map<Long, String> chosenAnswers;
+    private java.util.Map<Long, String> correctAnswers;
 
     private Double score;
 

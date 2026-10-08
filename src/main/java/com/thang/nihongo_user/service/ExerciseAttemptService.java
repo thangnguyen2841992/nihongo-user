@@ -16,14 +16,23 @@ public class ExerciseAttemptService {
  private final WrongAnswerRepository wrongAnswers;
  @Transactional
  public ExerciseGrade submit(String userId,SubmitLessonResultRequest request) {
+  if (request.getSubmissionId() != null) {
+   var existing = attempts.findByUserIdAndSubmissionId(userId, request.getSubmissionId());
+   if (existing.isPresent()) return replay(existing.get(), request);
+  }
   // Staff validates entitlement and grades authoritative answers using the forwarded JWT.
   ExerciseGrade grade=staff.grade(request.getLessonId(),request.getAnswers());
   if(grade==null||grade.totalQuestion()<=0||grade.correctCount()<0||grade.correctCount()>grade.totalQuestion()
           ||grade.wrongCount()!=grade.totalQuestion()-grade.correctCount()
           ||grade.correctAnswers()==null||grade.correctAnswers().size()!=grade.totalQuestion())
    throw new IllegalStateException("Invalid grading response");
-  attempts.save(UserExerciseAttempt.builder().userId(userId).lessonId(request.getLessonId())
-   .totalQuestion(grade.totalQuestion()).correctCount(grade.correctCount()).wrongCount(grade.wrongCount())
+  int unanswered = (int) grade.correctAnswers().keySet().stream().filter(id -> !request.getAnswers().containsKey(id)).count();
+  if (unanswered > grade.wrongCount()) throw new IllegalStateException("Invalid unanswered count");
+  ExerciseGrade result = new ExerciseGrade(grade.totalQuestion(), grade.correctCount(), grade.wrongCount() - unanswered,
+          grade.correctAnswers(), grade.aiSolutions(), unanswered);
+  attempts.saveAndFlush(UserExerciseAttempt.builder().userId(userId).lessonId(request.getLessonId())
+   .submissionId(request.getSubmissionId()).snapshot(new com.thang.nihongo_user.model.AttemptSnapshot(Map.copyOf(request.getAnswers()), result))
+   .totalQuestion(result.totalQuestion()).correctCount(result.correctCount()).wrongCount(result.wrongCount()).unansweredCount(unanswered)
    .score(100.0*grade.correctCount()/grade.totalQuestion()).submittedAt(LocalDateTime.now()).build());
   // Only the grading service's answer key may determine which answers are wrong.
   Map<Long, WrongAnswer> previous = wrongAnswers.findByUserIdAndLessonId(userId, request.getLessonId())
@@ -44,6 +53,15 @@ public class ExerciseAttemptService {
    }
   }
   wrongAnswers.deleteAll(previous.values());
-  return grade;
+  return result;
+ }
+
+ static ExerciseGrade replay(UserExerciseAttempt attempt, SubmitLessonResultRequest request) {
+  if (attempt.getLessonId() != request.getLessonId() || attempt.getSnapshot() == null
+          || !attempt.getSnapshot().chosenAnswers().equals(request.getAnswers())) {
+   throw new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.CONFLICT,
+           "Submission ID already used for another attempt");
+  }
+  return attempt.getSnapshot().grade();
  }
 }

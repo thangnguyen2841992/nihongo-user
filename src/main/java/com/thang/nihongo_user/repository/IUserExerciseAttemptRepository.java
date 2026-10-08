@@ -8,6 +8,7 @@ import java.util.List;
 
 @Repository
 public interface IUserExerciseAttemptRepository extends JpaRepository<UserExerciseAttempt, Long> {
+    java.util.Optional<UserExerciseAttempt> findByUserIdAndSubmissionId(String userId, String submissionId);
         List<UserExerciseAttempt> findByUserIdOrderBySubmittedAtDesc(String userId);
 
     List<UserExerciseAttempt> findByUserIdAndLessonIdOrderBySubmittedAtDesc(
