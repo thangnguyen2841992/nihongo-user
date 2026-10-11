@@ -11,9 +11,9 @@ import static org.mockito.Mockito.*;
 class CourseMappingTest {
  ICourseRepository courses=mock(ICourseRepository.class);
  IStaffClient staff=mock(IStaffClient.class);
- UserServiceImpl service=new UserServiceImpl(courses,mock(ICoursePackageRepository.class),mock(IUserSubscriptionRepository.class),staff,mock(IUserExerciseAttemptRepository.class),mock(com.thang.nihongo_user.service.JapaneseAiService.class));
+ UserServiceImpl service=new UserServiceImpl(courses,mock(ICoursePackageRepository.class),mock(IUserSubscriptionRepository.class),staff,mock(IUserExerciseAttemptRepository.class),mock(com.thang.nihongo_user.service.JapaneseAiService.class),mock(AdminCommerceAuditRepository.class));
  @Test void creatingACourseWithoutPackagesReturnsAnEmptyPackageList(){
-  when(courses.save(any())).thenAnswer(i->i.getArgument(0));
+  when(courses.saveAndFlush(any())).thenAnswer(i->i.getArgument(0));
   var result=service.createNewCourse(new CreateCourseRequest("N5","Intro",1L,CourseStatus.ACTIVE).toEntity());
   assertNotNull(result.getPackages());assertTrue(result.getPackages().isEmpty());
  }

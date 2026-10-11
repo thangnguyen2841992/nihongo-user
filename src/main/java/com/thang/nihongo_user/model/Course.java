@@ -18,6 +18,7 @@ public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long courseId;
+    @Version private long version;
 
     private String courseName;
 

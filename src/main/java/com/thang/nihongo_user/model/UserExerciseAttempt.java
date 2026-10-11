@@ -10,7 +10,10 @@ import org.hibernate.annotations.CreationTimestamp;
 import java.time.LocalDateTime;
 
 @Entity
-@jakarta.persistence.Table(uniqueConstraints = @jakarta.persistence.UniqueConstraint(
+@jakarta.persistence.Table(indexes = {
+        @jakarta.persistence.Index(name = "idx_attempt_owner_lesson_time", columnList = "user_uuid,lessonId,submittedAt,userExerciseAttemptId"),
+        @jakarta.persistence.Index(name = "idx_attempt_owner_time", columnList = "user_uuid,submittedAt")
+}, uniqueConstraints = @jakarta.persistence.UniqueConstraint(
         name = "uk_attempt_user_submission", columnNames = {"user_uuid", "submission_id"}))
 @AllArgsConstructor
 @NoArgsConstructor

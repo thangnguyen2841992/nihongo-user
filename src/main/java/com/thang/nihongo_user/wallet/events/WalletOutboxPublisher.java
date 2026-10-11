@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 @Service @RequiredArgsConstructor @Slf4j
 public class WalletOutboxPublisher {
+    private static final org.slf4j.Logger events = org.slf4j.LoggerFactory.getLogger("nihongo.kafka.wallet");
     private static final long CLAIM_LEASE_SECONDS = 45;
     private final WalletOutboxRepository outbox;
     private final KafkaTemplate<String, String> walletKafkaTemplate;
@@ -31,6 +32,7 @@ public class WalletOutboxPublisher {
             int attempt = Math.addExact(row.getAttempts(), 1);
             row.setAttempts(attempt);
             row.setNextAttemptAt(Instant.now().plusSeconds(CLAIM_LEASE_SECONDS));
+            row.setClaimedUntil(row.getNextAttemptAt());
             outbox.saveAndFlush(row);
             return new Claim(row.getId(), row.getUserId(), row.getPayload(), attempt);
         });
@@ -38,13 +40,16 @@ public class WalletOutboxPublisher {
 
         // No database transaction or row lock is held while waiting for Kafka.
         try {
-            walletKafkaTemplate.send(topic, claim.userId(), claim.payload()).get(10, TimeUnit.SECONDS);
+            var sent = walletKafkaTemplate.send(topic, claim.userId(), claim.payload()).get(10, TimeUnit.SECONDS);
+            var metadata = sent == null ? null : sent.getRecordMetadata();
+            events.info("event=published topic={} eventId={} partition={} offset={} attempt={}", topic, claim.id(),
+                    metadata == null ? -1 : metadata.partition(), metadata == null ? -1 : metadata.offset(), claim.attempt());
         } catch (Exception e) {
             if (e instanceof InterruptedException) Thread.currentThread().interrupt();
             long backoffSeconds = Math.min(60, 1L << Math.min(claim.attempt(), 6));
             transaction.executeWithoutResult(status ->
                     outbox.retryAt(claim.id(), claim.attempt(), Instant.now().plusSeconds(backoffSeconds)));
-            log.warn("Wallet event {} remains pending, attempt {}", claim.id(), claim.attempt());
+            events.warn("event=retry topic={} eventId={} attempt={} failure={}", topic, claim.id(), claim.attempt(), e.getClass().getSimpleName());
             return true;
         }
         // A failed DB update leaves the lease to expire, then this event is retried at least once.

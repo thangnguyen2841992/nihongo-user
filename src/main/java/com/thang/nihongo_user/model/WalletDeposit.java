@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "wallet_deposit", uniqueConstraints = {
+@Table(name = "wallet_deposit", indexes = @Index(name="idx_deposit_review_time",columnList="reviewedAt"), uniqueConstraints = {
     @UniqueConstraint(name = "uk_deposit_request", columnNames = {"user_id", "request_key"}),
     @UniqueConstraint(name = "uk_deposit_bank_reference", columnNames = "bank_reference")
 })

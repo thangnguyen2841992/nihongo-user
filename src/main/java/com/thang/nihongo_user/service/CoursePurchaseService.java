@@ -16,8 +16,19 @@ public class CoursePurchaseService {
  private final ICoursePackageRepository packages;
  private final CoursePurchaseRepository purchases;
  private final IWalletTransactionRepository ledger;
+ private final PromotionService promotions;
+ private final jakarta.persistence.EntityManager em;
  @Transactional
  public UserSubscription purchase(String userId,Long courseId,Long packageId,String requestKey,boolean renewal) {
+  return purchase(userId,courseId,packageId,requestKey,renewal,null);
+ }
+ @Transactional
+ public UserSubscription purchase(String userId,Long courseId,Long packageId,String requestKey,boolean renewal,String couponCode) {
+  return purchase(userId,courseId,packageId,requestKey,renewal,couponCode,null);
+ }
+ @Transactional
+ public UserSubscription purchase(String userId,Long courseId,Long packageId,String requestKey,boolean renewal,String couponCode,BigDecimal expectedAmount) {
+  String normalizedCoupon=PromotionService.normalize(couponCode);
   if(userId==null || userId.isBlank()) throw error(HttpStatus.UNAUTHORIZED,"Cần đăng nhập");
   String key;
   try { key=UUID.fromString(requestKey).toString(); } catch(Exception e) { throw error(HttpStatus.BAD_REQUEST,"Mã yêu cầu không hợp lệ"); }
@@ -26,12 +37,13 @@ public class CoursePurchaseService {
   var previous=purchases.findByUserIdAndRequestKey(userId,key);
   if(previous.isPresent()) {
    var p=previous.get();
-   if(!p.getCourseId().equals(courseId)||!p.getPackageId().equals(packageId)||p.isRenewal()!=renewal)
+   if(!p.getCourseId().equals(courseId)||!p.getPackageId().equals(packageId)||p.isRenewal()!=renewal||!java.util.Objects.equals(p.getCouponCode(),normalizedCoupon)||(expectedAmount!=null&&p.getAmount().compareTo(expectedAmount)!=0))
     throw error(HttpStatus.CONFLICT,"Mã yêu cầu đã được sử dụng với nội dung khác");
    return subscriptions.findById(p.getSubscriptionId()).orElseThrow();
   }
   if(courseId==null || packageId==null) throw error(HttpStatus.BAD_REQUEST,"Thiếu khóa học hoặc gói học");
-  CoursePackage pack=packages.findById(packageId).orElseThrow(()->error(HttpStatus.NOT_FOUND,"Không tìm thấy gói học"));
+  if(em.find(Course.class,courseId,jakarta.persistence.LockModeType.PESSIMISTIC_WRITE)==null)throw error(HttpStatus.NOT_FOUND,"Không tìm thấy khóa học");
+  CoursePackage pack=packages.lockById(packageId).orElseThrow(()->error(HttpStatus.NOT_FOUND,"Không tìm thấy gói học"));
   if(pack.getCourse()==null || !courseId.equals(pack.getCourse().getCourseId())
     || pack.getCourse().getActive()!=CourseStatus.ACTIVE || !Boolean.TRUE.equals(pack.getIsActive()))
    throw error(HttpStatus.BAD_REQUEST,"Gói học không thuộc khóa học hoặc đã ngừng bán");
@@ -44,6 +56,9 @@ public class CoursePurchaseService {
   if(!renewal && existing.isPresent()) throw error(HttpStatus.CONFLICT,"Khóa học đã đăng ký; hãy dùng gia hạn");
   if(existing.isPresent() && existing.get().getStatus()==SubscriptionStatus.CANCELLED)
    throw error(HttpStatus.CONFLICT,"Đăng ký đã bị hủy; liên hệ quản trị viên");
+  var discount=normalizedCoupon==null?new PromotionService.Discount(null,price,BigDecimal.ZERO,price):promotions.discount(userId,courseId,price,normalizedCoupon,true);
+  BigDecimal originalPrice=price; price=discount.payable();
+  if(expectedAmount!=null&&price.compareTo(expectedAmount)!=0)throw error(HttpStatus.CONFLICT,"Giá thanh toán đã thay đổi. Hãy tải lại danh sách khóa học và kiểm tra giá.");
   if(wallet.getBalance().compareTo(price)<0) throw error(HttpStatus.CONFLICT,"Số dư không đủ. Vui lòng nạp thêm tiền vào ví");
   LocalDateTime now=LocalDateTime.now();
   UserSubscription sub=existing.orElseGet(UserSubscription::new);
@@ -57,7 +72,9 @@ public class CoursePurchaseService {
   CoursePurchase purchase=new CoursePurchase();
   purchase.setUserId(userId); purchase.setRequestKey(key); purchase.setCourseId(courseId); purchase.setPackageId(packageId);
   purchase.setRenewal(renewal); purchase.setSubscriptionId(sub.getId()); purchase.setAmount(price); purchase.setCreatedAt(now);
+  purchase.setCouponCode(normalizedCoupon); purchase.setOriginalPrice(originalPrice); purchase.setDiscountAmount(discount.discount());
   purchase=purchases.saveAndFlush(purchase);
+  if(normalizedCoupon!=null) promotions.redeem(userId,purchase.getId(),normalizedCoupon);
   ledger.save(WalletTransaction.builder().walletId(wallet.getWalletId()).transactionType(WalletTransactionType.PURCHASE)
    .amount(price).balanceBefore(before).balanceAfter(wallet.getBalance()).referenceType("COURSE_PURCHASE").referenceId(purchase.getId())
    .description((renewal?"Gia hạn":"Mua")+" khóa học "+courseId).status(WalletTransactionStatus.SUCCESS).build());

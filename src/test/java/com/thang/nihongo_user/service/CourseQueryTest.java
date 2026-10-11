@@ -14,7 +14,7 @@ class CourseQueryTest {
     IUserSubscriptionRepository subscriptions = mock(IUserSubscriptionRepository.class);
     IStaffClient staff = mock(IStaffClient.class);
     IUserExerciseAttemptRepository attempts = mock(IUserExerciseAttemptRepository.class);
-    UserServiceImpl service = new UserServiceImpl(courses, packages, subscriptions, staff, attempts, mock(JapaneseAiService.class));
+    UserServiceImpl service = new UserServiceImpl(courses, packages, subscriptions, staff, attempts, mock(JapaneseAiService.class), mock(AdminCommerceAuditRepository.class));
 
     @Test void loadsCourseAndPackageDetailsInBatches() {
         when(subscriptions.findByUserId("owner")).thenReturn(List.of(

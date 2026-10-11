@@ -31,6 +31,7 @@
 		<spring-cloud.version>2025.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
+        <dependency><groupId>com.nihongo</groupId><artifactId>common-logging</artifactId><version>0.0.1-SNAPSHOT</version></dependency>
         <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>

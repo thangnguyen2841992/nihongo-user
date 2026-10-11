@@ -15,9 +15,10 @@ import java.util.concurrent.*;
 public class WalletWebSocketConfig implements WebSocketMessageBrokerConfigurer {
     private final WalletSocketAuthorization authorization;
     private final String[] origins;
+    private final com.nihongo.security.SocketSessionRegistry sessions;
     public WalletWebSocketConfig(WalletSocketAuthorization authorization,
-            @Value("${wallet.websocket.allowed-origins:http://localhost:5173}") String[] origins) {
-        this.authorization = authorization; this.origins = origins;
+            @Value("${wallet.websocket.allowed-origins:http://localhost:5173}") String[] origins,com.nihongo.security.SocketSessionRegistry sessions) {
+        this.authorization = authorization; this.origins = origins;this.sessions=sessions;
     }
     @Bean public ThreadPoolTaskScheduler walletSocketScheduler() {
         var scheduler = new ThreadPoolTaskScheduler(); scheduler.setPoolSize(2);
@@ -33,7 +34,9 @@ public class WalletWebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override public void configureClientInboundChannel(ChannelRegistration registration) {
         registration.interceptors(authorization);
     }
+    @Override public void configureClientOutboundChannel(ChannelRegistration registration){registration.interceptors(sessions.outboundGuard());}
     @Override public void configureWebSocketTransport(WebSocketTransportRegistration registry) {
+        registry.addDecoratorFactory(sessions::decorate);
         registry.setMessageSizeLimit(8192).setSendBufferSizeLimit(65536).setSendTimeLimit(10000);
         registry.addDecoratorFactory(handler -> new WebSocketHandlerDecorator(handler) {
             private final Map<String, ScheduledFuture<?>> expiry = new ConcurrentHashMap<>();

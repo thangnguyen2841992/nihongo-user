@@ -13,4 +13,5 @@ public class WalletOutbox {
     @Column(name = "published_at") private Instant publishedAt;
     @Column(name = "next_attempt_at", nullable = false) private Instant nextAttemptAt;
     private int attempts;
+    private Instant claimedUntil;
 }

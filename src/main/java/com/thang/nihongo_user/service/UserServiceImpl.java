@@ -27,12 +27,18 @@ public class UserServiceImpl implements IUserService {
     private final IStaffClient staffClient;
     private final IUserExerciseAttemptRepository userExerciseAttemptRepository;
     private final JapaneseAiService japaneseAiService;
+    private final AdminCommerceAuditRepository commerceAudits;
     // ================= COURSE =================
 
     @Override
     @Transactional
     public CourseDTO createNewCourse(Course course) {
-        return mappingCourseToDTO(courseRepository.save(course));
+        Course saved=courseRepository.saveAndFlush(course);
+        var audit=new com.thang.nihongo_user.model.AdminCommerceAudit();
+        var auth=org.springframework.security.core.context.SecurityContextHolder.getContext().getAuthentication();
+        audit.setActor(auth!=null&&auth.getPrincipal() instanceof org.springframework.security.oauth2.jwt.Jwt jwt?jwt.getSubject():"system");
+        audit.setAction("COURSE_CREATE");audit.setTarget("course:"+saved.getCourseId());audit.setDetail(saved.getCourseName()+" / "+saved.getActive());audit.setCreatedAt(java.time.LocalDateTime.now());commerceAudits.save(audit);
+        return mappingCourseToDTO(saved);
     }
 
     @Override
@@ -93,6 +99,15 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
+    @Transactional(readOnly = true)
+    public org.springframework.data.domain.Page<LessonResultResponse> getLessonResultsPage(String userId, Long lessonId, org.springframework.data.domain.Pageable pageable) {
+        var page = userExerciseAttemptRepository.findByUserIdAndLessonIdOrderBySubmittedAtDescUserExerciseAttemptIdDesc(userId, lessonId, pageable);
+        if (page.isEmpty()) return page.map(attempt -> convert(attempt, "Bài " + lessonId));
+        String name = lessonName(lessonId);
+        return page.map(attempt -> convert(attempt, name));
+    }
+
+    @Override
     public LessonResultResponse convert(UserExerciseAttempt entity) {
         return convert(entity, lessonName(entity.getLessonId()));
     }
@@ -120,7 +135,7 @@ public class UserServiceImpl implements IUserService {
 
     private CourseDTO mappingCourseToDTO(Course course) {
 
-        return CourseDTO.builder().courseId(course.getCourseId()).courseName(course.getCourseName()).courseDescription(course.getCourseDescription()).levelId(course.getLevelId()).active(course.getActive().getDescription()).packages(course.getPackages().stream().map(this::mappingPackageToDTO).toList()).build();
+        return CourseDTO.builder().courseId(course.getCourseId()).courseName(course.getCourseName()).courseDescription(course.getCourseDescription()).levelId(course.getLevelId()).active(course.getActive().getDescription()).packages(course.getPackages().stream().filter(p -> Boolean.TRUE.equals(p.getIsActive())).map(this::mappingPackageToDTO).toList()).build();
     }
 
     private CoursePackageDTO mappingPackageToDTO(CoursePackage p) {

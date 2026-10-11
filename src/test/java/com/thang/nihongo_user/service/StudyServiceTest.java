@@ -12,7 +12,7 @@ import static org.mockito.Mockito.*;
 
 class StudyServiceTest {
     private final StudyCardRepository cards = mock(StudyCardRepository.class);
-    private final StudyService service = new StudyService(cards);
+    private final StudyService service = new StudyService(cards, mock(StudyActivityService.class));
 
     @Test void savesOneCardPerSourceAndPreservesReviewScheduleOnNoteEdit() {
         when(cards.save(any())).thenAnswer(call -> call.getArgument(0));
@@ -30,12 +30,15 @@ class StudyServiceTest {
     }
 
     @Test void reviewAndDeleteAreScopedToOwner() {
-        StudyCard card = new StudyCard(); card.setId(8L); card.setUserId("owner");
+        StudyCard card = new StudyCard(); card.setId(8L); card.setUserId("owner"); card.setDueAt(LocalDateTime.now().minusMinutes(1));
         when(cards.findByIdAndUserId(8L, "owner")).thenReturn(Optional.of(card));
+        when(cards.lockOwned(8L, "owner")).thenReturn(Optional.of(card));
         when(cards.save(any())).thenAnswer(call -> call.getArgument(0));
         var remembered = service.review("owner", 8L, true);
         assertEquals(1, remembered.getRepetitions());
         assertTrue(remembered.getDueAt().isAfter(LocalDateTime.now().plusHours(23)));
+        assertThrows(ResponseStatusException.class, () -> service.review("owner", 8L, false));
+        card.setDueAt(LocalDateTime.now().minusMinutes(1));
         var forgotten = service.review("owner", 8L, false);
         assertEquals(0, forgotten.getRepetitions());
         assertTrue(forgotten.getDueAt().isBefore(LocalDateTime.now().plusMinutes(11)));

@@ -9,6 +9,8 @@ import java.util.Map;
 
 @Component @RequiredArgsConstructor
 public class WalletRealtimeConsumer {
+    private static final org.slf4j.Logger events = org.slf4j.LoggerFactory.getLogger("nihongo.kafka.wallet-realtime");
+    private static final org.slf4j.Logger sockets = org.slf4j.LoggerFactory.getLogger("nihongo.socket.wallet");
     private final ObjectMapper mapper;
     private final SimpMessagingTemplate messaging;
     @KafkaListener(topics = "${wallet.events.topic:wallet.events.v1}",
@@ -20,5 +22,7 @@ public class WalletRealtimeConsumer {
         var notice = Map.of("eventId", event.eventId(), "depositId", event.depositId(), "type", event.type());
         messaging.convertAndSendToUser(event.userId(), "/queue/wallet", notice);
         messaging.convertAndSend("/topic/wallet-admin", notice);
+        events.info("event=consumed eventId={} depositId={} type={}", event.eventId(), event.depositId(), event.type());
+        sockets.debug("event=published eventId={} depositId={} type={}", event.eventId(), event.depositId(), event.type());
     }
 }

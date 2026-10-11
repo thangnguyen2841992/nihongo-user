@@ -13,6 +13,26 @@ import java.util.List;
 @Service @RequiredArgsConstructor
 public class StudyService {
     private final StudyCardRepository cards;
+    private final StudyActivityService activity;
+
+    public enum Rating { AGAIN, HARD, GOOD, EASY }
+
+    @Transactional
+    public StudyCard reviewRated(String userId, Long id, Rating rating) {
+        if (rating == null) throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Chọn mức độ ghi nhớ");
+        StudyCard card = cards.lockOwned(id, userId).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Không tìm thấy thẻ"));
+        LocalDateTime now = LocalDateTime.now();
+        if (card.getDueAt().isAfter(now)) throw new ResponseStatusException(HttpStatus.CONFLICT, "Thẻ chưa đến hạn ôn");
+        int repetitions = rating == Rating.AGAIN ? 0 : Math.min(card.getRepetitions() + 1, 100);
+        int[] days = {1, 3, 7, 14, 30};
+        int interval = days[Math.max(0, Math.min(repetitions - 1, days.length - 1))];
+        if (rating == Rating.EASY) interval = Math.min(90, interval * 2);
+        card.setRepetitions(repetitions);
+        card.setDueAt(rating == Rating.AGAIN ? now.plusMinutes(10)
+                : rating == Rating.HARD ? now.plusHours(interval * 12L) : now.plusDays(interval));
+        activity.record(userId, "card:" + id, now.toLocalDate());
+        return cards.save(card);
+    }
 
     public record CardInput(String sourceKey, String kind, Long courseId, Long bookId, Long lessonId,
                             Long grammarId, Long exampleId, String front, String back, String note) {}
@@ -51,13 +71,8 @@ public class StudyService {
 
     @Transactional
     public StudyCard review(String userId, Long id, boolean remembered) {
-        StudyCard card = own(userId, id);
-        int repetitions = remembered ? card.getRepetitions() + 1 : 0;
-        card.setRepetitions(repetitions);
-        int[] days = {1, 3, 7, 14, 30};
-        card.setDueAt(remembered ? LocalDateTime.now().plusDays(days[Math.min(repetitions - 1, days.length - 1)])
-                : LocalDateTime.now().plusMinutes(10));
-        return cards.save(card);
+        // The legacy endpoint shares the same lock and due-date rule as four-rating reviews.
+        return reviewRated(userId, id, remembered ? Rating.GOOD : Rating.AGAIN);
     }
 
     @Transactional

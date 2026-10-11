@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import java.util.Map;
 
-@RestControllerAdvice(assignableTypes = {WalletController.class, NihongoUserRestController.class})
+@RestControllerAdvice(assignableTypes = {WalletController.class, NihongoUserRestController.class, StudyController.class, AdminCommerceController.class, PromotionQuoteController.class, LearningAnalyticsController.class})
 public class WalletExceptionHandler {
     @ExceptionHandler(feign.FeignException.class)
     public ResponseEntity<?> upstream(feign.FeignException e) {

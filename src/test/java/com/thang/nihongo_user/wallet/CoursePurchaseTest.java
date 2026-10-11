@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @Transactional(propagation=Propagation.NOT_SUPPORTED)
 class CoursePurchaseTest {
  @TestConfiguration @EntityScan(basePackageClasses=UserWallet.class) @EnableJpaRepositories(basePackageClasses=IUserWalletRepository.class)
- @Import(CoursePurchaseService.class) static class Config {}
+ @Import({CoursePurchaseService.class,com.thang.nihongo_user.service.PromotionService.class}) static class Config {}
  @Autowired CoursePurchaseService service; @Autowired IUserWalletRepository wallets;
  @Autowired ICourseRepository courses; @Autowired ICoursePackageRepository packages;
  @Autowired IUserSubscriptionRepository subscriptions; @Autowired CoursePurchaseRepository purchases;

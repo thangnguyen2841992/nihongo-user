@@ -47,14 +47,14 @@ public class NihongoUserRestController {
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/subscriptions")
     public ResponseEntity<UserSubscription> subscribeCourse(@RequestParam Long courseId, @RequestParam Long packageId,
-            @RequestHeader("Idempotency-Key") String key, @AuthenticationPrincipal Jwt jwt) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(purchases.purchase(jwt.getSubject(),courseId,packageId,key,false));
+            @RequestHeader("Idempotency-Key") String key, @RequestParam(required = false) String couponCode, @RequestParam(required=false) java.math.BigDecimal expectedAmount, @AuthenticationPrincipal Jwt jwt) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(purchases.purchase(jwt.getSubject(),courseId,packageId,key,false,couponCode,expectedAmount));
     }
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @PostMapping("/subscriptions/renew")
     public ResponseEntity<UserSubscription> renewSubscription(@RequestParam Long courseId, @RequestParam Long packageId,
-            @RequestHeader("Idempotency-Key") String key, @AuthenticationPrincipal Jwt jwt) {
-        return ResponseEntity.ok(purchases.purchase(jwt.getSubject(),courseId,packageId,key,true));
+            @RequestHeader("Idempotency-Key") String key, @RequestParam(required = false) String couponCode, @RequestParam(required=false) java.math.BigDecimal expectedAmount, @AuthenticationPrincipal Jwt jwt) {
+        return ResponseEntity.ok(purchases.purchase(jwt.getSubject(),courseId,packageId,key,true,couponCode,expectedAmount));
     }
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/access/levels/{levelId}")
@@ -136,6 +136,15 @@ public class NihongoUserRestController {
     public ResponseEntity<List<LessonResultResponse>> getLessonResults(@AuthenticationPrincipal Jwt jwt, @PathVariable Long lessonId) {
         String userId = jwt.getSubject();
         return ResponseEntity.ok(this.userService.getLessonResults(userId, lessonId));
+    }
+
+    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
+    @GetMapping("/lesson-result/{lessonId}/page")
+    public StudyController.PageResult<LessonResultResponse> getLessonResultsPage(@AuthenticationPrincipal Jwt jwt,
+            @PathVariable Long lessonId, @RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "20") int size) {
+        if (page < 0 || size < 1 || size > 100 || lessonId <= 0)
+            throw new org.springframework.web.server.ResponseStatusException(HttpStatus.BAD_REQUEST, "Trang không hợp lệ");
+        return StudyController.PageResult.of(userService.getLessonResultsPage(jwt.getSubject(), lessonId, org.springframework.data.domain.PageRequest.of(page, size)));
     }
 
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")

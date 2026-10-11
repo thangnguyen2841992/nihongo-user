@@ -16,6 +16,7 @@ public class CoursePackage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long packageId;
+    @Version private long version;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "course_id")
