@@ -21,8 +21,11 @@ public class WalletSocketAuthorization implements ChannelInterceptor {
             throw new AccessDeniedException("Authentication required");
         if (command == StompCommand.SUBSCRIBE) {
             boolean admin = auth.getAuthorities().stream().anyMatch(a -> a.getAuthority().equals("ROLE_ADMIN"));
+            boolean staff = auth.getAuthorities().stream().anyMatch(a -> a.getAuthority().equals("ROLE_STAFF"));
             if (!"/user/queue/wallet".equals(headers.getDestination())
-                && !(admin && "/topic/wallet-admin".equals(headers.getDestination())))
+                && !"/user/queue/support".equals(headers.getDestination())
+                && !(admin && "/topic/wallet-admin".equals(headers.getDestination()))
+                && !((admin || staff) && "/topic/support-staff".equals(headers.getDestination())))
                 throw new AccessDeniedException("Subscription forbidden");
         } else if (command != null && command != StompCommand.CONNECT && command != StompCommand.STOMP
                    && command != StompCommand.UNSUBSCRIBE) {
