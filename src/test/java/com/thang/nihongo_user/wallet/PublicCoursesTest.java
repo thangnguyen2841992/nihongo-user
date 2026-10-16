@@ -17,7 +17,7 @@ import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@WebMvcTest(NihongoUserRestController.class)
+@WebMvcTest(value = NihongoUserRestController.class, properties = {"security.session-validation.enabled=false", "security.origin-check.enabled=false"})
 @Import({SecurityConfig.class, CommonSecurityConfig.class})
 class PublicCoursesTest {
     @Autowired MockMvc mvc;

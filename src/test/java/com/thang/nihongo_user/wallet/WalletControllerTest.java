@@ -18,7 +18,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.mockito.Mockito.*;
 
 @WebMvcTest(value = WalletController.class, properties = {
-        "wallet.bank-name=", "wallet.bank-account=", "wallet.bank-account-name="
+        "wallet.bank-name=", "wallet.bank-account=", "wallet.bank-account-name=",
+        "security.session-validation.enabled=false", "security.origin-check.enabled=false"
 })
 @Import({SecurityConfig.class, CommonSecurityConfig.class})
 class WalletControllerTest {

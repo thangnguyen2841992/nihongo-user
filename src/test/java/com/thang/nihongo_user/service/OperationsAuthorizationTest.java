@@ -15,7 +15,7 @@ import static org.springframework.security.test.web.servlet.request.SecurityMock
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.mockito.Mockito.*;
-@WebMvcTest(value={AdminCommerceController.class,PromotionQuoteController.class,LearningAnalyticsController.class},properties="spring.config.import=")
+@WebMvcTest(value={AdminCommerceController.class,PromotionQuoteController.class,LearningAnalyticsController.class},properties={"spring.config.import=","security.session-validation.enabled=false","security.origin-check.enabled=false"})
 @Import({SecurityConfig.class,CommonSecurityConfig.class})
 class OperationsAuthorizationTest {
  @Autowired MockMvc mvc;@MockitoBean JwtDecoder decoder;@MockitoBean AdminCommerceService commerce;

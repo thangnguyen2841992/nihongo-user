@@ -17,7 +17,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.mockito.Mockito.*;
 
-@WebMvcTest(value = StudyController.class, properties = "spring.config.import=")
+@WebMvcTest(value = StudyController.class, properties = {"spring.config.import=", "security.session-validation.enabled=false", "security.origin-check.enabled=false"})
 @Import({SecurityConfig.class, CommonSecurityConfig.class})
 class StudyControllerTest {
     @Autowired MockMvc mvc;
