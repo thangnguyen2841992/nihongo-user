@@ -9,5 +9,7 @@ public interface IWalletService {
     WalletDeposit deposit(String userId, String email, DepositWalletRequest request);
     List<WalletDeposit> history(String userId);
     List<WalletDeposit> requests();
+    List<WalletDeposit> pendingRequests();
+    long pendingCount();
     WalletDeposit review(Long id, String reviewer, ReviewDepositRequest request);
 }

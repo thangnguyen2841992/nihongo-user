@@ -38,6 +38,10 @@ public class WalletController {
     public Map<String, String> bankInfo() { return Map.of("bankName", bankName, "accountNumber", bankAccount, "accountName", bankAccountName); }
     @GetMapping("/admin/deposits") @PreAuthorize("hasRole('ADMIN')")
     public List<WalletDeposit> requests() { return wallets.requests(); }
+    @GetMapping("/admin/deposits/pending") @PreAuthorize("hasRole('ADMIN')")
+    public List<WalletDeposit> pendingRequests() { return wallets.pendingRequests(); }
+    @GetMapping("/admin/deposits/pending-count") @PreAuthorize("hasRole('ADMIN')")
+    public Map<String, Long> pendingCount() { return Map.of("count", wallets.pendingCount()); }
     @PostMapping("/admin/deposits/{id}/review") @PreAuthorize("hasRole('ADMIN')")
     public WalletDeposit review(@PathVariable Long id, @AuthenticationPrincipal Jwt jwt, @Valid @RequestBody ReviewDepositRequest request) {
         return wallets.review(id, jwt.getSubject(), request);

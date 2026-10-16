@@ -72,6 +72,14 @@ public class WalletServiceImpl implements IWalletService {
         return result;
     }
 
+    @Override @Transactional(readOnly = true)
+    public List<WalletDeposit> pendingRequests() {
+        return deposits.findTop100ByStatusOrderByCreatedAtAsc(PaymentStatus.PENDING);
+    }
+
+    @Override @Transactional(readOnly = true)
+    public long pendingCount() { return deposits.countByStatus(PaymentStatus.PENDING); }
+
     @Override @Transactional
     public WalletDeposit review(Long id, String reviewer, ReviewDepositRequest request) {
         if (request.getApprove() == null) throw badRequest("Thiếu quyết định đối soát");

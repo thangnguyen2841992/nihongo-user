@@ -75,6 +75,14 @@ class WalletPersistenceTest {
         assertEquals(1, ledger.count());
         assertEquals(0, service.getWallet("owner", "owner@example.com").getBalance().compareTo(new BigDecimal("10000")));
     }
+    @Test void pendingCountUsesDatabaseAggregate() {
+        Long reviewed = service.deposit("owner", "owner@example.com", request()).getId();
+        service.deposit("owner", "owner@example.com", request());
+        service.review(reviewed, "admin", approval());
+        assertEquals(1, service.pendingCount());
+        assertEquals(1, service.pendingRequests().size());
+        assertEquals(PaymentStatus.PENDING, service.pendingRequests().get(0).getStatus());
+    }
     @Test void duplicateBankReferenceAcrossWalletsRollsBackLosingCredit() throws Exception {
         Long a = service.deposit("owner-a", "owner@example.com", request()).getId();
         Long b = service.deposit("owner-b", "owner@example.com", request()).getId();

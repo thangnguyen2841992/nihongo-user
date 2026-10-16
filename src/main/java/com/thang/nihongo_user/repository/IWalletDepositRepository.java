@@ -16,6 +16,7 @@ public interface IWalletDepositRepository extends JpaRepository<WalletDeposit, L
     List<WalletDeposit> findTop100ByUserIdOrderByCreatedAtDesc(String userId);
     List<WalletDeposit> findTop100ByStatusOrderByCreatedAtAsc(PaymentStatus status);
     List<WalletDeposit> findTop100ByStatusNotOrderByCreatedAtDesc(PaymentStatus status);
+    long countByStatus(PaymentStatus status);
     @Query("select d.userId from WalletDeposit d where d.id = :id")
     Optional<String> findOwnerById(@Param("id") Long id);
     boolean existsByBankReference(String bankReference);
