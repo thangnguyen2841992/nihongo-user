@@ -131,6 +131,9 @@ class StudyFeaturesPersistenceTest {
         assertThrows(ResponseStatusException.class, () -> progress.saveGoal("owner", new StudyProgressService.Goal(201, 0, true)));
         progress.saveGoal("owner", new StudyProgressService.Goal(1, 0, true));
         var c = card();
+        // This test checks reminder persistence, not the boundary of the current clock tick.
+        c.setDueAt(LocalDateTime.now().minusMinutes(1));
+        cards.saveAndFlush(c);
         var sub = new UserSubscription(); sub.setUserId("owner"); sub.setCourseId(7L); sub.setPackageId(1L);
         sub.setStatus(SubscriptionStatus.ACTIVE); sub.setExpiredAt(LocalDateTime.now().plusDays(3)); subscriptions.saveAndFlush(sub);
         assertEquals(2, progress.dashboard("owner").reminders().size());
