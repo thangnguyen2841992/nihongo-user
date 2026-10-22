@@ -8,6 +8,11 @@ import java.time.Instant;
 import java.util.List;
 public interface WalletOutboxRepository extends JpaRepository<WalletOutbox, String> {
     long countByPublishedAtIsNull();
+    // Bounded batches keep each delete transaction short on the shared database.
+    @org.springframework.transaction.annotation.Transactional
+    @Modifying
+    @Query(value = "DELETE FROM wallet_outbox WHERE published_at IS NOT NULL AND published_at < :cutoff LIMIT 500", nativeQuery = true)
+    int removePublishedBefore(@Param("cutoff") Instant cutoff);
     org.springframework.data.domain.Page<WalletOutbox> findByPublishedAtIsNullOrderByCreatedAtAscIdAsc(Pageable page);
     @Lock(LockModeType.PESSIMISTIC_WRITE) @Query("select e from WalletOutbox e where e.id=:id") java.util.Optional<WalletOutbox> lock(String id);
     @Lock(LockModeType.PESSIMISTIC_WRITE)

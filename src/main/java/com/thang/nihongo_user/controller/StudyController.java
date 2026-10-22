@@ -81,32 +81,15 @@ public class StudyController {
     @DeleteMapping("/wrong-answers/{id}")
     public void master(@AuthenticationPrincipal Jwt jwt, @PathVariable Long id) { practice.master(jwt.getSubject(), id); }
 
+    // Cards of one lesson; the whole notebook is read through /cards/page.
     @GetMapping("/cards")
-    public List<StudyCard> cards(@AuthenticationPrincipal Jwt jwt, @RequestParam(required = false) Long lessonId) {
-        return lessonId == null ? study.all(jwt.getSubject())
-                : cardsRepository.findByUserIdAndLessonIdOrderByCreatedAtDesc(jwt.getSubject(), lessonId);
+    public List<StudyCard> cards(@AuthenticationPrincipal Jwt jwt, @RequestParam Long lessonId) {
+        return cardsRepository.findByUserIdAndLessonIdOrderByCreatedAtDesc(jwt.getSubject(), lessonId);
     }
-    public record Overview(long dueCards, long weakLessons) {}
-    @GetMapping("/overview")
-    public Overview overview(@AuthenticationPrincipal Jwt jwt) {
-        String userId = jwt.getSubject();
-        return new Overview(cardsRepository.countByUserIdAndDueAtLessThanEqual(userId, java.time.LocalDateTime.now()),
-                attempts.countWeakLessons(userId));
-    }
-    @GetMapping("/cards/due")
-    public List<StudyCard> due(@AuthenticationPrincipal Jwt jwt) { return study.due(jwt.getSubject()); }
     @PutMapping("/cards")
     public StudyCard save(@AuthenticationPrincipal Jwt jwt, @RequestBody StudyService.CardInput input) {
         return study.save(jwt.getSubject(), input);
     }
-    @PostMapping("/cards/{id}/review")
-    public StudyCard review(@AuthenticationPrincipal Jwt jwt, @PathVariable Long id,
-                            @RequestParam boolean remembered) { return study.review(jwt.getSubject(), id, remembered); }
     @DeleteMapping("/cards/{id}")
     public void delete(@AuthenticationPrincipal Jwt jwt, @PathVariable Long id) { study.delete(jwt.getSubject(), id); }
-    @GetMapping("/wrong-answers")
-    public List<WrongAnswer> wrongAnswers(@AuthenticationPrincipal Jwt jwt, @RequestParam(required = false) Long lessonId) {
-        return lessonId == null ? wrongAnswers.findByUserIdOrderByUpdatedAtDesc(jwt.getSubject())
-                : wrongAnswers.findByUserIdAndLessonId(jwt.getSubject(), lessonId);
-    }
 }

@@ -49,6 +49,13 @@ class WalletServiceTest {
         verify(wallets).ensureWallet(owner);
         verify(wallets, never()).save(any());
     }
+    @Test void existingWalletWithCurrentEmailIsReadWithoutLockOrWrite() {
+        when(wallets.findByUserId(owner)).thenReturn(Optional.of(wallet));
+        assertEquals(new BigDecimal("5000"), service.getWallet(owner, "owner@example.com").getBalance());
+        verify(wallets, never()).ensureWallet(any());
+        verify(wallets, never()).findByUserIdForUpdate(any());
+        verify(wallets, never()).save(any());
+    }
     @Test void updatedEmailIsPersistedForDepositNotifications() {
         lock(); service.getWallet(owner, "new@example.com");
         assertEquals("new@example.com", wallet.getNotificationEmail());

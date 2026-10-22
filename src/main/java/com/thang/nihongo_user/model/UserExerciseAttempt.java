@@ -12,7 +12,9 @@ import java.time.LocalDateTime;
 @Entity
 @jakarta.persistence.Table(indexes = {
         @jakarta.persistence.Index(name = "idx_attempt_owner_lesson_time", columnList = "user_uuid,lessonId,submittedAt,userExerciseAttemptId"),
-        @jakarta.persistence.Index(name = "idx_attempt_owner_time", columnList = "user_uuid,submittedAt")
+        @jakarta.persistence.Index(name = "idx_attempt_owner_time", columnList = "user_uuid,submittedAt"),
+        // Staff analytics filter all learners by time; the owner-first indexes cannot serve that range.
+        @jakarta.persistence.Index(name = "idx_attempt_submitted", columnList = "submittedAt,lessonId")
 }, uniqueConstraints = @jakarta.persistence.UniqueConstraint(
         name = "uk_attempt_user_submission", columnNames = {"user_uuid", "submission_id"}))
 @AllArgsConstructor

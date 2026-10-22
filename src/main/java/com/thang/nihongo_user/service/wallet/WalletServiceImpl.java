@@ -22,6 +22,13 @@ public class WalletServiceImpl implements IWalletService {
 
     @Override @Transactional
     public WalletResponse getWallet(String userId, String email) {
+        // Common case (navbar balance): the wallet exists and its contact email is current, so no insert,
+        // row lock or update is needed. First use and email changes still take the locked path below.
+        if (userId != null && !userId.isBlank() && email != null) {
+            var existing = wallets.findByUserId(userId).orElse(null);
+            if (existing != null && email.equals(existing.getNotificationEmail()))
+                return WalletResponse.builder().walletId(existing.getWalletId()).userId(userId).balance(existing.getBalance()).build();
+        }
         UserWallet wallet = lockWallet(userId);
         updateContact(wallet, email);
         return WalletResponse.builder().walletId(wallet.getWalletId()).userId(userId).balance(wallet.getBalance()).build();

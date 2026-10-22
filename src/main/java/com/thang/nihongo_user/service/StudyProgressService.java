@@ -26,6 +26,8 @@ public class StudyProgressService {
             int streak, int longestStreak, LocalDate today, String timeZone, Goal goal,
             List<Trend> trend, List<Reminder> reminders) {}
 
+    static final int STREAK_HISTORY_DAYS = 400;
+
     public Goal goal(String userId) {
         var p = preferences.findById(userId).orElseGet(StudyPreference::new);
         return new Goal(p.getDailyCards(), p.getDailyAttempts(), p.isRemindersEnabled());
@@ -52,7 +54,9 @@ public class StudyProgressService {
         var daily = activities.dailyCounts(userId, today);
         long cardsToday = daily.getCards();
         long practice = daily.getPractice();
-        TreeSet<LocalDate> dates = new TreeSet<>(attempts.activeDates(userId)); dates.addAll(activities.activeDates(userId));
+        // Streaks only need recent history; bounding it keeps the dashboard cost flat as accounts age.
+        LocalDate since = today.minusDays(STREAK_HISTORY_DAYS);
+        TreeSet<LocalDate> dates = new TreeSet<>(attempts.activeDates(userId, since.atStartOfDay())); dates.addAll(activities.activeDates(userId, since));
         int[] streaks = streaks(dates, today);
         List<Trend> trend = attempts.trendBetween(userId, today.minusDays(29).atStartOfDay(), today.plusDays(1).atStartOfDay()).stream()
                 .map(t -> new Trend(t.getDay(), t.getAttempts(), t.getAverageScore() == null ? 0 : t.getAverageScore())).toList();

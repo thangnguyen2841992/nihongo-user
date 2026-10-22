@@ -7,7 +7,8 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "study_wrong_answer", uniqueConstraints = @UniqueConstraint(columnNames = {"user_uuid", "exercise_id"}),
-        indexes = @Index(name = "idx_wrong_answer_lesson", columnList = "user_uuid,lesson_id"))
+        indexes = {@Index(name = "idx_wrong_answer_lesson", columnList = "user_uuid,lesson_id"),
+                @Index(name = "idx_wrong_answer_updated", columnList = "updatedAt")})
 @Getter @Setter
 public class WrongAnswer {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

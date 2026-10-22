@@ -13,7 +13,9 @@ public class LearningAnalyticsController {
  private final IUserSubscriptionRepository subscriptions;
  private final LearnerSupportNoteRepository support;
  @GetMapping("/lessons") public StudyController.PageResult<IUserExerciseAttemptRepository.LessonQuality> lessons(@RequestParam(defaultValue="0") int page){return StudyController.PageResult.of(attempts.quality(LocalDateTime.now().minusDays(30),AdminCommerceService.page(page,20)));}
- @GetMapping("/questions") public StudyController.PageResult<WrongAnswerRepository.QuestionQuality> questions(@RequestParam(defaultValue="0") int page){return StudyController.PageResult.of(wrong.quality(AdminCommerceService.page(page,20)));}
+ @GetMapping("/questions") public StudyController.PageResult<WrongAnswerRepository.QuestionQuality> questions(@RequestParam(defaultValue="0") int page){return StudyController.PageResult.of(wrong.quality(LocalDateTime.now().minusDays(QUESTION_WINDOW_DAYS),AdminCommerceService.page(page,20)));}
+ // Questions still answered wrong and last missed within this window; avoids grouping the whole table.
+ static final int QUESTION_WINDOW_DAYS=90;
  @GetMapping("/inactive") public StudyController.PageResult<IUserSubscriptionRepository.InactiveLearner> inactive(@RequestParam(defaultValue="0") int page){var now=LocalDateTime.now();return StudyController.PageResult.of(subscriptions.inactive(now,now.minusDays(7),now.minusDays(7).toLocalDate(),AdminCommerceService.page(page,20)));}
  @GetMapping("/declining") public StudyController.PageResult<IUserExerciseAttemptRepository.DecliningLearner> declining(@RequestParam(defaultValue="0") int page){var now=LocalDateTime.now();return StudyController.PageResult.of(attempts.declining(now.minusDays(30),now.minusDays(7),AdminCommerceService.page(page,20)));}
  public record SupportInput(@jakarta.validation.constraints.NotBlank String status,@jakarta.validation.constraints.NotBlank @jakarta.validation.constraints.Size(min=5,max=2000) String note) {}

@@ -17,8 +17,6 @@ public interface IUserService {
 
     boolean hasActiveSubscription(String userId, Long courseId);
     List<MyCourseDTO> findMyCourses(String userId);
-    List<LessonResultResponse> getMyResults(String userId);
-    List<LessonResultResponse> getLessonResults(String userId, Long lessonId);
     org.springframework.data.domain.Page<LessonResultResponse> getLessonResultsPage(String userId, Long lessonId, org.springframework.data.domain.Pageable pageable);
     LessonResultResponse convert(UserExerciseAttempt entity);
     Mono<JapaneseAiResponse> analyzeJapanese(String text);

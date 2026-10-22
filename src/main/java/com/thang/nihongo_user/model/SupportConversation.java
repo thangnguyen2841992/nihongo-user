@@ -12,7 +12,8 @@ import java.time.LocalDateTime;
         @UniqueConstraint(name = "uk_support_conversation_active", columnNames = "active_key"), indexes = {
         @Index(name = "idx_support_conversation_last_message", columnList = "last_message_at"),
         @Index(name = "idx_support_conversation_user", columnList = "user_id,last_message_at"),
-        @Index(name = "idx_support_conversation_status", columnList = "status,last_message_at")
+        @Index(name = "idx_support_conversation_status", columnList = "status,last_message_at"),
+        @Index(name = "idx_support_conversation_unread", columnList = "unread_for_staff")
 })
 public class SupportConversation {
     public enum Status { WAITING_STAFF, WAITING_USER, RESOLVED }

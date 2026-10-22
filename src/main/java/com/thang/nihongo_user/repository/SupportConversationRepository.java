@@ -24,6 +24,6 @@ public interface SupportConversationRepository extends JpaRepository<SupportConv
 
     Page<SupportConversation> findByStatus(SupportConversation.Status status, Pageable pageable);
 
-    @Query("select coalesce(sum(c.unreadForStaff), 0) from SupportConversation c")
+    @Query("select coalesce(sum(c.unreadForStaff), 0) from SupportConversation c where c.unreadForStaff > 0")
     Long sumUnreadForStaff();
 }

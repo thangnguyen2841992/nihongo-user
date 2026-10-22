@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(name = "gateway-service",
-        contextId = "staffClient", url = "${services.gateway-url:http://localhost:8082}")
+// Direct service-to-service call (via discovery): no extra gateway hop and no use of the learner's API rate limit.
+@FeignClient(name = "staff-service",
+        contextId = "staffClient", url = "${services.staff.url:}")
 public interface IStaffClient {
     @org.springframework.web.bind.annotation.PostMapping("/api/staff/lessons/{id}/grade")
     com.thang.nihongo_user.model.dto.ExerciseGrade grade(@PathVariable("id") Long id, @org.springframework.web.bind.annotation.RequestBody java.util.Map<Long,String> answers);

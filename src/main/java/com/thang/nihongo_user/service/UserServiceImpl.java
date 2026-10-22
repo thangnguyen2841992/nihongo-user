@@ -83,23 +83,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public List<LessonResultResponse> getMyResults(String userId) {
-        return convertResults(userExerciseAttemptRepository.findByUserIdOrderBySubmittedAtDesc(userId));
-    }
-
-    @Override
-    public List<LessonResultResponse> getLessonResults(String userId, Long lessonId) {
-        return convertResults(userExerciseAttemptRepository.findByUserIdAndLessonIdOrderBySubmittedAtDesc(userId, lessonId));
-    }
-
-    private List<LessonResultResponse> convertResults(List<UserExerciseAttempt> attempts) {
-        Map<Long, String> lessonNames = new HashMap<>();
-        return attempts.stream().map(attempt -> convert(attempt,
-                lessonNames.computeIfAbsent(attempt.getLessonId(), this::lessonName))).toList();
-    }
-
-    @Override
-    @Transactional(readOnly = true)
+    // No surrounding transaction: the lesson-name lookup is an HTTP call and must not hold a DB connection.
     public org.springframework.data.domain.Page<LessonResultResponse> getLessonResultsPage(String userId, Long lessonId, org.springframework.data.domain.Pageable pageable) {
         var page = userExerciseAttemptRepository.findByUserIdAndLessonIdOrderBySubmittedAtDescUserExerciseAttemptIdDesc(userId, lessonId, pageable);
         if (page.isEmpty()) return page.map(attempt -> convert(attempt, "Bài " + lessonId));

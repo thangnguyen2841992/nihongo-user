@@ -124,20 +124,8 @@ public class NihongoUserRestController {
         return ResponseEntity.ok(exerciseAttempts.submit(jwt.getSubject(), request));
     }
 
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
-    @GetMapping("/userExerciseAttempt")
-    public ResponseEntity<List<LessonResultResponse>> getMyResults(@AuthenticationPrincipal Jwt jwt) {
-        String userId = jwt.getSubject();
-        return ResponseEntity.ok(this.userService.getMyResults(userId));
-    }
-
-    @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
-    @GetMapping("/lesson-result/{lessonId}")
-    public ResponseEntity<List<LessonResultResponse>> getLessonResults(@AuthenticationPrincipal Jwt jwt, @PathVariable Long lessonId) {
-        String userId = jwt.getSubject();
-        return ResponseEntity.ok(this.userService.getLessonResults(userId, lessonId));
-    }
-
+    // Unpaged result lists (all attempts with snapshots, one staff lookup per lesson) were removed;
+    // the frontend uses the paged endpoint below.
     @PreAuthorize("hasAnyRole('ADMIN','STAFF','USER')")
     @GetMapping("/lesson-result/{lessonId}/page")
     public StudyController.PageResult<LessonResultResponse> getLessonResultsPage(@AuthenticationPrincipal Jwt jwt,

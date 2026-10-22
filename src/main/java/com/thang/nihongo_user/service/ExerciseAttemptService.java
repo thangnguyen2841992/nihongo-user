@@ -4,7 +4,10 @@ import com.thang.nihongo_user.model.dto.*;
 import com.thang.nihongo_user.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.support.TransactionOperations;
+import org.springframework.transaction.support.TransactionTemplate;
 import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -14,7 +17,9 @@ public class ExerciseAttemptService {
  private final IStaffClient staff;
  private final IUserExerciseAttemptRepository attempts;
  private final WrongAnswerRepository wrongAnswers;
- @Transactional
+ // Remote grading runs before any DB transaction starts, so no pooled connection or lock is held while waiting.
+ private TransactionOperations transactions=TransactionOperations.withoutTransaction();
+ @Autowired(required=false) void setTransactionManager(PlatformTransactionManager manager){transactions=new TransactionTemplate(manager);}
  public ExerciseGrade submit(String userId,SubmitLessonResultRequest request) {
   if (request.getSubmissionId() != null) {
    var existing = attempts.findByUserIdAndSubmissionId(userId, request.getSubmissionId());
@@ -30,6 +35,10 @@ public class ExerciseAttemptService {
   if (unanswered > grade.wrongCount()) throw new IllegalStateException("Invalid unanswered count");
   ExerciseGrade result = new ExerciseGrade(grade.totalQuestion(), grade.correctCount(), grade.wrongCount() - unanswered,
           grade.correctAnswers(), grade.aiSolutions(), unanswered);
+  return transactions.execute(status -> persist(userId, request, grade, result, unanswered));
+ }
+
+ private ExerciseGrade persist(String userId, SubmitLessonResultRequest request, ExerciseGrade grade, ExerciseGrade result, int unanswered) {
   attempts.saveAndFlush(UserExerciseAttempt.builder().userId(userId).lessonId(request.getLessonId())
    .submissionId(request.getSubmissionId()).snapshot(new com.thang.nihongo_user.model.AttemptSnapshot(Map.copyOf(request.getAnswers()), result))
    .totalQuestion(result.totalQuestion()).correctCount(result.correctCount()).wrongCount(result.wrongCount()).unansweredCount(unanswered)

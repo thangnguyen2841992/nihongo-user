@@ -11,6 +11,9 @@ public interface ICoursePackageRepository extends JpaRepository<CoursePackage, L
     @org.springframework.data.jpa.repository.Lock(jakarta.persistence.LockModeType.PESSIMISTIC_WRITE)
     @org.springframework.data.jpa.repository.Query("select p from CoursePackage p join fetch p.course where p.packageId = :id")
     java.util.Optional<CoursePackage> lockById(Long id);
+    @org.springframework.data.jpa.repository.Lock(jakarta.persistence.LockModeType.PESSIMISTIC_READ)
+    @org.springframework.data.jpa.repository.Query("select p from CoursePackage p join fetch p.course where p.packageId = :id")
+    java.util.Optional<CoursePackage> lockSharedById(Long id);
     List<CoursePackage> findByCourse_CourseId(Long courseId);
     List<CoursePackage> findByCourse_CourseIdAndIsActiveTrue(Long courseId);
 }

@@ -35,12 +35,14 @@ class CourseQueryTest {
         verify(courses, never()).findById(any()); verify(packages, never()).findById(any());
     }
 
-    @Test void resolvesALessonNameOncePerResultList() {
-        when(attempts.findByUserIdOrderBySubmittedAtDesc("owner")).thenReturn(List.of(
-                UserExerciseAttempt.builder().lessonId(1L).score(50D).build(),
-                UserExerciseAttempt.builder().lessonId(1L).score(90D).build()));
+    @Test void resolvesALessonNameOncePerResultPage() {
+        var pageable = org.springframework.data.domain.PageRequest.of(0, 20);
+        when(attempts.findByUserIdAndLessonIdOrderBySubmittedAtDescUserExerciseAttemptIdDesc("owner", 1L, pageable))
+                .thenReturn(new org.springframework.data.domain.PageImpl<>(List.of(
+                        UserExerciseAttempt.builder().lessonId(1L).score(50D).build(),
+                        UserExerciseAttempt.builder().lessonId(1L).score(90D).build()), pageable, 2));
         when(staff.getLessonLocation(1L)).thenReturn(new ContentLocationResponse(1L, 1L, "Lesson"));
-        var result = service.getMyResults("owner");
+        var result = service.getLessonResultsPage("owner", 1L, pageable).getContent();
         assertEquals(2, result.size()); assertEquals("Lesson", result.get(0).getLessonName());
         assertEquals(90D, result.get(1).getScore());
         verify(staff, times(1)).getLessonLocation(1L);

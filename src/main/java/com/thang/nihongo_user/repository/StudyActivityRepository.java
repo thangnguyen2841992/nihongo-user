@@ -10,6 +10,6 @@ public interface StudyActivityRepository extends JpaRepository<StudyActivity, Lo
     interface DailyCounts { long getCards(); long getPractice(); }
     @Query("select coalesce(sum(case when a.sourceKey like 'card:%' then 1 else 0 end), 0) as cards, coalesce(sum(case when a.sourceKey like 'wrong:%' then 1 else 0 end), 0) as practice from StudyActivity a where a.userId = :userId and a.activityDate = :date")
     DailyCounts dailyCounts(String userId, LocalDate date);
-    @Query("select distinct a.activityDate from StudyActivity a where a.userId = :userId order by a.activityDate desc")
-    List<LocalDate> activeDates(String userId);
+    @Query("select distinct a.activityDate from StudyActivity a where a.userId = :userId and a.activityDate >= :since order by a.activityDate desc")
+    List<LocalDate> activeDates(String userId, LocalDate since);
 }

@@ -42,8 +42,10 @@ public class CoursePurchaseService {
    return subscriptions.findById(p.getSubscriptionId()).orElseThrow();
   }
   if(courseId==null || packageId==null) throw error(HttpStatus.BAD_REQUEST,"Thiếu khóa học hoặc gói học");
-  if(em.find(Course.class,courseId,jakarta.persistence.LockModeType.PESSIMISTIC_WRITE)==null)throw error(HttpStatus.NOT_FOUND,"Không tìm thấy khóa học");
-  CoursePackage pack=packages.lockById(packageId).orElseThrow(()->error(HttpStatus.NOT_FOUND,"Không tìm thấy gói học"));
+  // Shared locks: concurrent buyers of the same course no longer queue behind each other, while an admin
+  // price/status change (exclusive lock) still waits for in-flight purchases and vice versa.
+  if(em.find(Course.class,courseId,jakarta.persistence.LockModeType.PESSIMISTIC_READ)==null)throw error(HttpStatus.NOT_FOUND,"Không tìm thấy khóa học");
+  CoursePackage pack=packages.lockSharedById(packageId).orElseThrow(()->error(HttpStatus.NOT_FOUND,"Không tìm thấy gói học"));
   if(pack.getCourse()==null || !courseId.equals(pack.getCourse().getCourseId())
     || pack.getCourse().getActive()!=CourseStatus.ACTIVE || !Boolean.TRUE.equals(pack.getIsActive()))
    throw error(HttpStatus.BAD_REQUEST,"Gói học không thuộc khóa học hoặc đã ngừng bán");
