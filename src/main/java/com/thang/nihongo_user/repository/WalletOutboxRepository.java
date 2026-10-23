@@ -15,6 +15,9 @@ public interface WalletOutboxRepository extends JpaRepository<WalletOutbox, Stri
     int removePublishedBefore(@Param("cutoff") Instant cutoff);
     org.springframework.data.domain.Page<WalletOutbox> findByPublishedAtIsNullOrderByCreatedAtAscIdAsc(Pageable page);
     @Lock(LockModeType.PESSIMISTIC_WRITE) @Query("select e from WalletOutbox e where e.id=:id") java.util.Optional<WalletOutbox> lock(String id);
+    // Claims move nextAttemptAt to the lease end, so this is also when an in-flight claim could be retried.
+    @Query("select min(e.nextAttemptAt) from WalletOutbox e where e.publishedAt is null")
+    Instant nextAttemptAt();
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     @Query("select e from WalletOutbox e where e.publishedAt is null and e.nextAttemptAt <= :now order by e.createdAt, e.id")
     List<WalletOutbox> lockDue(@Param("now") Instant now, Pageable page);

@@ -5,4 +5,6 @@ public interface ExamAttemptRepository extends JpaRepository<ExamAttempt,Long> {
  Page<ExamAttempt> findByAssignmentIdOrderByStartedAtDescIdDesc(Long assignmentId,Pageable page);
  @Lock(LockModeType.PESSIMISTIC_WRITE) @Query("select e from ExamAttempt e where e.id=:id") Optional<ExamAttempt> lock(Long id);
  @Query("select e.id from ExamAttempt e where e.submittedAt is null and e.endsAt<=:now order by e.endsAt,e.id") List<Long> overdue(LocalDateTime now,Pageable page);
+ // Served by idx_exam_attempt_deadline (submitted_at, ends_at).
+ @Query("select min(e.endsAt) from ExamAttempt e where e.submittedAt is null") LocalDateTime nextDeadline();
 }

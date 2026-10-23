@@ -14,6 +14,9 @@ import java.util.UUID;
 public class WalletEventRecorder {
     private final WalletOutboxRepository outbox;
     private final ObjectMapper mapper;
+    private final org.springframework.context.ApplicationEventPublisher events;
+    /** Published inside the recording transaction; {@link WalletOutboxJob} wakes up after it commits. */
+    public record Queued() {}
     @Transactional(propagation = Propagation.MANDATORY)
     public void record(String type, WalletDeposit deposit, UserWallet wallet) {
         Instant now = Instant.now();
@@ -25,5 +28,6 @@ public class WalletEventRecorder {
         try { row.setPayload(mapper.writeValueAsString(event)); }
         catch (JsonProcessingException e) { throw new IllegalStateException("Cannot record wallet event", e); }
         outbox.save(row);
+        events.publishEvent(new Queued());
     }
 }

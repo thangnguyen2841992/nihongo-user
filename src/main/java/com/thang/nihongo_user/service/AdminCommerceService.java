@@ -24,6 +24,7 @@ public class AdminCommerceService {
  private final AdminCommerceAuditRepository audits;
  private final EntityManager em;
  private final CourseRefundRepository refunds;
+ private final org.springframework.context.ApplicationEventPublisher catalogEvents;
  public record PackageInput(@NotBlank @Size(max=255) String name,@Min(1) @Max(36500) int durationDays,
    @NotNull @DecimalMin("0") @DecimalMax("9999999999999") @Digits(integer=13,fraction=0) BigDecimal price,boolean active,long version) {}
  public record CourseInput(@NotBlank @Size(max=255) String name,@Size(max=255) String description,@NotNull @Positive Long levelId,@NotNull CourseStatus status,long version) {}
@@ -45,7 +46,7 @@ public class AdminCommerceService {
   if(c==null)throw missing();if(id!=null&&c.getVersion()!=input.version())throw conflict("Khóa học đã được sửa; hãy tải lại");
   String before=id==null?"Tạo mới":c.getCourseName()+" / "+c.getActive()+" / cấp độ "+c.getLevelId();
   c.setCourseName(input.name().trim());c.setCourseDescription(input.description());c.setLevelId(input.levelId());c.setActive(input.status());
-  c=courses.saveAndFlush(c);audit(actor,id==null?"COURSE_CREATE":"COURSE_UPDATE","course:"+c.getCourseId(),before+" → "+c.getCourseName()+" / "+c.getActive()+" / cấp độ "+c.getLevelId());return catalog(c);
+  c=courses.saveAndFlush(c);catalogEvents.publishEvent(new CourseCatalogChanged());audit(actor,id==null?"COURSE_CREATE":"COURSE_UPDATE","course:"+c.getCourseId(),before+" → "+c.getCourseName()+" / "+c.getActive()+" / cấp độ "+c.getLevelId());return catalog(c);
  }
  @Transactional public Catalog savePackage(String actor,Long courseId,Long id,PackageInput input){
   Course c=em.find(Course.class,courseId,LockModeType.PESSIMISTIC_WRITE);if(c==null)throw missing();
@@ -53,7 +54,7 @@ public class AdminCommerceService {
   if(id!=null&&(!p.getCourse().getCourseId().equals(courseId)||p.getVersion()!=input.version()))throw conflict("Gói không thuộc khóa hoặc đã thay đổi");
   String before=id==null?"Tạo mới":p.getPackageName()+" / "+p.getPrice()+" / "+p.getDurationDays()+" ngày / "+p.getIsActive();
   p.setCourse(c);p.setPackageName(input.name().trim());p.setPrice(input.price());p.setDurationDays(input.durationDays());p.setIsActive(input.active());
-  p=packages.saveAndFlush(p);audit(actor,id==null?"PACKAGE_CREATE":"PACKAGE_UPDATE","package:"+p.getPackageId(),before+" → "+p.getPackageName()+" / "+p.getPrice()+" / "+p.getDurationDays()+" ngày / "+p.getIsActive());return catalog(c);
+  p=packages.saveAndFlush(p);catalogEvents.publishEvent(new CourseCatalogChanged());audit(actor,id==null?"PACKAGE_CREATE":"PACKAGE_UPDATE","package:"+p.getPackageId(),before+" → "+p.getPackageName()+" / "+p.getPrice()+" / "+p.getDurationDays()+" ngày / "+p.getIsActive());return catalog(c);
  }
  @Transactional public Promotion savePromotion(String actor,Long id,PromotionInput input){
   String code=PromotionService.normalize(input.code());if(code==null||!input.endsAt().isAfter(input.startsAt()))throw bad("Mã hoặc thời gian áp dụng không hợp lệ");

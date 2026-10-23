@@ -28,12 +28,26 @@ public class UserServiceImpl implements IUserService {
     private final IUserExerciseAttemptRepository userExerciseAttemptRepository;
     private final JapaneseAiService japaneseAiService;
     private final AdminCommerceAuditRepository commerceAudits;
+    // The public course list is read by every visitor and rarely changes: keep it 30 seconds. Local edits refresh it
+    // right after commit; another instance's edits show within 30 seconds (prices are always re-read when buying).
+    private final com.github.benmanes.caffeine.cache.Cache<Boolean, List<CourseDTO>> publicCatalog =
+            com.github.benmanes.caffeine.cache.Caffeine.newBuilder().maximumSize(1)
+                    .expireAfterWrite(java.time.Duration.ofSeconds(30)).build();
+
+    @org.springframework.transaction.event.TransactionalEventListener(fallbackExecution = true)
+    public void catalogChanged(CourseCatalogChanged event) { publicCatalog.invalidateAll(); }
     // ================= COURSE =================
 
     @Override
     @Transactional
     public CourseDTO createNewCourse(Course course) {
         Course saved=courseRepository.saveAndFlush(course);
+        publicCatalog.invalidateAll();
+        if (org.springframework.transaction.support.TransactionSynchronizationManager.isSynchronizationActive())
+            org.springframework.transaction.support.TransactionSynchronizationManager.registerSynchronization(
+                    new org.springframework.transaction.support.TransactionSynchronization() {
+                        @Override public void afterCompletion(int status) { publicCatalog.invalidateAll(); }
+                    });
         var audit=new com.thang.nihongo_user.model.AdminCommerceAudit();
         var auth=org.springframework.security.core.context.SecurityContextHolder.getContext().getAuthentication();
         audit.setActor(auth!=null&&auth.getPrincipal() instanceof org.springframework.security.oauth2.jwt.Jwt jwt?jwt.getSubject():"system");
@@ -41,10 +55,20 @@ public class UserServiceImpl implements IUserService {
         return mappingCourseToDTO(saved);
     }
 
+    // Only a cache miss opens a (read-only) transaction, so a cache hit does not borrow a pooled connection at all.
+    private org.springframework.transaction.support.TransactionOperations readOnly =
+            org.springframework.transaction.support.TransactionOperations.withoutTransaction();
+    @org.springframework.beans.factory.annotation.Autowired(required = false)
+    void setTransactionManager(org.springframework.transaction.PlatformTransactionManager manager) {
+        var template = new org.springframework.transaction.support.TransactionTemplate(manager);
+        template.setReadOnly(true);
+        readOnly = template;
+    }
+
     @Override
-    @Transactional(readOnly = true)
     public List<CourseDTO> getAllCourse() {
-        return courseRepository.findAll().stream().map(this::mappingCourseToDTO).toList();
+        return publicCatalog.get(Boolean.TRUE, ignored -> readOnly.execute(status ->
+                courseRepository.findAll().stream().map(this::mappingCourseToDTO).toList()));
     }
 
     @Override
