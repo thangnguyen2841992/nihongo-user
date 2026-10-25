@@ -5,6 +5,12 @@ public class LearningFeaturesService {
  private final LessonCompletionRepository completions;private final ClassroomContentClient content;private final StudyActivityService activity;private final StudyCardRepository cards;private final IUserExerciseAttemptRepository attempts;private final IUserSubscriptionRepository subscriptions;private final ICourseRepository courses;
  public record Recommendation(String key,String title,String explanation,String path){}
  @Transactional(readOnly=true) public boolean completed(String userId,Long lessonId){return completions.findByUserIdAndLessonId(userId,lessonId).isPresent();}
+ /** Which of a book's lessons the learner has marked done (one query for the whole lesson list). */
+ @Transactional(readOnly=true) public List<Long> completedAmong(String userId,List<Long> lessonIds){
+  if(lessonIds==null||lessonIds.isEmpty())return List.of();
+  if(lessonIds.size()>500)throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"Quá nhiều bài học");
+  return completions.completedAmong(userId,new java.util.HashSet<>(lessonIds));
+ }
  // The lesson/entitlement lookup is remote; only the final writes run inside a DB transaction.
  private org.springframework.transaction.support.TransactionOperations transactions=org.springframework.transaction.support.TransactionOperations.withoutTransaction();
  @org.springframework.beans.factory.annotation.Autowired(required=false) void setTransactionManager(org.springframework.transaction.PlatformTransactionManager manager){transactions=new org.springframework.transaction.support.TransactionTemplate(manager);}

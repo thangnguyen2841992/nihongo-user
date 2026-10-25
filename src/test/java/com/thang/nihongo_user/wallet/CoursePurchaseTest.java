@@ -50,6 +50,16 @@ class CoursePurchaseTest {
   assertEquals(2,ledger.findByWalletIdOrderByCreatedAtDesc(wallets.findByUserId(owner).orElseThrow().getWalletId()).size());
   assertFalse(subscriptions.existsActive(UUID.randomUUID().toString(),courseId));
  }
+ @Test void activeCourseRenewsOnlyWithItsCurrentPackage(){
+  var vip=packages.saveAndFlush(CoursePackage.builder().course(courses.findById(courseId).orElseThrow()).packageName("VIP").durationDays(7).price(new BigDecimal("5000")).isActive(true).build()).getPackageId();
+  var first=service.purchase(owner,courseId,packageId,key(),false);
+  var error=assertThrows(ResponseStatusException.class,()->service.purchase(owner,courseId,vip,key(),true));
+  assertEquals(409,error.getStatusCode().value());
+  assertEquals(packageId,subscriptions.findById(first.getId()).orElseThrow().getPackageId());
+  assertEquals(0,wallets.findByUserId(owner).orElseThrow().getBalance().compareTo(new BigDecimal("15000")));
+  var expired=subscriptions.findById(first.getId()).orElseThrow();expired.setExpiredAt(java.time.LocalDateTime.now().minusDays(1));subscriptions.saveAndFlush(expired);
+  assertEquals(vip,service.purchase(owner,courseId,vip,key(),true).getPackageId(),"after expiry the package can change");
+ }
  @Test void insufficientFundsRollbackRenewalAndLedger(){
   var first=service.purchase(owner,courseId,packageId,key(),false);
   service.purchase(owner,courseId,packageId,key(),true);var expiry=subscriptions.findById(first.getId()).orElseThrow().getExpiredAt();

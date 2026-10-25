@@ -15,6 +15,13 @@ spring:
     name: nihongo-user-service
   kafka:
     bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:127.0.0.1:9092}
+    # When the broker is down (e.g. Kafka not started locally) clients retry with a growing delay, up to 30 s,
+    # instead of logging a connection warning every second; reconnection is immediate once Kafka is back.
+    properties:
+      reconnect.backoff.ms: 1000
+      reconnect.backoff.max.ms: 30000
+    admin:
+      operation-timeout: 10s
   datasource:
     url: jdbc:mariadb://onehost-amdcloudhn022602.000nethost.com:3306/tsezwyvdhosting_nihongo?sslMode=disable&connectionTimeZone=UTC&allowPublicKeyRetrieval=true&connectTimeout=10000&socketTimeout=15000
     username: tsezwyvdhosting_nihongo_app
@@ -74,3 +81,11 @@ wallet:
   websocket:
     allowed-origins: ${FRONTEND_ORIGIN:http://localhost:5173}
 
+
+# English pronunciation (Kokoro-82M via Kokoro-FastAPI). See nihongo-user/docs/kokoro.md.
+kokoro:
+  url: ${KOKORO_URL:http://127.0.0.1:8880}
+  cache-dir: ${KOKORO_CACHE_DIR:${user.home}/.nihongo/kokoro-cache}
+  voice:
+    uk: ${KOKORO_VOICE_UK:bf_emma}
+    us: ${KOKORO_VOICE_US:af_heart}

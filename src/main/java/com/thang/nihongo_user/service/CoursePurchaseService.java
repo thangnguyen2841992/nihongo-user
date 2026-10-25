@@ -58,6 +58,12 @@ public class CoursePurchaseService {
   if(!renewal && existing.isPresent()) throw error(HttpStatus.CONFLICT,"Khóa học đã đăng ký; hãy dùng gia hạn");
   if(existing.isPresent() && existing.get().getStatus()==SubscriptionStatus.CANCELLED)
    throw error(HttpStatus.CONFLICT,"Đăng ký đã bị hủy; liên hệ quản trị viên");
+  // A renewal applies its package to the whole remaining period, so while access is still running only the current
+  // package can be extended: otherwise a short VIP renewal would upgrade months of a cheaper package (or a cheaper
+  // renewal would silently drop paid VIP time). The package can be changed once the course has expired.
+  if(renewal && existing.isPresent() && existing.get().getStatus()==SubscriptionStatus.ACTIVE && existing.get().getExpiredAt()!=null
+    && existing.get().getExpiredAt().isAfter(LocalDateTime.now()) && !packageId.equals(existing.get().getPackageId()))
+   throw error(HttpStatus.CONFLICT,"Khóa học còn hạn chỉ gia hạn được bằng gói đang dùng. Bạn có thể đổi gói sau khi khóa học hết hạn.");
   var discount=normalizedCoupon==null?new PromotionService.Discount(null,price,BigDecimal.ZERO,price):promotions.discount(userId,courseId,price,normalizedCoupon,true);
   BigDecimal originalPrice=price; price=discount.payable();
   if(expectedAmount!=null&&price.compareTo(expectedAmount)!=0)throw error(HttpStatus.CONFLICT,"Giá thanh toán đã thay đổi. Hãy tải lại danh sách khóa học và kiểm tra giá.");

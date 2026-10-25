@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 public class MyCourseDTO {
     private Long courseId;
     private String courseName;
+    private Long packageId;
     private String packageName;
     private Integer progress;
     private LocalDateTime startedAt;
