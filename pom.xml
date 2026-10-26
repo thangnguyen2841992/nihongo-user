@@ -36,6 +36,8 @@
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>
         </dependency>
+        <!-- Japanese morphological analysis (readings for kanji words); dictionary bundled in the jar. -->
+        <dependency><groupId>com.atilika.kuromoji</groupId><artifactId>kuromoji-ipadic</artifactId><version>0.9.0</version></dependency>
         <dependency><groupId>com.nihongo</groupId><artifactId>common-events</artifactId><version>0.0.1-SNAPSHOT</version></dependency>
         <dependency><groupId>org.springframework.kafka</groupId><artifactId>spring-kafka</artifactId></dependency>
         <dependency><groupId>org.springframework.kafka</groupId><artifactId>spring-kafka-test</artifactId><scope>test</scope></dependency>
