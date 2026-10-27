@@ -1,0 +1,8428 @@
+{
+ "id": "minna-no-nihongo-2-vocabulary",
+ "title": "Minna no Nihongo Sơ cấp II – Từ vựng bài 26–50",
+ "level": "N4",
+ "totalCards": 842,
+ "cards": [
+  {
+   "number": 1,
+   "unit": 26,
+   "word": "あんな 〜",
+   "reading": "",
+   "meaning": "~ như thế kia",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 2,
+   "unit": 26,
+   "word": "いつでも",
+   "reading": "",
+   "meaning": "bất cứ lúc nào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 3,
+   "unit": 26,
+   "word": "運動会",
+   "reading": "うんどうかい",
+   "meaning": "hội thao",
+   "sinoVietnamese": "VẬN ĐỘNG HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 4,
+   "unit": 26,
+   "word": "置き場",
+   "reading": "おきば",
+   "meaning": "chỗ để",
+   "sinoVietnamese": "TRÍ TRÀNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 5,
+   "unit": 26,
+   "word": "遅れます［時間に〜］",
+   "reading": "おくれます［じかんに〜］",
+   "meaning": "chậm, muộn (giờ)",
+   "sinoVietnamese": "TRÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 6,
+   "unit": 26,
+   "word": "〜会社",
+   "reading": "〜がいしゃ",
+   "meaning": "công ty ~",
+   "sinoVietnamese": "HỘI XÃ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 7,
+   "unit": 26,
+   "word": "ガス",
+   "reading": "",
+   "meaning": "ga, khí đốt",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 8,
+   "unit": 26,
+   "word": "片づきます［荷物が〜］",
+   "reading": "かたづきます［にもつが〜］",
+   "meaning": "(hành lý) được dọn gọn",
+   "sinoVietnamese": "PHIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 9,
+   "unit": 26,
+   "word": "缶",
+   "reading": "かん",
+   "meaning": "lon, hộp",
+   "sinoVietnamese": "PHŨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 10,
+   "unit": 26,
+   "word": "気分が いい",
+   "reading": "きぶんが いい",
+   "meaning": "cảm thấy khỏe, dễ chịu",
+   "sinoVietnamese": "KHÍ PHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 11,
+   "unit": 26,
+   "word": "気分が 悪い",
+   "reading": "きぶんが わるい",
+   "meaning": "cảm thấy mệt, khó chịu",
+   "sinoVietnamese": "KHÍ PHÂN ÁC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 12,
+   "unit": 26,
+   "word": "国会議事堂",
+   "reading": "こっかいぎじどう",
+   "meaning": "tòa nhà Quốc hội",
+   "sinoVietnamese": "QUỐC HỘI NGHỊ SỰ ĐƯỜNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 13,
+   "unit": 26,
+   "word": "ごみ",
+   "reading": "",
+   "meaning": "rác",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 14,
+   "unit": 26,
+   "word": "今度",
+   "reading": "こんど",
+   "meaning": "lần tới; lần này",
+   "sinoVietnamese": "KIM ĐỘ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 15,
+   "unit": 26,
+   "word": "こんな 〜",
+   "reading": "",
+   "meaning": "~ như thế này",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 16,
+   "unit": 26,
+   "word": "財布",
+   "reading": "さいふ",
+   "meaning": "cái ví",
+   "sinoVietnamese": "TÀI BỐ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 17,
+   "unit": 26,
+   "word": "探します、捜します",
+   "reading": "さがします",
+   "meaning": "tìm kiếm",
+   "sinoVietnamese": "THÁM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 18,
+   "unit": 26,
+   "word": "ずいぶん",
+   "reading": "",
+   "meaning": "khá, rất",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 19,
+   "unit": 26,
+   "word": "そんな 〜",
+   "reading": "",
+   "meaning": "~ như thế đó",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 20,
+   "unit": 26,
+   "word": "出します［ごみを〜］",
+   "reading": "だします［ごみを〜］",
+   "meaning": "đổ (rác)",
+   "sinoVietnamese": "XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 21,
+   "unit": 26,
+   "word": "だれでも",
+   "reading": "",
+   "meaning": "bất cứ ai",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 22,
+   "unit": 26,
+   "word": "直接",
+   "reading": "ちょくせつ",
+   "meaning": "trực tiếp",
+   "sinoVietnamese": "TRỰC TIẾP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 23,
+   "unit": 26,
+   "word": "どこでも",
+   "reading": "",
+   "meaning": "bất cứ đâu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 24,
+   "unit": 26,
+   "word": "何でも",
+   "reading": "なんでも",
+   "meaning": "cái gì cũng",
+   "sinoVietnamese": "HÀ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 25,
+   "unit": 26,
+   "word": "場所",
+   "reading": "ばしょ",
+   "meaning": "địa điểm",
+   "sinoVietnamese": "TRÀNG SỞ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 26,
+   "unit": 26,
+   "word": "拾います",
+   "reading": "ひろいます",
+   "meaning": "nhặt",
+   "sinoVietnamese": "THẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 27,
+   "unit": 26,
+   "word": "瓶",
+   "reading": "びん",
+   "meaning": "chai, lọ",
+   "sinoVietnamese": "BÌNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 28,
+   "unit": 26,
+   "word": "フリーマーケット",
+   "reading": "",
+   "meaning": "chợ đồ cũ",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 29,
+   "unit": 26,
+   "word": "平日",
+   "reading": "へいじつ",
+   "meaning": "ngày thường",
+   "sinoVietnamese": "BÌNH NHẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 30,
+   "unit": 26,
+   "word": "〜弁",
+   "reading": "〜べん",
+   "meaning": "giọng ~, tiếng địa phương ~",
+   "sinoVietnamese": "BIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 31,
+   "unit": 26,
+   "word": "ボランティア",
+   "reading": "",
+   "meaning": "tình nguyện viên",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 32,
+   "unit": 26,
+   "word": "盆踊り",
+   "reading": "ぼんおどり",
+   "meaning": "múa Bon (lễ hội mùa hè)",
+   "sinoVietnamese": "BỒN DŨNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 33,
+   "unit": 26,
+   "word": "間に 合います［時間に〜］",
+   "reading": "まに あいます［じかんに〜］",
+   "meaning": "kịp (giờ)",
+   "sinoVietnamese": "GIAN HỢP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 34,
+   "unit": 26,
+   "word": "見ます、診ます",
+   "reading": "みます",
+   "meaning": "khám (bệnh)",
+   "sinoVietnamese": "KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 35,
+   "unit": 26,
+   "word": "燃えるごみ",
+   "reading": "もえるごみ",
+   "meaning": "rác cháy được",
+   "sinoVietnamese": "NHIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 36,
+   "unit": 26,
+   "word": "やります",
+   "reading": "",
+   "meaning": "làm (thân mật)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 37,
+   "unit": 26,
+   "word": "横",
+   "reading": "よこ",
+   "meaning": "bên cạnh",
+   "sinoVietnamese": "HOÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 38,
+   "unit": 26,
+   "word": "連絡します",
+   "reading": "れんらくします",
+   "meaning": "liên lạc",
+   "sinoVietnamese": "LIÊN LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 39,
+   "unit": 27,
+   "word": "家",
+   "reading": "いえ",
+   "meaning": "nhà",
+   "sinoVietnamese": "GIA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 40,
+   "unit": 27,
+   "word": "いつか",
+   "reading": "",
+   "meaning": "một lúc nào đó, một ngày nào đó",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 41,
+   "unit": 27,
+   "word": "飼います",
+   "reading": "かいます",
+   "meaning": "nuôi (động vật)",
+   "sinoVietnamese": "TỰ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 42,
+   "unit": 27,
+   "word": "方",
+   "reading": "かた",
+   "meaning": "vị, người (cách nói lịch sự)",
+   "sinoVietnamese": "PHƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 43,
+   "unit": 27,
+   "word": "聞こえます［音が〜］",
+   "reading": "きこえます［おとが〜］",
+   "meaning": "nghe thấy (âm thanh)",
+   "sinoVietnamese": "VĂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 44,
+   "unit": 27,
+   "word": "キッチン",
+   "reading": "",
+   "meaning": "nhà bếp",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 45,
+   "unit": 27,
+   "word": "〜教室",
+   "reading": "〜きょうしつ",
+   "meaning": "lớp học ~",
+   "sinoVietnamese": "GIÁO THẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 46,
+   "unit": 27,
+   "word": "クリーニング",
+   "reading": "",
+   "meaning": "giặt là, giặt khô",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 47,
+   "unit": 27,
+   "word": "〜後",
+   "reading": "〜ご",
+   "meaning": "sau ~",
+   "sinoVietnamese": "HẬU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 48,
+   "unit": 27,
+   "word": "声",
+   "reading": "こえ",
+   "meaning": "giọng nói, tiếng",
+   "sinoVietnamese": "THANH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 49,
+   "unit": 27,
+   "word": "〜しか",
+   "reading": "",
+   "meaning": "chỉ ~ (đi với thể phủ định)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 50,
+   "unit": 27,
+   "word": "心配［な］",
+   "reading": "しんぱい［な］",
+   "meaning": "lo lắng",
+   "sinoVietnamese": "TÂM PHỐI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 51,
+   "unit": 27,
+   "word": "すばらしい",
+   "reading": "",
+   "meaning": "tuyệt vời",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 52,
+   "unit": 27,
+   "word": "建てます",
+   "reading": "たてます",
+   "meaning": "xây dựng",
+   "sinoVietnamese": "KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 53,
+   "unit": 27,
+   "word": "できます［道が〜］",
+   "reading": "できます［みちが〜］",
+   "meaning": "(đường) được làm xong",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 54,
+   "unit": 27,
+   "word": "道具",
+   "reading": "どうぐ",
+   "meaning": "dụng cụ",
+   "sinoVietnamese": "ĐẠO CỤ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 55,
+   "unit": 27,
+   "word": "鳥",
+   "reading": "とり",
+   "meaning": "con chim",
+   "sinoVietnamese": "ĐIỂU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 56,
+   "unit": 27,
+   "word": "波",
+   "reading": "なみ",
+   "meaning": "sóng",
+   "sinoVietnamese": "BA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 57,
+   "unit": 27,
+   "word": "パーティールーム",
+   "reading": "",
+   "meaning": "phòng tiệc",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 58,
+   "unit": 27,
+   "word": "走ります［道を〜］",
+   "reading": "はしります［みちを〜］",
+   "meaning": "chạy (trên đường)",
+   "sinoVietnamese": "TẨU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 59,
+   "unit": 27,
+   "word": "はっきり",
+   "reading": "",
+   "meaning": "rõ ràng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 60,
+   "unit": 27,
+   "word": "花火",
+   "reading": "はなび",
+   "meaning": "pháo hoa",
+   "sinoVietnamese": "HOA HỎA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 61,
+   "unit": 27,
+   "word": "開きます［教室を〜］",
+   "reading": "ひらきます［きょうしつを〜］",
+   "meaning": "mở (lớp học)",
+   "sinoVietnamese": "KHAI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 62,
+   "unit": 27,
+   "word": "ペット",
+   "reading": "",
+   "meaning": "thú cưng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 63,
+   "unit": 27,
+   "word": "ほかの",
+   "reading": "",
+   "meaning": "khác",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 64,
+   "unit": 27,
+   "word": "本棚",
+   "reading": "ほんだな",
+   "meaning": "giá sách",
+   "sinoVietnamese": "BẢN BẰNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 65,
+   "unit": 27,
+   "word": "マンション",
+   "reading": "",
+   "meaning": "chung cư cao cấp",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 66,
+   "unit": 27,
+   "word": "見えます［山が〜］",
+   "reading": "みえます［やまが〜］",
+   "meaning": "nhìn thấy (núi)",
+   "sinoVietnamese": "KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 67,
+   "unit": 28,
+   "word": "味",
+   "reading": "あじ",
+   "meaning": "vị",
+   "sinoVietnamese": "VỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 68,
+   "unit": 28,
+   "word": "色",
+   "reading": "いろ",
+   "meaning": "màu sắc",
+   "sinoVietnamese": "SẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 69,
+   "unit": 28,
+   "word": "うーん",
+   "reading": "",
+   "meaning": "Ừm... (khi suy nghĩ)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 70,
+   "unit": 28,
+   "word": "売れます［パンが〜］",
+   "reading": "うれます［パンが〜］",
+   "meaning": "(bánh mì) bán chạy",
+   "sinoVietnamese": "MẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 71,
+   "unit": 28,
+   "word": "偉い",
+   "reading": "えらい",
+   "meaning": "giỏi giang, đáng nể",
+   "sinoVietnamese": "VĨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 72,
+   "unit": 28,
+   "word": "選びます",
+   "reading": "えらびます",
+   "meaning": "chọn",
+   "sinoVietnamese": "TUYỂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 73,
+   "unit": 28,
+   "word": "踊ります",
+   "reading": "おどります",
+   "meaning": "nhảy, múa",
+   "sinoVietnamese": "DŨNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 74,
+   "unit": 28,
+   "word": "お願いが あるんですが。",
+   "reading": "おねがいが あるんですが。",
+   "meaning": "Tôi có việc muốn nhờ anh/chị...",
+   "sinoVietnamese": "NGUYỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 75,
+   "unit": 28,
+   "word": "〜家",
+   "reading": "〜か",
+   "meaning": "nhà ~ (chuyên gia, nghệ sĩ)",
+   "sinoVietnamese": "GIA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 76,
+   "unit": 28,
+   "word": "会話",
+   "reading": "かいわ",
+   "meaning": "hội thoại",
+   "sinoVietnamese": "HỘI THOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 77,
+   "unit": 28,
+   "word": "歌手",
+   "reading": "かしゅ",
+   "meaning": "ca sĩ",
+   "sinoVietnamese": "CA THỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 78,
+   "unit": 28,
+   "word": "形",
+   "reading": "かたち",
+   "meaning": "hình dáng",
+   "sinoVietnamese": "HÌNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 79,
+   "unit": 28,
+   "word": "かみます",
+   "reading": "",
+   "meaning": "nhai",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 80,
+   "unit": 28,
+   "word": "ガム",
+   "reading": "",
+   "meaning": "kẹo cao su",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 81,
+   "unit": 28,
+   "word": "通います［大学に〜］",
+   "reading": "かよいます［だいがくに〜］",
+   "meaning": "đi học, đi lại thường xuyên (đại học)",
+   "sinoVietnamese": "THÔNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 82,
+   "unit": 28,
+   "word": "〜機",
+   "reading": "〜き",
+   "meaning": "máy ~",
+   "sinoVietnamese": "CƠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 83,
+   "unit": 28,
+   "word": "給料",
+   "reading": "きゅうりょう",
+   "meaning": "tiền lương",
+   "sinoVietnamese": "CẤP LIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 84,
+   "unit": 28,
+   "word": "経験",
+   "reading": "けいけん",
+   "meaning": "kinh nghiệm",
+   "sinoVietnamese": "KINH NGHIỆM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 85,
+   "unit": 28,
+   "word": "ゲーム",
+   "reading": "",
+   "meaning": "trò chơi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 86,
+   "unit": 28,
+   "word": "景色",
+   "reading": "けしき",
+   "meaning": "phong cảnh",
+   "sinoVietnamese": "CẢNH SẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 87,
+   "unit": 28,
+   "word": "実は",
+   "reading": "じつは",
+   "meaning": "thật ra là",
+   "sinoVietnamese": "THỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 88,
+   "unit": 28,
+   "word": "品物",
+   "reading": "しなもの",
+   "meaning": "hàng hóa, đồ vật",
+   "sinoVietnamese": "PHẨM VẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 89,
+   "unit": 28,
+   "word": "しばらく",
+   "reading": "",
+   "meaning": "một lúc, một thời gian",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 90,
+   "unit": 28,
+   "word": "自分",
+   "reading": "じぶん",
+   "meaning": "bản thân",
+   "sinoVietnamese": "TỰ PHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 91,
+   "unit": 28,
+   "word": "小説",
+   "reading": "しょうせつ",
+   "meaning": "tiểu thuyết",
+   "sinoVietnamese": "TIỂU THUYẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 92,
+   "unit": 28,
+   "word": "小説家",
+   "reading": "しょうせつか",
+   "meaning": "tiểu thuyết gia",
+   "sinoVietnamese": "TIỂU THUYẾT GIA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 93,
+   "unit": 28,
+   "word": "将来",
+   "reading": "しょうらい",
+   "meaning": "tương lai",
+   "sinoVietnamese": "TƯƠNG LAI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 94,
+   "unit": 28,
+   "word": "それで",
+   "reading": "",
+   "meaning": "vì thế, do đó",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 95,
+   "unit": 28,
+   "word": "それに",
+   "reading": "",
+   "meaning": "hơn nữa, thêm vào đó",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 96,
+   "unit": 28,
+   "word": "たいてい",
+   "reading": "",
+   "meaning": "thường, phần lớn",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 97,
+   "unit": 28,
+   "word": "台所",
+   "reading": "だいどころ",
+   "meaning": "nhà bếp",
+   "sinoVietnamese": "ĐÀI SỞ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 98,
+   "unit": 28,
+   "word": "力",
+   "reading": "ちから",
+   "meaning": "sức lực",
+   "sinoVietnamese": "LỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 99,
+   "unit": 28,
+   "word": "ちょうど いい",
+   "reading": "",
+   "meaning": "vừa vặn, vừa khéo",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 100,
+   "unit": 28,
+   "word": "［ちょっと］ お願いが あるんですが。",
+   "reading": "［ちょっと］ おねがいが あるんですが。",
+   "meaning": "Tôi có chút việc muốn nhờ...",
+   "sinoVietnamese": "NGUYỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 101,
+   "unit": 28,
+   "word": "ドラマ",
+   "reading": "",
+   "meaning": "phim truyền hình",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 102,
+   "unit": 28,
+   "word": "人気",
+   "reading": "にんき",
+   "meaning": "được ưa chuộng",
+   "sinoVietnamese": "NHÂN KHÍ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 103,
+   "unit": 28,
+   "word": "値段",
+   "reading": "ねだん",
+   "meaning": "giá cả",
+   "sinoVietnamese": "TRỊ ĐOẠN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 104,
+   "unit": 28,
+   "word": "熱心［な］",
+   "reading": "ねっしん［な］",
+   "meaning": "nhiệt tình, chăm chỉ",
+   "sinoVietnamese": "NHIỆT TÂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 105,
+   "unit": 28,
+   "word": "番組",
+   "reading": "ばんぐみ",
+   "meaning": "chương trình (TV, radio)",
+   "sinoVietnamese": "PHIÊN TỔ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 106,
+   "unit": 28,
+   "word": "美容院",
+   "reading": "びよういん",
+   "meaning": "tiệm làm tóc",
+   "sinoVietnamese": "MỸ DUNG VIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 107,
+   "unit": 28,
+   "word": "ボーナス",
+   "reading": "",
+   "meaning": "tiền thưởng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 108,
+   "unit": 28,
+   "word": "まじめ［な］",
+   "reading": "",
+   "meaning": "nghiêm túc, chăm chỉ",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 109,
+   "unit": 28,
+   "word": "息子",
+   "reading": "むすこ",
+   "meaning": "con trai (của mình)",
+   "sinoVietnamese": "TỨC TỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 110,
+   "unit": 28,
+   "word": "息子さん",
+   "reading": "むすこさん",
+   "meaning": "con trai (của người khác)",
+   "sinoVietnamese": "TỨC TỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 111,
+   "unit": 28,
+   "word": "娘",
+   "reading": "むすめ",
+   "meaning": "con gái (của mình)",
+   "sinoVietnamese": "NƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 112,
+   "unit": 28,
+   "word": "娘さん",
+   "reading": "むすめさん",
+   "meaning": "con gái (của người khác)",
+   "sinoVietnamese": "NƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 113,
+   "unit": 28,
+   "word": "メモします",
+   "reading": "",
+   "meaning": "ghi chép",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 114,
+   "unit": 29,
+   "word": "［ああ、］よかった。",
+   "reading": "",
+   "meaning": "À, may quá.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 115,
+   "unit": 29,
+   "word": "開きます",
+   "reading": "あきます［ドアが〜］",
+   "meaning": "(cửa) mở",
+   "sinoVietnamese": "KHAI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 116,
+   "unit": 29,
+   "word": "網棚",
+   "reading": "あみだな",
+   "meaning": "giá để hành lý (trên tàu)",
+   "sinoVietnamese": "VÕNG BẰNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 117,
+   "unit": 29,
+   "word": "今の 電車",
+   "reading": "いまの でんしゃ",
+   "meaning": "chuyến tàu vừa rồi",
+   "sinoVietnamese": "KIM ĐIỆN XA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 118,
+   "unit": 29,
+   "word": "駅員",
+   "reading": "えきいん",
+   "meaning": "nhân viên nhà ga",
+   "sinoVietnamese": "DỊCH VIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 119,
+   "unit": 29,
+   "word": "枝",
+   "reading": "えだ",
+   "meaning": "cành cây",
+   "sinoVietnamese": "CHI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 120,
+   "unit": 29,
+   "word": "お先に どうぞ。",
+   "reading": "おさきに どうぞ。",
+   "meaning": "Xin mời anh/chị (đi) trước.",
+   "sinoVietnamese": "TIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 121,
+   "unit": 29,
+   "word": "［お］皿",
+   "reading": "［お］さら",
+   "meaning": "cái đĩa",
+   "sinoVietnamese": "MÃNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 122,
+   "unit": 29,
+   "word": "［お］ちゃわん",
+   "reading": "",
+   "meaning": "bát ăn cơm; bát uống trà",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 123,
+   "unit": 29,
+   "word": "落とします",
+   "reading": "おとします",
+   "meaning": "đánh rơi",
+   "sinoVietnamese": "LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 124,
+   "unit": 29,
+   "word": "覚えて いません。",
+   "reading": "おぼえて いません。",
+   "meaning": "Tôi không nhớ.",
+   "sinoVietnamese": "GIÁC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 125,
+   "unit": 29,
+   "word": "折れます［木が〜］",
+   "reading": "おれます［きが〜］",
+   "meaning": "(cây) gãy",
+   "sinoVietnamese": "CHIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 126,
+   "unit": 29,
+   "word": "掛かります［かぎが〜］",
+   "reading": "かかります［かぎが〜］",
+   "meaning": "(khóa) được khóa",
+   "sinoVietnamese": "QUẢI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 127,
+   "unit": 29,
+   "word": "片づけます",
+   "reading": "かたづけます",
+   "meaning": "dọn dẹp",
+   "sinoVietnamese": "PHIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 128,
+   "unit": 29,
+   "word": "ガラス",
+   "reading": "",
+   "meaning": "kính, thủy tinh",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 129,
+   "unit": 29,
+   "word": "〜側",
+   "reading": "〜がわ",
+   "meaning": "phía ~, bên ~",
+   "sinoVietnamese": "TRẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 130,
+   "unit": 29,
+   "word": "消えます［電気が〜］",
+   "reading": "きえます［でんきが〜］",
+   "meaning": "(đèn) tắt",
+   "sinoVietnamese": "TIÊU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 131,
+   "unit": 29,
+   "word": "交番",
+   "reading": "こうばん",
+   "meaning": "đồn cảnh sát (nhỏ)",
+   "sinoVietnamese": "GIAO PHIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 132,
+   "unit": 29,
+   "word": "コップ",
+   "reading": "",
+   "meaning": "cái cốc",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 133,
+   "unit": 29,
+   "word": "このくらい",
+   "reading": "",
+   "meaning": "cỡ chừng này",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 134,
+   "unit": 29,
+   "word": "壊れます［いすが〜］",
+   "reading": "こわれます［いすが〜］",
+   "meaning": "(ghế) hỏng",
+   "sinoVietnamese": "HOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 135,
+   "unit": 29,
+   "word": "閉まります",
+   "reading": "しまります［ドアが〜］",
+   "meaning": "(cửa) đóng",
+   "sinoVietnamese": "BẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 136,
+   "unit": 29,
+   "word": "書類",
+   "reading": "しょるい",
+   "meaning": "giấy tờ, tài liệu",
+   "sinoVietnamese": "THƯ LOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 137,
+   "unit": 29,
+   "word": "スピーチ",
+   "reading": "",
+   "meaning": "bài phát biểu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 138,
+   "unit": 29,
+   "word": "確か",
+   "reading": "たしか",
+   "meaning": "hình như, nếu tôi nhớ không nhầm",
+   "sinoVietnamese": "XÁC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 139,
+   "unit": 29,
+   "word": "ちゃわん",
+   "reading": "",
+   "meaning": "bát ăn cơm; bát uống trà",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 140,
+   "unit": 29,
+   "word": "つきます［電気が〜］",
+   "reading": "つきます［でんきが〜］",
+   "meaning": "(đèn) bật sáng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 141,
+   "unit": 29,
+   "word": "付きます［ポケットが〜］",
+   "reading": "つきます［ポケットが〜］",
+   "meaning": "có gắn (túi)",
+   "sinoVietnamese": "PHÓ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 142,
+   "unit": 29,
+   "word": "止まります［車が〜］",
+   "reading": "とまります［くるまが〜］",
+   "meaning": "(xe) dừng",
+   "sinoVietnamese": "CHỈ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 143,
+   "unit": 29,
+   "word": "取り替えます",
+   "reading": "とりかえます",
+   "meaning": "đổi, thay",
+   "sinoVietnamese": "THỦ THẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 144,
+   "unit": 29,
+   "word": "外れます［ボタンが〜］",
+   "reading": "はずれます［ボタンが〜］",
+   "meaning": "(cúc áo) bị tuột",
+   "sinoVietnamese": "NGOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 145,
+   "unit": 29,
+   "word": "ふきます",
+   "reading": "",
+   "meaning": "lau",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 146,
+   "unit": 29,
+   "word": "袋",
+   "reading": "ふくろ",
+   "meaning": "túi",
+   "sinoVietnamese": "ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 147,
+   "unit": 29,
+   "word": "〜 辺",
+   "reading": "〜 へん",
+   "meaning": "vùng ~, khoảng ~",
+   "sinoVietnamese": "BIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 148,
+   "unit": 29,
+   "word": "返事",
+   "reading": "へんじ",
+   "meaning": "trả lời, hồi âm",
+   "sinoVietnamese": "PHẢN SỰ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 149,
+   "unit": 29,
+   "word": "ポケット",
+   "reading": "",
+   "meaning": "túi (áo, quần)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 150,
+   "unit": 29,
+   "word": "まちがえます",
+   "reading": "",
+   "meaning": "nhầm, sai",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 151,
+   "unit": 29,
+   "word": "破れます［紙が〜］",
+   "reading": "やぶれます［かみが〜］",
+   "meaning": "(giấy) rách",
+   "sinoVietnamese": "PHÁ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 152,
+   "unit": 29,
+   "word": "よかった。",
+   "reading": "",
+   "meaning": "May quá. / Tốt quá.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 153,
+   "unit": 29,
+   "word": "汚れます［服が〜］",
+   "reading": "よごれます［ふくが〜］",
+   "meaning": "(quần áo) bị bẩn",
+   "sinoVietnamese": "Ô",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 154,
+   "unit": 29,
+   "word": "忘れ物",
+   "reading": "わすれもの",
+   "meaning": "đồ bỏ quên",
+   "sinoVietnamese": "VONG VẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 155,
+   "unit": 29,
+   "word": "割れます［コップが〜］",
+   "reading": "われます［コップが〜］",
+   "meaning": "(cốc) vỡ",
+   "sinoVietnamese": "CÁT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 156,
+   "unit": 30,
+   "word": "池",
+   "reading": "いけ",
+   "meaning": "cái ao",
+   "sinoVietnamese": "TRÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 157,
+   "unit": 30,
+   "word": "植えます",
+   "reading": "うえます",
+   "meaning": "trồng (cây)",
+   "sinoVietnamese": "THỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 158,
+   "unit": 30,
+   "word": "お知らせ",
+   "reading": "おしらせ",
+   "meaning": "thông báo",
+   "sinoVietnamese": "TRI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 159,
+   "unit": 30,
+   "word": "懐中電灯",
+   "reading": "かいちゅうでんとう",
+   "meaning": "đèn pin",
+   "sinoVietnamese": "HOÀI TRUNG ĐIỆN ĐĂNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 160,
+   "unit": 30,
+   "word": "ガイドブック",
+   "reading": "",
+   "meaning": "sách hướng dẫn du lịch",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 161,
+   "unit": 30,
+   "word": "鏡",
+   "reading": "かがみ",
+   "meaning": "gương",
+   "sinoVietnamese": "KÍNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 162,
+   "unit": 30,
+   "word": "掛けます",
+   "reading": "かけます",
+   "meaning": "treo",
+   "sinoVietnamese": "QUẢI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 163,
+   "unit": 30,
+   "word": "飾ります",
+   "reading": "かざります",
+   "meaning": "trang trí",
+   "sinoVietnamese": "SỨC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 164,
+   "unit": 30,
+   "word": "花瓶",
+   "reading": "かびん",
+   "meaning": "bình hoa",
+   "sinoVietnamese": "HOA BÌNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 165,
+   "unit": 30,
+   "word": "壁",
+   "reading": "かべ",
+   "meaning": "bức tường",
+   "sinoVietnamese": "BÍCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 166,
+   "unit": 30,
+   "word": "カレンダー",
+   "reading": "",
+   "meaning": "lịch",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 167,
+   "unit": 30,
+   "word": "決めます",
+   "reading": "きめます",
+   "meaning": "quyết định",
+   "sinoVietnamese": "QUYẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 168,
+   "unit": 30,
+   "word": "玄関",
+   "reading": "げんかん",
+   "meaning": "lối vào nhà, sảnh",
+   "sinoVietnamese": "HUYỀN QUAN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 169,
+   "unit": 30,
+   "word": "講義",
+   "reading": "こうぎ",
+   "meaning": "bài giảng",
+   "sinoVietnamese": "GIẢNG NGHĨA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 170,
+   "unit": 30,
+   "word": "ごみ箱",
+   "reading": "ごみばこ",
+   "meaning": "thùng rác",
+   "sinoVietnamese": "TƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 171,
+   "unit": 30,
+   "word": "しまいます",
+   "reading": "",
+   "meaning": "cất vào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 172,
+   "unit": 30,
+   "word": "授業",
+   "reading": "じゅぎょう",
+   "meaning": "giờ học",
+   "sinoVietnamese": "THỤ NGHIỆP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 173,
+   "unit": 30,
+   "word": "隅",
+   "reading": "すみ",
+   "meaning": "góc",
+   "sinoVietnamese": "NGUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 174,
+   "unit": 30,
+   "word": "生活します",
+   "reading": "せいかつします",
+   "meaning": "sinh hoạt, sống",
+   "sinoVietnamese": "SINH HOẠT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 175,
+   "unit": 30,
+   "word": "そのままに します",
+   "reading": "",
+   "meaning": "để nguyên như vậy",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 176,
+   "unit": 30,
+   "word": "〜とか、〜とか",
+   "reading": "",
+   "meaning": "~ và ~ (liệt kê ví dụ)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 177,
+   "unit": 30,
+   "word": "並べます",
+   "reading": "ならべます",
+   "meaning": "xếp, bày",
+   "sinoVietnamese": "TỊNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 178,
+   "unit": 30,
+   "word": "人形",
+   "reading": "にんぎょう",
+   "meaning": "búp bê",
+   "sinoVietnamese": "NHÂN HÌNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 179,
+   "unit": 30,
+   "word": "はります",
+   "reading": "",
+   "meaning": "dán",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 180,
+   "unit": 30,
+   "word": "引き出し",
+   "reading": "ひきだし",
+   "meaning": "ngăn kéo",
+   "sinoVietnamese": "DẪN XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 181,
+   "unit": 30,
+   "word": "非常時",
+   "reading": "ひじょうじ",
+   "meaning": "lúc khẩn cấp",
+   "sinoVietnamese": "PHI THƯỜNG THỜI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 182,
+   "unit": 30,
+   "word": "非常袋",
+   "reading": "ひじょうぶくろ",
+   "meaning": "túi đồ khẩn cấp",
+   "sinoVietnamese": "PHI THƯỜNG ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 183,
+   "unit": 30,
+   "word": "復習します",
+   "reading": "ふくしゅうします",
+   "meaning": "ôn tập",
+   "sinoVietnamese": "PHỤC TẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 184,
+   "unit": 30,
+   "word": "ポスター",
+   "reading": "",
+   "meaning": "áp phích",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 185,
+   "unit": 30,
+   "word": "まだ",
+   "reading": "",
+   "meaning": "vẫn còn",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 186,
+   "unit": 30,
+   "word": "まとめます",
+   "reading": "",
+   "meaning": "tổng hợp, gom lại",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 187,
+   "unit": 30,
+   "word": "周り",
+   "reading": "まわり",
+   "meaning": "xung quanh",
+   "sinoVietnamese": "CHU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 188,
+   "unit": 30,
+   "word": "真ん中",
+   "reading": "まんなか",
+   "meaning": "chính giữa",
+   "sinoVietnamese": "CHÂN TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 189,
+   "unit": 30,
+   "word": "ミーティング",
+   "reading": "",
+   "meaning": "cuộc họp",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 190,
+   "unit": 30,
+   "word": "戻します",
+   "reading": "もどします",
+   "meaning": "trả về chỗ cũ",
+   "sinoVietnamese": "LỆ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 191,
+   "unit": 30,
+   "word": "元の 所",
+   "reading": "もとの ところ",
+   "meaning": "chỗ cũ",
+   "sinoVietnamese": "NGUYÊN SỞ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 192,
+   "unit": 30,
+   "word": "予習します",
+   "reading": "よしゅうします",
+   "meaning": "chuẩn bị bài",
+   "sinoVietnamese": "DỰ TẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 193,
+   "unit": 30,
+   "word": "予定",
+   "reading": "よてい",
+   "meaning": "dự định, kế hoạch",
+   "sinoVietnamese": "DỰ ĐỊNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 194,
+   "unit": 30,
+   "word": "予定表",
+   "reading": "よていひょう",
+   "meaning": "bảng kế hoạch, lịch trình",
+   "sinoVietnamese": "DỰ ĐỊNH BIỂU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 195,
+   "unit": 30,
+   "word": "リュック",
+   "reading": "",
+   "meaning": "ba lô",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 196,
+   "unit": 30,
+   "word": "廊下",
+   "reading": "ろうか",
+   "meaning": "hành lang",
+   "sinoVietnamese": "LANG HẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 197,
+   "unit": 31,
+   "word": "受けます［試験を〜］",
+   "reading": "うけます［しけんを〜］",
+   "meaning": "dự (thi)",
+   "sinoVietnamese": "THỤ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 198,
+   "unit": 31,
+   "word": "お子さん",
+   "reading": "おこさん",
+   "meaning": "con (của người khác)",
+   "sinoVietnamese": "TỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 199,
+   "unit": 31,
+   "word": "［お］葬式",
+   "reading": "［お］そうしき",
+   "meaning": "đám tang",
+   "sinoVietnamese": "TÁNG THỨC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 200,
+   "unit": 31,
+   "word": "温泉",
+   "reading": "おんせん",
+   "meaning": "suối nước nóng",
+   "sinoVietnamese": "ÔN TUYỀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 201,
+   "unit": 31,
+   "word": "帰り",
+   "reading": "かえり",
+   "meaning": "lúc về, đường về",
+   "sinoVietnamese": "QUY",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 202,
+   "unit": 31,
+   "word": "休憩します",
+   "reading": "きゅうけいします",
+   "meaning": "nghỉ giải lao",
+   "sinoVietnamese": "HƯU KHẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 203,
+   "unit": 31,
+   "word": "教会",
+   "reading": "きょうかい",
+   "meaning": "nhà thờ",
+   "sinoVietnamese": "GIÁO HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 204,
+   "unit": 31,
+   "word": "結婚式",
+   "reading": "けっこんしき",
+   "meaning": "lễ cưới",
+   "sinoVietnamese": "KẾT HÔN THỨC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 205,
+   "unit": 31,
+   "word": "ー号",
+   "reading": "ーごう",
+   "meaning": "số ~",
+   "sinoVietnamese": "HIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 206,
+   "unit": 31,
+   "word": "作文",
+   "reading": "さくぶん",
+   "meaning": "bài văn",
+   "sinoVietnamese": "TÁC VĂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 207,
+   "unit": 31,
+   "word": "式",
+   "reading": "しき",
+   "meaning": "buổi lễ",
+   "sinoVietnamese": "THỨC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 208,
+   "unit": 31,
+   "word": "支店",
+   "reading": "してん",
+   "meaning": "chi nhánh",
+   "sinoVietnamese": "CHI ĐIẾM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 209,
+   "unit": 31,
+   "word": "ずっと",
+   "reading": "",
+   "meaning": "suốt, mãi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 210,
+   "unit": 31,
+   "word": "葬式",
+   "reading": "そうしき",
+   "meaning": "đám tang",
+   "sinoVietnamese": "TÁNG THỨC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 211,
+   "unit": 31,
+   "word": "大学院",
+   "reading": "だいがくいん",
+   "meaning": "cao học",
+   "sinoVietnamese": "ĐẠI HỌC VIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 212,
+   "unit": 31,
+   "word": "月に",
+   "reading": "つきに",
+   "meaning": "mỗi tháng",
+   "sinoVietnamese": "NGUYỆT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 213,
+   "unit": 31,
+   "word": "続けます",
+   "reading": "つづけます",
+   "meaning": "tiếp tục",
+   "sinoVietnamese": "TỤC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 214,
+   "unit": 31,
+   "word": "展覧会",
+   "reading": "てんらんかい",
+   "meaning": "triển lãm",
+   "sinoVietnamese": "TRIỂN LÃM HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 215,
+   "unit": 31,
+   "word": "動物園",
+   "reading": "どうぶつえん",
+   "meaning": "vườn thú",
+   "sinoVietnamese": "ĐỘNG VẬT VIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 216,
+   "unit": 31,
+   "word": "取ります［休みを〜］",
+   "reading": "とります［やすみを〜］",
+   "meaning": "xin (nghỉ phép)",
+   "sinoVietnamese": "THỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 217,
+   "unit": 31,
+   "word": "入学試験",
+   "reading": "にゅうがくしけん",
+   "meaning": "kỳ thi tuyển sinh",
+   "sinoVietnamese": "NHẬP HỌC THÍ NGHIỆM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 218,
+   "unit": 31,
+   "word": "残ります",
+   "reading": "のこります",
+   "meaning": "ở lại, còn lại",
+   "sinoVietnamese": "TÀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 219,
+   "unit": 31,
+   "word": "〜の 方",
+   "reading": "〜の ほう",
+   "meaning": "phía ~, hướng ~",
+   "sinoVietnamese": "PHƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 220,
+   "unit": 31,
+   "word": "発表",
+   "reading": "はっぴょう",
+   "meaning": "bài phát biểu, công bố",
+   "sinoVietnamese": "PHÁT BIỂU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 221,
+   "unit": 31,
+   "word": "本社",
+   "reading": "ほんしゃ",
+   "meaning": "trụ sở chính",
+   "sinoVietnamese": "BẢN XÃ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 222,
+   "unit": 31,
+   "word": "見つけます",
+   "reading": "みつけます",
+   "meaning": "tìm thấy",
+   "sinoVietnamese": "KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 223,
+   "unit": 31,
+   "word": "申し込みます",
+   "reading": "もうしこみます",
+   "meaning": "đăng ký",
+   "sinoVietnamese": "THÂN NHẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 224,
+   "unit": 31,
+   "word": "連休",
+   "reading": "れんきゅう",
+   "meaning": "kỳ nghỉ dài",
+   "sinoVietnamese": "LIÊN HƯU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 225,
+   "unit": 32,
+   "word": "あんなに",
+   "reading": "",
+   "meaning": "đến mức như thế kia",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 226,
+   "unit": 32,
+   "word": "胃",
+   "reading": "い",
+   "meaning": "dạ dày",
+   "sinoVietnamese": "VỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 227,
+   "unit": 32,
+   "word": "インフルエンザ",
+   "reading": "",
+   "meaning": "bệnh cúm",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 228,
+   "unit": 32,
+   "word": "うるさい",
+   "reading": "",
+   "meaning": "ồn ào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 229,
+   "unit": 32,
+   "word": "運動します",
+   "reading": "うんどうします",
+   "meaning": "vận động, tập thể dục",
+   "sinoVietnamese": "VẬN ĐỘNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 230,
+   "unit": 32,
+   "word": "エンジン",
+   "reading": "",
+   "meaning": "động cơ",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 231,
+   "unit": 32,
+   "word": "遅く",
+   "reading": "おそく",
+   "meaning": "muộn, khuya",
+   "sinoVietnamese": "TRÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 232,
+   "unit": 32,
+   "word": "風",
+   "reading": "かぜ",
+   "meaning": "gió",
+   "sinoVietnamese": "PHONG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 233,
+   "unit": 32,
+   "word": "北",
+   "reading": "きた",
+   "meaning": "phía bắc",
+   "sinoVietnamese": "BẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 234,
+   "unit": 32,
+   "word": "曇ります",
+   "reading": "くもります",
+   "meaning": "(trời) nhiều mây",
+   "sinoVietnamese": "ĐÀM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 235,
+   "unit": 32,
+   "word": "けが",
+   "reading": "",
+   "meaning": "vết thương, bị thương",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 236,
+   "unit": 32,
+   "word": "元気",
+   "reading": "げんき",
+   "meaning": "sức khỏe, sinh khí",
+   "sinoVietnamese": "NGUYÊN KHÍ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 237,
+   "unit": 32,
+   "word": "合格します［試験に〜］",
+   "reading": "ごうかくします［しけんに〜］",
+   "meaning": "đỗ (kỳ thi)",
+   "sinoVietnamese": "HỢP CÁCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 238,
+   "unit": 32,
+   "word": "国際〜",
+   "reading": "こくさい〜",
+   "meaning": "quốc tế ~",
+   "sinoVietnamese": "QUỐC TẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 239,
+   "unit": 32,
+   "word": "込みます［道が〜］",
+   "reading": "こみます［みちが〜］",
+   "meaning": "(đường) đông, tắc",
+   "sinoVietnamese": "NHẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 240,
+   "unit": 32,
+   "word": "こんなに",
+   "reading": "",
+   "meaning": "đến mức như thế này",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 241,
+   "unit": 32,
+   "word": "今夜",
+   "reading": "こんや",
+   "meaning": "tối nay",
+   "sinoVietnamese": "KIM DẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 242,
+   "unit": 32,
+   "word": "失敗します［試験に〜］",
+   "reading": "しっぱいします［しけんに〜］",
+   "meaning": "thất bại, trượt (kỳ thi)",
+   "sinoVietnamese": "THẤT BẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 243,
+   "unit": 32,
+   "word": "十分［な］",
+   "reading": "じゅうぶん［な］",
+   "meaning": "đủ",
+   "sinoVietnamese": "THẬP PHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 244,
+   "unit": 32,
+   "word": "水道",
+   "reading": "すいどう",
+   "meaning": "nước máy",
+   "sinoVietnamese": "THỦY ĐẠO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 245,
+   "unit": 32,
+   "word": "すきます［道が〜］",
+   "reading": "すきます［みちが〜］",
+   "meaning": "(đường) vắng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 246,
+   "unit": 32,
+   "word": "ストレス",
+   "reading": "",
+   "meaning": "căng thẳng, stress",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 247,
+   "unit": 32,
+   "word": "成功します",
+   "reading": "せいこうします",
+   "meaning": "thành công",
+   "sinoVietnamese": "THÀNH CÔNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 248,
+   "unit": 32,
+   "word": "せき",
+   "reading": "",
+   "meaning": "ho",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 249,
+   "unit": 32,
+   "word": "先生",
+   "reading": "せんせい",
+   "meaning": "bác sĩ (cách gọi); thầy cô",
+   "sinoVietnamese": "TIÊN SINH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 250,
+   "unit": 32,
+   "word": "空",
+   "reading": "そら",
+   "meaning": "bầu trời",
+   "sinoVietnamese": "KHÔNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 251,
+   "unit": 32,
+   "word": "それは いけませんね。",
+   "reading": "",
+   "meaning": "Thế thì không ổn rồi. (thông cảm)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 252,
+   "unit": 32,
+   "word": "そんなに",
+   "reading": "",
+   "meaning": "đến mức như thế",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 253,
+   "unit": 32,
+   "word": "太陽",
+   "reading": "たいよう",
+   "meaning": "mặt trời",
+   "sinoVietnamese": "THÁI DƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 254,
+   "unit": 32,
+   "word": "チーム",
+   "reading": "",
+   "meaning": "đội",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 255,
+   "unit": 32,
+   "word": "続きます［熱が〜］",
+   "reading": "つづきます［ねつが〜］",
+   "meaning": "(sốt) kéo dài",
+   "sinoVietnamese": "TỤC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 256,
+   "unit": 32,
+   "word": "出ます［試合に〜］",
+   "reading": "でます［しあいに〜］",
+   "meaning": "tham gia (trận đấu)",
+   "sinoVietnamese": "XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 257,
+   "unit": 32,
+   "word": "晴れます",
+   "reading": "はれます",
+   "meaning": "(trời) nắng, quang đãng",
+   "sinoVietnamese": "TÌNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 258,
+   "unit": 32,
+   "word": "東",
+   "reading": "ひがし",
+   "meaning": "phía đông",
+   "sinoVietnamese": "ĐÔNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 259,
+   "unit": 32,
+   "word": "ひきます［かぜを〜］",
+   "reading": "",
+   "meaning": "bị (cảm)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 260,
+   "unit": 32,
+   "word": "冷やします",
+   "reading": "ひやします",
+   "meaning": "làm lạnh",
+   "sinoVietnamese": "LÃNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 261,
+   "unit": 32,
+   "word": "星",
+   "reading": "ほし",
+   "meaning": "ngôi sao",
+   "sinoVietnamese": "TINH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 262,
+   "unit": 32,
+   "word": "まえ",
+   "reading": "",
+   "meaning": "trước đây",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 263,
+   "unit": 32,
+   "word": "南",
+   "reading": "みなみ",
+   "meaning": "phía nam",
+   "sinoVietnamese": "NAM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 264,
+   "unit": 32,
+   "word": "無理を します",
+   "reading": "むりを します",
+   "meaning": "làm quá sức",
+   "sinoVietnamese": "VÔ LÝ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 265,
+   "unit": 32,
+   "word": "やけど",
+   "reading": "",
+   "meaning": "bỏng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 266,
+   "unit": 32,
+   "word": "やみます［雨が〜］",
+   "reading": "やみます［あめが〜］",
+   "meaning": "(mưa) tạnh",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 267,
+   "unit": 32,
+   "word": "夕方",
+   "reading": "ゆうがた",
+   "meaning": "chiều tối",
+   "sinoVietnamese": "TỊCH PHƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 268,
+   "unit": 33,
+   "word": "あきらめます",
+   "reading": "",
+   "meaning": "từ bỏ, bỏ cuộc",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 269,
+   "unit": 33,
+   "word": "あと 〜",
+   "reading": "",
+   "meaning": "còn ~ nữa",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 270,
+   "unit": 33,
+   "word": "あります［電話が〜］",
+   "reading": "あります［でんわが〜］",
+   "meaning": "có (điện thoại gọi đến)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 271,
+   "unit": 33,
+   "word": "いくら［〜ても］",
+   "reading": "",
+   "meaning": "dù ~ bao nhiêu đi nữa",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 272,
+   "unit": 33,
+   "word": "入口",
+   "reading": "いりぐち",
+   "meaning": "lối vào",
+   "sinoVietnamese": "NHẬP KHẨU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 273,
+   "unit": 33,
+   "word": "同じ",
+   "reading": "おなじ",
+   "meaning": "giống nhau",
+   "sinoVietnamese": "ĐỒNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 274,
+   "unit": 33,
+   "word": "危険",
+   "reading": "きけん",
+   "meaning": "nguy hiểm",
+   "sinoVietnamese": "NGUY HIỂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 275,
+   "unit": 33,
+   "word": "規則",
+   "reading": "きそく",
+   "meaning": "quy tắc",
+   "sinoVietnamese": "QUY TẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 276,
+   "unit": 33,
+   "word": "警察",
+   "reading": "けいさつ",
+   "meaning": "cảnh sát; đồn cảnh sát",
+   "sinoVietnamese": "CẢNH SÁT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 277,
+   "unit": 33,
+   "word": "騒ぎます",
+   "reading": "さわぎます",
+   "meaning": "làm ồn, náo động",
+   "sinoVietnamese": "TAO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 278,
+   "unit": 33,
+   "word": "締め切り",
+   "reading": "しめきり",
+   "meaning": "hạn chót",
+   "sinoVietnamese": "ĐẾ THIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 279,
+   "unit": 33,
+   "word": "出席します［会議に〜］",
+   "reading": "しゅっせきします［かいぎに〜］",
+   "meaning": "tham dự (cuộc họp)",
+   "sinoVietnamese": "XUẤT TỊCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 280,
+   "unit": 33,
+   "word": "使用禁止",
+   "reading": "しようきんし",
+   "meaning": "cấm sử dụng",
+   "sinoVietnamese": "SỬ DỤNG CẤM CHỈ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 281,
+   "unit": 33,
+   "word": "使用中",
+   "reading": "しようちゅう",
+   "meaning": "đang sử dụng",
+   "sinoVietnamese": "SỬ DỤNG TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 282,
+   "unit": 33,
+   "word": "徐行",
+   "reading": "じょこう",
+   "meaning": "đi chậm",
+   "sinoVietnamese": "TỪ HÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 283,
+   "unit": 33,
+   "word": "席",
+   "reading": "せき",
+   "meaning": "chỗ ngồi",
+   "sinoVietnamese": "TỊCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 284,
+   "unit": 33,
+   "word": "立入禁止",
+   "reading": "たちいりきんし",
+   "meaning": "cấm vào",
+   "sinoVietnamese": "LẬP NHẬP CẤM CHỈ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 285,
+   "unit": 33,
+   "word": "だめ［な］",
+   "reading": "",
+   "meaning": "không được, hỏng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 286,
+   "unit": 33,
+   "word": "〜中",
+   "reading": "〜ちゅう",
+   "meaning": "đang ~",
+   "sinoVietnamese": "TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 287,
+   "unit": 33,
+   "word": "注意します［車に〜］",
+   "reading": "ちゅういします［くるまに〜］",
+   "meaning": "chú ý (xe cộ)",
+   "sinoVietnamese": "CHÚ Ý",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 288,
+   "unit": 33,
+   "word": "駐車違反",
+   "reading": "ちゅうしゃいはん",
+   "meaning": "đỗ xe trái phép",
+   "sinoVietnamese": "TRÚ XA VI PHẢN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 289,
+   "unit": 33,
+   "word": "伝えます",
+   "reading": "つたえます",
+   "meaning": "truyền đạt, nhắn lại",
+   "sinoVietnamese": "TRUYỀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 290,
+   "unit": 33,
+   "word": "出口",
+   "reading": "でぐち",
+   "meaning": "lối ra",
+   "sinoVietnamese": "XUẤT KHẨU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 291,
+   "unit": 33,
+   "word": "どういう 〜",
+   "reading": "",
+   "meaning": "~ như thế nào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 292,
+   "unit": 33,
+   "word": "投げます",
+   "reading": "なげます",
+   "meaning": "ném",
+   "sinoVietnamese": "ĐẦU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 293,
+   "unit": 33,
+   "word": "逃げます",
+   "reading": "にげます",
+   "meaning": "chạy trốn",
+   "sinoVietnamese": "ĐÀO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 294,
+   "unit": 33,
+   "word": "飲み放題",
+   "reading": "のみほうだい",
+   "meaning": "uống thoải mái (giá cố định)",
+   "sinoVietnamese": "ẨM PHÓNG ĐỀ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 295,
+   "unit": 33,
+   "word": "始まります［式が〜］",
+   "reading": "はじまります［しきが〜］",
+   "meaning": "(buổi lễ) bắt đầu",
+   "sinoVietnamese": "THUỶ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 296,
+   "unit": 33,
+   "word": "外します［席を〜］",
+   "reading": "はずします［せきを〜］",
+   "meaning": "rời (chỗ ngồi)",
+   "sinoVietnamese": "NGOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 297,
+   "unit": 33,
+   "word": "罰金",
+   "reading": "ばっきん",
+   "meaning": "tiền phạt",
+   "sinoVietnamese": "PHẠT KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 298,
+   "unit": 33,
+   "word": "非常口",
+   "reading": "ひじょうぐち",
+   "meaning": "lối thoát hiểm",
+   "sinoVietnamese": "PHI THƯỜNG KHẨU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 299,
+   "unit": 33,
+   "word": "ボール",
+   "reading": "",
+   "meaning": "quả bóng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 300,
+   "unit": 33,
+   "word": "募集中",
+   "reading": "ぼしゅうちゅう",
+   "meaning": "đang tuyển",
+   "sinoVietnamese": "MỘ TẬP TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 301,
+   "unit": 33,
+   "word": "〜ほど",
+   "reading": "",
+   "meaning": "khoảng ~",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 302,
+   "unit": 33,
+   "word": "マーク",
+   "reading": "",
+   "meaning": "ký hiệu, nhãn",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 303,
+   "unit": 33,
+   "word": "守ります",
+   "reading": "まもります",
+   "meaning": "tuân thủ, bảo vệ",
+   "sinoVietnamese": "THỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 304,
+   "unit": 33,
+   "word": "無料",
+   "reading": "むりょう",
+   "meaning": "miễn phí",
+   "sinoVietnamese": "VÔ LIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 305,
+   "unit": 33,
+   "word": "もう",
+   "reading": "",
+   "meaning": "đã, rồi; (không) còn ... nữa",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 306,
+   "unit": 33,
+   "word": "戻ります",
+   "reading": "もどります",
+   "meaning": "quay lại",
+   "sinoVietnamese": "LỆ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 307,
+   "unit": 33,
+   "word": "リサイクルします",
+   "reading": "",
+   "meaning": "tái chế",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 308,
+   "unit": 33,
+   "word": "割引",
+   "reading": "わりびき",
+   "meaning": "giảm giá",
+   "sinoVietnamese": "CÁT DẪN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 309,
+   "unit": 34,
+   "word": "青",
+   "reading": "あお",
+   "meaning": "màu xanh lam",
+   "sinoVietnamese": "THANH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 310,
+   "unit": 34,
+   "word": "赤",
+   "reading": "あか",
+   "meaning": "màu đỏ",
+   "sinoVietnamese": "XÍCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 311,
+   "unit": 34,
+   "word": "いかがですか。",
+   "reading": "",
+   "meaning": "Thấy thế nào ạ? (lịch sự)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 312,
+   "unit": 34,
+   "word": "お客［さん］",
+   "reading": "おきゃく［さん］",
+   "meaning": "khách",
+   "sinoVietnamese": "KHÁCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 313,
+   "unit": 34,
+   "word": "［お］城",
+   "reading": "［お］しろ",
+   "meaning": "lâu đài, thành",
+   "sinoVietnamese": "THÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 314,
+   "unit": 34,
+   "word": "お茶を たてます",
+   "reading": "おちゃを たてます",
+   "meaning": "pha trà (trà đạo)",
+   "sinoVietnamese": "TRÀ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 315,
+   "unit": 34,
+   "word": "折ります",
+   "reading": "おります",
+   "meaning": "gấp, bẻ",
+   "sinoVietnamese": "CHIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 316,
+   "unit": 34,
+   "word": "〜か 〜",
+   "reading": "",
+   "meaning": "~ hoặc ~",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 317,
+   "unit": 34,
+   "word": "黄色",
+   "reading": "きいろ",
+   "meaning": "màu vàng",
+   "sinoVietnamese": "HOÀNG SẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 318,
+   "unit": 34,
+   "word": "気が つきます［忘れ物に〜］",
+   "reading": "きが つきます［わすれものに〜］",
+   "meaning": "nhận ra (đồ bỏ quên)",
+   "sinoVietnamese": "KHÍ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 319,
+   "unit": 34,
+   "word": "組み立てます",
+   "reading": "くみたてます",
+   "meaning": "lắp ráp",
+   "sinoVietnamese": "TỔ LẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 320,
+   "unit": 34,
+   "word": "黒",
+   "reading": "くろ",
+   "meaning": "màu đen",
+   "sinoVietnamese": "HẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 321,
+   "unit": 34,
+   "word": "これで いいですか。",
+   "reading": "",
+   "meaning": "Thế này được chưa ạ?",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 322,
+   "unit": 34,
+   "word": "紺",
+   "reading": "こん",
+   "meaning": "màu xanh đậm",
+   "sinoVietnamese": "CÁM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 323,
+   "unit": 34,
+   "word": "先に",
+   "reading": "さきに",
+   "meaning": "trước",
+   "sinoVietnamese": "TIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 324,
+   "unit": 34,
+   "word": "さします［傘を〜］",
+   "reading": "さします［かさを〜］",
+   "meaning": "giương (ô)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 325,
+   "unit": 34,
+   "word": "さっき",
+   "reading": "",
+   "meaning": "lúc nãy",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 326,
+   "unit": 34,
+   "word": "茶道",
+   "reading": "さどう",
+   "meaning": "trà đạo",
+   "sinoVietnamese": "TRÀ ĐẠO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 327,
+   "unit": 34,
+   "word": "質問します",
+   "reading": "しつもんします",
+   "meaning": "đặt câu hỏi",
+   "sinoVietnamese": "CHẤT VẤN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 328,
+   "unit": 34,
+   "word": "しょうゆ",
+   "reading": "",
+   "meaning": "xì dầu, nước tương",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 329,
+   "unit": 34,
+   "word": "城",
+   "reading": "しろ",
+   "meaning": "lâu đài, thành",
+   "sinoVietnamese": "THÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 330,
+   "unit": 34,
+   "word": "白",
+   "reading": "しろ",
+   "meaning": "màu trắng",
+   "sinoVietnamese": "BẠCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 331,
+   "unit": 34,
+   "word": "図",
+   "reading": "ず",
+   "meaning": "hình vẽ, sơ đồ",
+   "sinoVietnamese": "ĐỒ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 332,
+   "unit": 34,
+   "word": "スポーツクラブ",
+   "reading": "",
+   "meaning": "câu lạc bộ thể thao",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 333,
+   "unit": 34,
+   "word": "説明書",
+   "reading": "せつめいしょ",
+   "meaning": "sách hướng dẫn",
+   "sinoVietnamese": "THUYẾT MINH THƯ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 334,
+   "unit": 34,
+   "word": "線",
+   "reading": "せん",
+   "meaning": "đường kẻ, đường",
+   "sinoVietnamese": "TUYẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 335,
+   "unit": 34,
+   "word": "ソース",
+   "reading": "",
+   "meaning": "nước sốt",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 336,
+   "unit": 34,
+   "word": "茶色",
+   "reading": "ちゃいろ",
+   "meaning": "màu nâu",
+   "sinoVietnamese": "TRÀ SẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 337,
+   "unit": 34,
+   "word": "つけます［しょうゆを〜］",
+   "reading": "",
+   "meaning": "chấm (xì dầu)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 338,
+   "unit": 34,
+   "word": "苦い",
+   "reading": "にがい",
+   "meaning": "đắng",
+   "sinoVietnamese": "KHỔ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 339,
+   "unit": 34,
+   "word": "載せます",
+   "reading": "のせます",
+   "meaning": "đặt lên",
+   "sinoVietnamese": "TẢI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 340,
+   "unit": 34,
+   "word": "磨きます［歯を〜］",
+   "reading": "みがきます［はを〜］",
+   "meaning": "đánh (răng)",
+   "sinoVietnamese": "MA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 341,
+   "unit": 34,
+   "word": "見つかります［かぎが〜］",
+   "reading": "みつかります［かぎが〜］",
+   "meaning": "(chìa khóa) được tìm thấy",
+   "sinoVietnamese": "KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 342,
+   "unit": 34,
+   "word": "矢印",
+   "reading": "やじるし",
+   "meaning": "mũi tên",
+   "sinoVietnamese": "THỈ ẤN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 343,
+   "unit": 34,
+   "word": "ゆうべ",
+   "reading": "",
+   "meaning": "tối qua",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 344,
+   "unit": 35,
+   "word": "屋上",
+   "reading": "おくじょう",
+   "meaning": "sân thượng",
+   "sinoVietnamese": "ỐC THƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 345,
+   "unit": 35,
+   "word": "カーテン",
+   "reading": "",
+   "meaning": "rèm cửa",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 346,
+   "unit": 35,
+   "word": "海外",
+   "reading": "かいがい",
+   "meaning": "nước ngoài",
+   "sinoVietnamese": "HẢI NGOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 347,
+   "unit": 35,
+   "word": "変わります［色が〜］",
+   "reading": "かわります［いろが〜］",
+   "meaning": "(màu) thay đổi",
+   "sinoVietnamese": "BIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 348,
+   "unit": 35,
+   "word": "キー",
+   "reading": "",
+   "meaning": "chìa khóa; phím",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 349,
+   "unit": 35,
+   "word": "機会",
+   "reading": "きかい",
+   "meaning": "cơ hội",
+   "sinoVietnamese": "CƠ HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 350,
+   "unit": 35,
+   "word": "許可",
+   "reading": "きょか",
+   "meaning": "sự cho phép",
+   "sinoVietnamese": "HỨA KHẢ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 351,
+   "unit": 35,
+   "word": "近所",
+   "reading": "きんじょ",
+   "meaning": "hàng xóm, khu lân cận",
+   "sinoVietnamese": "CẬN SỞ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 352,
+   "unit": 35,
+   "word": "クリックします",
+   "reading": "",
+   "meaning": "nhấp chuột",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 353,
+   "unit": 35,
+   "word": "詳しい",
+   "reading": "くわしい",
+   "meaning": "chi tiết, tường tận",
+   "sinoVietnamese": "TƯỜNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 354,
+   "unit": 35,
+   "word": "困ります",
+   "reading": "こまります",
+   "meaning": "gặp khó khăn, bối rối",
+   "sinoVietnamese": "KHỐN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 355,
+   "unit": 35,
+   "word": "これで 終わりましょう。",
+   "reading": "これで おわりましょう。",
+   "meaning": "Chúng ta kết thúc ở đây.",
+   "sinoVietnamese": "CHUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 356,
+   "unit": 35,
+   "word": "さあ",
+   "reading": "",
+   "meaning": "Ồ... (không biết chắc); nào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 357,
+   "unit": 35,
+   "word": "咲きます［花が〜］",
+   "reading": "さきます［はなが〜］",
+   "meaning": "(hoa) nở",
+   "sinoVietnamese": "TIẾU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 358,
+   "unit": 35,
+   "word": "島",
+   "reading": "しま",
+   "meaning": "hòn đảo",
+   "sinoVietnamese": "ĐẢO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 359,
+   "unit": 35,
+   "word": "炊飯器",
+   "reading": "すいはんき",
+   "meaning": "nồi cơm điện",
+   "sinoVietnamese": "XUY PHẠN KHÍ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 360,
+   "unit": 35,
+   "word": "設備",
+   "reading": "せつび",
+   "meaning": "thiết bị",
+   "sinoVietnamese": "THIẾT BỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 361,
+   "unit": 35,
+   "word": "それなら",
+   "reading": "",
+   "meaning": "nếu vậy thì",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 362,
+   "unit": 35,
+   "word": "正しい",
+   "reading": "ただしい",
+   "meaning": "đúng",
+   "sinoVietnamese": "CHÍNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 363,
+   "unit": 35,
+   "word": "付けます［丸を〜］",
+   "reading": "つけます［まるを〜］",
+   "meaning": "đánh dấu (khoanh tròn)",
+   "sinoVietnamese": "PHÓ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 364,
+   "unit": 35,
+   "word": "治ります［病気が〜］",
+   "reading": "なおります［びょうきが〜］",
+   "meaning": "(bệnh) khỏi",
+   "sinoVietnamese": "TRỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 365,
+   "unit": 35,
+   "word": "直ります［故障が〜］",
+   "reading": "なおります［こしょうが〜］",
+   "meaning": "(hỏng hóc) được sửa xong",
+   "sinoVietnamese": "TRỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 366,
+   "unit": 35,
+   "word": "入力します",
+   "reading": "にゅうりょくします",
+   "meaning": "nhập (dữ liệu)",
+   "sinoVietnamese": "NHẬP LỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 367,
+   "unit": 35,
+   "word": "葉",
+   "reading": "は",
+   "meaning": "lá cây",
+   "sinoVietnamese": "DIỆP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 368,
+   "unit": 35,
+   "word": "ひも",
+   "reading": "",
+   "meaning": "dây",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 369,
+   "unit": 35,
+   "word": "ふりがな",
+   "reading": "",
+   "meaning": "chữ furigana (cách đọc nhỏ trên kanji)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 370,
+   "unit": 35,
+   "word": "丸",
+   "reading": "まる",
+   "meaning": "vòng tròn",
+   "sinoVietnamese": "HOÀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 371,
+   "unit": 35,
+   "word": "港",
+   "reading": "みなと",
+   "meaning": "bến cảng",
+   "sinoVietnamese": "CẢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 372,
+   "unit": 35,
+   "word": "昔",
+   "reading": "むかし",
+   "meaning": "ngày xưa",
+   "sinoVietnamese": "TÍCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 373,
+   "unit": 35,
+   "word": "向こう",
+   "reading": "むこう",
+   "meaning": "phía bên kia",
+   "sinoVietnamese": "HƯỚNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 374,
+   "unit": 35,
+   "word": "もっと",
+   "reading": "",
+   "meaning": "hơn nữa",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 375,
+   "unit": 35,
+   "word": "夜行バス",
+   "reading": "やこうバス",
+   "meaning": "xe buýt đêm",
+   "sinoVietnamese": "DẠ HÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 376,
+   "unit": 35,
+   "word": "山登り",
+   "reading": "やまのぼり",
+   "meaning": "leo núi",
+   "sinoVietnamese": "SƠN ĐĂNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 377,
+   "unit": 35,
+   "word": "旅行社",
+   "reading": "りょこうしゃ",
+   "meaning": "công ty du lịch",
+   "sinoVietnamese": "LỮ HÀNH XÃ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 378,
+   "unit": 35,
+   "word": "歴史",
+   "reading": "れきし",
+   "meaning": "lịch sử",
+   "sinoVietnamese": "LỊCH SỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 379,
+   "unit": 35,
+   "word": "レバー",
+   "reading": "",
+   "meaning": "cần gạt",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 380,
+   "unit": 36,
+   "word": "遭います［事故に〜］",
+   "reading": "あいます［じこに〜］",
+   "meaning": "gặp (tai nạn)",
+   "sinoVietnamese": "TAO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 381,
+   "unit": 36,
+   "word": "宇宙",
+   "reading": "うちゅう",
+   "meaning": "vũ trụ",
+   "sinoVietnamese": "VŨ TRỤ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 382,
+   "unit": 36,
+   "word": "お客様",
+   "reading": "おきゃくさま",
+   "meaning": "quý khách",
+   "sinoVietnamese": "KHÁCH DẠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 383,
+   "unit": 36,
+   "word": "必ず",
+   "reading": "かならず",
+   "meaning": "nhất định, chắc chắn",
+   "sinoVietnamese": "TẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 384,
+   "unit": 36,
+   "word": "かなり",
+   "reading": "",
+   "meaning": "khá, tương đối",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 385,
+   "unit": 36,
+   "word": "気持ち",
+   "reading": "きもち",
+   "meaning": "cảm giác, tâm trạng",
+   "sinoVietnamese": "KHÍ TRÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 386,
+   "unit": 36,
+   "word": "曲",
+   "reading": "きょく",
+   "meaning": "bản nhạc, ca khúc",
+   "sinoVietnamese": "KHÚC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 387,
+   "unit": 36,
+   "word": "腐ります［食べ物が〜］",
+   "reading": "くさります［たべものが〜］",
+   "meaning": "(đồ ăn) thối, hỏng",
+   "sinoVietnamese": "HỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 388,
+   "unit": 36,
+   "word": "剣道",
+   "reading": "けんどう",
+   "meaning": "kiếm đạo",
+   "sinoVietnamese": "KIẾM ĐẠO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 389,
+   "unit": 36,
+   "word": "このごろ",
+   "reading": "",
+   "meaning": "dạo này",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 390,
+   "unit": 36,
+   "word": "して いらっしゃいます",
+   "reading": "",
+   "meaning": "đang làm (tôn kính)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 391,
+   "unit": 36,
+   "word": "柔道",
+   "reading": "じゅうどう",
+   "meaning": "judo, nhu đạo",
+   "sinoVietnamese": "NHU ĐẠO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 392,
+   "unit": 36,
+   "word": "上手に",
+   "reading": "じょうずに",
+   "meaning": "giỏi, khéo léo",
+   "sinoVietnamese": "THƯỢNG THỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 393,
+   "unit": 36,
+   "word": "水泳",
+   "reading": "すいえい",
+   "meaning": "bơi lội",
+   "sinoVietnamese": "THỦY VỊNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 394,
+   "unit": 36,
+   "word": "過ぎます［7時を〜］",
+   "reading": "すぎます［しちじを〜］",
+   "meaning": "quá, qua (7 giờ)",
+   "sinoVietnamese": "QUÁ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 395,
+   "unit": 36,
+   "word": "絶対に",
+   "reading": "ぜったいに",
+   "meaning": "tuyệt đối",
+   "sinoVietnamese": "TUYỆT ĐỐI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 396,
+   "unit": 36,
+   "word": "違います",
+   "reading": "ちがいます",
+   "meaning": "khác",
+   "sinoVietnamese": "VI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 397,
+   "unit": 36,
+   "word": "チャレンジします",
+   "reading": "",
+   "meaning": "thử thách, thử sức",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 398,
+   "unit": 36,
+   "word": "貯金します",
+   "reading": "ちょきんします",
+   "meaning": "tiết kiệm tiền",
+   "sinoVietnamese": "TRỮ KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 399,
+   "unit": 36,
+   "word": "使って いらっしゃるんですね。",
+   "reading": "つかって いらっしゃるんですね。",
+   "meaning": "Bác đang dùng (đầu óc, cơ thể) nhỉ. (tôn kính)",
+   "sinoVietnamese": "SỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 400,
+   "unit": 36,
+   "word": "できるだけ",
+   "reading": "",
+   "meaning": "cố gắng hết mức có thể",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 401,
+   "unit": 36,
+   "word": "特別［な］",
+   "reading": "とくべつ［な］",
+   "meaning": "đặc biệt",
+   "sinoVietnamese": "ĐẶC BIỆT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 402,
+   "unit": 36,
+   "word": "慣れます［仕事に〜］",
+   "reading": "なれます［しごとに〜］",
+   "meaning": "quen (với công việc)",
+   "sinoVietnamese": "QUÁN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 403,
+   "unit": 36,
+   "word": "ほとんど",
+   "reading": "",
+   "meaning": "hầu hết; hầu như (không)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 404,
+   "unit": 36,
+   "word": "毎週",
+   "reading": "まいしゅう",
+   "meaning": "hàng tuần",
+   "sinoVietnamese": "MỖI CHU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 405,
+   "unit": 36,
+   "word": "毎月",
+   "reading": "まいつき",
+   "meaning": "hàng tháng",
+   "sinoVietnamese": "MỖI NGUYỆT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 406,
+   "unit": 36,
+   "word": "毎年",
+   "reading": "まいとし",
+   "meaning": "hàng năm",
+   "sinoVietnamese": "MỖI NIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 407,
+   "unit": 36,
+   "word": "やっと",
+   "reading": "",
+   "meaning": "cuối cùng thì",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 408,
+   "unit": 36,
+   "word": "ラッシュ",
+   "reading": "",
+   "meaning": "giờ cao điểm",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 409,
+   "unit": 37,
+   "word": "インスタントラーメン",
+   "reading": "",
+   "meaning": "mì ăn liền",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 410,
+   "unit": 37,
+   "word": "美しい",
+   "reading": "うつくしい",
+   "meaning": "đẹp",
+   "sinoVietnamese": "MỸ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 411,
+   "unit": 37,
+   "word": "行います",
+   "reading": "おこないます",
+   "meaning": "tiến hành, tổ chức",
+   "sinoVietnamese": "HÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 412,
+   "unit": 37,
+   "word": "ーキロ",
+   "reading": "",
+   "meaning": "~ ki-lô (gam/mét)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 413,
+   "unit": 37,
+   "word": "金",
+   "reading": "きん",
+   "meaning": "vàng",
+   "sinoVietnamese": "KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 414,
+   "unit": 37,
+   "word": "金色",
+   "reading": "きんいろ",
+   "meaning": "màu vàng kim",
+   "sinoVietnamese": "KIM SẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 415,
+   "unit": 37,
+   "word": "警官",
+   "reading": "けいかん",
+   "meaning": "cảnh sát",
+   "sinoVietnamese": "CẢNH QUAN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 416,
+   "unit": 37,
+   "word": "原料",
+   "reading": "げんりょう",
+   "meaning": "nguyên liệu",
+   "sinoVietnamese": "NGUYÊN LIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 417,
+   "unit": 37,
+   "word": "米",
+   "reading": "こめ",
+   "meaning": "gạo",
+   "sinoVietnamese": "MỄ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 418,
+   "unit": 37,
+   "word": "壊します",
+   "reading": "こわします",
+   "meaning": "làm hỏng, phá",
+   "sinoVietnamese": "HOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 419,
+   "unit": 37,
+   "word": "誘います",
+   "reading": "さそいます",
+   "meaning": "mời, rủ",
+   "sinoVietnamese": "DỤ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 420,
+   "unit": 37,
+   "word": "しかります",
+   "reading": "",
+   "meaning": "mắng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 421,
+   "unit": 37,
+   "word": "〜中",
+   "reading": "〜じゅう",
+   "meaning": "khắp ~, suốt ~",
+   "sinoVietnamese": "TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 422,
+   "unit": 37,
+   "word": "招待します",
+   "reading": "しょうたいします",
+   "meaning": "mời",
+   "sinoVietnamese": "CHIÊU ĐÃI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 423,
+   "unit": 37,
+   "word": "ー世紀",
+   "reading": "ーせいき",
+   "meaning": "thế kỷ ~",
+   "sinoVietnamese": "THẾ KỶ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 424,
+   "unit": 37,
+   "word": "世界遺産",
+   "reading": "せかいいさん",
+   "meaning": "di sản thế giới",
+   "sinoVietnamese": "THẾ GIỚI DI SẢN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 425,
+   "unit": 37,
+   "word": "世界中",
+   "reading": "せかいじゅう",
+   "meaning": "khắp thế giới",
+   "sinoVietnamese": "THẾ GIỚI TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 426,
+   "unit": 37,
+   "word": "石油",
+   "reading": "せきゆ",
+   "meaning": "dầu mỏ",
+   "sinoVietnamese": "THẠCH DU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 427,
+   "unit": 37,
+   "word": "その後",
+   "reading": "そのご",
+   "meaning": "sau đó",
+   "sinoVietnamese": "HẬU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 428,
+   "unit": 37,
+   "word": "頼みます",
+   "reading": "たのみます",
+   "meaning": "nhờ",
+   "sinoVietnamese": "LẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 429,
+   "unit": 37,
+   "word": "だれか",
+   "reading": "",
+   "meaning": "ai đó",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 430,
+   "unit": 37,
+   "word": "注意します",
+   "reading": "ちゅういします",
+   "meaning": "nhắc nhở, cảnh cáo",
+   "sinoVietnamese": "CHÚ Ý",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 431,
+   "unit": 37,
+   "word": "デート",
+   "reading": "",
+   "meaning": "hẹn hò",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 432,
+   "unit": 37,
+   "word": "とります",
+   "reading": "",
+   "meaning": "lấy trộm, lấy cắp",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 433,
+   "unit": 37,
+   "word": "泥棒",
+   "reading": "どろぼう",
+   "meaning": "kẻ trộm",
+   "sinoVietnamese": "NÊ BỔNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 434,
+   "unit": 37,
+   "word": "〜の 一つ",
+   "reading": "〜の ひとつ",
+   "meaning": "một trong những ~",
+   "sinoVietnamese": "NHẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 435,
+   "unit": 37,
+   "word": "発見します",
+   "reading": "はっけんします",
+   "meaning": "phát hiện",
+   "sinoVietnamese": "PHÁT KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 436,
+   "unit": 37,
+   "word": "発明します",
+   "reading": "はつめいします",
+   "meaning": "phát minh",
+   "sinoVietnamese": "PHÁT MINH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 437,
+   "unit": 37,
+   "word": "踏みます",
+   "reading": "ふみます",
+   "meaning": "giẫm",
+   "sinoVietnamese": "ĐẠP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 438,
+   "unit": 37,
+   "word": "褒めます",
+   "reading": "ほめます",
+   "meaning": "khen",
+   "sinoVietnamese": "BAO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 439,
+   "unit": 37,
+   "word": "本物",
+   "reading": "ほんもの",
+   "meaning": "đồ thật",
+   "sinoVietnamese": "BẢN VẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 440,
+   "unit": 37,
+   "word": "翻訳します",
+   "reading": "ほんやくします",
+   "meaning": "dịch (văn bản)",
+   "sinoVietnamese": "PHIÊN DỊCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 441,
+   "unit": 37,
+   "word": "皆様",
+   "reading": "みなさま",
+   "meaning": "quý vị",
+   "sinoVietnamese": "GIAI DẠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 442,
+   "unit": 37,
+   "word": "麦",
+   "reading": "むぎ",
+   "meaning": "lúa mạch",
+   "sinoVietnamese": "MẠCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 443,
+   "unit": 37,
+   "word": "焼けます［うちが〜］",
+   "reading": "やけます［うちが〜］",
+   "meaning": "(nhà) bị cháy",
+   "sinoVietnamese": "THIÊU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 444,
+   "unit": 37,
+   "word": "輸出します",
+   "reading": "ゆしゅつします",
+   "meaning": "xuất khẩu",
+   "sinoVietnamese": "THÂU XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 445,
+   "unit": 37,
+   "word": "輸入します",
+   "reading": "ゆにゅうします",
+   "meaning": "nhập khẩu",
+   "sinoVietnamese": "THÂU NHẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 446,
+   "unit": 37,
+   "word": "よかったですね。",
+   "reading": "",
+   "meaning": "Tốt quá nhỉ.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 447,
+   "unit": 37,
+   "word": "汚します",
+   "reading": "よごします",
+   "meaning": "làm bẩn",
+   "sinoVietnamese": "Ô",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 448,
+   "unit": 38,
+   "word": "［あ、］いけない。",
+   "reading": "",
+   "meaning": "Ôi, chết rồi! (khi chợt nhớ ra điều gì)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 449,
+   "unit": 38,
+   "word": "赤ちゃん",
+   "reading": "あかちゃん",
+   "meaning": "em bé",
+   "sinoVietnamese": "XÍCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 450,
+   "unit": 38,
+   "word": "いけない。",
+   "reading": "",
+   "meaning": "Không được. / Chết rồi.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 451,
+   "unit": 38,
+   "word": "入れます［電源を〜］",
+   "reading": "いれます［でんげんを〜］",
+   "meaning": "bật (nguồn điện)",
+   "sinoVietnamese": "NHẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 452,
+   "unit": 38,
+   "word": "駅前",
+   "reading": "えきまえ",
+   "meaning": "trước nhà ga",
+   "sinoVietnamese": "DỊCH TIỀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 453,
+   "unit": 38,
+   "word": "大きな 〜",
+   "reading": "おおきな 〜",
+   "meaning": "~ to, lớn",
+   "sinoVietnamese": "ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 454,
+   "unit": 38,
+   "word": "お先に ［失礼します］。",
+   "reading": "おさきに ［しつれいします］。",
+   "meaning": "Tôi xin phép về trước.",
+   "sinoVietnamese": "TIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 455,
+   "unit": 38,
+   "word": "押します［はんこを〜］",
+   "reading": "おします［はんこを〜］",
+   "meaning": "đóng (dấu)",
+   "sinoVietnamese": "ÁP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 456,
+   "unit": 38,
+   "word": "おととし",
+   "reading": "",
+   "meaning": "năm kia",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 457,
+   "unit": 38,
+   "word": "海岸",
+   "reading": "かいがん",
+   "meaning": "bờ biển",
+   "sinoVietnamese": "HẢI NGẠN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 458,
+   "unit": 38,
+   "word": "回覧",
+   "reading": "かいらん",
+   "meaning": "thông báo chuyền tay",
+   "sinoVietnamese": "HỒI LÃM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 459,
+   "unit": 38,
+   "word": "掛けます［かぎを〜］",
+   "reading": "かけます［かぎを〜］",
+   "meaning": "khóa (cửa)",
+   "sinoVietnamese": "QUẢI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 460,
+   "unit": 38,
+   "word": "かな",
+   "reading": "",
+   "meaning": "nhỉ (tự hỏi)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 461,
+   "unit": 38,
+   "word": "きちんと",
+   "reading": "",
+   "meaning": "ngăn nắp, gọn gàng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 462,
+   "unit": 38,
+   "word": "気持ちが いい",
+   "reading": "きもちが いい",
+   "meaning": "dễ chịu, sảng khoái",
+   "sinoVietnamese": "KHÍ TRÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 463,
+   "unit": 38,
+   "word": "気持ちが 悪い",
+   "reading": "きもちが わるい",
+   "meaning": "khó chịu, ghê",
+   "sinoVietnamese": "KHÍ TRÌ ÁC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 464,
+   "unit": 38,
+   "word": "切ります［電源を〜］",
+   "reading": "きります［でんげんを〜］",
+   "meaning": "tắt (nguồn điện)",
+   "sinoVietnamese": "THIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 465,
+   "unit": 38,
+   "word": "研究室",
+   "reading": "けんきゅうしつ",
+   "meaning": "phòng nghiên cứu",
+   "sinoVietnamese": "NGHIÊN CỨU THẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 466,
+   "unit": 38,
+   "word": "健康",
+   "reading": "けんこう",
+   "meaning": "sức khỏe",
+   "sinoVietnamese": "KIỆN KHANG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 467,
+   "unit": 38,
+   "word": "工場",
+   "reading": "こうじょう",
+   "meaning": "nhà máy",
+   "sinoVietnamese": "CÔNG TRÀNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 468,
+   "unit": 38,
+   "word": "ー冊",
+   "reading": "ーさつ",
+   "meaning": "~ quyển",
+   "sinoVietnamese": "SÁCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 469,
+   "unit": 38,
+   "word": "参加します［旅行に〜］",
+   "reading": "さんかします［りょこうに〜］",
+   "meaning": "tham gia (chuyến du lịch)",
+   "sinoVietnamese": "THAM GIA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 470,
+   "unit": 38,
+   "word": "習慣",
+   "reading": "しゅうかん",
+   "meaning": "thói quen, tập quán",
+   "sinoVietnamese": "TẬP QUÁN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 471,
+   "unit": 38,
+   "word": "小学校",
+   "reading": "しょうがっこう",
+   "meaning": "trường tiểu học",
+   "sinoVietnamese": "TIỂU HỌC HIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 472,
+   "unit": 38,
+   "word": "〜製",
+   "reading": "〜せい",
+   "meaning": "sản xuất tại ~, làm bằng ~",
+   "sinoVietnamese": "CHẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 473,
+   "unit": 38,
+   "word": "整理します",
+   "reading": "せいりします",
+   "meaning": "sắp xếp, chỉnh lý",
+   "sinoVietnamese": "CHỈNH LÝ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 474,
+   "unit": 38,
+   "word": "育てます",
+   "reading": "そだてます",
+   "meaning": "nuôi dưỡng, trồng",
+   "sinoVietnamese": "DỤC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 475,
+   "unit": 38,
+   "word": "退院します",
+   "reading": "たいいんします",
+   "meaning": "ra viện",
+   "sinoVietnamese": "THOÁI VIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 476,
+   "unit": 38,
+   "word": "小さな 〜",
+   "reading": "ちいさな 〜",
+   "meaning": "~ nhỏ",
+   "sinoVietnamese": "TIỂU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 477,
+   "unit": 38,
+   "word": "中学校",
+   "reading": "ちゅうがっこう",
+   "meaning": "trường trung học cơ sở",
+   "sinoVietnamese": "TRUNG HỌC HIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 478,
+   "unit": 38,
+   "word": "つきます［うそを〜］",
+   "reading": "",
+   "meaning": "nói (dối)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 479,
+   "unit": 38,
+   "word": "電源",
+   "reading": "でんげん",
+   "meaning": "nguồn điện",
+   "sinoVietnamese": "ĐIỆN NGUYÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 480,
+   "unit": 38,
+   "word": "〜と いう",
+   "reading": "",
+   "meaning": "gọi là ~",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 481,
+   "unit": 38,
+   "word": "入院します",
+   "reading": "にゅういんします",
+   "meaning": "nhập viện",
+   "sinoVietnamese": "NHẬP VIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 482,
+   "unit": 38,
+   "word": "運びます",
+   "reading": "はこびます",
+   "meaning": "vận chuyển, mang",
+   "sinoVietnamese": "VẬN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 483,
+   "unit": 38,
+   "word": "はんこ",
+   "reading": "",
+   "meaning": "con dấu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 484,
+   "unit": 38,
+   "word": "方法",
+   "reading": "ほうほう",
+   "meaning": "phương pháp",
+   "sinoVietnamese": "PHƯƠNG PHÁP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 485,
+   "unit": 38,
+   "word": "村",
+   "reading": "むら",
+   "meaning": "làng",
+   "sinoVietnamese": "THÔN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 486,
+   "unit": 38,
+   "word": "指輪",
+   "reading": "ゆびわ",
+   "meaning": "nhẫn",
+   "sinoVietnamese": "CHỈ LUÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 487,
+   "unit": 39,
+   "word": "安心します",
+   "reading": "あんしんします",
+   "meaning": "yên tâm",
+   "sinoVietnamese": "AN TÂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 488,
+   "unit": 39,
+   "word": "伺います。",
+   "reading": "うかがいます。",
+   "meaning": "Tôi xin phép hỏi / đến thăm. (khiêm nhường)",
+   "sinoVietnamese": "TỨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 489,
+   "unit": 39,
+   "word": "うれしい",
+   "reading": "",
+   "meaning": "vui mừng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 490,
+   "unit": 39,
+   "word": "大勢",
+   "reading": "おおぜい",
+   "meaning": "nhiều người, đông người",
+   "sinoVietnamese": "ĐẠI THẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 491,
+   "unit": 39,
+   "word": "お疲れさまでした。",
+   "reading": "おつかれさまでした。",
+   "meaning": "Anh/chị đã vất vả rồi.",
+   "sinoVietnamese": "BÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 492,
+   "unit": 39,
+   "word": "［お］見合い",
+   "reading": "［お］みあい",
+   "meaning": "buổi xem mắt",
+   "sinoVietnamese": "KIẾN HỢP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 493,
+   "unit": 39,
+   "word": "会場",
+   "reading": "かいじょう",
+   "meaning": "hội trường, địa điểm tổ chức",
+   "sinoVietnamese": "HỘI TRÀNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 494,
+   "unit": 39,
+   "word": "火事",
+   "reading": "かじ",
+   "meaning": "hỏa hoạn",
+   "sinoVietnamese": "HỎA SỰ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 495,
+   "unit": 39,
+   "word": "硬い",
+   "reading": "かたい",
+   "meaning": "cứng",
+   "sinoVietnamese": "NGẠNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 496,
+   "unit": 39,
+   "word": "がっかりします",
+   "reading": "",
+   "meaning": "thất vọng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 497,
+   "unit": 39,
+   "word": "悲しい",
+   "reading": "かなしい",
+   "meaning": "buồn",
+   "sinoVietnamese": "BI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 498,
+   "unit": 39,
+   "word": "雷",
+   "reading": "かみなり",
+   "meaning": "sấm sét",
+   "sinoVietnamese": "LÔI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 499,
+   "unit": 39,
+   "word": "汚い",
+   "reading": "きたない",
+   "meaning": "bẩn",
+   "sinoVietnamese": "Ô",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 500,
+   "unit": 39,
+   "word": "けんかします",
+   "reading": "",
+   "meaning": "cãi nhau",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 501,
+   "unit": 39,
+   "word": "ー号室",
+   "reading": "ーごうしつ",
+   "meaning": "phòng số ~",
+   "sinoVietnamese": "HIỆU THẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 502,
+   "unit": 39,
+   "word": "答えます［質問に〜］",
+   "reading": "こたえます［しつもんに〜］",
+   "meaning": "trả lời (câu hỏi)",
+   "sinoVietnamese": "ĐÁP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 503,
+   "unit": 39,
+   "word": "事故",
+   "reading": "じこ",
+   "meaning": "tai nạn",
+   "sinoVietnamese": "SỰ CỐ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 504,
+   "unit": 39,
+   "word": "地震",
+   "reading": "じしん",
+   "meaning": "động đất",
+   "sinoVietnamese": "ĐỊA CHẤN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 505,
+   "unit": 39,
+   "word": "死にます",
+   "reading": "しにます",
+   "meaning": "chết",
+   "sinoVietnamese": "TỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 506,
+   "unit": 39,
+   "word": "邪魔［な］",
+   "reading": "じゃま［な］",
+   "meaning": "vướng víu, cản trở",
+   "sinoVietnamese": "TÀ MA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 507,
+   "unit": 39,
+   "word": "首相",
+   "reading": "しゅしょう",
+   "meaning": "thủ tướng",
+   "sinoVietnamese": "THỦ TƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 508,
+   "unit": 39,
+   "word": "せっけん",
+   "reading": "",
+   "meaning": "xà phòng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 509,
+   "unit": 39,
+   "word": "操作",
+   "reading": "そうさ",
+   "meaning": "thao tác",
+   "sinoVietnamese": "THAO TÁC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 510,
+   "unit": 39,
+   "word": "〜代",
+   "reading": "〜だい",
+   "meaning": "tiền ~, phí ~",
+   "sinoVietnamese": "ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 511,
+   "unit": 39,
+   "word": "台風",
+   "reading": "たいふう",
+   "meaning": "bão",
+   "sinoVietnamese": "ĐÀI PHONG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 512,
+   "unit": 39,
+   "word": "タオル",
+   "reading": "",
+   "meaning": "khăn tắm, khăn mặt",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 513,
+   "unit": 39,
+   "word": "倒れます［ビルが〜］",
+   "reading": "たおれます［ビルが〜］",
+   "meaning": "(tòa nhà) đổ",
+   "sinoVietnamese": "ĐẢO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 514,
+   "unit": 39,
+   "word": "津波",
+   "reading": "つなみ",
+   "meaning": "sóng thần",
+   "sinoVietnamese": "TÂN BA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 515,
+   "unit": 39,
+   "word": "通ります［道を〜］",
+   "reading": "とおります［みちを〜］",
+   "meaning": "đi qua (đường)",
+   "sinoVietnamese": "THÔNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 516,
+   "unit": 39,
+   "word": "途中で",
+   "reading": "とちゅうで",
+   "meaning": "giữa đường, giữa chừng",
+   "sinoVietnamese": "ĐỒ TRUNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 517,
+   "unit": 39,
+   "word": "トラック",
+   "reading": "",
+   "meaning": "xe tải",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 518,
+   "unit": 39,
+   "word": "ハイキング",
+   "reading": "",
+   "meaning": "đi bộ dã ngoại",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 519,
+   "unit": 39,
+   "word": "恥ずかしい",
+   "reading": "はずかしい",
+   "meaning": "xấu hổ",
+   "sinoVietnamese": "SỈ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 520,
+   "unit": 39,
+   "word": "びっくりします",
+   "reading": "",
+   "meaning": "ngạc nhiên, giật mình",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 521,
+   "unit": 39,
+   "word": "複雑［な］",
+   "reading": "ふくざつ［な］",
+   "meaning": "phức tạp",
+   "sinoVietnamese": "PHỨC TẠP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 522,
+   "unit": 39,
+   "word": "ぶつかります",
+   "reading": "",
+   "meaning": "va chạm, đâm vào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 523,
+   "unit": 39,
+   "word": "太ります",
+   "reading": "ふとります",
+   "meaning": "béo lên",
+   "sinoVietnamese": "THÁI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 524,
+   "unit": 39,
+   "word": "フロント",
+   "reading": "",
+   "meaning": "quầy lễ tân",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 525,
+   "unit": 39,
+   "word": "見合い",
+   "reading": "みあい",
+   "meaning": "xem mắt",
+   "sinoVietnamese": "KIẾN HỢP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 526,
+   "unit": 39,
+   "word": "〜屋",
+   "reading": "〜や",
+   "meaning": "cửa hàng ~, tiệm ~",
+   "sinoVietnamese": "ỐC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 527,
+   "unit": 39,
+   "word": "やせます",
+   "reading": "",
+   "meaning": "gầy đi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 528,
+   "unit": 39,
+   "word": "軟らかい",
+   "reading": "やわらかい",
+   "meaning": "mềm",
+   "sinoVietnamese": "NHUYỄN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 529,
+   "unit": 39,
+   "word": "離婚します",
+   "reading": "りこんします",
+   "meaning": "ly hôn",
+   "sinoVietnamese": "LY HÔN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 530,
+   "unit": 40,
+   "word": "合います",
+   "reading": "あいます［サイズが〜］",
+   "meaning": "vừa, hợp (cỡ)",
+   "sinoVietnamese": "HỢP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 531,
+   "unit": 40,
+   "word": "〜以下",
+   "reading": "〜いか",
+   "meaning": "~ trở xuống, dưới ~",
+   "sinoVietnamese": "DĨ HẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 532,
+   "unit": 40,
+   "word": "〜以上",
+   "reading": "〜いじょう",
+   "meaning": "~ trở lên",
+   "sinoVietnamese": "DĨ THƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 533,
+   "unit": 40,
+   "word": "いらっしゃいます",
+   "reading": "",
+   "meaning": "có mặt, ở, đi, đến (tôn kính ngữ)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 534,
+   "unit": 40,
+   "word": "うまく いきます",
+   "reading": "",
+   "meaning": "diễn ra suôn sẻ",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 535,
+   "unit": 40,
+   "word": "裏",
+   "reading": "うら",
+   "meaning": "mặt sau, phía sau",
+   "sinoVietnamese": "LÝ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 536,
+   "unit": 40,
+   "word": "大きさ",
+   "reading": "おおきさ",
+   "meaning": "kích thước, độ lớn",
+   "sinoVietnamese": "ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 537,
+   "unit": 40,
+   "word": "［お］年寄り",
+   "reading": "［お］としより",
+   "meaning": "người già",
+   "sinoVietnamese": "NIÊN KÝ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 538,
+   "unit": 40,
+   "word": "重さ",
+   "reading": "おもさ",
+   "meaning": "trọng lượng, sức nặng",
+   "sinoVietnamese": "TRỌNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 539,
+   "unit": 40,
+   "word": "表",
+   "reading": "おもて",
+   "meaning": "mặt trước",
+   "sinoVietnamese": "BIỂU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 540,
+   "unit": 40,
+   "word": "数えます",
+   "reading": "かぞえます",
+   "meaning": "đếm",
+   "sinoVietnamese": "SỔ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 541,
+   "unit": 40,
+   "word": "傷",
+   "reading": "きず",
+   "meaning": "vết thương, vết xước",
+   "sinoVietnamese": "THƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 542,
+   "unit": 40,
+   "word": "ーグラム",
+   "reading": "",
+   "meaning": "~ gam",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 543,
+   "unit": 40,
+   "word": "ー個",
+   "reading": "ーこ",
+   "meaning": "~ cái, ~ chiếc",
+   "sinoVietnamese": "CÁ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 544,
+   "unit": 40,
+   "word": "コンテスト",
+   "reading": "",
+   "meaning": "cuộc thi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 545,
+   "unit": 40,
+   "word": "出発します",
+   "reading": "しゅっぱつします",
+   "meaning": "xuất phát",
+   "sinoVietnamese": "XUẤT PHÁT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 546,
+   "unit": 40,
+   "word": "新年会",
+   "reading": "しんねんかい",
+   "meaning": "tiệc mừng năm mới",
+   "sinoVietnamese": "TÂN NIÊN HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 547,
+   "unit": 40,
+   "word": "ズボン",
+   "reading": "",
+   "meaning": "quần âu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 548,
+   "unit": 40,
+   "word": "成績",
+   "reading": "せいせき",
+   "meaning": "thành tích, kết quả học tập",
+   "sinoVietnamese": "THÀNH TÍCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 549,
+   "unit": 40,
+   "word": "ーセンチ",
+   "reading": "",
+   "meaning": "~ cen-ti-mét",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 550,
+   "unit": 40,
+   "word": "相談します",
+   "reading": "そうだんします",
+   "meaning": "bàn bạc, trao đổi",
+   "sinoVietnamese": "TƯƠNG ĐÀM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 551,
+   "unit": 40,
+   "word": "大会",
+   "reading": "たいかい",
+   "meaning": "đại hội, cuộc thi",
+   "sinoVietnamese": "ĐẠI HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 552,
+   "unit": 40,
+   "word": "高さ",
+   "reading": "たかさ",
+   "meaning": "chiều cao",
+   "sinoVietnamese": "CAO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 553,
+   "unit": 40,
+   "word": "確かめます",
+   "reading": "たしかめます",
+   "meaning": "xác nhận",
+   "sinoVietnamese": "XÁC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 554,
+   "unit": 40,
+   "word": "テスト",
+   "reading": "",
+   "meaning": "bài kiểm tra",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 555,
+   "unit": 40,
+   "word": "出ます［問題が〜］",
+   "reading": "でます［もんだいが〜］",
+   "meaning": "(đề bài) được ra",
+   "sinoVietnamese": "XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 556,
+   "unit": 40,
+   "word": "天気予報",
+   "reading": "てんきよほう",
+   "meaning": "dự báo thời tiết",
+   "sinoVietnamese": "THIÊN KHÍ DỰ BÁO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 557,
+   "unit": 40,
+   "word": "到着します",
+   "reading": "とうちゃくします",
+   "meaning": "đến nơi",
+   "sinoVietnamese": "ĐÁO TRƯỚC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 558,
+   "unit": 40,
+   "word": "どうでしょうか。",
+   "reading": "",
+   "meaning": "Thế nào ạ? (lịch sự)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 559,
+   "unit": 40,
+   "word": "ところで",
+   "reading": "",
+   "meaning": "nhân tiện, à này",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 560,
+   "unit": 40,
+   "word": "年寄り",
+   "reading": "としより",
+   "meaning": "người già",
+   "sinoVietnamese": "NIÊN KÝ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 561,
+   "unit": 40,
+   "word": "長さ",
+   "reading": "ながさ",
+   "meaning": "chiều dài",
+   "sinoVietnamese": "TRƯỜNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 562,
+   "unit": 40,
+   "word": "二次会",
+   "reading": "にじかい",
+   "meaning": "tiệc tăng hai",
+   "sinoVietnamese": "NHỊ THỨ HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 563,
+   "unit": 40,
+   "word": "ー杯",
+   "reading": "ーはい",
+   "meaning": "~ cốc, ~ bát",
+   "sinoVietnamese": "BÔI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 564,
+   "unit": 40,
+   "word": "測ります、量ります",
+   "reading": "はかります",
+   "meaning": "đo, cân",
+   "sinoVietnamese": "TRẮC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 565,
+   "unit": 40,
+   "word": "発表会",
+   "reading": "はっぴょうかい",
+   "meaning": "buổi thuyết trình",
+   "sinoVietnamese": "PHÁT BIỂU HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 566,
+   "unit": 40,
+   "word": "必要［な］",
+   "reading": "ひつよう［な］",
+   "meaning": "cần thiết",
+   "sinoVietnamese": "TẤT YẾU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 567,
+   "unit": 40,
+   "word": "［ー］便",
+   "reading": "［ー］びん",
+   "meaning": "chuyến bay (số ~)",
+   "sinoVietnamese": "TIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 568,
+   "unit": 40,
+   "word": "忘年会",
+   "reading": "ぼうねんかい",
+   "meaning": "tiệc tất niên",
+   "sinoVietnamese": "VONG NIÊN HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 569,
+   "unit": 40,
+   "word": "ー本",
+   "reading": "ーほん",
+   "meaning": "~ cái, ~ chiếc (vật dài)",
+   "sinoVietnamese": "BẢN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 570,
+   "unit": 40,
+   "word": "まちがい",
+   "reading": "",
+   "meaning": "lỗi sai",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 571,
+   "unit": 40,
+   "word": "マラソン",
+   "reading": "",
+   "meaning": "marathon",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 572,
+   "unit": 40,
+   "word": "ーミリ",
+   "reading": "",
+   "meaning": "~ mi-li-mét",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 573,
+   "unit": 40,
+   "word": "酔います",
+   "reading": "よいます",
+   "meaning": "say (rượu)",
+   "sinoVietnamese": "TÚY",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 574,
+   "unit": 40,
+   "word": "様子",
+   "reading": "ようす",
+   "meaning": "tình hình, dáng vẻ",
+   "sinoVietnamese": "DẠNG TỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 575,
+   "unit": 41,
+   "word": "上げます",
+   "reading": "あげます",
+   "meaning": "nâng lên, giơ lên",
+   "sinoVietnamese": "THƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 576,
+   "unit": 41,
+   "word": "いただきます",
+   "reading": "",
+   "meaning": "nhận (khiêm nhường ngữ của もらいます)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 577,
+   "unit": 41,
+   "word": "えさ",
+   "reading": "",
+   "meaning": "thức ăn (cho động vật)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 578,
+   "unit": 41,
+   "word": "絵はがき",
+   "reading": "えはがき",
+   "meaning": "bưu thiếp có tranh",
+   "sinoVietnamese": "HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 579,
+   "unit": 41,
+   "word": "絵本",
+   "reading": "えほん",
+   "meaning": "truyện tranh thiếu nhi",
+   "sinoVietnamese": "HỘI BẢN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 580,
+   "unit": 41,
+   "word": "お祝い",
+   "reading": "おいわい",
+   "meaning": "quà mừng, lễ mừng",
+   "sinoVietnamese": "CHÚC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 581,
+   "unit": 41,
+   "word": "おじ",
+   "reading": "",
+   "meaning": "chú, bác (của mình)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 582,
+   "unit": 41,
+   "word": "おじさん",
+   "reading": "",
+   "meaning": "chú, bác (của người khác); ông chú",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 583,
+   "unit": 41,
+   "word": "お宅",
+   "reading": "おたく",
+   "meaning": "nhà (của người khác, tôn kính)",
+   "sinoVietnamese": "TRẠCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 584,
+   "unit": 41,
+   "word": "お年玉",
+   "reading": "おとしだま",
+   "meaning": "tiền mừng tuổi",
+   "sinoVietnamese": "NIÊN NGỌC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 585,
+   "unit": 41,
+   "word": "おば",
+   "reading": "",
+   "meaning": "cô, dì (của mình)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 586,
+   "unit": 41,
+   "word": "おばさん",
+   "reading": "",
+   "meaning": "cô, dì (của người khác); bà cô",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 587,
+   "unit": 41,
+   "word": "お孫さん",
+   "reading": "おまごさん",
+   "meaning": "cháu (của người khác)",
+   "sinoVietnamese": "TÔN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 588,
+   "unit": 41,
+   "word": "［お］見舞い",
+   "reading": "［お］みまい",
+   "meaning": "thăm người ốm",
+   "sinoVietnamese": "KIẾN VŨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 589,
+   "unit": 41,
+   "word": "おもちゃ",
+   "reading": "",
+   "meaning": "đồ chơi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 590,
+   "unit": 41,
+   "word": "温度",
+   "reading": "おんど",
+   "meaning": "nhiệt độ",
+   "sinoVietnamese": "ÔN ĐỘ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 591,
+   "unit": 41,
+   "word": "かわいい",
+   "reading": "",
+   "meaning": "dễ thương",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 592,
+   "unit": 41,
+   "word": "管理人",
+   "reading": "かんりにん",
+   "meaning": "người quản lý",
+   "sinoVietnamese": "QUẢN LÝ NHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 593,
+   "unit": 41,
+   "word": "興味",
+   "reading": "きょうみ",
+   "meaning": "sự quan tâm, hứng thú",
+   "sinoVietnamese": "HƯNG VỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 594,
+   "unit": 41,
+   "word": "くださいます",
+   "reading": "",
+   "meaning": "cho, tặng (tôn kính ngữ của くれます)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 595,
+   "unit": 41,
+   "word": "靴下",
+   "reading": "くつした",
+   "meaning": "tất, vớ",
+   "sinoVietnamese": "NGOA HẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 596,
+   "unit": 41,
+   "word": "この間",
+   "reading": "このあいだ",
+   "meaning": "hôm trước, gần đây",
+   "sinoVietnamese": "GIAN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 597,
+   "unit": 41,
+   "word": "下げます",
+   "reading": "さげます",
+   "meaning": "hạ xuống",
+   "sinoVietnamese": "HẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 598,
+   "unit": 41,
+   "word": "猿",
+   "reading": "さる",
+   "meaning": "con khỉ",
+   "sinoVietnamese": "VIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 599,
+   "unit": 41,
+   "word": "情報",
+   "reading": "じょうほう",
+   "meaning": "thông tin",
+   "sinoVietnamese": "TÌNH BÁO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 600,
+   "unit": 41,
+   "word": "親切に します",
+   "reading": "しんせつに します",
+   "meaning": "đối xử tử tế",
+   "sinoVietnamese": "THÂN THIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 601,
+   "unit": 41,
+   "word": "〜ずつ",
+   "reading": "",
+   "meaning": "mỗi ~, từng ~",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 602,
+   "unit": 41,
+   "word": "祖父",
+   "reading": "そふ",
+   "meaning": "ông (của mình)",
+   "sinoVietnamese": "TỔ PHỤ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 603,
+   "unit": 41,
+   "word": "祖母",
+   "reading": "そぼ",
+   "meaning": "bà (của mình)",
+   "sinoVietnamese": "TỔ MẪU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 604,
+   "unit": 41,
+   "word": "暖房",
+   "reading": "だんぼう",
+   "meaning": "máy sưởi",
+   "sinoVietnamese": "NOÃN PHÒNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 605,
+   "unit": 41,
+   "word": "手袋",
+   "reading": "てぶくろ",
+   "meaning": "găng tay",
+   "sinoVietnamese": "THỦ ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 606,
+   "unit": 41,
+   "word": "どうぞ お幸せに。",
+   "reading": "どうぞ おしあわせに。",
+   "meaning": "Chúc hai bạn hạnh phúc.",
+   "sinoVietnamese": "HẠNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 607,
+   "unit": 41,
+   "word": "ドライバー",
+   "reading": "",
+   "meaning": "tài xế; tua vít",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 608,
+   "unit": 41,
+   "word": "発音",
+   "reading": "はつおん",
+   "meaning": "phát âm",
+   "sinoVietnamese": "PHÁT ÂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 609,
+   "unit": 41,
+   "word": "ひとこと",
+   "reading": "",
+   "meaning": "một vài lời",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 610,
+   "unit": 41,
+   "word": "二人",
+   "reading": "ふたり",
+   "meaning": "hai người (hai vợ chồng)",
+   "sinoVietnamese": "NHỊ NHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 611,
+   "unit": 41,
+   "word": "文法",
+   "reading": "ぶんぽう",
+   "meaning": "ngữ pháp",
+   "sinoVietnamese": "VĂN PHÁP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 612,
+   "unit": 41,
+   "word": "孫",
+   "reading": "まご",
+   "meaning": "cháu (của mình)",
+   "sinoVietnamese": "TÔN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 613,
+   "unit": 41,
+   "word": "見舞い",
+   "reading": "みまい",
+   "meaning": "thăm người ốm",
+   "sinoVietnamese": "KIẾN VŨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 614,
+   "unit": 41,
+   "word": "珍しい",
+   "reading": "めずらしい",
+   "meaning": "hiếm, lạ",
+   "sinoVietnamese": "TRÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 615,
+   "unit": 41,
+   "word": "やります",
+   "reading": "",
+   "meaning": "cho (người dưới, động vật, cây cối)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 616,
+   "unit": 41,
+   "word": "幼稚園",
+   "reading": "ようちえん",
+   "meaning": "trường mẫu giáo",
+   "sinoVietnamese": "ẤU TRĨ VIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 617,
+   "unit": 41,
+   "word": "冷房",
+   "reading": "れいぼう",
+   "meaning": "máy lạnh",
+   "sinoVietnamese": "LÃNH PHÒNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 618,
+   "unit": 42,
+   "word": "ある 〜",
+   "reading": "",
+   "meaning": "~ nào đó, một ~",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 619,
+   "unit": 42,
+   "word": "一生懸命",
+   "reading": "いっしょうけんめい",
+   "meaning": "hết sức, chăm chỉ",
+   "sinoVietnamese": "NHẤT SINH HUYỀN MỆNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 620,
+   "unit": 42,
+   "word": "音楽家",
+   "reading": "おんがくか",
+   "meaning": "nhạc sĩ",
+   "sinoVietnamese": "ÂM LẠC GIA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 621,
+   "unit": 42,
+   "word": "缶切り",
+   "reading": "かんきり",
+   "meaning": "cái mở hộp",
+   "sinoVietnamese": "PHŨ THIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 622,
+   "unit": 42,
+   "word": "缶詰",
+   "reading": "かんづめ",
+   "meaning": "đồ hộp",
+   "sinoVietnamese": "PHŨ CẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 623,
+   "unit": 42,
+   "word": "教育",
+   "reading": "きょういく",
+   "meaning": "giáo dục",
+   "sinoVietnamese": "GIÁO DỤC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 624,
+   "unit": 42,
+   "word": "計算します",
+   "reading": "けいさんします",
+   "meaning": "tính toán",
+   "sinoVietnamese": "KẾ TOÁN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 625,
+   "unit": 42,
+   "word": "子どもたち",
+   "reading": "こどもたち",
+   "meaning": "bọn trẻ, các em nhỏ",
+   "sinoVietnamese": "TỬ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 626,
+   "unit": 42,
+   "word": "材料",
+   "reading": "ざいりょう",
+   "meaning": "nguyên liệu, vật liệu",
+   "sinoVietnamese": "TÀI LIỆU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 627,
+   "unit": 42,
+   "word": "自然",
+   "reading": "しぜん",
+   "meaning": "thiên nhiên",
+   "sinoVietnamese": "TỰ NHIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 628,
+   "unit": 42,
+   "word": "社会",
+   "reading": "しゃかい",
+   "meaning": "xã hội",
+   "sinoVietnamese": "XÃ HỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 629,
+   "unit": 42,
+   "word": "丈夫［な］",
+   "reading": "じょうぶ［な］",
+   "meaning": "chắc chắn, bền",
+   "sinoVietnamese": "TRƯỢNG PHU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 630,
+   "unit": 42,
+   "word": "政治",
+   "reading": "せいじ",
+   "meaning": "chính trị",
+   "sinoVietnamese": "CHÍNH TRỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 631,
+   "unit": 42,
+   "word": "戦争",
+   "reading": "せんそう",
+   "meaning": "chiến tranh",
+   "sinoVietnamese": "CHIẾN TRANH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 632,
+   "unit": 42,
+   "word": "栓抜き",
+   "reading": "せんぬき",
+   "meaning": "cái mở nắp chai",
+   "sinoVietnamese": "XUYÊN BẠT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 633,
+   "unit": 42,
+   "word": "そろばん",
+   "reading": "",
+   "meaning": "bàn tính",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 634,
+   "unit": 42,
+   "word": "体温計",
+   "reading": "たいおんけい",
+   "meaning": "nhiệt kế",
+   "sinoVietnamese": "THỂ ÔN KẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 635,
+   "unit": 42,
+   "word": "楽しみ",
+   "reading": "たのしみ",
+   "meaning": "niềm vui, điều mong chờ",
+   "sinoVietnamese": "LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 636,
+   "unit": 42,
+   "word": "包みます",
+   "reading": "つつみます",
+   "meaning": "gói, bọc",
+   "sinoVietnamese": "BAO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 637,
+   "unit": 42,
+   "word": "出ます［ボーナスが〜］",
+   "reading": "でます［ボーナスが〜］",
+   "meaning": "(tiền thưởng) được phát",
+   "sinoVietnamese": "XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 638,
+   "unit": 42,
+   "word": "どのくらい",
+   "reading": "",
+   "meaning": "khoảng bao nhiêu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 639,
+   "unit": 42,
+   "word": "なぜ",
+   "reading": "",
+   "meaning": "tại sao",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 640,
+   "unit": 42,
+   "word": "並びます",
+   "reading": "ならびます",
+   "meaning": "xếp hàng",
+   "sinoVietnamese": "TỊNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 641,
+   "unit": 42,
+   "word": "のし袋",
+   "reading": "のしぶくろ",
+   "meaning": "phong bì mừng",
+   "sinoVietnamese": "ĐẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 642,
+   "unit": 42,
+   "word": "半分",
+   "reading": "はんぶん",
+   "meaning": "một nửa",
+   "sinoVietnamese": "BÁN PHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 643,
+   "unit": 42,
+   "word": "ふた",
+   "reading": "",
+   "meaning": "nắp",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 644,
+   "unit": 42,
+   "word": "ふろしき",
+   "reading": "",
+   "meaning": "khăn gói đồ furoshiki",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 645,
+   "unit": 42,
+   "word": "文化",
+   "reading": "ぶんか",
+   "meaning": "văn hóa",
+   "sinoVietnamese": "VĂN HOÁ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 646,
+   "unit": 42,
+   "word": "平和",
+   "reading": "へいわ",
+   "meaning": "hòa bình",
+   "sinoVietnamese": "BÌNH HOÀ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 647,
+   "unit": 42,
+   "word": "弁護士",
+   "reading": "べんごし",
+   "meaning": "luật sư",
+   "sinoVietnamese": "BIỆN HỘ SĨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 648,
+   "unit": 42,
+   "word": "法律",
+   "reading": "ほうりつ",
+   "meaning": "pháp luật",
+   "sinoVietnamese": "PHÁP LUẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 649,
+   "unit": 42,
+   "word": "混ぜます",
+   "reading": "まぜます",
+   "meaning": "trộn",
+   "sinoVietnamese": "HỖN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 650,
+   "unit": 42,
+   "word": "ミキサー",
+   "reading": "",
+   "meaning": "máy xay sinh tố",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 651,
+   "unit": 42,
+   "word": "目的",
+   "reading": "もくてき",
+   "meaning": "mục đích",
+   "sinoVietnamese": "MỤC ĐÍCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 652,
+   "unit": 42,
+   "word": "やかん",
+   "reading": "",
+   "meaning": "ấm đun nước",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 653,
+   "unit": 42,
+   "word": "ローン",
+   "reading": "",
+   "meaning": "khoản vay",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 654,
+   "unit": 42,
+   "word": "論文",
+   "reading": "ろんぶん",
+   "meaning": "luận văn",
+   "sinoVietnamese": "LUẬN VĂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 655,
+   "unit": 42,
+   "word": "沸かします",
+   "reading": "わかします",
+   "meaning": "đun sôi",
+   "sinoVietnamese": "PHÍ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 656,
+   "unit": 43,
+   "word": "上がります［値段が〜］",
+   "reading": "あがります［ねだんが〜］",
+   "meaning": "(giá cả) tăng lên",
+   "sinoVietnamese": "THƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 657,
+   "unit": 43,
+   "word": "今にも",
+   "reading": "いまにも",
+   "meaning": "sắp ~ đến nơi",
+   "sinoVietnamese": "KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 658,
+   "unit": 43,
+   "word": "うまい",
+   "reading": "",
+   "meaning": "ngon; giỏi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 659,
+   "unit": 43,
+   "word": "落ちます［荷物が〜］",
+   "reading": "おちます［にもつが〜］",
+   "meaning": "(hành lý) rơi",
+   "sinoVietnamese": "LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 660,
+   "unit": 43,
+   "word": "ガソリン",
+   "reading": "",
+   "meaning": "xăng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 661,
+   "unit": 43,
+   "word": "切れます［ひもが〜］",
+   "reading": "きれます［ひもが〜］",
+   "meaning": "(dây) đứt",
+   "sinoVietnamese": "THIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 662,
+   "unit": 43,
+   "word": "下がります［値段が〜］",
+   "reading": "さがります［ねだんが〜］",
+   "meaning": "(giá) giảm",
+   "sinoVietnamese": "HẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 663,
+   "unit": 43,
+   "word": "幸せ［な］",
+   "reading": "しあわせ［な］",
+   "meaning": "hạnh phúc",
+   "sinoVietnamese": "HẠNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 664,
+   "unit": 43,
+   "word": "つまらない",
+   "reading": "",
+   "meaning": "chán, vô vị",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 665,
+   "unit": 43,
+   "word": "とれます［ボタンが〜］",
+   "reading": "",
+   "meaning": "(cúc áo) bung, rơi ra",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 666,
+   "unit": 43,
+   "word": "なくなります［ガソリンが〜］",
+   "reading": "",
+   "meaning": "(xăng) hết",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 667,
+   "unit": 43,
+   "word": "パンフレット",
+   "reading": "",
+   "meaning": "tờ rơi, sách giới thiệu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 668,
+   "unit": 43,
+   "word": "火",
+   "reading": "ひ",
+   "meaning": "lửa",
+   "sinoVietnamese": "HỎA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 669,
+   "unit": 43,
+   "word": "増えます［輸出が〜］",
+   "reading": "ふえます［ゆしゅつが〜］",
+   "meaning": "(xuất khẩu) tăng",
+   "sinoVietnamese": "TĂNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 670,
+   "unit": 43,
+   "word": "減ります［輸出が〜］",
+   "reading": "へります［ゆしゅつが〜］",
+   "meaning": "(xuất khẩu) giảm",
+   "sinoVietnamese": "GIẢM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 671,
+   "unit": 43,
+   "word": "変［な］",
+   "reading": "へん［な］",
+   "meaning": "lạ, kỳ quặc",
+   "sinoVietnamese": "BIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 672,
+   "unit": 43,
+   "word": "まずい",
+   "reading": "",
+   "meaning": "dở, không ngon",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 673,
+   "unit": 43,
+   "word": "優しい",
+   "reading": "やさしい",
+   "meaning": "hiền lành, tốt bụng",
+   "sinoVietnamese": "ƯU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 674,
+   "unit": 43,
+   "word": "楽［な］",
+   "reading": "らく［な］",
+   "meaning": "nhẹ nhàng, thoải mái",
+   "sinoVietnamese": "LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 675,
+   "unit": 43,
+   "word": "わあ",
+   "reading": "",
+   "meaning": "Ôi! Oa! (thán từ)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 676,
+   "unit": 44,
+   "word": "厚い",
+   "reading": "あつい",
+   "meaning": "dày",
+   "sinoVietnamese": "HẬU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 677,
+   "unit": 44,
+   "word": "安全［な］",
+   "reading": "あんぜん［な］",
+   "meaning": "an toàn",
+   "sinoVietnamese": "AN TOÀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 678,
+   "unit": 44,
+   "word": "薄い",
+   "reading": "うすい",
+   "meaning": "mỏng, nhạt",
+   "sinoVietnamese": "BẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 679,
+   "unit": 44,
+   "word": "起きます［事故が〜］",
+   "reading": "おきます［じこが〜］",
+   "meaning": "(tai nạn) xảy ra",
+   "sinoVietnamese": "KHỞI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 680,
+   "unit": 44,
+   "word": "カット",
+   "reading": "",
+   "meaning": "cắt (tóc)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 681,
+   "unit": 44,
+   "word": "乾きます［シャツが〜］",
+   "reading": "かわきます［シャツが〜］",
+   "meaning": "(áo) khô",
+   "sinoVietnamese": "KIỀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 682,
+   "unit": 44,
+   "word": "危険［な］",
+   "reading": "きけん［な］",
+   "meaning": "nguy hiểm",
+   "sinoVietnamese": "NGUY HIỂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 683,
+   "unit": 44,
+   "word": "空気",
+   "reading": "くうき",
+   "meaning": "không khí",
+   "sinoVietnamese": "KHÔNG KHÍ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 684,
+   "unit": 44,
+   "word": "濃い",
+   "reading": "こい",
+   "meaning": "đậm, đặc",
+   "sinoVietnamese": "NÙNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 685,
+   "unit": 44,
+   "word": "これで よろしいでしょうか。",
+   "reading": "",
+   "meaning": "Thế này đã được chưa ạ? (lịch sự)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 686,
+   "unit": 44,
+   "word": "シャンプー",
+   "reading": "",
+   "meaning": "dầu gội; gội đầu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 687,
+   "unit": 44,
+   "word": "ショート",
+   "reading": "",
+   "meaning": "(tóc) ngắn",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 688,
+   "unit": 44,
+   "word": "シングル",
+   "reading": "",
+   "meaning": "phòng đơn",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 689,
+   "unit": 44,
+   "word": "滑ります",
+   "reading": "すべります",
+   "meaning": "trơn trượt",
+   "sinoVietnamese": "HOẠT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 690,
+   "unit": 44,
+   "word": "洗濯物",
+   "reading": "せんたくもの",
+   "meaning": "quần áo giặt",
+   "sinoVietnamese": "TẨY TRẠC VẬT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 691,
+   "unit": 44,
+   "word": "調節します",
+   "reading": "ちょうせつします",
+   "meaning": "điều chỉnh",
+   "sinoVietnamese": "ĐIỀU TIẾT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 692,
+   "unit": 44,
+   "word": "ツイン",
+   "reading": "",
+   "meaning": "phòng đôi (hai giường)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 693,
+   "unit": 44,
+   "word": "DVD",
+   "reading": "ディーブイディー",
+   "meaning": "đĩa DVD",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 694,
+   "unit": 44,
+   "word": "どういうふうに なさいますか。",
+   "reading": "",
+   "meaning": "Anh/chị muốn làm như thế nào ạ?",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 695,
+   "unit": 44,
+   "word": "どう なさいますか。",
+   "reading": "",
+   "meaning": "Anh/chị muốn làm gì ạ? (lịch sự)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 696,
+   "unit": 44,
+   "word": "［どうも］ お疲れさまでした。",
+   "reading": "［どうも］ おつかれさまでした。",
+   "meaning": "Cảm ơn anh/chị đã vất vả.",
+   "sinoVietnamese": "BÌ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 697,
+   "unit": 44,
+   "word": "泣きます",
+   "reading": "なきます",
+   "meaning": "khóc",
+   "sinoVietnamese": "KHẤP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 698,
+   "unit": 44,
+   "word": "涙",
+   "reading": "なみだ",
+   "meaning": "nước mắt",
+   "sinoVietnamese": "LỆ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 699,
+   "unit": 44,
+   "word": "ぬれます［シャツが〜］",
+   "reading": "",
+   "meaning": "(áo) bị ướt",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 700,
+   "unit": 44,
+   "word": "眠ります",
+   "reading": "ねむります",
+   "meaning": "ngủ",
+   "sinoVietnamese": "MIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 701,
+   "unit": 44,
+   "word": "ー倍",
+   "reading": "ーばい",
+   "meaning": "gấp ~ lần",
+   "sinoVietnamese": "BỘI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 702,
+   "unit": 44,
+   "word": "太い",
+   "reading": "ふとい",
+   "meaning": "to, dày",
+   "sinoVietnamese": "THÁI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 703,
+   "unit": 44,
+   "word": "細い",
+   "reading": "ほそい",
+   "meaning": "mảnh, gầy",
+   "sinoVietnamese": "TẾ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 704,
+   "unit": 44,
+   "word": "〜みたいに して ください。",
+   "reading": "",
+   "meaning": "Hãy làm giống như ~.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 705,
+   "unit": 44,
+   "word": "洋食",
+   "reading": "ようしょく",
+   "meaning": "món ăn Âu",
+   "sinoVietnamese": "DƯƠNG THỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 706,
+   "unit": 44,
+   "word": "量",
+   "reading": "りょう",
+   "meaning": "lượng",
+   "sinoVietnamese": "LƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 707,
+   "unit": 44,
+   "word": "和食",
+   "reading": "わしょく",
+   "meaning": "món ăn Nhật",
+   "sinoVietnamese": "HOÀ THỰC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 708,
+   "unit": 44,
+   "word": "笑います",
+   "reading": "わらいます",
+   "meaning": "cười",
+   "sinoVietnamese": "TIẾU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 709,
+   "unit": 45,
+   "word": "ー位",
+   "reading": "ーい",
+   "meaning": "hạng ~, vị trí thứ ~",
+   "sinoVietnamese": "VỊ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 710,
+   "unit": 45,
+   "word": "以上です。",
+   "reading": "いじょうです。",
+   "meaning": "Xin hết. (kết thúc phát biểu)",
+   "sinoVietnamese": "DĨ THƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 711,
+   "unit": 45,
+   "word": "梅",
+   "reading": "うめ",
+   "meaning": "hoa mơ, cây mơ",
+   "sinoVietnamese": "MAI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 712,
+   "unit": 45,
+   "word": "係員",
+   "reading": "かかりいん",
+   "meaning": "nhân viên phụ trách",
+   "sinoVietnamese": "HỆ VIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 713,
+   "unit": 45,
+   "word": "キャンセルします",
+   "reading": "",
+   "meaning": "hủy",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 714,
+   "unit": 45,
+   "word": "キャンプ",
+   "reading": "",
+   "meaning": "cắm trại",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 715,
+   "unit": 45,
+   "word": "急に",
+   "reading": "きゅうに",
+   "meaning": "đột nhiên",
+   "sinoVietnamese": "CẤP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 716,
+   "unit": 45,
+   "word": "コース",
+   "reading": "",
+   "meaning": "lộ trình, khóa học",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 717,
+   "unit": 45,
+   "word": "知らせます",
+   "reading": "しらせます",
+   "meaning": "thông báo",
+   "sinoVietnamese": "TRI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 718,
+   "unit": 45,
+   "word": "信じます",
+   "reading": "しんじます",
+   "meaning": "tin tưởng",
+   "sinoVietnamese": "TÍN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 719,
+   "unit": 45,
+   "word": "スタート",
+   "reading": "",
+   "meaning": "xuất phát, bắt đầu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 720,
+   "unit": 45,
+   "word": "楽しみに して います",
+   "reading": "たのしみに して います",
+   "meaning": "đang mong chờ",
+   "sinoVietnamese": "LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 721,
+   "unit": 45,
+   "word": "中止",
+   "reading": "ちゅうし",
+   "meaning": "hủy bỏ, đình chỉ",
+   "sinoVietnamese": "TRUNG CHỈ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 722,
+   "unit": 45,
+   "word": "点",
+   "reading": "てん",
+   "meaning": "điểm",
+   "sinoVietnamese": "ĐIỂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 723,
+   "unit": 45,
+   "word": "119番",
+   "reading": "ひゃくじゅうきゅうばん",
+   "meaning": "số 119 (cứu hỏa, cấp cứu)",
+   "sinoVietnamese": "PHIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 724,
+   "unit": 45,
+   "word": "110番",
+   "reading": "ひゃくとおばん",
+   "meaning": "số 110 (cảnh sát)",
+   "sinoVietnamese": "PHIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 725,
+   "unit": 45,
+   "word": "保証書",
+   "reading": "ほしょうしょ",
+   "meaning": "phiếu bảo hành",
+   "sinoVietnamese": "BẢO CHỨNG THƯ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 726,
+   "unit": 45,
+   "word": "無理に",
+   "reading": "むりに",
+   "meaning": "cố quá sức, gượng ép",
+   "sinoVietnamese": "VÔ LÝ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 727,
+   "unit": 45,
+   "word": "優勝します",
+   "reading": "ゆうしょうします",
+   "meaning": "vô địch",
+   "sinoVietnamese": "ƯU THẮNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 728,
+   "unit": 45,
+   "word": "領収書",
+   "reading": "りょうしゅうしょ",
+   "meaning": "hóa đơn, biên lai",
+   "sinoVietnamese": "LĨNH THU THƯ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 729,
+   "unit": 46,
+   "word": "今 いいですか。",
+   "reading": "いま いいですか。",
+   "meaning": "Bây giờ có tiện (nói chuyện) không?",
+   "sinoVietnamese": "KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 730,
+   "unit": 46,
+   "word": "お待たせしました。",
+   "reading": "おまたせしました。",
+   "meaning": "Xin lỗi đã để anh/chị đợi.",
+   "sinoVietnamese": "ĐÃI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 731,
+   "unit": 46,
+   "word": "帰って 来ます",
+   "reading": "かえって きます",
+   "meaning": "về (rồi quay lại đây)",
+   "sinoVietnamese": "QUY LAI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 732,
+   "unit": 46,
+   "word": "ガスサービスセンター",
+   "reading": "",
+   "meaning": "trung tâm dịch vụ ga",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 733,
+   "unit": 46,
+   "word": "ガスレンジ",
+   "reading": "",
+   "meaning": "bếp ga",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 734,
+   "unit": 46,
+   "word": "具合",
+   "reading": "ぐあい",
+   "meaning": "tình trạng",
+   "sinoVietnamese": "CỤ HỢP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 735,
+   "unit": 46,
+   "word": "原因",
+   "reading": "げんいん",
+   "meaning": "nguyên nhân",
+   "sinoVietnamese": "NGUYÊN NHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 736,
+   "unit": 46,
+   "word": "こちら",
+   "reading": "",
+   "meaning": "đây, phía này; tôi/chúng tôi (khi nghe điện thoại)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 737,
+   "unit": 46,
+   "word": "卒業します［大学を〜］",
+   "reading": "そつぎょうします［だいがくを〜］",
+   "meaning": "tốt nghiệp (đại học)",
+   "sinoVietnamese": "TỐT NGHIỆP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 738,
+   "unit": 46,
+   "word": "宅配便",
+   "reading": "たくはいびん",
+   "meaning": "dịch vụ chuyển phát tận nhà",
+   "sinoVietnamese": "TRẠCH PHỐI TIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 739,
+   "unit": 46,
+   "word": "たった今",
+   "reading": "たったいま",
+   "meaning": "vừa mới",
+   "sinoVietnamese": "KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 740,
+   "unit": 46,
+   "word": "ちょうど",
+   "reading": "",
+   "meaning": "vừa đúng, vừa lúc",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 741,
+   "unit": 46,
+   "word": "出ます［バスが〜］",
+   "reading": "でます［バスが〜］",
+   "meaning": "(xe buýt) xuất phát",
+   "sinoVietnamese": "XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 742,
+   "unit": 46,
+   "word": "どちら様でしょうか。",
+   "reading": "どちらさまでしょうか。",
+   "meaning": "Xin hỏi ai đấy ạ?",
+   "sinoVietnamese": "DẠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 743,
+   "unit": 46,
+   "word": "届きます［荷物が〜］",
+   "reading": "とどきます［にもつが〜］",
+   "meaning": "(hành lý) được gửi đến",
+   "sinoVietnamese": "GIỚI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 744,
+   "unit": 46,
+   "word": "入学します［大学に〜］",
+   "reading": "にゅうがくします［だいがくに〜］",
+   "meaning": "nhập học (đại học)",
+   "sinoVietnamese": "NHẬP HỌC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 745,
+   "unit": 46,
+   "word": "〜の 所",
+   "reading": "〜の ところ",
+   "meaning": "chỗ ~",
+   "sinoVietnamese": "SỞ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 746,
+   "unit": 46,
+   "word": "半年",
+   "reading": "はんとし",
+   "meaning": "nửa năm",
+   "sinoVietnamese": "BÁN NIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 747,
+   "unit": 46,
+   "word": "向かいます",
+   "reading": "むかいます",
+   "meaning": "hướng về, đi về phía",
+   "sinoVietnamese": "HƯỚNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 748,
+   "unit": 46,
+   "word": "申し訳 ありません。",
+   "reading": "もうしわけ ありません。",
+   "meaning": "Thành thật xin lỗi.",
+   "sinoVietnamese": "THÂN DỊCH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 749,
+   "unit": 46,
+   "word": "焼きます",
+   "reading": "やきます",
+   "meaning": "nướng",
+   "sinoVietnamese": "THIÊU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 750,
+   "unit": 46,
+   "word": "焼けます［パンが〜］",
+   "reading": "やけます［パンが〜］",
+   "meaning": "(bánh mì) được nướng chín",
+   "sinoVietnamese": "THIÊU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 751,
+   "unit": 46,
+   "word": "留守",
+   "reading": "るす",
+   "meaning": "vắng nhà",
+   "sinoVietnamese": "LƯU THỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 752,
+   "unit": 46,
+   "word": "渡します",
+   "reading": "わたします",
+   "meaning": "đưa, trao",
+   "sinoVietnamese": "ĐỘ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 753,
+   "unit": 47,
+   "word": "相手",
+   "reading": "あいて",
+   "meaning": "đối phương, người kia; bạn đời",
+   "sinoVietnamese": "TƯƠNG THỦ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 754,
+   "unit": 47,
+   "word": "集まります［人が〜］",
+   "reading": "あつまります［ひとが〜］",
+   "meaning": "(người) tập trung, tụ họp",
+   "sinoVietnamese": "TẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 755,
+   "unit": 47,
+   "word": "医学",
+   "reading": "いがく",
+   "meaning": "y học",
+   "sinoVietnamese": "Y HỌC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 756,
+   "unit": 47,
+   "word": "科学",
+   "reading": "かがく",
+   "meaning": "khoa học",
+   "sinoVietnamese": "KHOA HỌC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 757,
+   "unit": 47,
+   "word": "厳しい",
+   "reading": "きびしい",
+   "meaning": "nghiêm khắc",
+   "sinoVietnamese": "NGHIÊM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 758,
+   "unit": 47,
+   "word": "救急車",
+   "reading": "きゅうきゅうしゃ",
+   "meaning": "xe cấp cứu",
+   "sinoVietnamese": "CỨU CẤP XA",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 759,
+   "unit": 47,
+   "word": "恋人",
+   "reading": "こいびと",
+   "meaning": "người yêu",
+   "sinoVietnamese": "LUYẾN NHÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 760,
+   "unit": 47,
+   "word": "怖い",
+   "reading": "こわい",
+   "meaning": "đáng sợ, sợ",
+   "sinoVietnamese": "BỐ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 761,
+   "unit": 47,
+   "word": "婚約します",
+   "reading": "こんやくします",
+   "meaning": "đính hôn",
+   "sinoVietnamese": "HÔN ƯỚC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 762,
+   "unit": 47,
+   "word": "賛成",
+   "reading": "さんせい",
+   "meaning": "tán thành",
+   "sinoVietnamese": "TÁN THÀNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 763,
+   "unit": 47,
+   "word": "実験",
+   "reading": "じっけん",
+   "meaning": "thí nghiệm",
+   "sinoVietnamese": "THỰC NGHIỆM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 764,
+   "unit": 47,
+   "word": "します［音／声が〜］",
+   "reading": "します［おと／こえが〜］",
+   "meaning": "nghe thấy (âm thanh/tiếng); có (mùi, vị)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 765,
+   "unit": 47,
+   "word": "知り合います",
+   "reading": "しりあいます",
+   "meaning": "quen biết",
+   "sinoVietnamese": "TRI HỢP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 766,
+   "unit": 47,
+   "word": "人口",
+   "reading": "じんこう",
+   "meaning": "dân số",
+   "sinoVietnamese": "NHÂN KHẨU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 767,
+   "unit": 47,
+   "word": "大統領",
+   "reading": "だいとうりょう",
+   "meaning": "tổng thống",
+   "sinoVietnamese": "ĐẠI THỐNG LĨNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 768,
+   "unit": 47,
+   "word": "データ",
+   "reading": "",
+   "meaning": "dữ liệu",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 769,
+   "unit": 47,
+   "word": "どうも",
+   "reading": "",
+   "meaning": "hình như, có vẻ như",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 770,
+   "unit": 47,
+   "word": "亡くなります",
+   "reading": "なくなります",
+   "meaning": "qua đời",
+   "sinoVietnamese": "VONG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 771,
+   "unit": 47,
+   "word": "におい",
+   "reading": "",
+   "meaning": "mùi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 772,
+   "unit": 47,
+   "word": "〜に よると",
+   "reading": "",
+   "meaning": "theo ~",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 773,
+   "unit": 47,
+   "word": "パトカー",
+   "reading": "",
+   "meaning": "xe cảnh sát",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 774,
+   "unit": 47,
+   "word": "反対",
+   "reading": "はんたい",
+   "meaning": "phản đối",
+   "sinoVietnamese": "PHẢN ĐỐI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 775,
+   "unit": 47,
+   "word": "ひどい",
+   "reading": "",
+   "meaning": "tồi tệ, quá đáng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 776,
+   "unit": 47,
+   "word": "吹きます［風が〜］",
+   "reading": "ふきます［かぜが〜］",
+   "meaning": "(gió) thổi",
+   "sinoVietnamese": "XUY",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 777,
+   "unit": 47,
+   "word": "文学",
+   "reading": "ぶんがく",
+   "meaning": "văn học",
+   "sinoVietnamese": "VĂN HỌC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 778,
+   "unit": 47,
+   "word": "燃えます［ごみが〜］",
+   "reading": "もえます［ごみが〜］",
+   "meaning": "(rác) cháy được",
+   "sinoVietnamese": "NHIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 779,
+   "unit": 47,
+   "word": "別れます［人が〜］",
+   "reading": "わかれます［ひとが〜］",
+   "meaning": "chia tay",
+   "sinoVietnamese": "BIỆT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 780,
+   "unit": 48,
+   "word": "いい ことですね。",
+   "reading": "",
+   "meaning": "Hay quá nhỉ. / Tốt quá nhỉ.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 781,
+   "unit": 48,
+   "word": "嫌［な］",
+   "reading": "いや［な］",
+   "meaning": "ghét, khó chịu",
+   "sinoVietnamese": "HIỀM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 782,
+   "unit": 48,
+   "word": "営業",
+   "reading": "えいぎょう",
+   "meaning": "kinh doanh, bán hàng",
+   "sinoVietnamese": "DOANH NGHIỆP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 783,
+   "unit": 48,
+   "word": "お忙しいですか。",
+   "reading": "おいそがしいですか。",
+   "meaning": "Anh/chị có bận không ạ?",
+   "sinoVietnamese": "MANG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 784,
+   "unit": 48,
+   "word": "降ろします、下ろします",
+   "reading": "おろします",
+   "meaning": "cho xuống, hạ xuống",
+   "sinoVietnamese": "GIÁNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 785,
+   "unit": 48,
+   "word": "かまいません。",
+   "reading": "",
+   "meaning": "Không sao. / Được thôi.",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 786,
+   "unit": 48,
+   "word": "〜間",
+   "reading": "〜かん",
+   "meaning": "trong ~ (khoảng thời gian)",
+   "sinoVietnamese": "GIAN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 787,
+   "unit": 48,
+   "word": "自由に",
+   "reading": "じゆうに",
+   "meaning": "tự do",
+   "sinoVietnamese": "TỰ DO",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 788,
+   "unit": 48,
+   "word": "塾",
+   "reading": "じゅく",
+   "meaning": "lớp học thêm",
+   "sinoVietnamese": "THỤC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 789,
+   "unit": 48,
+   "word": "生徒",
+   "reading": "せいと",
+   "meaning": "học sinh",
+   "sinoVietnamese": "SINH ĐỒ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 790,
+   "unit": 48,
+   "word": "世話を します",
+   "reading": "せわを します",
+   "meaning": "chăm sóc",
+   "sinoVietnamese": "THẾ THOẠI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 791,
+   "unit": 48,
+   "word": "それまでに",
+   "reading": "",
+   "meaning": "trước lúc đó",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 792,
+   "unit": 48,
+   "word": "楽しみます",
+   "reading": "たのしみます",
+   "meaning": "tận hưởng, vui chơi",
+   "sinoVietnamese": "LẠC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 793,
+   "unit": 48,
+   "word": "届けます",
+   "reading": "とどけます",
+   "meaning": "gửi đến, giao đến",
+   "sinoVietnamese": "GIỚI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 794,
+   "unit": 48,
+   "word": "ファイル",
+   "reading": "",
+   "meaning": "tập hồ sơ, file",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 795,
+   "unit": 48,
+   "word": "録音します",
+   "reading": "ろくおんします",
+   "meaning": "ghi âm",
+   "sinoVietnamese": "LỤC ÂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 796,
+   "unit": 49,
+   "word": "あいさつ",
+   "reading": "",
+   "meaning": "lời chào; bài phát biểu chào mừng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 797,
+   "unit": 49,
+   "word": "奥様",
+   "reading": "おくさま",
+   "meaning": "phu nhân, vợ (của người khác, tôn kính)",
+   "sinoVietnamese": "ÁO DẠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 798,
+   "unit": 49,
+   "word": "おっしゃいます",
+   "reading": "",
+   "meaning": "nói (tôn kính ngữ của 言います)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 799,
+   "unit": 49,
+   "word": "掛けます［いすに〜］",
+   "reading": "かけます［いすに〜］",
+   "meaning": "ngồi (lên ghế)",
+   "sinoVietnamese": "QUẢI",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 800,
+   "unit": 49,
+   "word": "ご存じです",
+   "reading": "ごぞんじです",
+   "meaning": "biết (tôn kính ngữ của 知っています)",
+   "sinoVietnamese": "TỒN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 801,
+   "unit": 49,
+   "word": "ご覧に なります",
+   "reading": "ごらんに なります",
+   "meaning": "xem (tôn kính ngữ của 見ます)",
+   "sinoVietnamese": "LÃM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 802,
+   "unit": 49,
+   "word": "〜様",
+   "reading": "〜さま",
+   "meaning": "ngài ~, quý ~ (tôn kính của さん)",
+   "sinoVietnamese": "DẠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 803,
+   "unit": 49,
+   "word": "失礼いたします。",
+   "reading": "しつれいいたします。",
+   "meaning": "Xin phép. (khiêm nhường)",
+   "sinoVietnamese": "THẤT LỄ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 804,
+   "unit": 49,
+   "word": "過ごします",
+   "reading": "すごします",
+   "meaning": "trải qua, sống",
+   "sinoVietnamese": "QUÁ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 805,
+   "unit": 49,
+   "word": "出します［熱を〜］",
+   "reading": "だします［ねつを〜］",
+   "meaning": "bị (sốt)",
+   "sinoVietnamese": "XUẤT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 806,
+   "unit": 49,
+   "word": "たまに",
+   "reading": "",
+   "meaning": "thỉnh thoảng",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 807,
+   "unit": 49,
+   "word": "勤めます［会社に〜］",
+   "reading": "つとめます［かいしゃに〜］",
+   "meaning": "làm việc (ở công ty)",
+   "sinoVietnamese": "CẦN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 808,
+   "unit": 49,
+   "word": "〜と いいます",
+   "reading": "",
+   "meaning": "tên là ~ (khiêm tốn)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 809,
+   "unit": 49,
+   "word": "どなたでも",
+   "reading": "",
+   "meaning": "bất cứ vị nào",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 810,
+   "unit": 49,
+   "word": "なさいます",
+   "reading": "",
+   "meaning": "làm (tôn kính ngữ của します)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 811,
+   "unit": 49,
+   "word": "ー年ー組",
+   "reading": "ーねんーくみ",
+   "meaning": "lớp ~ năm ~",
+   "sinoVietnamese": "NIÊN TỔ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 812,
+   "unit": 49,
+   "word": "バス停",
+   "reading": "バスてい",
+   "meaning": "bến xe buýt",
+   "sinoVietnamese": "ĐÌNH",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 813,
+   "unit": 49,
+   "word": "召し上がります",
+   "reading": "めしあがります",
+   "meaning": "ăn, uống (tôn kính ngữ)",
+   "sinoVietnamese": "TRIỆU THƯỢNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 814,
+   "unit": 49,
+   "word": "よろしく お伝え ください。",
+   "reading": "よろしく おつたえ ください。",
+   "meaning": "Xin chuyển lời hỏi thăm giúp tôi.",
+   "sinoVietnamese": "TRUYỀN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 815,
+   "unit": 49,
+   "word": "利用します",
+   "reading": "りようします",
+   "meaning": "sử dụng",
+   "sinoVietnamese": "LỢI DỤNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 816,
+   "unit": 49,
+   "word": "旅館",
+   "reading": "りょかん",
+   "meaning": "nhà trọ kiểu Nhật",
+   "sinoVietnamese": "LỮ QUÁN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 817,
+   "unit": 50,
+   "word": "いたします",
+   "reading": "",
+   "meaning": "làm (khiêm nhường ngữ của します)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 818,
+   "unit": 50,
+   "word": "入れます［コーヒーを〜］",
+   "reading": "いれます［コーヒーを〜］",
+   "meaning": "pha (cà phê)",
+   "sinoVietnamese": "NHẬP",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 819,
+   "unit": 50,
+   "word": "伺います",
+   "reading": "うかがいます",
+   "meaning": "hỏi, nghe; đến thăm (khiêm nhường ngữ)",
+   "sinoVietnamese": "TỨ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 820,
+   "unit": 50,
+   "word": "応援します",
+   "reading": "おうえんします",
+   "meaning": "cổ vũ, ủng hộ",
+   "sinoVietnamese": "ƯNG VIỆN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 821,
+   "unit": 50,
+   "word": "お目に かかります",
+   "reading": "おめに かかります",
+   "meaning": "gặp (khiêm nhường ngữ của 会います)",
+   "sinoVietnamese": "MỤC",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 822,
+   "unit": 50,
+   "word": "おります",
+   "reading": "",
+   "meaning": "có, ở (khiêm nhường ngữ của います)",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 823,
+   "unit": 50,
+   "word": "ガイド",
+   "reading": "",
+   "meaning": "hướng dẫn viên",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 824,
+   "unit": 50,
+   "word": "かないます［夢が〜］",
+   "reading": "かないます［ゆめが〜］",
+   "meaning": "(ước mơ) thành hiện thực",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 825,
+   "unit": 50,
+   "word": "感謝します",
+   "reading": "かんしゃします",
+   "meaning": "cảm tạ, biết ơn",
+   "sinoVietnamese": "CẢM TẠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 826,
+   "unit": 50,
+   "word": "きりん",
+   "reading": "",
+   "meaning": "hươu cao cổ",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 827,
+   "unit": 50,
+   "word": "緊張します",
+   "reading": "きんちょうします",
+   "meaning": "căng thẳng, hồi hộp",
+   "sinoVietnamese": "KHẨN TRƯƠNG",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 828,
+   "unit": 50,
+   "word": "心から",
+   "reading": "こころから",
+   "meaning": "từ tận đáy lòng",
+   "sinoVietnamese": "TÂM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 829,
+   "unit": 50,
+   "word": "ころ",
+   "reading": "",
+   "meaning": "khoảng thời gian, hồi",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 830,
+   "unit": 50,
+   "word": "さ来月",
+   "reading": "さらいげつ",
+   "meaning": "tháng sau nữa",
+   "sinoVietnamese": "LAI NGUYỆT",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 831,
+   "unit": 50,
+   "word": "さ来週",
+   "reading": "さらいしゅう",
+   "meaning": "tuần sau nữa",
+   "sinoVietnamese": "LAI CHU",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 832,
+   "unit": 50,
+   "word": "さ来年",
+   "reading": "さらいねん",
+   "meaning": "năm sau nữa",
+   "sinoVietnamese": "LAI NIÊN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 833,
+   "unit": 50,
+   "word": "賞金",
+   "reading": "しょうきん",
+   "meaning": "tiền thưởng",
+   "sinoVietnamese": "THƯỞNG KIM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 834,
+   "unit": 50,
+   "word": "スケジュール",
+   "reading": "",
+   "meaning": "lịch trình",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 835,
+   "unit": 50,
+   "word": "存じます",
+   "reading": "ぞんじます",
+   "meaning": "biết (khiêm nhường ngữ)",
+   "sinoVietnamese": "TỒN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 836,
+   "unit": 50,
+   "word": "拝見します",
+   "reading": "はいけんします",
+   "meaning": "xem (khiêm nhường ngữ của 見ます)",
+   "sinoVietnamese": "BÁI KIẾN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 837,
+   "unit": 50,
+   "word": "初めに",
+   "reading": "はじめに",
+   "meaning": "trước tiên, đầu tiên",
+   "sinoVietnamese": "SƠ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 838,
+   "unit": 50,
+   "word": "参ります",
+   "reading": "まいります",
+   "meaning": "đi, đến (khiêm nhường ngữ)",
+   "sinoVietnamese": "THAM",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 839,
+   "unit": 50,
+   "word": "メールアドレス",
+   "reading": "",
+   "meaning": "địa chỉ email",
+   "sinoVietnamese": "",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 840,
+   "unit": 50,
+   "word": "申します",
+   "reading": "もうします",
+   "meaning": "tên là, nói (khiêm nhường ngữ)",
+   "sinoVietnamese": "THÂN",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 841,
+   "unit": 50,
+   "word": "用意します",
+   "reading": "よういします",
+   "meaning": "chuẩn bị",
+   "sinoVietnamese": "DỤNG Ý",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  },
+  {
+   "number": 842,
+   "unit": 50,
+   "word": "私",
+   "reading": "わたくし",
+   "meaning": "tôi (khiêm nhường)",
+   "sinoVietnamese": "TƯ",
+   "exampleJapanese": "",
+   "exampleVietnamese": ""
+  }
+ ]
+}
