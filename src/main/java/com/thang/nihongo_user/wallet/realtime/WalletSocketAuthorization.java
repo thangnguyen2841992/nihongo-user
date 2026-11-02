@@ -24,6 +24,7 @@ public class WalletSocketAuthorization implements ChannelInterceptor {
             boolean staff = auth.getAuthorities().stream().anyMatch(a -> a.getAuthority().equals("ROLE_STAFF"));
             if (!"/user/queue/wallet".equals(headers.getDestination())
                 && !"/user/queue/support".equals(headers.getDestination())
+                && !"/user/queue/expense".equals(headers.getDestination())
                 && !(admin && "/topic/wallet-admin".equals(headers.getDestination()))
                 && !((admin || staff) && "/topic/support-staff".equals(headers.getDestination())))
                 throw new AccessDeniedException("Subscription forbidden");

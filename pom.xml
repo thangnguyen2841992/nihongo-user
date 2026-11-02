@@ -39,6 +39,8 @@
         <!-- Japanese morphological analysis (readings for kanji words); dictionary bundled in the jar. -->
         <dependency><groupId>com.atilika.kuromoji</groupId><artifactId>kuromoji-ipadic</artifactId><version>0.9.0</version></dependency>
         <dependency><groupId>com.nihongo</groupId><artifactId>common-events</artifactId><version>0.0.1-SNAPSHOT</version></dependency>
+        <!-- Reads/writes .xlsx for the monthly expense import. -->
+        <dependency><groupId>org.apache.poi</groupId><artifactId>poi-ooxml</artifactId><version>5.4.1</version></dependency>
         <dependency><groupId>org.springframework.kafka</groupId><artifactId>spring-kafka</artifactId></dependency>
         <dependency><groupId>org.springframework.kafka</groupId><artifactId>spring-kafka-test</artifactId><scope>test</scope></dependency>
         <dependency>

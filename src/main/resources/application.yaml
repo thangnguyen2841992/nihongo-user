@@ -5,6 +5,11 @@ server:
     enabled: true
     min-response-size: 1024
 spring:
+  servlet:
+    multipart:
+      # Expense import accepts files up to 2 MB.
+      max-file-size: 2MB
+      max-request-size: 3MB
   task:
     scheduling:
       pool:
@@ -89,3 +94,10 @@ kokoro:
   voice:
     uk: ${KOKORO_VOICE_UK:bf_emma}
     us: ${KOKORO_VOICE_US:af_heart}
+
+expense:
+  events:
+    enabled: ${EXPENSE_EVENTS_ENABLED:${wallet.events.enabled:true}}
+    topic: ${EXPENSE_EVENTS_TOPIC:expense.events.v1}
+    partitions: ${EXPENSE_EVENTS_PARTITIONS:3}
+    replicas: ${EXPENSE_EVENTS_REPLICAS:1}

@@ -1,0 +1,52 @@
+From 819e82de8de60620b269deb0ae307bdcbac3f8bf Mon Sep 17 00:00:00 2001
+From: thangnguyen2841992 <nguyenthang28419902@gmail.com>
+Date: Sun, 1 Nov 2026 10:45:23 +0700
+Subject: [PATCH] Add BudgetAlertEvent contract for monthly spending alerts
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_011n3zNEeqxQ3HB272J9p3LF
+---
+ .../com/nihongo/events/BudgetAlertEvent.java  | 31 +++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+ create mode 100644 src/main/java/com/nihongo/events/BudgetAlertEvent.java
+
+diff --git a/src/main/java/com/nihongo/events/BudgetAlertEvent.java b/src/main/java/com/nihongo/events/BudgetAlertEvent.java
+new file mode 100644
+index 0000000..086395f
+--- /dev/null
++++ b/src/main/java/com/nihongo/events/BudgetAlertEvent.java
+@@ -0,0 +1,31 @@
++package com.nihongo.events;
++
++import java.time.Instant;
++import java.util.Set;
++import java.util.UUID;
++
++/**
++ * Versioned JSON contract for monthly spending alerts (topic {@code expense.events.v1}).
++ * {@code email} is optional: without it only the in-app realtime notice is delivered.
++ */
++public record BudgetAlertEvent(int version, String eventId, String type, String userId, String email,
++                               String month, long limitAmount, long totalSpent, int percent, int warnPercent,
++                               String occurredAt) {
++    public static final String WARNING = "WARNING";
++    public static final String EXCEEDED = "EXCEEDED";
++
++    public BudgetAlertEvent {
++        if (version != 1 || type == null || !Set.of(WARNING, EXCEEDED).contains(type))
++            throw new IllegalArgumentException("Unsupported budget alert event");
++        if (eventId == null || occurredAt == null)
++            throw new IllegalArgumentException("Missing budget alert identity or timestamp");
++        UUID.fromString(eventId);
++        Instant.parse(occurredAt);
++        if (userId == null || userId.isBlank() || month == null || !month.matches("\\d{4}-(0[1-9]|1[0-2])"))
++            throw new IllegalArgumentException("Invalid budget alert event");
++        if (limitAmount <= 0 || totalSpent < 0 || percent < 0 || warnPercent < 1 || warnPercent > 99)
++            throw new IllegalArgumentException("Invalid budget alert amounts");
++        if (email != null && !email.matches("[^\\s@]+@[^\\s@]+\\.[^\\s@]+"))
++            throw new IllegalArgumentException("Invalid recipient");
++    }
++}
+-- 
+2.43.0
+
