@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
 import reactor.core.publisher.Mono;
+import reactor.util.retry.Retry;
 
 import java.time.Duration;
 import java.util.concurrent.TimeoutException;
@@ -32,6 +33,11 @@ public class JapaneseAiService {
     private final WebClient geminiWebClient;
     private final ObjectMapper objectMapper;
     @Value("${gemini.model}") private String model;
+    /** Used when the main model stays overloaded (5xx) or hits its own quota (429). Blank turns the fallback off. */
+    @Value("${gemini.fallback-model:}") private String fallbackModel;
+    /** First wait before retrying an overloaded model; doubles on the second retry. */
+    Duration retryDelay = Duration.ofSeconds(1);
+    private static final int OVERLOAD_RETRIES = 2;
     @Value("${gemini.access-key:}") private String geminiKey;
     @Value("${gemini.cache.enabled:true}") private boolean cacheEnabled = true;
     private static final Duration CACHE_TTL = Duration.ofMinutes(5);
@@ -325,21 +331,58 @@ public class JapaneseAiService {
                 "generationConfig",
                 generationConfig
         );
+        return callWithRetry(model, request)
+                .onErrorResume(this::canUseFallback, error -> {
+                    log.warn("Gemini model {} is unavailable (HTTP {}), switching to fallback model {}",
+                            model, ((GeminiBusyException) error).getStatusCode().value(), fallbackModel);
+                    return callWithRetry(fallbackModel, request);
+                });
+    }
+
+    /** Gemini overload (5xx) is usually brief: retry the same model twice, waiting about 1s then 2s. */
+    private Mono<JapaneseAiResponse> callWithRetry(String modelName, Map<String, Object> request) {
+        return Mono.defer(() -> callModel(modelName, request))
+                .retryWhen(Retry.backoff(OVERLOAD_RETRIES, retryDelay)
+                        .filter(error -> error instanceof GeminiBusyException busy && busy.retryable)
+                        .onRetryExhaustedThrow((spec, signal) -> signal.failure()));
+    }
+
+    private boolean canUseFallback(Throwable error) {
+        return error instanceof GeminiBusyException && fallbackModel != null && !fallbackModel.isBlank()
+                && !fallbackModel.equals(model);
+    }
+
+    /** Gemini could not serve the request right now (overloaded or over quota); another try or model may succeed. */
+    static final class GeminiBusyException extends ResponseStatusException {
+        final boolean retryable;
+
+        GeminiBusyException(HttpStatus status, String reason, boolean retryable) {
+            super(status, reason);
+            this.retryable = retryable;
+        }
+    }
+
+    private Mono<JapaneseAiResponse> callModel(String modelName, Map<String, Object> request) {
         return geminiWebClient
                 .post()
                 .uri(
                         "/v1beta/models/{model}:generateContent",
-                        model
+                        modelName
                 )
                 .bodyValue(request)
                 .retrieve()
                 .onStatus(
                         HttpStatusCode::isError,
                         response -> response.createException().map(error -> {
-                            logGeminiError(error);
-                            if (error.getStatusCode().value() == 429) {
-                                return new ResponseStatusException(HttpStatus.TOO_MANY_REQUESTS,
-                                        "AI đang đạt giới hạn sử dụng. Vui lòng thử lại sau.");
+                            logGeminiError(modelName, error);
+                            int code = error.getStatusCode().value();
+                            if (code == 429) {
+                                return new GeminiBusyException(HttpStatus.TOO_MANY_REQUESTS,
+                                        "AI đang đạt giới hạn sử dụng. Vui lòng thử lại sau.", false);
+                            }
+                            if (code == 500 || code == 502 || code == 503 || code == 504) {
+                                return new GeminiBusyException(HttpStatus.SERVICE_UNAVAILABLE,
+                                        "AI đang quá tải. Vui lòng thử lại sau ít phút.", true);
                             }
                             if (error.getStatusCode().value() == 401 || error.getStatusCode().value() == 403) {
                                 return new ResponseStatusException(HttpStatus.SERVICE_UNAVAILABLE,
@@ -364,7 +407,7 @@ public class JapaneseAiService {
 
     // ================= MAPPING =================
 
-    private void logGeminiError(WebClientResponseException error) {
+    private void logGeminiError(String modelName, WebClientResponseException error) {
         String status = "UNKNOWN";
         String message = "Phản hồi lỗi không có error.message dạng JSON.";
         try {
@@ -376,7 +419,7 @@ public class JapaneseAiService {
         } catch (JsonProcessingException ignored) {
             // Do not dump HTML or request headers into logs.
         }
-        log.warn("Gemini API error: HTTP {}, status={}, message={}",
+        log.warn("Gemini API error: model={}, HTTP {}, status={}, message={}", modelName,
                 error.getStatusCode().value(), sanitizeGeminiError(status), sanitizeGeminiError(message));
     }
 

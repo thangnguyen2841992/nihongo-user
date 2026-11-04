@@ -67,6 +67,8 @@ gemini:
   access-key: ${gemini.local-api-key:${GEMINI_API_KEY:${gemini.api-key:}}}
   base-url: https://generativelanguage.googleapis.com
   model: ${GEMINI_MODEL:gemini-3.1-flash-lite}
+  # Model dự phòng khi model chính quá tải (5xx) hoặc hết hạn mức (429). Để trống để tắt.
+  fallback-model: ${GEMINI_FALLBACK_MODEL:gemini-3.5-flash-lite}
 
 jwt:
   secret: ${JWT_SECRET:}

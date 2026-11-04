@@ -1,0 +1,4617 @@
+{
+ "id": "try-n3-grammar",
+ "title": "TRY! N3 – Kiểm tra ngữ pháp 21 bài",
+ "level": "N3",
+ "totalQuestions": 250,
+ "lessons": [
+  {
+   "unit": 1,
+   "name": "Lần đầu leo núi Phú Sĩ (1)"
+  },
+  {
+   "unit": 2,
+   "name": "Lần đầu leo núi Phú Sĩ (2)"
+  },
+  {
+   "unit": 3,
+   "name": "Kuro, chú cún của tôi (1)"
+  },
+  {
+   "unit": 4,
+   "name": "Kuro, chú cún của tôi (2)"
+  },
+  {
+   "unit": 5,
+   "name": "Tuyển người cho nông trại thành phố (1)"
+  },
+  {
+   "unit": 6,
+   "name": "Tuyển người cho nông trại thành phố (2)"
+  },
+  {
+   "unit": 7,
+   "name": "Hội thi bơi lội (1)"
+  },
+  {
+   "unit": 8,
+   "name": "Hội thi bơi lội (2)"
+  },
+  {
+   "unit": 9,
+   "name": "Công thức tự làm món thịt nguội (1)"
+  },
+  {
+   "unit": 10,
+   "name": "Công thức tự làm món thịt nguội (2)"
+  },
+  {
+   "unit": 11,
+   "name": "Satoyama (1)"
+  },
+  {
+   "unit": 12,
+   "name": "Satoyama (2)"
+  },
+  {
+   "unit": 13,
+   "name": "Ở văn phòng bất động sản (1)"
+  },
+  {
+   "unit": 14,
+   "name": "Ở văn phòng bất động sản (2)"
+  },
+  {
+   "unit": 15,
+   "name": "Phỏng vấn khi xin việc"
+  },
+  {
+   "unit": 16,
+   "name": "Ngắm hoa anh đào (1)"
+  },
+  {
+   "unit": 17,
+   "name": "Ngắm hoa anh đào (2)"
+  },
+  {
+   "unit": 18,
+   "name": "Sự lựa chọn của Yuki (1)"
+  },
+  {
+   "unit": 19,
+   "name": "Sự lựa chọn của Yuki (2)"
+  },
+  {
+   "unit": 20,
+   "name": "Thăm bạn bị bệnh (1)"
+  },
+  {
+   "unit": 21,
+   "name": "Thăm bạn bị bệnh (2)"
+  }
+ ],
+ "questions": [
+  {
+   "id": "try-01-01",
+   "unit": 1,
+   "grammar": "登り始めた",
+   "kind": "USAGE",
+   "prompt": "〜始める trong câu dưới diễn tả điều gì?",
+   "sentence": "雨が 降り始めました。",
+   "answer": "Sự bắt đầu của một hành động, hiện tượng",
+   "options": [
+    "Sự bắt đầu của một hành động, hiện tượng",
+    "Sự kết thúc của hành động",
+    "Hành động lặp lại liên tục",
+    "Làm thử một việc"
+   ],
+   "explanation": "V（bỏ ます）＋ 始める: bắt đầu làm gì, bắt đầu xảy ra."
+  },
+  {
+   "id": "try-01-02",
+   "unit": 1,
+   "grammar": "登り始めた",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "先月から ピアノを ＿＿ 始めました。",
+   "answer": "習い",
+   "options": [
+    "習い",
+    "習う",
+    "習って",
+    "習わ"
+   ],
+   "explanation": "始める đi sau thể ます bỏ ます: 習います → 習い始める."
+  },
+  {
+   "id": "try-01-03",
+   "unit": 1,
+   "grammar": "持っていくように言われた",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "先生に 毎日 漢字を 練習するように 言われました。",
+   "answer": "Truyền đạt lại lời yêu cầu, chỉ thị của người khác",
+   "options": [
+    "Truyền đạt lại lời yêu cầu, chỉ thị của người khác",
+    "Mục đích để luyện chữ Hán",
+    "Suy đoán \"hình như\"",
+    "So sánh với việc khác"
+   ],
+   "explanation": "V る／V ない ＋ ように 言う: thuật lại nội dung một lời dặn, yêu cầu hay mệnh lệnh."
+  },
+  {
+   "id": "try-01-04",
+   "unit": 1,
+   "grammar": "持っていくように言われた",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "医者に お酒を ＿＿ ように 言われました。",
+   "answer": "飲まない",
+   "options": [
+    "飲まない",
+    "飲まないで",
+    "飲まなく",
+    "飲みません"
+   ],
+   "explanation": "Lời dặn không được làm: V ない ＋ ように 言う."
+  },
+  {
+   "id": "try-01-05",
+   "unit": 1,
+   "grammar": "病気になる人もいるということ",
+   "kind": "USAGE",
+   "prompt": "という trong câu dưới dùng để làm gì?",
+   "sentence": "山の 上では 天気が 急に 変わるという 話を 聞きました。",
+   "answer": "Nêu nội dung cụ thể của danh từ đứng sau",
+   "options": [
+    "Nêu nội dung cụ thể của danh từ đứng sau",
+    "Nêu lý do",
+    "Nêu điều kiện",
+    "So sánh hai sự việc"
+   ],
+   "explanation": "Thể thông thường ＋ という ＋ N: nói rõ nội dung của câu chuyện, tin đồn, ý kiến…"
+  },
+  {
+   "id": "try-01-06",
+   "unit": 1,
+   "grammar": "病気になる人もいるということ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼が 会社を やめる＿＿ うわさを 聞きました。",
+   "answer": "という",
+   "options": [
+    "という",
+    "ように",
+    "ための",
+    "ことに"
+   ],
+   "explanation": "Nội dung của うわさ được nối bằng という."
+  },
+  {
+   "id": "try-01-07",
+   "unit": 1,
+   "grammar": "大丈夫だろうと思った",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "明日は 晴れるだろうと 思います。",
+   "answer": "Suy đoán của người nói",
+   "options": [
+    "Suy đoán của người nói",
+    "Ý định của người nói",
+    "Mệnh lệnh",
+    "Truyền đạt lời người khác"
+   ],
+   "explanation": "〜だろう là thể thông thường của 〜でしょう; 〜だろうと 思う nêu suy đoán của mình."
+  },
+  {
+   "id": "try-01-08",
+   "unit": 1,
+   "grammar": "大丈夫だろうと思った",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あの 店は 日曜日は 休み＿＿と 思います。",
+   "answer": "だろう",
+   "options": [
+    "だろう",
+    "でしょう",
+    "なだろう",
+    "のだろう"
+   ],
+   "explanation": "Danh từ bỏ だ rồi thêm だろう: 休みだろうと 思います. Không dùng でしょう trước と思う."
+  },
+  {
+   "id": "try-01-09",
+   "unit": 1,
+   "grammar": "大変じゃなさそうだった",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "この 問題は 難しくなさそうです。",
+   "answer": "Nhìn qua thì có vẻ bài này không khó",
+   "options": [
+    "Nhìn qua thì có vẻ bài này không khó",
+    "Nghe nói bài này không khó",
+    "Bài này chắc chắn rất khó",
+    "Bài này khó quá"
+   ],
+   "explanation": "〜なさそうだ: nhìn vẻ ngoài mà đoán là không… (phủ định của 〜そうだ \"trông có vẻ\")."
+  },
+  {
+   "id": "try-01-10",
+   "unit": 1,
+   "grammar": "大変じゃなさそうだった",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この かばんは あまり 高く＿＿ そうですね。",
+   "answer": "なさ",
+   "options": [
+    "なさ",
+    "ない",
+    "なく",
+    "な"
+   ],
+   "explanation": "Tính từ い: 高い → 高くない → 高くなさそうだ."
+  },
+  {
+   "id": "try-01-11",
+   "unit": 1,
+   "grammar": "大変じゃなさそうだった",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "彼は 今日は あまり 元気＿＿ そうだ。",
+   "answer": "じゃなさ",
+   "options": [
+    "じゃなさ",
+    "じゃな",
+    "ではない",
+    "なくな"
+   ],
+   "explanation": "Tính từ な／N: 元気じゃない → 元気じゃなさそうだ."
+  },
+  {
+   "id": "try-02-01",
+   "unit": 2,
+   "grammar": "登ってみると",
+   "kind": "USAGE",
+   "prompt": "と trong câu dưới diễn tả điều gì?",
+   "sentence": "窓を 開けると、雪が 降って いました。",
+   "answer": "Phát hiện ra điều trước đó không biết sau khi làm vế trước",
+   "options": [
+    "Phát hiện ra điều trước đó không biết sau khi làm vế trước",
+    "Điều kiện giả định trong tương lai",
+    "Mục đích của hành động",
+    "Kết quả trái với mong đợi"
+   ],
+   "explanation": "V る ＋ と、〜（quá khứ）: làm A thì nhận ra B, điều trước đó chưa biết."
+  },
+  {
+   "id": "try-02-02",
+   "unit": 2,
+   "grammar": "登ってみると",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "家に ＿＿と、母が 料理を 作って いた。",
+   "answer": "帰る",
+   "options": [
+    "帰る",
+    "帰った",
+    "帰って",
+    "帰り"
+   ],
+   "explanation": "Phát hiện dùng V る ＋ と (kể cả khi vế sau ở quá khứ)."
+  },
+  {
+   "id": "try-02-03",
+   "unit": 2,
+   "grammar": "立っているのもつらいほど",
+   "kind": "USAGE",
+   "prompt": "ほど trong câu dưới dùng để làm gì?",
+   "sentence": "足が 痛くて、歩けないほどでした。",
+   "answer": "Diễn tả mức độ bằng một ví dụ cụ thể",
+   "options": [
+    "Diễn tả mức độ bằng một ví dụ cụ thể",
+    "So sánh hơn kém",
+    "Chỉ khoảng thời gian",
+    "Nêu nguyên nhân"
+   ],
+   "explanation": "〜ほど: mức độ đến nỗi… (đau đến mức không đi được)."
+  },
+  {
+   "id": "try-02-04",
+   "unit": 2,
+   "grammar": "立っているのもつらいほど",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "泣きたい＿＿ 悲しかった。",
+   "answer": "ほど",
+   "options": [
+    "ほど",
+    "ほうが",
+    "まで",
+    "より"
+   ],
+   "explanation": "V（bỏ ます）＋ たい ＋ ほど: buồn đến mức muốn khóc."
+  },
+  {
+   "id": "try-02-05",
+   "unit": 2,
+   "grammar": "どんどん登っていく",
+   "kind": "USAGE",
+   "prompt": "〜ていく trong câu dưới diễn tả điều gì?",
+   "sentence": "飛行機が だんだん 遠くへ 飛んで いきました。",
+   "answer": "Di chuyển ra xa dần khỏi người nói",
+   "options": [
+    "Di chuyển ra xa dần khỏi người nói",
+    "Đến gần người nói",
+    "Làm sẵn để chuẩn bị",
+    "Thử làm một việc"
+   ],
+   "explanation": "V て いく: chuyển động xa dần, hoặc sự thay đổi tiếp diễn từ nay về sau."
+  },
+  {
+   "id": "try-02-06",
+   "unit": 2,
+   "grammar": "どんどん登っていく",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "これから だんだん 寒く ＿＿ でしょう。",
+   "answer": "なって いく",
+   "options": [
+    "なって いく",
+    "なり いく",
+    "なって いって",
+    "なる いく"
+   ],
+   "explanation": "Thay đổi tiếp diễn về sau: 寒く なって いく."
+  },
+  {
+   "id": "try-02-07",
+   "unit": 2,
+   "grammar": "登り続けた",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "彼は 3時間も 話し続けました。",
+   "answer": "Tiếp tục làm một việc liên tục",
+   "options": [
+    "Tiếp tục làm một việc liên tục",
+    "Bắt đầu nói",
+    "Thôi không nói nữa",
+    "Nói thử xem sao"
+   ],
+   "explanation": "V（bỏ ます）＋ 続ける: tiếp tục làm, làm liên tục."
+  },
+  {
+   "id": "try-02-08",
+   "unit": 2,
+   "grammar": "登り続けた",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "10年間 日記を ＿＿ 続けて います。",
+   "answer": "書き",
+   "options": [
+    "書き",
+    "書く",
+    "書いて",
+    "書け"
+   ],
+   "explanation": "続ける đi sau thể ます bỏ ます: 書き続ける."
+  },
+  {
+   "id": "try-02-09",
+   "unit": 2,
+   "grammar": "上まで行きたいなら",
+   "kind": "USAGE",
+   "prompt": "なら trong câu dưới dùng để làm gì?",
+   "sentence": "上まで 行きたいなら、もっと 早く 出発した ほうが いい。",
+   "answer": "Nêu một giả định rồi đưa ra lời khuyên",
+   "options": [
+    "Nêu một giả định rồi đưa ra lời khuyên",
+    "Nêu nguyên nhân",
+    "Diễn tả hai việc cùng lúc",
+    "So sánh hai lựa chọn"
+   ],
+   "explanation": "〜なら: \"nếu… thì\", tiếp nhận điều kiện, mong muốn rồi khuyên hoặc nêu ý kiến."
+  },
+  {
+   "id": "try-02-10",
+   "unit": 2,
+   "grammar": "上まで行きたいなら",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "日本語を 勉強する＿＿、この 本が いいですよ。",
+   "answer": "なら",
+   "options": [
+    "なら",
+    "たら",
+    "ば",
+    "でも"
+   ],
+   "explanation": "Thể từ điển ＋ なら: 勉強するなら."
+  },
+  {
+   "id": "try-03-01",
+   "unit": 3,
+   "grammar": "クロって名前",
+   "kind": "USAGE",
+   "prompt": "って trong cụm dưới được dùng thay cho từ nào?",
+   "sentence": "クロって 名前の 犬を 飼って います。",
+   "answer": "という",
+   "options": [
+    "という",
+    "ので",
+    "から",
+    "けど"
+   ],
+   "explanation": "N1 ＋ って ＋ N2: cách nói thân mật của という khi nói tên người, vật."
+  },
+  {
+   "id": "try-03-02",
+   "unit": 3,
+   "grammar": "クロって名前",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "「さくら」＿＿ 店を 知って いますか。",
+   "answer": "って",
+   "options": [
+    "って",
+    "で",
+    "に",
+    "を"
+   ],
+   "explanation": "Nói tên: 「さくら」って 店（＝「さくら」という 店）."
+  },
+  {
+   "id": "try-03-03",
+   "unit": 3,
+   "grammar": "飼わせてもらった",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "父に 車を 使わせて もらいました。",
+   "answer": "Được người khác cho phép làm",
+   "options": [
+    "Được người khác cho phép làm",
+    "Bị bắt phải làm",
+    "Nhờ bố dùng xe",
+    "Cho bố mượn xe"
+   ],
+   "explanation": "V（使役）て もらう: được ai đó cho phép làm, thể hiện sự biết ơn."
+  },
+  {
+   "id": "try-03-04",
+   "unit": 3,
+   "grammar": "飼わせてもらった",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "体調が 悪かったので、先生に 早く ＿＿ もらいました。",
+   "answer": "帰らせて",
+   "options": [
+    "帰らせて",
+    "帰られて",
+    "帰れて",
+    "帰させて"
+   ],
+   "explanation": "Thể sai khiến của 帰る là 帰らせる: 帰らせて もらいました (được cho về sớm)."
+  },
+  {
+   "id": "try-03-05",
+   "unit": 3,
+   "grammar": "約束させられた",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "子どもの ころ、母に 嫌いな 野菜を 食べさせられました。",
+   "answer": "Bị người khác bắt làm việc mình không muốn",
+   "options": [
+    "Bị người khác bắt làm việc mình không muốn",
+    "Được cho phép ăn rau",
+    "Tự nguyện ăn rau",
+    "Bắt mẹ ăn rau"
+   ],
+   "explanation": "Thể sai khiến bị động（使役受身）: bị ai đó bắt làm việc mình không muốn."
+  },
+  {
+   "id": "try-03-06",
+   "unit": 3,
+   "grammar": "約束させられた",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "子どもの ころ、母に 毎日 部屋を ＿＿。",
+   "answer": "片づけさせられました",
+   "options": [
+    "片づけさせられました",
+    "片づけられさせました",
+    "片づけさされました",
+    "片づけさせれました"
+   ],
+   "explanation": "Nhóm II: 片づける → 片づけさせる → 片づけさせられる."
+  },
+  {
+   "id": "try-03-07",
+   "unit": 3,
+   "grammar": "約束させられた",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "飲み会で 部長に お酒を ＿＿。",
+   "answer": "飲まされました",
+   "options": [
+    "飲まされました",
+    "飲みさせられました",
+    "飲まされられました",
+    "飲ませれました"
+   ],
+   "explanation": "Nhóm I có dạng rút gọn: 飲ませられる → 飲まされる."
+  },
+  {
+   "id": "try-03-08",
+   "unit": 3,
+   "grammar": "散歩に行きたがって",
+   "kind": "USAGE",
+   "prompt": "〜がる dùng khi nói về cảm xúc của ai?",
+   "sentence": "弟は 新しい ゲームを ほしがって います。",
+   "answer": "Người khác (ngôi thứ ba)",
+   "options": [
+    "Người khác (ngôi thứ ba)",
+    "Chính người nói",
+    "Người nghe, khi ra lệnh",
+    "Không chỉ ai cụ thể"
+   ],
+   "explanation": "Tính từ cảm xúc ＋ がる, V ＋ たがる: diễn tả cảm xúc, mong muốn của người khác qua biểu hiện bên ngoài."
+  },
+  {
+   "id": "try-03-09",
+   "unit": 3,
+   "grammar": "散歩に行きたがって",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "子どもが 注射を ＿＿ います。",
+   "answer": "怖がって",
+   "options": [
+    "怖がって",
+    "怖くがって",
+    "怖いがって",
+    "怖がりて"
+   ],
+   "explanation": "Tính từ い bỏ い ＋ がる: 怖い → 怖がる → 怖がって います."
+  },
+  {
+   "id": "try-03-10",
+   "unit": 3,
+   "grammar": "散歩に行きたがって",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "犬が 散歩に 行き＿＿ います。",
+   "answer": "たがって",
+   "options": [
+    "たがって",
+    "たくて",
+    "たい",
+    "たがりて"
+   ],
+   "explanation": "V（bỏ ます）＋ たがる: 行きたがって います."
+  },
+  {
+   "id": "try-03-11",
+   "unit": 3,
+   "grammar": "玄関を出たとたん",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "玄関を 出たとたん、雨が 降り出しました。",
+   "answer": "Vừa làm xong vế trước thì vế sau xảy ra bất ngờ",
+   "options": [
+    "Vừa làm xong vế trước thì vế sau xảy ra bất ngờ",
+    "Sau một thời gian dài",
+    "Trước khi ra khỏi nhà",
+    "Trong suốt lúc ở nhà"
+   ],
+   "explanation": "V た ＋ とたん（に）: ngay khi… thì (một việc ngoài ý muốn) xảy ra."
+  },
+  {
+   "id": "try-03-12",
+   "unit": 3,
+   "grammar": "玄関を出たとたん",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "いすから ＿＿ とたん、めまいが しました。",
+   "answer": "立ち上がった",
+   "options": [
+    "立ち上がった",
+    "立ち上がる",
+    "立ち上がって",
+    "立ち上がり"
+   ],
+   "explanation": "とたん đi sau thể た: 立ち上がった とたん."
+  },
+  {
+   "id": "try-03-13",
+   "unit": 3,
+   "grammar": "全速力で走り出す",
+   "kind": "USAGE",
+   "prompt": "〜出す trong câu dưới diễn tả điều gì?",
+   "sentence": "赤ちゃんが 急に 泣き出しました。",
+   "answer": "Một việc đột nhiên bắt đầu",
+   "options": [
+    "Một việc đột nhiên bắt đầu",
+    "Một việc vừa kết thúc",
+    "Một việc kéo dài rất lâu",
+    "Làm cho xong hết"
+   ],
+   "explanation": "V（bỏ ます）＋ 出す: đột nhiên bắt đầu làm, bắt đầu xảy ra."
+  },
+  {
+   "id": "try-03-14",
+   "unit": 3,
+   "grammar": "全速力で走り出す",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "子どもたちは 公園に 着くと、すぐ ＿＿ 出した。",
+   "answer": "走り",
+   "options": [
+    "走り",
+    "走る",
+    "走って",
+    "走ら"
+   ],
+   "explanation": "出す đi sau thể ます bỏ ます: 走り出す."
+  },
+  {
+   "id": "try-04-01",
+   "unit": 4,
+   "grammar": "帰ろうとする",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "ドアを 開けようと したが、開かなかった。",
+   "answer": "Cố gắng, định làm một việc",
+   "options": [
+    "Cố gắng, định làm một việc",
+    "Đã làm xong việc đó",
+    "Bị bắt phải làm",
+    "Thói quen hằng ngày"
+   ],
+   "explanation": "V（thể ý chí）＋ とする: cố làm, hoặc đúng lúc sắp làm."
+  },
+  {
+   "id": "try-04-02",
+   "unit": 4,
+   "grammar": "帰ろうとする",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "出かけ＿＿と したら、電話が 鳴った。",
+   "answer": "よう",
+   "options": [
+    "よう",
+    "ろう",
+    "る",
+    "ます"
+   ],
+   "explanation": "Thể ý chí nhóm II: 出かける → 出かけよう ＋ と する."
+  },
+  {
+   "id": "try-04-03",
+   "unit": 4,
+   "grammar": "コンビニに寄ることもある",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "たまに 会社まで 歩いて 行く ことも あります。",
+   "answer": "Thỉnh thoảng cũng có khi làm",
+   "options": [
+    "Thỉnh thoảng cũng có khi làm",
+    "Kinh nghiệm đã từng làm một lần",
+    "Quyết định sẽ làm",
+    "Bắt buộc phải làm"
+   ],
+   "explanation": "V る／V ない ＋ ことが ある／ことも ある: thỉnh thoảng, đôi khi."
+  },
+  {
+   "id": "try-04-04",
+   "unit": 4,
+   "grammar": "コンビニに寄ることもある",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "忙しくて、昼ご飯を ＿＿ ことが あります。",
+   "answer": "食べない",
+   "options": [
+    "食べない",
+    "食べなく",
+    "食べず",
+    "食べません"
+   ],
+   "explanation": "Thỉnh thoảng không làm: V ない ＋ ことが ある."
+  },
+  {
+   "id": "try-04-05",
+   "unit": 4,
+   "grammar": "待たせておいて",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "子どもたちを しばらく 庭で 遊ばせて おきました。",
+   "answer": "Để mặc cho người khác tiếp tục làm",
+   "options": [
+    "Để mặc cho người khác tiếp tục làm",
+    "Bị bắt chơi trong vườn",
+    "Chơi thử trong vườn",
+    "Nhờ bọn trẻ dọn vườn"
+   ],
+   "explanation": "V（使役）て おく: để yên cho ai đó tiếp tục làm, hoặc bắt làm trước."
+  },
+  {
+   "id": "try-04-06",
+   "unit": 4,
+   "grammar": "待たせておいて",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "お客さんを 30分も ＿＿ おいて、すみませんでした。",
+   "answer": "待たせて",
+   "options": [
+    "待たせて",
+    "待たさせて",
+    "待たれて",
+    "待たせ"
+   ],
+   "explanation": "Để khách chờ: 待たせる → 待たせて おく."
+  },
+  {
+   "id": "try-04-07",
+   "unit": 4,
+   "grammar": "顔中なめられてしまう",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện cảm xúc gì?",
+   "sentence": "楽しみに して いた ケーキを 弟に 食べられて しまった。",
+   "answer": "Tiếc nuối, khó chịu vì bị người khác làm",
+   "options": [
+    "Tiếc nuối, khó chịu vì bị người khác làm",
+    "Vui vì đã ăn hết",
+    "Hài lòng vì cho em ăn",
+    "Biết ơn vì em ăn giúp"
+   ],
+   "explanation": "V（bị động）て しまう: người nói thấy tiếc, khó chịu về việc người khác đã làm."
+  },
+  {
+   "id": "try-04-08",
+   "unit": 4,
+   "grammar": "顔中なめられてしまう",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "大事な 手紙を 母に ＿＿ しまった。",
+   "answer": "読まれて",
+   "options": [
+    "読まれて",
+    "読めて",
+    "読んで",
+    "読まれ"
+   ],
+   "explanation": "Bị mẹ đọc mất: bị động 読まれる ＋ て しまう."
+  },
+  {
+   "id": "try-05-01",
+   "unit": 5,
+   "grammar": "インターネットによるお申し込み",
+   "kind": "USAGE",
+   "prompt": "によって trong câu dưới chỉ điều gì?",
+   "sentence": "お申し込みは インターネットによって 受け付けます。",
+   "answer": "Phương pháp, cách thức",
+   "options": [
+    "Phương pháp, cách thức",
+    "Nguyên nhân",
+    "Đối tượng hướng tới",
+    "Chủ đề"
+   ],
+   "explanation": "N ＋ によって／による ＋ N: bằng phương pháp, phương tiện…"
+  },
+  {
+   "id": "try-05-02",
+   "unit": 5,
+   "grammar": "インターネットによるお申し込み",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "電話＿＿ お申し込みは 受け付けて いません。",
+   "answer": "による",
+   "options": [
+    "による",
+    "にとっての",
+    "に対して",
+    "について"
+   ],
+   "explanation": "Bổ nghĩa cho danh từ dùng による: 電話による お申し込み."
+  },
+  {
+   "id": "try-05-03",
+   "unit": 5,
+   "grammar": "100区画の募集に対して",
+   "kind": "USAGE",
+   "prompt": "に対して trong câu dưới dùng để làm gì?",
+   "sentence": "先生は 学生の 質問に対して、丁寧に 答えました。",
+   "answer": "Chỉ đối tượng mà hành động hướng tới trực tiếp",
+   "options": [
+    "Chỉ đối tượng mà hành động hướng tới trực tiếp",
+    "Nêu nguồn thông tin",
+    "Chỉ phương tiện",
+    "Chỉ mục đích"
+   ],
+   "explanation": "N ＋ に対して: đối với, hướng tới (thái độ, hành động trực tiếp)."
+  },
+  {
+   "id": "try-05-04",
+   "unit": 5,
+   "grammar": "100区画の募集に対して",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "お客様＿＿ 失礼な ことを 言っては いけません。",
+   "answer": "に対して",
+   "options": [
+    "に対して",
+    "によって",
+    "をとおして",
+    "のおかげで"
+   ],
+   "explanation": "Hành động hướng trực tiếp tới khách: お客様に対して."
+  },
+  {
+   "id": "try-05-05",
+   "unit": 5,
+   "grammar": "希望者が多いため",
+   "kind": "USAGE",
+   "prompt": "ため trong câu dưới chỉ điều gì?",
+   "sentence": "大雪の ため、電車が 止まりました。",
+   "answer": "Nguyên nhân, lý do",
+   "options": [
+    "Nguyên nhân, lý do",
+    "Mục đích",
+    "Sự thay thế",
+    "Thời điểm"
+   ],
+   "explanation": "〜ため（に）: vì…, nêu nguyên nhân (văn trang trọng, thông báo)."
+  },
+  {
+   "id": "try-05-06",
+   "unit": 5,
+   "grammar": "希望者が多いため",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "希望者が 多い＿＿、抽選に なります。",
+   "answer": "ため",
+   "options": [
+    "ため",
+    "ための",
+    "ためで",
+    "ためが"
+   ],
+   "explanation": "Thể thông thường ＋ ため: 多いため."
+  },
+  {
+   "id": "try-05-07",
+   "unit": 5,
+   "grammar": "１家族につき１区画",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "駐車料金は 1時間につき 300円です。",
+   "answer": "Mỗi giờ đỗ xe mất 300 yên",
+   "options": [
+    "Mỗi giờ đỗ xe mất 300 yên",
+    "Chỉ một giờ thì 300 yên",
+    "Về giờ đỗ xe thì 300 yên",
+    "Nhờ đỗ xe mà được 300 yên"
+   ],
+   "explanation": "N ＋ につき: tính trên mỗi đơn vị (người, giờ, gia đình…)."
+  },
+  {
+   "id": "try-05-08",
+   "unit": 5,
+   "grammar": "１家族につき１区画",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "参加費は 1人＿＿ 500円です。",
+   "answer": "につき",
+   "options": [
+    "につき",
+    "について",
+    "によって",
+    "に対して"
+   ],
+   "explanation": "Chi phí cho mỗi người: 1人につき."
+  },
+  {
+   "id": "try-05-09",
+   "unit": 5,
+   "grammar": "下記のとおりです",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "試験の 結果は 予想した とおりでした。",
+   "answer": "Giống y như đã dự đoán",
+   "options": [
+    "Giống y như đã dự đoán",
+    "Trái với dự đoán",
+    "Chưa dự đoán được",
+    "Sau khi đã dự đoán"
+   ],
+   "explanation": "V た／N の ＋ とおり（だ）: đúng như…"
+  },
+  {
+   "id": "try-05-10",
+   "unit": 5,
+   "grammar": "下記のとおりです",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "詳しい 内容は 下記＿＿ です。",
+   "answer": "のとおり",
+   "options": [
+    "のとおり",
+    "とおり",
+    "のとおりに",
+    "なとおり"
+   ],
+   "explanation": "Danh từ ＋ の ＋ とおりです: 下記のとおりです."
+  },
+  {
+   "id": "try-06-01",
+   "unit": 6,
+   "grammar": "野菜作りを通して",
+   "kind": "USAGE",
+   "prompt": "を通して trong câu dưới có nghĩa gì?",
+   "sentence": "ボランティア活動を通して、多くの 友達が できました。",
+   "answer": "Thông qua một hoạt động",
+   "options": [
+    "Thông qua một hoạt động",
+    "Thay cho một hoạt động",
+    "Trước khi có hoạt động",
+    "Vì không có hoạt động"
+   ],
+   "explanation": "N ＋ を通して／を通じて: thông qua (người, phương tiện, hoạt động)."
+  },
+  {
+   "id": "try-06-02",
+   "unit": 6,
+   "grammar": "野菜作りを通して",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "先輩＿＿ 今の 会社を 紹介して もらいました。",
+   "answer": "を通して",
+   "options": [
+    "を通して",
+    "に対して",
+    "について",
+    "にとって"
+   ],
+   "explanation": "Nhờ trung gian là đàn anh: 先輩を通して."
+  },
+  {
+   "id": "try-06-03",
+   "unit": 6,
+   "grammar": "パーティーのような楽しいイベント",
+   "kind": "USAGE",
+   "prompt": "のような trong câu dưới dùng để làm gì?",
+   "sentence": "京都のような 古い 町が 好きです。",
+   "answer": "Đưa ra một ví dụ tiêu biểu",
+   "options": [
+    "Đưa ra một ví dụ tiêu biểu",
+    "So sánh hơn kém",
+    "Nêu nguyên nhân",
+    "Truyền đạt điều nghe được"
+   ],
+   "explanation": "N ＋ のような ＋ N: như là, ví dụ như."
+  },
+  {
+   "id": "try-06-04",
+   "unit": 6,
+   "grammar": "パーティーのような楽しいイベント",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "パーティー＿＿ 楽しい イベントが あります。",
+   "answer": "のような",
+   "options": [
+    "のような",
+    "ような",
+    "なような",
+    "みたいの"
+   ],
+   "explanation": "Danh từ ＋ の ＋ ような ＋ danh từ."
+  },
+  {
+   "id": "try-06-05",
+   "unit": 6,
+   "grammar": "利用されている方のお話によれば",
+   "kind": "USAGE",
+   "prompt": "によれば trong câu dưới dùng để làm gì?",
+   "sentence": "天気予報によれば、明日は 雨だそうです。",
+   "answer": "Nêu nguồn thông tin",
+   "options": [
+    "Nêu nguồn thông tin",
+    "Nêu phương pháp",
+    "Nêu đối tượng hướng tới",
+    "Nêu mục đích"
+   ],
+   "explanation": "N ＋ によれば／によると: theo…, thường đi với 〜そうだ／〜ということだ ở cuối câu."
+  },
+  {
+   "id": "try-06-06",
+   "unit": 6,
+   "grammar": "利用されている方のお話によれば",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "ニュース＿＿、事故で 3人が けがを したそうです。",
+   "answer": "によると",
+   "options": [
+    "によると",
+    "にとって",
+    "に対して",
+    "について"
+   ],
+   "explanation": "Nguồn tin: ニュースによると 〜そうです."
+  },
+  {
+   "id": "try-06-07",
+   "unit": 6,
+   "grammar": "楽しかったということです",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "部長は 今日の 会議に 来られないということです。",
+   "answer": "Truyền đạt lại thông tin nghe được",
+   "options": [
+    "Truyền đạt lại thông tin nghe được",
+    "Nêu ý định của mình",
+    "Hỏi lý do",
+    "Ra lệnh"
+   ],
+   "explanation": "Thể thông thường ＋ ということだ／とのことだ: truyền đạt lại thông tin."
+  },
+  {
+   "id": "try-06-08",
+   "unit": 6,
+   "grammar": "楽しかったということです",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "店長の 話では、明日は 休み＿＿。",
+   "answer": "だということです",
+   "options": [
+    "だということです",
+    "なということです",
+    "のということです",
+    "ということだです"
+   ],
+   "explanation": "Danh từ dùng thể thông thường 休みだ rồi thêm ということです."
+  },
+  {
+   "id": "try-06-09",
+   "unit": 6,
+   "grammar": "農園の活動について詳しいことは",
+   "kind": "USAGE",
+   "prompt": "について trong câu dưới chỉ điều gì?",
+   "sentence": "日本の 文化について レポートを 書きました。",
+   "answer": "Chủ đề, nội dung",
+   "options": [
+    "Chủ đề, nội dung",
+    "Người nhận",
+    "Nguồn thông tin",
+    "Nguyên nhân"
+   ],
+   "explanation": "N ＋ について: về (chủ đề, nội dung)."
+  },
+  {
+   "id": "try-06-10",
+   "unit": 6,
+   "grammar": "農園の活動について詳しいことは",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 町の 歴史＿＿ 調べて います。",
+   "answer": "について",
+   "options": [
+    "について",
+    "にとって",
+    "に対する",
+    "による"
+   ],
+   "explanation": "Tìm hiểu về lịch sử: 歴史について."
+  },
+  {
+   "id": "try-07-01",
+   "unit": 7,
+   "grammar": "毎日練習してるんだ",
+   "kind": "USAGE",
+   "prompt": "〜てる trong câu dưới là dạng rút gọn của mẫu nào?",
+   "sentence": "毎日 練習してるんだ。",
+   "answer": "〜ている",
+   "options": [
+    "〜ている",
+    "〜てある",
+    "〜ておく",
+    "〜てしまう"
+   ],
+   "explanation": "Trong hội thoại: 〜ている → 〜てる, 〜ておく → 〜とく, 〜てしまう → 〜ちゃう."
+  },
+  {
+   "id": "try-07-02",
+   "unit": 7,
+   "grammar": "毎日練習してるんだ",
+   "kind": "FORM",
+   "prompt": "Chọn dạng rút gọn đúng của 置いておく.",
+   "sentence": "あした 使うから、テーブルの 上に ＿＿ね。",
+   "answer": "置いとく",
+   "options": [
+    "置いとく",
+    "置きとく",
+    "置いとって",
+    "置くとく"
+   ],
+   "explanation": "〜ておく rút gọn thành 〜とく: 置いておく → 置いとく."
+  },
+  {
+   "id": "try-07-03",
+   "unit": 7,
+   "grammar": "応援に行かなきゃ。",
+   "kind": "USAGE",
+   "prompt": "Trong câu dưới, phần cuối câu bị lược là gì?",
+   "sentence": "もう 時間だ。応援に 行かなきゃ。",
+   "answer": "（行かなければ）いけない",
+   "options": [
+    "（行かなければ）いけない",
+    "（行って）もらう",
+    "（行って）ください",
+    "（行って）ほしい"
+   ],
+   "explanation": "Khi người nghe đã hiểu, phần cuối câu thường được lược: 行かなきゃ（いけない）."
+  },
+  {
+   "id": "try-07-04",
+   "unit": 7,
+   "grammar": "応援に行かなきゃ。",
+   "kind": "USAGE",
+   "prompt": "Người nói muốn hỏi điều gì?",
+   "sentence": "この ペン、ちょっと 借りても……？",
+   "answer": "Mượn có được không (いいですか)",
+   "options": [
+    "Mượn có được không (いいですか)",
+    "Đã mượn rồi",
+    "Không muốn mượn",
+    "Nhờ người kia mượn giúp"
+   ],
+   "explanation": "Phần lược: 借りても（いいですか）. Nói lửng giúp lời nhờ, xin phép mềm mại hơn."
+  },
+  {
+   "id": "try-07-05",
+   "unit": 7,
+   "grammar": "出るんだっけ",
+   "kind": "USAGE",
+   "prompt": "っけ trong câu dưới dùng để làm gì?",
+   "sentence": "試合は 何時からだっけ。",
+   "answer": "Xác nhận lại điều đã biết nhưng không nhớ rõ",
+   "options": [
+    "Xác nhận lại điều đã biết nhưng không nhớ rõ",
+    "Ra lệnh",
+    "Rủ rê",
+    "Phủ định mạnh"
+   ],
+   "explanation": "Thể thông thường／lịch sự ＋ っけ: hỏi lại, tự hỏi điều mình từng nghe nhưng quên."
+  },
+  {
+   "id": "try-07-06",
+   "unit": 7,
+   "grammar": "出るんだっけ",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あれ、この 店、前にも ＿＿っけ。",
+   "answer": "来た",
+   "options": [
+    "来た",
+    "来る",
+    "来て",
+    "来よう"
+   ],
+   "explanation": "Hỏi lại về việc trong quá khứ: 来たっけ."
+  },
+  {
+   "id": "try-07-07",
+   "unit": 7,
+   "grammar": "優勝したりして？",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "もしかして 優勝したりして？",
+   "answer": "Không chừng lại vô địch ấy chứ",
+   "options": [
+    "Không chừng lại vô địch ấy chứ",
+    "Chắc chắn đã vô địch",
+    "Không thể vô địch được",
+    "Hãy cố vô địch đi"
+   ],
+   "explanation": "V た ＋ りして: \"không chừng…\", nói đùa, nói nhẹ một khả năng (giống かもしれない)."
+  },
+  {
+   "id": "try-07-08",
+   "unit": 7,
+   "grammar": "優勝したりして？",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "宝くじが ＿＿りして。",
+   "answer": "当たった",
+   "options": [
+    "当たった",
+    "当たる",
+    "当たって",
+    "当たり"
+   ],
+   "explanation": "Thể た ＋ りして: 当たったりして."
+  },
+  {
+   "id": "try-08-01",
+   "unit": 8,
+   "grammar": "がんばったって",
+   "kind": "USAGE",
+   "prompt": "〜たって trong câu dưới có nghĩa gì?",
+   "sentence": "今から がんばったって、間に合わないよ。",
+   "answer": "Dù có cố gắng thì cũng (không kịp)",
+   "options": [
+    "Dù có cố gắng thì cũng (không kịp)",
+    "Vì đã cố gắng nên kịp",
+    "Sau khi cố gắng",
+    "Nếu cố gắng thì sẽ kịp"
+   ],
+   "explanation": "V た ＋ って: nhượng bộ, giống 〜ても, dùng trong hội thoại."
+  },
+  {
+   "id": "try-08-02",
+   "unit": 8,
+   "grammar": "がんばったって",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "いくら ＿＿って、彼は 来ないよ。",
+   "answer": "呼んだ",
+   "options": [
+    "呼んだ",
+    "呼ぶ",
+    "呼んで",
+    "呼び"
+   ],
+   "explanation": "Thể た ＋ って: 呼んだって（＝呼んでも）."
+  },
+  {
+   "id": "try-08-03",
+   "unit": 8,
+   "grammar": "無理に決まってるよ",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "そんな 計画、無理に 決まってるよ。",
+   "answer": "Khẳng định mạnh \"chắc chắn là\"",
+   "options": [
+    "Khẳng định mạnh \"chắc chắn là\"",
+    "Việc đã được quyết định",
+    "Người nói không chắc chắn",
+    "Mong muốn của người nói"
+   ],
+   "explanation": "Thể thông thường ＋ に決まっている: chắc chắn, nhất định là (theo cảm nhận mạnh của người nói)."
+  },
+  {
+   "id": "try-08-04",
+   "unit": 8,
+   "grammar": "無理に決まってるよ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "あんなに 練習したんだから、勝つ＿＿。",
+   "answer": "に決まってる",
+   "options": [
+    "に決まってる",
+    "ことに決まってる",
+    "のに決まってる",
+    "で決まってる"
+   ],
+   "explanation": "Động từ thể thông thường ＋ に決まっている."
+  },
+  {
+   "id": "try-08-05",
+   "unit": 8,
+   "grammar": "行かなきゃだめじゃない",
+   "kind": "USAGE",
+   "prompt": "じゃない（giọng xuống）trong câu dưới dùng để làm gì?",
+   "sentence": "だから 言ったじゃない。",
+   "answer": "Nhắc lại điều người nghe cũng biết, trách nhẹ",
+   "options": [
+    "Nhắc lại điều người nghe cũng biết, trách nhẹ",
+    "Phủ định điều đã nói",
+    "Hỏi xem có phải không",
+    "Mời người nghe"
+   ],
+   "explanation": "Thể thông thường ＋ じゃない↘: xác nhận điều người nghe cũng biết, hoặc trách nhẹ."
+  },
+  {
+   "id": "try-08-06",
+   "unit": 8,
+   "grammar": "強い選手って",
+   "kind": "USAGE",
+   "prompt": "って trong câu dưới được dùng thay cho trợ từ nào?",
+   "sentence": "強い 選手って、毎日 練習して いるね。",
+   "answer": "は",
+   "options": [
+    "は",
+    "を",
+    "で",
+    "から"
+   ],
+   "explanation": "N ＋ って dùng thay は khi nêu chủ đề trong hội thoại."
+  },
+  {
+   "id": "try-08-07",
+   "unit": 8,
+   "grammar": "大変みたいだね",
+   "kind": "USAGE",
+   "prompt": "みたい trong câu dưới diễn tả điều gì?",
+   "sentence": "外は 雨みたいだね。",
+   "answer": "Suy đoán dựa trên quan sát",
+   "options": [
+    "Suy đoán dựa trên quan sát",
+    "Thông tin nghe được",
+    "Ví dụ minh họa",
+    "Mong muốn"
+   ],
+   "explanation": "Thể thông thường ＋ みたいだ: hình như, có vẻ (văn nói của ようだ)."
+  },
+  {
+   "id": "try-08-08",
+   "unit": 8,
+   "grammar": "大変みたいだね",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "試験の 準備は 大変＿＿ だね。",
+   "answer": "みたい",
+   "options": [
+    "みたい",
+    "なみたい",
+    "だみたい",
+    "のみたい"
+   ],
+   "explanation": "Tính từ な／N bỏ だ rồi thêm みたい: 大変みたいだ."
+  },
+  {
+   "id": "try-08-09",
+   "unit": 8,
+   "grammar": "やっておけばよかった",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện điều gì?",
+   "sentence": "もっと 勉強して おけば よかった。",
+   "answer": "Hối hận vì đã không làm",
+   "options": [
+    "Hối hận vì đã không làm",
+    "Vui vì đã làm",
+    "Lời khuyên cho người khác",
+    "Dự định sẽ làm"
+   ],
+   "explanation": "V ば ＋ よかった: tiếc vì đã không làm (hoặc khuyên lẽ ra nên làm)."
+  },
+  {
+   "id": "try-08-10",
+   "unit": 8,
+   "grammar": "やっておけばよかった",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "雨だ。傘を ＿＿ よかった。",
+   "answer": "持って くれば",
+   "options": [
+    "持って くれば",
+    "持って きて",
+    "持って くる",
+    "持って こよう"
+   ],
+   "explanation": "Thể ば ＋ よかった: 持って くれば よかった."
+  },
+  {
+   "id": "try-08-11",
+   "unit": 8,
+   "grammar": "遊んでばかりだった",
+   "kind": "USAGE",
+   "prompt": "ばかり trong câu dưới diễn tả điều gì?",
+   "sentence": "弟は ゲームばかり して います。",
+   "answer": "Chỉ làm một việc quá nhiều (hàm ý phê phán)",
+   "options": [
+    "Chỉ làm một việc quá nhiều (hàm ý phê phán)",
+    "Vừa mới chơi game",
+    "Chơi ít nhất một lần",
+    "Không chơi game"
+   ],
+   "explanation": "N ＋ ばかり／V て ＋ ばかり いる: chỉ toàn làm…, thường mang ý chê."
+  },
+  {
+   "id": "try-08-12",
+   "unit": 8,
+   "grammar": "遊んでばかりだった",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "休みの 日は 寝て＿＿ いる。",
+   "answer": "ばかり",
+   "options": [
+    "ばかり",
+    "だけ",
+    "しか",
+    "ほど"
+   ],
+   "explanation": "V て ＋ ばかり いる: suốt ngày chỉ ngủ."
+  },
+  {
+   "id": "try-09-01",
+   "unit": 9,
+   "grammar": "本当のハムのように",
+   "kind": "USAGE",
+   "prompt": "のように trong câu dưới dùng để làm gì?",
+   "sentence": "この ハムは 本物の ハムのように おいしい。",
+   "answer": "So sánh, ví von \"giống như\"",
+   "options": [
+    "So sánh, ví von \"giống như\"",
+    "Nêu nguồn tin",
+    "Nêu mục đích",
+    "Nêu nguyên nhân"
+   ],
+   "explanation": "N の ＋ ように／ような: giải thích trạng thái bằng cách so sánh với thứ khác."
+  },
+  {
+   "id": "try-09-02",
+   "unit": 9,
+   "grammar": "本当のハムのように",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "まるで 夢を 見て いる＿＿ 気分だった。",
+   "answer": "ような",
+   "options": [
+    "ような",
+    "ように",
+    "ようだ",
+    "よう"
+   ],
+   "explanation": "Bổ nghĩa cho danh từ (気分) dùng ような."
+  },
+  {
+   "id": "try-09-03",
+   "unit": 9,
+   "grammar": "サンドイッチはもちろん、ほかの料理にも",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "この ソースは サンドイッチはもちろん、ほかの 料理にも 合います。",
+   "answer": "Không chỉ sandwich mà các món khác cũng hợp",
+   "options": [
+    "Không chỉ sandwich mà các món khác cũng hợp",
+    "Chỉ hợp với sandwich",
+    "Không hợp với sandwich",
+    "Sandwich thì không, món khác thì hợp"
+   ],
+   "explanation": "N1 はもちろん N2 も: N1 thì đương nhiên rồi, N2 cũng vậy."
+  },
+  {
+   "id": "try-09-04",
+   "unit": 9,
+   "grammar": "サンドイッチはもちろん、ほかの料理にも",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 店は 平日＿＿、週末も 混んで います。",
+   "answer": "はもちろん",
+   "options": [
+    "はもちろん",
+    "にとって",
+    "によって",
+    "について"
+   ],
+   "explanation": "Ngày thường thì đương nhiên, cuối tuần cũng đông: 平日はもちろん、週末も."
+  },
+  {
+   "id": "try-09-05",
+   "unit": 9,
+   "grammar": "もも肉ほどあぶらが多くない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "今年の 夏は 去年ほど 暑くない。",
+   "answer": "Hè năm nay không nóng bằng năm ngoái",
+   "options": [
+    "Hè năm nay không nóng bằng năm ngoái",
+    "Hè năm nay nóng hơn năm ngoái",
+    "Hai năm nóng như nhau",
+    "Năm nay nóng nhất"
+   ],
+   "explanation": "A ほど 〜ない: A không đạt đến mức của B."
+  },
+  {
+   "id": "try-09-06",
+   "unit": 9,
+   "grammar": "もも肉ほどあぶらが多くない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 店の ラーメンは うわさ＿＿ おいしくなかった。",
+   "answer": "ほど",
+   "options": [
+    "ほど",
+    "ばかり",
+    "しか",
+    "まで"
+   ],
+   "explanation": "Không ngon như lời đồn: うわさほど 〜ない."
+  },
+  {
+   "id": "try-09-07",
+   "unit": 9,
+   "grammar": "はちみつのかわりに",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "はちみつの かわりに 砂糖を 使っても いいです。",
+   "answer": "Có thể dùng đường thay cho mật ong",
+   "options": [
+    "Có thể dùng đường thay cho mật ong",
+    "Phải dùng cả hai",
+    "Chỉ được dùng mật ong",
+    "Không dùng gì cả"
+   ],
+   "explanation": "N の ＋ かわりに: thay cho, thay vì."
+  },
+  {
+   "id": "try-09-08",
+   "unit": 9,
+   "grammar": "はちみつのかわりに",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "今日は 料理を ＿＿ かわりに、外で 食べましょう。",
+   "answer": "作る",
+   "options": [
+    "作る",
+    "作って",
+    "作り",
+    "作れ"
+   ],
+   "explanation": "V る ＋ かわりに: thay vì nấu ăn."
+  },
+  {
+   "id": "try-10-01",
+   "unit": 10,
+   "grammar": "とりむね肉を切らずに",
+   "kind": "USAGE",
+   "prompt": "〜ずに trong câu dưới có nghĩa giống mẫu nào?",
+   "sentence": "肉を 切らずに そのまま 焼きます。",
+   "answer": "〜ないで",
+   "options": [
+    "〜ないで",
+    "〜てから",
+    "〜ながら",
+    "〜たら"
+   ],
+   "explanation": "V ない（bỏ ない）＋ ずに ＝ 〜ないで: không làm… mà…"
+  },
+  {
+   "id": "try-10-02",
+   "unit": 10,
+   "grammar": "とりむね肉を切らずに",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "朝ご飯を ＿＿に 学校へ 行った。",
+   "answer": "食べず",
+   "options": [
+    "食べず",
+    "食べなず",
+    "食べないず",
+    "食べら"
+   ],
+   "explanation": "食べない → bỏ ない → 食べずに."
+  },
+  {
+   "id": "try-10-03",
+   "unit": 10,
+   "grammar": "とりむね肉を切らずに",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "宿題を ＿＿に 寝て しまった。",
+   "answer": "せず",
+   "options": [
+    "せず",
+    "しず",
+    "さず",
+    "すず"
+   ],
+   "explanation": "Đặc biệt: する → せずに, 来る → 来ずに."
+  },
+  {
+   "id": "try-10-04",
+   "unit": 10,
+   "grammar": "ビニール袋に入れたまま",
+   "kind": "USAGE",
+   "prompt": "まま trong câu dưới diễn tả điều gì?",
+   "sentence": "靴を はいた まま、部屋に 入らないで ください。",
+   "answer": "Giữ nguyên trạng thái, không thay đổi",
+   "options": [
+    "Giữ nguyên trạng thái, không thay đổi",
+    "Làm xong rồi mới vào",
+    "Vừa làm vừa vào",
+    "Thay vì đi giày"
+   ],
+   "explanation": "V た／N の ＋ まま: giữ nguyên trạng thái đó mà làm việc khác."
+  },
+  {
+   "id": "try-10-05",
+   "unit": 10,
+   "grammar": "ビニール袋に入れたまま",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "窓を ＿＿ まま 寝て しまった。",
+   "answer": "開けた",
+   "options": [
+    "開けた",
+    "開けて",
+    "開ける",
+    "開け"
+   ],
+   "explanation": "まま đi sau thể た: 開けた まま."
+  },
+  {
+   "id": "try-10-06",
+   "unit": 10,
+   "grammar": "ボウルに入れ、",
+   "kind": "USAGE",
+   "prompt": "入れ trong câu dưới được dùng thay cho dạng nào?",
+   "sentence": "材料を ボウルに 入れ、よく 混ぜます。",
+   "answer": "入れて (nối hai hành động, văn viết)",
+   "options": [
+    "入れて (nối hai hành động, văn viết)",
+    "入れたら",
+    "入れない",
+    "入れれば"
+   ],
+   "explanation": "Văn viết, công thức nấu ăn dùng thể ます bỏ ます thay cho thể て để nối câu."
+  },
+  {
+   "id": "try-10-07",
+   "unit": 10,
+   "grammar": "ボウルに入れ、",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng (văn viết) điền vào chỗ trống.",
+   "sentence": "野菜を ＿＿、なべに 入れる。",
+   "answer": "洗い",
+   "options": [
+    "洗い",
+    "洗う",
+    "洗った",
+    "洗わ"
+   ],
+   "explanation": "Nối câu kiểu văn viết bằng thể ます bỏ ます: 洗い、〜."
+  },
+  {
+   "id": "try-10-08",
+   "unit": 10,
+   "grammar": "ふっとうしたところへ",
+   "kind": "USAGE",
+   "prompt": "ところへ trong câu dưới diễn tả điều gì?",
+   "sentence": "出かけようと した ところへ、友達が 来ました。",
+   "answer": "Đúng vào lúc đó thì một việc khác xảy ra",
+   "options": [
+    "Đúng vào lúc đó thì một việc khác xảy ra",
+    "Sau khi đã ra ngoài",
+    "Địa điểm sẽ đến",
+    "Lý do không ra ngoài"
+   ],
+   "explanation": "V る／V た／V て いる ＋ ところへ: đúng lúc… thì (có người đến, việc khác xen vào)."
+  },
+  {
+   "id": "try-10-09",
+   "unit": 10,
+   "grammar": "ふっとうしたところへ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "お湯が ふっとうした ＿＿、肉を 入れます。",
+   "answer": "ところへ",
+   "options": [
+    "ところへ",
+    "ところが",
+    "ところの",
+    "ところだ"
+   ],
+   "explanation": "Đúng lúc nước vừa sôi thì cho thịt vào: ふっとうした ところへ."
+  },
+  {
+   "id": "try-10-10",
+   "unit": 10,
+   "grammar": "２、３日で食べきってください",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "こんなに たくさん、一人では 食べきれません。",
+   "answer": "Không thể ăn hết được",
+   "options": [
+    "Không thể ăn hết được",
+    "Có thể ăn hết",
+    "Đã ăn hết rồi",
+    "Không muốn ăn"
+   ],
+   "explanation": "V（bỏ ます）＋ きる: làm hết; 〜きれない: không thể làm hết."
+  },
+  {
+   "id": "try-10-11",
+   "unit": 10,
+   "grammar": "２、３日で食べきってください",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "マラソンを 最後まで ＿＿ きった。",
+   "answer": "走り",
+   "options": [
+    "走り",
+    "走る",
+    "走って",
+    "走れ"
+   ],
+   "explanation": "きる đi sau thể ます bỏ ます: 走りきる (chạy đến cùng)."
+  },
+  {
+   "id": "try-11-01",
+   "unit": 11,
+   "grammar": "自然のおかげで",
+   "kind": "USAGE",
+   "prompt": "おかげで trong câu dưới diễn tả điều gì?",
+   "sentence": "先生の おかげで、試験に 合格できました。",
+   "answer": "Nhờ một nguyên nhân mà có kết quả tốt",
+   "options": [
+    "Nhờ một nguyên nhân mà có kết quả tốt",
+    "Vì một nguyên nhân mà có kết quả xấu",
+    "Mặc dù có nguyên nhân",
+    "Thay cho thầy giáo"
+   ],
+   "explanation": "Thể thông thường／N の ＋ おかげで: nhờ…, mang ý biết ơn; kết quả xấu thì dùng せいで."
+  },
+  {
+   "id": "try-11-02",
+   "unit": 11,
+   "grammar": "自然のおかげで",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "毎日 練習した＿＿、上手に なりました。",
+   "answer": "おかげで",
+   "options": [
+    "おかげで",
+    "せいで",
+    "くせに",
+    "かわりに"
+   ],
+   "explanation": "Kết quả tốt nhờ luyện tập: 練習した おかげで."
+  },
+  {
+   "id": "try-11-03",
+   "unit": 11,
+   "grammar": "四季を通じて",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "この 地方は 一年を通じて 暖かい。",
+   "answer": "Vùng này ấm áp suốt cả năm",
+   "options": [
+    "Vùng này ấm áp suốt cả năm",
+    "Vùng này ấm áp một năm một lần",
+    "Vùng này ấm từ năm ngoái",
+    "Vùng này chỉ ấm vào năm mới"
+   ],
+   "explanation": "N（thời gian）＋ を通じて／を通して: trong suốt khoảng thời gian đó."
+  },
+  {
+   "id": "try-11-04",
+   "unit": 11,
+   "grammar": "四季を通じて",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "四季＿＿ 美しい 景色が 楽しめます。",
+   "answer": "を通じて",
+   "options": [
+    "を通じて",
+    "に対して",
+    "にとって",
+    "について"
+   ],
+   "explanation": "Suốt bốn mùa: 四季を通じて."
+  },
+  {
+   "id": "try-11-05",
+   "unit": 11,
+   "grammar": "守りたいと思いませんか",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "この 自然を 守りたいと 思いませんか。",
+   "answer": "Hỏi để tìm sự đồng tình, kêu gọi người nghe",
+   "options": [
+    "Hỏi để tìm sự đồng tình, kêu gọi người nghe",
+    "Rủ đi chơi",
+    "Từ chối lời đề nghị",
+    "Ra lệnh"
+   ],
+   "explanation": "〜ませんか／〜じゃないですか: hỏi để người nghe đồng ý với ý kiến của mình."
+  },
+  {
+   "id": "try-11-06",
+   "unit": 11,
+   "grammar": "自然保護というと",
+   "kind": "USAGE",
+   "prompt": "というと trong câu dưới dùng để làm gì?",
+   "sentence": "日本の 夏というと、花火ですね。",
+   "answer": "Nhắc đến một điều thì liên tưởng ngay đến điều tiêu biểu",
+   "options": [
+    "Nhắc đến một điều thì liên tưởng ngay đến điều tiêu biểu",
+    "Truyền đạt lời người khác",
+    "Nêu nguyên nhân",
+    "Đặt điều kiện"
+   ],
+   "explanation": "N ＋ というと／といえば／といったら: nói đến… thì là…"
+  },
+  {
+   "id": "try-11-07",
+   "unit": 11,
+   "grammar": "自然保護というと",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "京都＿＿、やはり お寺でしょう。",
+   "answer": "といえば",
+   "options": [
+    "といえば",
+    "といって",
+    "にとって",
+    "による"
+   ],
+   "explanation": "Nói đến Kyoto thì: 京都といえば."
+  },
+  {
+   "id": "try-11-08",
+   "unit": 11,
+   "grammar": "そのまま残すべきだ",
+   "kind": "USAGE",
+   "prompt": "べきだ trong câu dưới diễn tả điều gì?",
+   "sentence": "約束は 守るべきだ。",
+   "answer": "Nên làm vì đó là điều đúng đắn",
+   "options": [
+    "Nên làm vì đó là điều đúng đắn",
+    "Đã làm xong",
+    "Chắc chắn sẽ xảy ra",
+    "Không thể làm"
+   ],
+   "explanation": "V る ＋ べきだ: nên, phải (theo lẽ phải, đạo lý)."
+  },
+  {
+   "id": "try-11-09",
+   "unit": 11,
+   "grammar": "そのまま残すべきだ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 自然は そのまま 残す＿＿だ。",
+   "answer": "べき",
+   "options": [
+    "べき",
+    "べく",
+    "べし",
+    "べきな"
+   ],
+   "explanation": "V る ＋ べきだ: 残すべきだ."
+  },
+  {
+   "id": "try-11-10",
+   "unit": 11,
+   "grammar": "そのまま残すべきだ",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "学生は もっと 勉強＿＿ べきだ。",
+   "answer": "す",
+   "options": [
+    "す",
+    "し",
+    "して",
+    "さ"
+   ],
+   "explanation": "する ＋ べき có thể nói ngắn là すべき: 勉強すべきだ."
+  },
+  {
+   "id": "try-11-11",
+   "unit": 11,
+   "grammar": "人にとっていい環境",
+   "kind": "USAGE",
+   "prompt": "にとって trong câu dưới dùng để làm gì?",
+   "sentence": "この 写真は わたしにとって 大切な 宝物です。",
+   "answer": "Đánh giá từ lập trường của một người",
+   "options": [
+    "Đánh giá từ lập trường của một người",
+    "Chỉ đối tượng hướng tới",
+    "Nêu nguồn thông tin",
+    "Chỉ phương tiện"
+   ],
+   "explanation": "N ＋ にとって: đối với… (thường đi với tính từ đánh giá như 大切, 難しい)."
+  },
+  {
+   "id": "try-11-12",
+   "unit": 11,
+   "grammar": "人にとっていい環境",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "子ども＿＿、この 公園は いい 遊び場です。",
+   "answer": "にとって",
+   "options": [
+    "にとって",
+    "に対して",
+    "について",
+    "によって"
+   ],
+   "explanation": "Đánh giá từ phía trẻ em: 子どもにとって."
+  },
+  {
+   "id": "try-12-01",
+   "unit": 12,
+   "grammar": "木が育てば育つほど",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "練習すれば するほど、上手に なる。",
+   "answer": "Càng luyện tập càng giỏi",
+   "options": [
+    "Càng luyện tập càng giỏi",
+    "Luyện tập xong thì giỏi",
+    "Dù luyện tập vẫn không giỏi",
+    "Giỏi rồi thì không cần luyện"
+   ],
+   "explanation": "V ば ＋ V る ＋ ほど: càng… càng…"
+  },
+  {
+   "id": "try-12-02",
+   "unit": 12,
+   "grammar": "木が育てば育つほど",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 本は 読めば ＿＿ほど おもしろい。",
+   "answer": "読む",
+   "options": [
+    "読む",
+    "読んで",
+    "読み",
+    "読めば"
+   ],
+   "explanation": "Mẫu: V ば ＋ V（thể từ điển）＋ ほど: 読めば 読むほど."
+  },
+  {
+   "id": "try-12-03",
+   "unit": 12,
+   "grammar": "木が育てば育つほど",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "駅に 近ければ ＿＿ほど、家賃が 高い。",
+   "answer": "近い",
+   "options": [
+    "近い",
+    "近く",
+    "近くて",
+    "近ければ"
+   ],
+   "explanation": "Tính từ い: Aければ ＋ Aい ＋ ほど: 近ければ 近いほど."
+  },
+  {
+   "id": "try-12-04",
+   "unit": 12,
+   "grammar": "大雨による山崩れ",
+   "kind": "USAGE",
+   "prompt": "による trong câu dưới chỉ điều gì?",
+   "sentence": "大雨による 山崩れで、道が 通れなく なった。",
+   "answer": "Nguyên nhân dẫn đến kết quả",
+   "options": [
+    "Nguyên nhân dẫn đến kết quả",
+    "Phương pháp",
+    "Người thực hiện",
+    "Chủ đề"
+   ],
+   "explanation": "N ＋ による ＋ N: nguyên nhân (mưa lớn gây sạt lở)."
+  },
+  {
+   "id": "try-12-05",
+   "unit": 12,
+   "grammar": "大雨による山崩れ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "台風＿＿ 被害が 大きかった。",
+   "answer": "による",
+   "options": [
+    "による",
+    "にとって",
+    "について",
+    "に対する"
+   ],
+   "explanation": "Thiệt hại do bão: 台風による 被害."
+  },
+  {
+   "id": "try-12-06",
+   "unit": 12,
+   "grammar": "田舎ばかりでなく東京にも",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "この 問題は 田舎ばかりでなく、東京にも あります。",
+   "answer": "Không chỉ ở nông thôn mà cả ở Tokyo cũng có",
+   "options": [
+    "Không chỉ ở nông thôn mà cả ở Tokyo cũng có",
+    "Chỉ có ở nông thôn",
+    "Chỉ có ở Tokyo",
+    "Ở đâu cũng không có"
+   ],
+   "explanation": "〜ばかりでなく〜も: không chỉ… mà cả… cũng."
+  },
+  {
+   "id": "try-12-07",
+   "unit": 12,
+   "grammar": "田舎ばかりでなく東京にも",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼は 英語＿＿、中国語も 話せる。",
+   "answer": "ばかりでなく",
+   "options": [
+    "ばかりでなく",
+    "ばかりで",
+    "しかなく",
+    "ほどでなく"
+   ],
+   "explanation": "Không chỉ tiếng Anh mà cả tiếng Trung: 英語ばかりでなく、中国語も."
+  },
+  {
+   "id": "try-12-08",
+   "unit": 12,
+   "grammar": "里山へ行くたびに",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "この 歌を 聞く たびに、ふるさとを 思い出す。",
+   "answer": "Mỗi lần nghe bài hát này lại nhớ quê",
+   "options": [
+    "Mỗi lần nghe bài hát này lại nhớ quê",
+    "Nghe bài hát một lần rồi thôi",
+    "Vì nghe bài hát nên nhớ quê",
+    "Nghe bài hát thay vì nhớ quê"
+   ],
+   "explanation": "V る／N の ＋ たび（に）: mỗi lần… thì…"
+  },
+  {
+   "id": "try-12-09",
+   "unit": 12,
+   "grammar": "里山へ行くたびに",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "旅行＿＿ たびに、お土産を 買います。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "に",
+    "で"
+   ],
+   "explanation": "Danh từ nối với たび bằng の: 旅行の たびに."
+  },
+  {
+   "id": "try-12-10",
+   "unit": 12,
+   "grammar": "里山へ行くたびに",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "彼に ＿＿ たびに、元気が 出る。",
+   "answer": "会う",
+   "options": [
+    "会う",
+    "会った",
+    "会って",
+    "会い"
+   ],
+   "explanation": "たびに đi sau thể từ điển: 会う たびに."
+  },
+  {
+   "id": "try-12-11",
+   "unit": 12,
+   "grammar": "すばらしさがわかるはずです",
+   "kind": "USAGE",
+   "prompt": "はずです trong câu dưới diễn tả điều gì?",
+   "sentence": "実際に 行けば、里山の すばらしさが わかる はずです。",
+   "answer": "Phán đoán chắc chắn có căn cứ",
+   "options": [
+    "Phán đoán chắc chắn có căn cứ",
+    "Thông tin nghe được",
+    "Phỏng đoán không chắc",
+    "Mệnh lệnh"
+   ],
+   "explanation": "Thể thông thường ＋ はず: hẳn là, chắc chắn là (suy luận có căn cứ)."
+  },
+  {
+   "id": "try-12-12",
+   "unit": 12,
+   "grammar": "すばらしさがわかるはずです",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼は 日本に 10年 住んで いたから、日本語が 上手な＿＿だ。",
+   "answer": "はず",
+   "options": [
+    "はず",
+    "ばかり",
+    "ところ",
+    "まま"
+   ],
+   "explanation": "Tính từ な ＋ な ＋ はず: 上手な はずだ."
+  },
+  {
+   "id": "try-13-01",
+   "unit": 13,
+   "grammar": "そのご予算ですと",
+   "kind": "USAGE",
+   "prompt": "ですと trong câu dưới dùng để làm gì?",
+   "sentence": "その ご予算ですと、こちらの お部屋が おすすめです。",
+   "answer": "Trình bày điều kiện một cách lịch sự",
+   "options": [
+    "Trình bày điều kiện một cách lịch sự",
+    "Nêu lý do",
+    "Nêu mục đích",
+    "Chỉ thời gian"
+   ],
+   "explanation": "Thể lịch sự ＋ と: cách nêu điều kiện lịch sự của nhân viên cửa hàng, văn phòng."
+  },
+  {
+   "id": "try-13-02",
+   "unit": 13,
+   "grammar": "そのご予算ですと",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "駅から 歩いて 5分＿＿と、家賃が 少し 高く なります。",
+   "answer": "です",
+   "options": [
+    "です",
+    "でした",
+    "でして",
+    "ですので"
+   ],
+   "explanation": "Điều kiện lịch sự: thể lịch sự hiện tại ＋ と: 5分ですと."
+  },
+  {
+   "id": "try-13-03",
+   "unit": 13,
+   "grammar": "お時間があるようなら",
+   "kind": "USAGE",
+   "prompt": "ようなら trong câu dưới diễn tả điều gì?",
+   "sentence": "お時間が あるようなら、ご案内します。",
+   "answer": "Điều kiện dựa trên quan sát \"nếu có vẻ là…\"",
+   "options": [
+    "Điều kiện dựa trên quan sát \"nếu có vẻ là…\"",
+    "Mục đích",
+    "Nguyên nhân",
+    "So sánh"
+   ],
+   "explanation": "Thể thông thường ＋ ようなら／ようだったら: nếu tình hình có vẻ như vậy thì…"
+  },
+  {
+   "id": "try-13-04",
+   "unit": 13,
+   "grammar": "お時間があるようなら",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "熱が 下がらない＿＿、病院へ 行って ください。",
+   "answer": "ようなら",
+   "options": [
+    "ようなら",
+    "ように",
+    "ようで",
+    "ような"
+   ],
+   "explanation": "Nếu (có vẻ) không hạ sốt thì đi viện: 下がらないようなら."
+  },
+  {
+   "id": "try-13-05",
+   "unit": 13,
+   "grammar": "人気が出てきたんです",
+   "kind": "USAGE",
+   "prompt": "〜てくる trong câu dưới diễn tả điều gì?",
+   "sentence": "最近、この 町に 住む 外国人が 増えて きました。",
+   "answer": "Một thay đổi xuất hiện và tiến triển đến hiện tại",
+   "options": [
+    "Một thay đổi xuất hiện và tiến triển đến hiện tại",
+    "Di chuyển rời xa người nói",
+    "Làm sẵn để chuẩn bị",
+    "Làm thử"
+   ],
+   "explanation": "V て くる: điều trước đây chưa có bắt đầu xuất hiện, thay đổi dần đến bây giờ."
+  },
+  {
+   "id": "try-13-06",
+   "unit": 13,
+   "grammar": "人気が出てきたんです",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 辺りは 最近 人気が ＿＿ きました。",
+   "answer": "出て",
+   "options": [
+    "出て",
+    "出し",
+    "出す",
+    "出た"
+   ],
+   "explanation": "くる đi sau thể て: 人気が 出て きました."
+  },
+  {
+   "id": "try-13-07",
+   "unit": 13,
+   "grammar": "借りたい人が増えているものですから",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "すみません、電車が 遅れた ものですから……。",
+   "answer": "Giải thích lý do của mình một cách lịch sự khi xin lỗi",
+   "options": [
+    "Giải thích lý do của mình một cách lịch sự khi xin lỗi",
+    "Trách người nghe",
+    "Hỏi lý do",
+    "Ra lệnh"
+   ],
+   "explanation": "Thể thông thường ＋ もので／ものですから: giải thích lý do phía mình, mang ý xin lỗi."
+  },
+  {
+   "id": "try-13-08",
+   "unit": 13,
+   "grammar": "借りたい人が増えているものですから",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "道が とても 込んで いた＿＿、遅れて しまいました。",
+   "answer": "もので",
+   "options": [
+    "もので",
+    "ものを",
+    "ものに",
+    "ものが"
+   ],
+   "explanation": "Giải thích lý do đến muộn: 込んで いた もので."
+  },
+  {
+   "id": "try-13-09",
+   "unit": 13,
+   "grammar": "こちらなんかいかがですか",
+   "kind": "USAGE",
+   "prompt": "なんか trong câu dưới dùng để làm gì?",
+   "sentence": "プレゼントなら、花なんか どうですか。",
+   "answer": "Đưa ra gợi ý nhẹ nhàng, để người kia tự chọn",
+   "options": [
+    "Đưa ra gợi ý nhẹ nhàng, để người kia tự chọn",
+    "Coi thường hoa",
+    "Phủ định hoàn toàn",
+    "Nhấn mạnh duy nhất hoa"
+   ],
+   "explanation": "N ＋ なんか／なんて: gợi ý mềm mỏng, \"chẳng hạn như\"."
+  },
+  {
+   "id": "try-13-10",
+   "unit": 13,
+   "grammar": "便利かと思いますが",
+   "kind": "USAGE",
+   "prompt": "かと思います trong câu dưới thể hiện điều gì?",
+   "sentence": "こちらの 方が 便利かと 思いますが……。",
+   "answer": "Nêu ý kiến một cách dè dặt, lịch sự",
+   "options": [
+    "Nêu ý kiến một cách dè dặt, lịch sự",
+    "Khẳng định chắc chắn",
+    "Hỏi lại người nghe",
+    "Từ chối"
+   ],
+   "explanation": "Thể thông thường ＋ かと 思う: nói ý kiến mềm, khiêm tốn (hay dùng khi tiếp khách)."
+  },
+  {
+   "id": "try-13-11",
+   "unit": 13,
+   "grammar": "便利かと思いますが",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "こちらの 部屋の 方が 静か＿＿ 思いますが。",
+   "answer": "かと",
+   "options": [
+    "かと",
+    "だかと",
+    "なかと",
+    "ことと"
+   ],
+   "explanation": "Tính từ な bỏ だ ＋ かと 思う: 静かかと 思います."
+  },
+  {
+   "id": "try-14-01",
+   "unit": 14,
+   "grammar": "住んでいるうちに慣れる",
+   "kind": "USAGE",
+   "prompt": "うちに trong câu dưới diễn tả điều gì?",
+   "sentence": "住んで いる うちに、だんだん 町に 慣れました。",
+   "answer": "Trong lúc đang làm, một thay đổi tự nhiên xảy ra",
+   "options": [
+    "Trong lúc đang làm, một thay đổi tự nhiên xảy ra",
+    "Làm trước khi tình trạng thay đổi",
+    "Sau khi chuyển nhà",
+    "Mặc dù đang sống ở đó"
+   ],
+   "explanation": "V て いる ＋ うちに: trong khi đang…, dần dần (thay đổi không chủ ý) xảy ra."
+  },
+  {
+   "id": "try-14-02",
+   "unit": 14,
+   "grammar": "住んでいるうちに慣れる",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "本を ＿＿ うちに、眠く なった。",
+   "answer": "読んで いる",
+   "options": [
+    "読んで いる",
+    "読んだ",
+    "読んで",
+    "読み"
+   ],
+   "explanation": "Đang đọc thì buồn ngủ: 読んで いる うちに."
+  },
+  {
+   "id": "try-14-03",
+   "unit": 14,
+   "grammar": "卒業したばかりなんだから",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "卒業した ばかりなんだから、まだ 仕事に 慣れて いないよ。",
+   "answer": "Vừa mới làm xong, thời gian còn ngắn",
+   "options": [
+    "Vừa mới làm xong, thời gian còn ngắn",
+    "Chỉ toàn làm một việc",
+    "Đã làm từ rất lâu",
+    "Sắp làm"
+   ],
+   "explanation": "V た ＋ ばかり: vừa mới (độ dài thời gian tùy cảm nhận người nói)."
+  },
+  {
+   "id": "try-14-04",
+   "unit": 14,
+   "grammar": "卒業したばかりなんだから",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 町に ＿＿ ばかりで、まだ 友達が いません。",
+   "answer": "引っ越して きた",
+   "options": [
+    "引っ越して きた",
+    "引っ越して くる",
+    "引っ越して きて",
+    "引っ越して こよう"
+   ],
+   "explanation": "ばかり đi sau thể た: 引っ越して きた ばかり."
+  },
+  {
+   "id": "try-14-05",
+   "unit": 14,
+   "grammar": "見ればいいのに",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện điều gì?",
+   "sentence": "そんなに 気に なるなら、自分で 見れば いいのに。",
+   "answer": "Ước người khác làm khác đi, hơi trách",
+   "options": [
+    "Ước người khác làm khác đi, hơi trách",
+    "Lời khen",
+    "Lời xin phép",
+    "Kể lại việc đã làm"
+   ],
+   "explanation": "V ば ＋ いいのに: tiếc, ước một tình trạng khác (thường với người khác hoặc việc ngoài tầm tay)."
+  },
+  {
+   "id": "try-14-06",
+   "unit": 14,
+   "grammar": "見ればいいのに",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "明日は 遠足なのに……。雨が ＿＿ いいのに。",
+   "answer": "やめば",
+   "options": [
+    "やめば",
+    "やむ",
+    "やんで",
+    "やもう"
+   ],
+   "explanation": "Thể ば ＋ いいのに: 雨が やめば いいのに."
+  },
+  {
+   "id": "try-14-07",
+   "unit": 14,
+   "grammar": "見せてもらってもいいですか",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "その 写真、ちょっと 見せて もらっても いいですか。",
+   "answer": "Nhờ người khác làm giúp một cách mềm mỏng, áy náy",
+   "options": [
+    "Nhờ người khác làm giúp một cách mềm mỏng, áy náy",
+    "Xin phép tự mình chụp ảnh",
+    "Ra lệnh phải cho xem",
+    "Từ chối xem ảnh"
+   ],
+   "explanation": "V て ＋ もらっても いいですか: nhờ vả nhẹ nhàng hơn 〜て ください."
+  },
+  {
+   "id": "try-14-08",
+   "unit": 14,
+   "grammar": "見せてもらってもいいですか",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "すみません、ここに お名前を ＿＿ もらっても いいですか。",
+   "answer": "書いて",
+   "options": [
+    "書いて",
+    "書き",
+    "書く",
+    "書いた"
+   ],
+   "explanation": "もらっても いいですか đi sau thể て: 書いて."
+  },
+  {
+   "id": "try-15-01",
+   "unit": 15,
+   "grammar": "ご紹介いただきました",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện điều gì?",
+   "sentence": "田中様に ご紹介いただきました。",
+   "answer": "Khiêm nhường: được người trên làm cho (giới thiệu)",
+   "options": [
+    "Khiêm nhường: được người trên làm cho (giới thiệu)",
+    "Mình giới thiệu cho Tanaka",
+    "Nhờ Tanaka giới thiệu",
+    "Tanaka được người khác giới thiệu"
+   ],
+   "explanation": "お V ます／ご N ＋ いただく: cách nói lịch sự của 〜て もらう."
+  },
+  {
+   "id": "try-15-02",
+   "unit": 15,
+   "grammar": "ご紹介いただきました",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "先生に 資料を ＿＿ いただきました。",
+   "answer": "お送り",
+   "options": [
+    "お送り",
+    "お送って",
+    "送り",
+    "お送る"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ いただく: お送り いただきました."
+  },
+  {
+   "id": "try-15-03",
+   "unit": 15,
+   "grammar": "お待ちしてました",
+   "kind": "USAGE",
+   "prompt": "お待ちしてました là dạng rút gọn của câu nào?",
+   "sentence": "お待ちしてました。",
+   "answer": "お待ちして いました",
+   "options": [
+    "お待ちして いました",
+    "お待ちして おきました",
+    "お待ちして しまいました",
+    "お待ちしました"
+   ],
+   "explanation": "Văn nói rút gọn cả trong câu lịch sự: 〜ています → 〜てます."
+  },
+  {
+   "id": "try-15-04",
+   "unit": 15,
+   "grammar": "お待ちしてました",
+   "kind": "FORM",
+   "prompt": "Chọn dạng rút gọn đúng của 出て しまう.",
+   "sentence": "急がないと、電車が 出＿＿よ。",
+   "answer": "ちゃう",
+   "options": [
+    "ちゃう",
+    "じゃう",
+    "ちゃい",
+    "ちゃる"
+   ],
+   "explanation": "〜て しまう → 〜ちゃう (〜で しまう → 〜じゃう): 出て しまう → 出ちゃう."
+  },
+  {
+   "id": "try-15-05",
+   "unit": 15,
+   "grammar": "来日前から存じ上げており",
+   "kind": "USAGE",
+   "prompt": "存じ上げる là khiêm nhường ngữ của động từ nào?",
+   "sentence": "お名前は 来日前から 存じ上げて おりました。",
+   "answer": "知る (biết về người)",
+   "options": [
+    "知る (biết về người)",
+    "会う",
+    "見る",
+    "言う"
+   ],
+   "explanation": "Khiêm nhường đặc biệt: 知る → 存じ上げる (về người), 会う → お目に かかる, 見せる → お目に かける."
+  },
+  {
+   "id": "try-15-06",
+   "unit": 15,
+   "grammar": "来日前から存じ上げており",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "新しい 作品を 社長に お目に＿＿。",
+   "answer": "かけます",
+   "options": [
+    "かけます",
+    "かかります",
+    "なります",
+    "いたします"
+   ],
+   "explanation": "Cho người trên xem: お目に かける（khiêm nhường của 見せる）; お目に かかる là \"gặp\"."
+  },
+  {
+   "id": "try-15-07",
+   "unit": 15,
+   "grammar": "作品はお持ちですか",
+   "kind": "USAGE",
+   "prompt": "お持ちです trong câu dưới là kính ngữ của dạng nào?",
+   "sentence": "作品は お持ちですか。",
+   "answer": "持って いる",
+   "options": [
+    "持って いる",
+    "持って くる",
+    "持たせる",
+    "持てる"
+   ],
+   "explanation": "お V ます／ご N ＋ です: kính ngữ chỉ trạng thái 〜て いる của người được kính trọng."
+  },
+  {
+   "id": "try-15-08",
+   "unit": 15,
+   "grammar": "作品はお持ちですか",
+   "kind": "FORM",
+   "prompt": "Chọn dạng kính ngữ đúng điền vào chỗ trống.",
+   "sentence": "お客様は 何時に ＿＿ですか。",
+   "answer": "お帰り",
+   "options": [
+    "お帰り",
+    "お帰る",
+    "帰り",
+    "お帰りに"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ です: お帰りですか."
+  },
+  {
+   "id": "try-15-09",
+   "unit": 15,
+   "grammar": "ご覧いただけますでしょうか",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "こちらの 書類を ご覧いただけますでしょうか。",
+   "answer": "Nhờ vả hoặc hỏi một cách rất lịch sự",
+   "options": [
+    "Nhờ vả hoặc hỏi một cách rất lịch sự",
+    "Ra lệnh",
+    "Kể lại việc đã xem",
+    "Từ chối xem"
+   ],
+   "explanation": "〜でしょうか: hỏi, nhờ vả mềm mỏng và lịch sự hơn 〜ですか."
+  },
+  {
+   "id": "try-15-10",
+   "unit": 15,
+   "grammar": "ご覧いただけますでしょうか",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "あしたの 会議は 何時から＿＿。",
+   "answer": "でしょうか",
+   "options": [
+    "でしょうか",
+    "だでしょうか",
+    "ですでしょうか",
+    "なでしょうか"
+   ],
+   "explanation": "N ＋ でしょうか: 何時からでしょうか."
+  },
+  {
+   "id": "try-15-11",
+   "unit": 15,
+   "grammar": "専門家でいらっしゃる",
+   "kind": "USAGE",
+   "prompt": "でいらっしゃる trong câu dưới là kính ngữ của từ nào?",
+   "sentence": "田中先生は 経済の 専門家で いらっしゃいます。",
+   "answer": "です",
+   "options": [
+    "です",
+    "います",
+    "あります",
+    "なります"
+   ],
+   "explanation": "N／Aな ＋ で いらっしゃる: kính ngữ của です (và của 〜て いる khi đi sau thể て)."
+  },
+  {
+   "id": "try-15-12",
+   "unit": 15,
+   "grammar": "専門家でいらっしゃる",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "社長は お元気＿＿ いらっしゃいますか。",
+   "answer": "で",
+   "options": [
+    "で",
+    "に",
+    "な",
+    "と"
+   ],
+   "explanation": "Tính từ な ＋ で いらっしゃる: お元気で いらっしゃいますか."
+  },
+  {
+   "id": "try-15-13",
+   "unit": 15,
+   "grammar": "始めさせていただきます",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "では、会議を 始めさせて いただきます。",
+   "answer": "Nói khiêm nhường rằng mình sẽ làm (với sự cho phép)",
+   "options": [
+    "Nói khiêm nhường rằng mình sẽ làm (với sự cho phép)",
+    "Nhờ người khác bắt đầu",
+    "Bắt người khác bắt đầu",
+    "Hỏi có được bắt đầu không"
+   ],
+   "explanation": "V（使役）て いただく: cách lịch sự của 〜させて もらう, \"xin phép được…\"."
+  },
+  {
+   "id": "try-15-14",
+   "unit": 15,
+   "grammar": "始めさせていただきます",
+   "kind": "FORM",
+   "prompt": "Bạn là người dẫn chương trình hôm nay. Chọn dạng đúng.",
+   "sentence": "本日は わたくしが 司会を ＿＿ いただきます。",
+   "answer": "務めさせて",
+   "options": [
+    "務めさせて",
+    "務めて",
+    "務められて",
+    "務めさせ"
+   ],
+   "explanation": "Mình xin phép làm: thể sai khiến 務めさせる → 務めさせて いただきます."
+  },
+  {
+   "id": "try-16-01",
+   "unit": 16,
+   "grammar": "花が咲いてからでなければ",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "花が 咲いて からでなければ、花見は できません。",
+   "answer": "Phải đợi hoa nở thì mới ngắm hoa được",
+   "options": [
+    "Phải đợi hoa nở thì mới ngắm hoa được",
+    "Hoa chưa nở cũng ngắm được",
+    "Ngắm hoa xong thì hoa nở",
+    "Vì hoa nở nên không ngắm được"
+   ],
+   "explanation": "V て ＋ からでなければ／からでないと ＋ phủ định: phải làm A trước thì mới làm được B."
+  },
+  {
+   "id": "try-16-02",
+   "unit": 16,
+   "grammar": "花が咲いてからでなければ",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "お金を ＿＿ からでないと、商品は お送りできません。",
+   "answer": "払って",
+   "options": [
+    "払って",
+    "払った",
+    "払う",
+    "払い"
+   ],
+   "explanation": "からでないと đi sau thể て: 払って からでないと."
+  },
+  {
+   "id": "try-16-03",
+   "unit": 16,
+   "grammar": "雪が降っているかのように",
+   "kind": "USAGE",
+   "prompt": "かのように trong câu dưới có nghĩa gì?",
+   "sentence": "まるで 雪が 降って いるかのように、花びらが 舞って いる。",
+   "answer": "Như thể (thực tế không phải vậy)",
+   "options": [
+    "Như thể (thực tế không phải vậy)",
+    "Bởi vì",
+    "Để cho",
+    "Ngay sau khi"
+   ],
+   "explanation": "Thể thông thường ＋ かのように／かのような: như thể là…, ví von điều không có thật."
+  },
+  {
+   "id": "try-16-04",
+   "unit": 16,
+   "grammar": "雪が降っているかのように",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼は 何も 知らない＿＿ 顔を して いた。",
+   "answer": "かのような",
+   "options": [
+    "かのような",
+    "かような",
+    "ようかの",
+    "かのようで"
+   ],
+   "explanation": "Bổ nghĩa cho danh từ 顔 dùng かのような."
+  },
+  {
+   "id": "try-16-05",
+   "unit": 16,
+   "grammar": "花が残っているうちに",
+   "kind": "USAGE",
+   "prompt": "うちに trong câu dưới diễn tả điều gì?",
+   "sentence": "花が 残って いる うちに、見に 行こう。",
+   "answer": "Làm trước khi tình trạng thay đổi",
+   "options": [
+    "Làm trước khi tình trạng thay đổi",
+    "Trong lúc đang làm thì thay đổi tự nhiên",
+    "Sau khi hoa rụng",
+    "Vì hoa còn nên không đi"
+   ],
+   "explanation": "V ない／V て いる／A ＋ うちに: tranh thủ làm trước khi trạng thái đó mất đi."
+  },
+  {
+   "id": "try-16-06",
+   "unit": 16,
+   "grammar": "花が残っているうちに",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "冷めない＿＿、どうぞ 召し上がって ください。",
+   "answer": "うちに",
+   "options": [
+    "うちに",
+    "あいだ",
+    "までに",
+    "ときに"
+   ],
+   "explanation": "Tranh thủ ăn khi còn nóng: 冷めない うちに."
+  },
+  {
+   "id": "try-16-07",
+   "unit": 16,
+   "grammar": "花見客向けに",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "これは 子ども向けの 本です。",
+   "answer": "Sách được làm dành cho trẻ em",
+   "options": [
+    "Sách được làm dành cho trẻ em",
+    "Sách do trẻ em viết",
+    "Sách trẻ em không được đọc",
+    "Sách nói về trẻ em"
+   ],
+   "explanation": "N ＋ 向け: được làm, thiết kế dành cho đối tượng đó."
+  },
+  {
+   "id": "try-16-08",
+   "unit": 16,
+   "grammar": "花見客向けに",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この ツアーは 外国人観光客＿＿に 作られた。",
+   "answer": "向け",
+   "options": [
+    "向け",
+    "向き",
+    "向かい",
+    "向こう"
+   ],
+   "explanation": "Làm ra dành cho khách nước ngoài: 外国人観光客向けに."
+  },
+  {
+   "id": "try-16-09",
+   "unit": 16,
+   "grammar": "人によってその楽しみ方はそれぞれだ",
+   "kind": "USAGE",
+   "prompt": "によって trong câu dưới có nghĩa gì?",
+   "sentence": "国によって 習慣が 違う。",
+   "answer": "Khác nhau tùy theo",
+   "options": [
+    "Khác nhau tùy theo",
+    "Bằng phương pháp",
+    "Do nguyên nhân",
+    "Đối với"
+   ],
+   "explanation": "N ＋ によって: tùy theo người, nơi, thời gian… mà khác nhau."
+  },
+  {
+   "id": "try-16-10",
+   "unit": 16,
+   "grammar": "人によってその楽しみ方はそれぞれだ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "花見の 楽しみ方は 人＿＿ それぞれだ。",
+   "answer": "によって",
+   "options": [
+    "によって",
+    "にとって",
+    "に対して",
+    "について"
+   ],
+   "explanation": "Tùy người: 人によって それぞれだ."
+  },
+  {
+   "id": "try-17-01",
+   "unit": 17,
+   "grammar": "仕事の最中に",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "大事な 会議の 最中に、電話が 鳴った。",
+   "answer": "Đúng lúc đang làm thì xảy ra chuyện bất ngờ",
+   "options": [
+    "Đúng lúc đang làm thì xảy ra chuyện bất ngờ",
+    "Trước khi bắt đầu họp",
+    "Sau khi họp xong",
+    "Vì đang họp nên tắt máy"
+   ],
+   "explanation": "V て いる／N の ＋ 最中に: đang giữa lúc… thì (việc không ngờ) xảy ra."
+  },
+  {
+   "id": "try-17-02",
+   "unit": 17,
+   "grammar": "仕事の最中に",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "食事を して いる ＿＿、地震が 起きた。",
+   "answer": "最中に",
+   "options": [
+    "最中に",
+    "最中で",
+    "最中を",
+    "最中の"
+   ],
+   "explanation": "Đang ăn thì động đất: 食事を して いる 最中に."
+  },
+  {
+   "id": "try-17-03",
+   "unit": 17,
+   "grammar": "やりかけの仕事",
+   "kind": "USAGE",
+   "prompt": "Cụm やりかけの 仕事 có nghĩa là gì?",
+   "sentence": "やりかけの 仕事が まだ 残って いる。",
+   "answer": "Công việc đang làm dở",
+   "options": [
+    "Công việc đang làm dở",
+    "Công việc chưa bắt đầu",
+    "Công việc đã làm xong",
+    "Công việc người khác làm"
+   ],
+   "explanation": "V（bỏ ます）＋ かけの ＋ N: việc đã bắt đầu nhưng còn dang dở."
+  },
+  {
+   "id": "try-17-04",
+   "unit": 17,
+   "grammar": "やりかけの仕事",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "テーブルに 飲み＿＿ コーヒーが 置いて ある。",
+   "answer": "かけの",
+   "options": [
+    "かけの",
+    "かけな",
+    "かけに",
+    "かける"
+   ],
+   "explanation": "Cốc cà phê đang uống dở: 飲みかけの コーヒー."
+  },
+  {
+   "id": "try-17-05",
+   "unit": 17,
+   "grammar": "行かずにはいられなくなって",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "その 話を 聞いて、笑わずには いられなかった。",
+   "answer": "Không thể nhịn được cười",
+   "options": [
+    "Không thể nhịn được cười",
+    "Đã không cười",
+    "Cố gắng không cười",
+    "Không được phép cười"
+   ],
+   "explanation": "V（bỏ ない）＋ ずには いられない: không thể không làm, cảm xúc mạnh không kìm được."
+  },
+  {
+   "id": "try-17-06",
+   "unit": 17,
+   "grammar": "行かずにはいられなくなって",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "心配で、電話を ＿＿には いられなかった。",
+   "answer": "せず",
+   "options": [
+    "せず",
+    "しず",
+    "さず",
+    "しなず"
+   ],
+   "explanation": "する → せずには いられない."
+  },
+  {
+   "id": "try-18-01",
+   "unit": 18,
+   "grammar": "できるわけがない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "ほとんど 練習しない 人が 優勝できる わけが ない。",
+   "answer": "Không thể nào có chuyện người đó vô địch",
+   "options": [
+    "Không thể nào có chuyện người đó vô địch",
+    "Người đó chắc chắn sẽ vô địch",
+    "Có lẽ người đó sẽ vô địch",
+    "Người đó đã từng vô địch"
+   ],
+   "explanation": "Thể thông thường ＋ わけがない: phủ định mạnh, \"không thể nào\"."
+  },
+  {
+   "id": "try-18-02",
+   "unit": 18,
+   "grammar": "できるわけがない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼が そんな ことを 言う＿＿。",
+   "answer": "わけがない",
+   "options": [
+    "わけがない",
+    "わけにない",
+    "わけをない",
+    "わけでいない"
+   ],
+   "explanation": "Mẫu cố định: V（thể thông thường）＋ わけがない."
+  },
+  {
+   "id": "try-18-03",
+   "unit": 18,
+   "grammar": "できるわけがない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "あの 静か＿＿ 人が 怒る わけが ない。",
+   "answer": "な",
+   "options": [
+    "な",
+    "の",
+    "だ",
+    "に"
+   ],
+   "explanation": "Tính từ な bổ nghĩa cho danh từ dùng な: 静かな 人."
+  },
+  {
+   "id": "try-18-04",
+   "unit": 18,
+   "grammar": "この仕事しかない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện điều gì?",
+   "sentence": "終電が ないから、歩いて 帰る しかない。",
+   "answer": "Chỉ còn một cách, đành phải làm",
+   "options": [
+    "Chỉ còn một cách, đành phải làm",
+    "Muốn đi bộ về",
+    "Không được đi bộ",
+    "Đi bộ thì tốt hơn"
+   ],
+   "explanation": "V る ＋ しかない: không còn cách nào khác, đành phải."
+  },
+  {
+   "id": "try-18-05",
+   "unit": 18,
+   "grammar": "この仕事しかない",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "誰も 手伝って くれないなら、自分で ＿＿ しかない。",
+   "answer": "やる",
+   "options": [
+    "やる",
+    "やって",
+    "やり",
+    "やった"
+   ],
+   "explanation": "しかない đi sau thể từ điển: やる しかない."
+  },
+  {
+   "id": "try-18-06",
+   "unit": 18,
+   "grammar": "心配しているからこそ",
+   "kind": "USAGE",
+   "prompt": "からこそ trong câu dưới dùng để làm gì?",
+   "sentence": "あなたを 心配して いる からこそ、厳しく 言うのです。",
+   "answer": "Nhấn mạnh chính vì lý do đó",
+   "options": [
+    "Nhấn mạnh chính vì lý do đó",
+    "Diễn tả sự nhượng bộ",
+    "Thay cho một hành động",
+    "Chỉ thời điểm"
+   ],
+   "explanation": "Thể thông thường ＋ からこそ: chính vì… (lý do quan trọng, đặc biệt)."
+  },
+  {
+   "id": "try-18-07",
+   "unit": 18,
+   "grammar": "心配しているからこそ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "大変な 仕事だ＿＿、やりがいが ある。",
+   "answer": "からこそ",
+   "options": [
+    "からこそ",
+    "こそから",
+    "からでも",
+    "からさえ"
+   ],
+   "explanation": "Chính vì vất vả nên đáng làm: 大変な 仕事だからこそ."
+  },
+  {
+   "id": "try-18-08",
+   "unit": 18,
+   "grammar": "演劇なんかしても",
+   "kind": "USAGE",
+   "prompt": "なんか trong câu dưới thể hiện điều gì?",
+   "sentence": "演劇なんか しても、生活できないよ。",
+   "answer": "Xem nhẹ, coi thường điều được nói đến",
+   "options": [
+    "Xem nhẹ, coi thường điều được nói đến",
+    "Gợi ý nhẹ nhàng",
+    "Ví dụ lịch sự",
+    "Khen ngợi"
+   ],
+   "explanation": "N ＋ なんか／なんて: nói về điều mình xem nhẹ (cũng dùng khi khiêm tốn về mình)."
+  },
+  {
+   "id": "try-18-09",
+   "unit": 18,
+   "grammar": "生活できっこない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "こんな 量、一日で 終わりっこない。",
+   "answer": "Tuyệt đối không thể xong trong một ngày",
+   "options": [
+    "Tuyệt đối không thể xong trong một ngày",
+    "Chắc chắn xong trong một ngày",
+    "Có lẽ xong trong một ngày",
+    "Đã xong trong một ngày"
+   ],
+   "explanation": "V（bỏ ます）＋ っこない: phủ định mạnh trong hội thoại, giống わけがない."
+  },
+  {
+   "id": "try-18-10",
+   "unit": 18,
+   "grammar": "生活できっこない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "宝くじなんて 当たり＿＿よ。",
+   "answer": "っこない",
+   "options": [
+    "っこない",
+    "っぽい",
+    "っぱなし",
+    "かけ"
+   ],
+   "explanation": "Không đời nào trúng: 当たりっこない."
+  },
+  {
+   "id": "try-18-11",
+   "unit": 18,
+   "grammar": "大学を出たからといって",
+   "kind": "USAGE",
+   "prompt": "からといって trong câu dưới có nghĩa gì?",
+   "sentence": "大学を 出た からといって、就職できる とは 限らない。",
+   "answer": "Chỉ vì lý do đó thì không thể kết luận được",
+   "options": [
+    "Chỉ vì lý do đó thì không thể kết luận được",
+    "Chính vì lý do đó",
+    "Nhờ có lý do đó",
+    "Thay cho lý do đó"
+   ],
+   "explanation": "Thể thông thường ＋ からといって: chỉ vì… mà (không thể kết luận, không nên làm)."
+  },
+  {
+   "id": "try-18-12",
+   "unit": 18,
+   "grammar": "大学を出たからといって",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "好きだ＿＿、毎日 食べるのは 体に よくない。",
+   "answer": "からといって",
+   "options": [
+    "からといって",
+    "ことといって",
+    "からとして",
+    "からにして"
+   ],
+   "explanation": "Mẫu cố định: 〜だからといって."
+  },
+  {
+   "id": "try-18-13",
+   "unit": 18,
+   "grammar": "就職できるとは限らない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "高い 物が いい 物 とは 限らない。",
+   "answer": "Đồ đắt chưa chắc đã là đồ tốt",
+   "options": [
+    "Đồ đắt chưa chắc đã là đồ tốt",
+    "Đồ đắt chắc chắn là đồ tốt",
+    "Đồ đắt không bao giờ tốt",
+    "Chỉ đồ đắt mới tốt"
+   ],
+   "explanation": "Thể thông thường ＋ とは限らない: không nhất thiết, không phải lúc nào cũng."
+  },
+  {
+   "id": "try-18-14",
+   "unit": 18,
+   "grammar": "就職できるとは限らない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "日本人が みんな すしが 好きだ＿＿。",
+   "answer": "とは限らない",
+   "options": [
+    "とは限らない",
+    "とは限る",
+    "に限らない",
+    "ことは限らない"
+   ],
+   "explanation": "Không phải người Nhật nào cũng thích sushi: 好きだとは限らない."
+  },
+  {
+   "id": "try-19-01",
+   "unit": 19,
+   "grammar": "がんこなことといったら",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện điều gì?",
+   "sentence": "父の がんこな ことと いったら、誰も かなわない。",
+   "answer": "Nhấn mạnh mức độ (rất…) với cảm xúc mạnh",
+   "options": [
+    "Nhấn mạnh mức độ (rất…) với cảm xúc mạnh",
+    "Liệt kê ví dụ",
+    "Truyền đạt lời người khác",
+    "Đặt điều kiện"
+   ],
+   "explanation": "Aい／Aな ＋ な ＋ ことといったら, N ＋ といったら: nhấn mạnh sự ngạc nhiên, cảm động hay bực mình."
+  },
+  {
+   "id": "try-19-02",
+   "unit": 19,
+   "grammar": "がんこなことといったら",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "朝の 電車の 混雑と＿＿、本当に ひどい。",
+   "answer": "いったら",
+   "options": [
+    "いったら",
+    "いって",
+    "いった",
+    "いうので"
+   ],
+   "explanation": "N ＋ といったら: nhấn mạnh \"nói đến sự đông đúc thì…\"."
+  },
+  {
+   "id": "try-19-03",
+   "unit": 19,
+   "grammar": "何も知らないくせに",
+   "kind": "USAGE",
+   "prompt": "くせに trong câu dưới thể hiện điều gì?",
+   "sentence": "何も 知らない くせに、文句を 言わないで。",
+   "answer": "Phê bình, bực bội: \"đã… vậy mà còn…\"",
+   "options": [
+    "Phê bình, bực bội: \"đã… vậy mà còn…\"",
+    "Biết ơn",
+    "Nêu lý do khách quan",
+    "Mục đích"
+   ],
+   "explanation": "Thể thông thường ＋ くせに: mặc dù… vậy mà…, chê trách người khác."
+  },
+  {
+   "id": "try-19-04",
+   "unit": 19,
+   "grammar": "何も知らないくせに",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "子ども＿＿ くせに、生意気な ことを 言う。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "だ",
+    "に"
+   ],
+   "explanation": "Danh từ ＋ の ＋ くせに: 子どもの くせに."
+  },
+  {
+   "id": "try-19-05",
+   "unit": 19,
+   "grammar": "子どもっぽい夢",
+   "kind": "USAGE",
+   "prompt": "っぽい trong cụm dưới có nghĩa gì?",
+   "sentence": "子どもっぽい 夢",
+   "answer": "Mang vẻ, cảm giác giống trẻ con",
+   "options": [
+    "Mang vẻ, cảm giác giống trẻ con",
+    "Giấc mơ của một đứa trẻ",
+    "Giấc mơ dành cho trẻ em",
+    "Giấc mơ không có trẻ con"
+   ],
+   "explanation": "N ＋ っぽい: có vẻ, mang tính chất giống…; V（bỏ ます）＋ っぽい: hay…"
+  },
+  {
+   "id": "try-19-06",
+   "unit": 19,
+   "grammar": "子どもっぽい夢",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "年を とると、忘れ＿＿ なる。",
+   "answer": "っぽく",
+   "options": [
+    "っぽく",
+    "っぽい",
+    "っぽくて",
+    "っぽに"
+   ],
+   "explanation": "Hay quên: 忘れっぽい → 忘れっぽく なる."
+  },
+  {
+   "id": "try-19-07",
+   "unit": 19,
+   "grammar": "お父さんのせいですよ",
+   "kind": "USAGE",
+   "prompt": "せいで trong câu dưới dùng để làm gì?",
+   "sentence": "あなたの せいで、遅刻したんですよ。",
+   "answer": "Nêu nguyên nhân của kết quả xấu, đổ lỗi",
+   "options": [
+    "Nêu nguyên nhân của kết quả xấu, đổ lỗi",
+    "Nêu nguyên nhân của kết quả tốt",
+    "Nêu mục đích",
+    "Nêu thời điểm"
+   ],
+   "explanation": "Thể thông thường／N の ＋ せい（で）: tại…, vì… (kết quả xấu)."
+  },
+  {
+   "id": "try-19-08",
+   "unit": 19,
+   "grammar": "お父さんのせいですよ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "寝不足の ＿＿、頭が 痛い。",
+   "answer": "せいか",
+   "options": [
+    "せいか",
+    "せいに",
+    "せいを",
+    "せいが"
+   ],
+   "explanation": "せいか: \"có lẽ tại…\", nêu nguyên nhân không chắc chắn."
+  },
+  {
+   "id": "try-19-09",
+   "unit": 19,
+   "grammar": "ゆきのことだから",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "ゆきの ことだから、きっと 大丈夫だよ。",
+   "answer": "Phán đoán dựa vào tính cách đã biết rõ của người đó",
+   "options": [
+    "Phán đoán dựa vào tính cách đã biết rõ của người đó",
+    "Kể chuyện về Yuki",
+    "Lo lắng cho Yuki",
+    "Hỏi tin về Yuki"
+   ],
+   "explanation": "N（người）＋ の ことだから: vì là người đó (tính cách vốn vậy) nên chắc là…"
+  },
+  {
+   "id": "try-19-10",
+   "unit": 19,
+   "grammar": "ゆきのことだから",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "まじめな 田中さん＿＿、遅れる はずが ない。",
+   "answer": "のことだから",
+   "options": [
+    "のことだから",
+    "のことで",
+    "のせいで",
+    "のおかげで"
+   ],
+   "explanation": "Dựa vào tính cách: 田中さんの ことだから."
+  },
+  {
+   "id": "try-20-01",
+   "unit": 20,
+   "grammar": "風邪気味で",
+   "kind": "USAGE",
+   "prompt": "気味 trong câu dưới có nghĩa gì?",
+   "sentence": "最近 少し 疲れ気味です。",
+   "answer": "Hơi có dấu hiệu (thường là không tốt)",
+   "options": [
+    "Hơi có dấu hiệu (thường là không tốt)",
+    "Hoàn toàn khỏe mạnh",
+    "Rất nghiêm trọng",
+    "Cảm giác vui vẻ"
+   ],
+   "explanation": "V（bỏ ます）／N ＋ 気味: hơi có cảm giác, dấu hiệu (thường là trạng thái xấu)."
+  },
+  {
+   "id": "try-20-02",
+   "unit": 20,
+   "grammar": "風邪気味で",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "風邪＿＿ なので、今日は 早く 寝ます。",
+   "answer": "気味",
+   "options": [
+    "気味",
+    "気分",
+    "気持ち",
+    "気配"
+   ],
+   "explanation": "Hơi bị cảm: 風邪気味."
+  },
+  {
+   "id": "try-20-03",
+   "unit": 20,
+   "grammar": "寝てなんかいられない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "あした 試験が あるのに、寝て なんか いられない。",
+   "answer": "Không thể cứ nằm ngủ được",
+   "options": [
+    "Không thể cứ nằm ngủ được",
+    "Đã ngủ rồi",
+    "Muốn đi ngủ",
+    "Ngủ thì tốt hơn"
+   ],
+   "explanation": "V て ＋ なんか いられない: không thể (thong thả) làm việc đó trong tình hình này."
+  },
+  {
+   "id": "try-20-04",
+   "unit": 20,
+   "grammar": "寝てなんかいられない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "こんな 時に 遊んで＿＿ いられない。",
+   "answer": "なんか",
+   "options": [
+    "なんか",
+    "だけ",
+    "しか",
+    "ほど"
+   ],
+   "explanation": "V て ＋ なんか いられない (cũng nói なんて)."
+  },
+  {
+   "id": "try-20-05",
+   "unit": 20,
+   "grammar": "起き上がることさえできない",
+   "kind": "USAGE",
+   "prompt": "さえ trong câu dưới có nghĩa gì?",
+   "sentence": "熱が 高くて、水さえ 飲めない。",
+   "answer": "Ngay cả (việc tối thiểu) cũng không",
+   "options": [
+    "Ngay cả (việc tối thiểu) cũng không",
+    "Chỉ có nước",
+    "Nhờ có nước",
+    "Vì nước"
+   ],
+   "explanation": "N ＋ さえ: ngay cả…, nhấn mạnh trường hợp cực đoan, tối thiểu."
+  },
+  {
+   "id": "try-20-06",
+   "unit": 20,
+   "grammar": "起き上がることさえできない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "忙しくて、トイレに 行く 時間＿＿ ない。",
+   "answer": "さえ",
+   "options": [
+    "さえ",
+    "だけ",
+    "ばかり",
+    "こそ"
+   ],
+   "explanation": "Ngay cả thời gian đi vệ sinh cũng không có: 時間さえ ない."
+  },
+  {
+   "id": "try-20-07",
+   "unit": 20,
+   "grammar": "起き上がることさえできないくらいひどい",
+   "kind": "USAGE",
+   "prompt": "くらい trong câu dưới dùng để làm gì?",
+   "sentence": "起き上がれない くらい ひどい 風邪だ。",
+   "answer": "Diễn tả mức độ bằng một ví dụ",
+   "options": [
+    "Diễn tả mức độ bằng một ví dụ",
+    "Ước lượng số lượng",
+    "So sánh hơn kém",
+    "Nêu lý do"
+   ],
+   "explanation": "V／A ＋ くらい（ぐらい）: đến mức…"
+  },
+  {
+   "id": "try-20-08",
+   "unit": 20,
+   "grammar": "起き上がることさえできないくらいひどい",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "泣きたい＿＿ 痛かった。",
+   "answer": "くらい",
+   "options": [
+    "くらい",
+    "ほうが",
+    "まで",
+    "より"
+   ],
+   "explanation": "Đau đến mức muốn khóc: 泣きたい くらい."
+  },
+  {
+   "id": "try-20-09",
+   "unit": 20,
+   "grammar": "服も脱ぎっぱなし",
+   "kind": "USAGE",
+   "prompt": "っぱなし trong câu dưới có nghĩa gì?",
+   "sentence": "服も 脱ぎっぱなしで、部屋が 汚い。",
+   "answer": "Để nguyên như vậy, không dọn tiếp",
+   "options": [
+    "Để nguyên như vậy, không dọn tiếp",
+    "Đã dọn sạch",
+    "Vừa mới cởi ra",
+    "Cởi ra rồi gấp lại"
+   ],
+   "explanation": "V（bỏ ます）＋ っぱなし: làm xong rồi để nguyên đó, không xử lý tiếp."
+  },
+  {
+   "id": "try-20-10",
+   "unit": 20,
+   "grammar": "服も脱ぎっぱなし",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "電気を ＿＿っぱなしに しないで ください。",
+   "answer": "つけ",
+   "options": [
+    "つけ",
+    "つける",
+    "つけて",
+    "つけた"
+   ],
+   "explanation": "っぱなし đi sau thể ます bỏ ます: つけっぱなし."
+  },
+  {
+   "id": "try-20-11",
+   "unit": 20,
+   "grammar": "ごみだらけだし",
+   "kind": "USAGE",
+   "prompt": "だらけ trong câu dưới có nghĩa gì?",
+   "sentence": "部屋が ごみだらけだ。",
+   "answer": "Đầy những thứ không tốt",
+   "options": [
+    "Đầy những thứ không tốt",
+    "Hoàn toàn sạch sẽ",
+    "Có một ít",
+    "Không có gì"
+   ],
+   "explanation": "N ＋ だらけ: đầy, toàn là (thứ không tốt như rác, lỗi, bụi)."
+  },
+  {
+   "id": "try-20-12",
+   "unit": 20,
+   "grammar": "ごみだらけだし",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼の 作文は 間違い＿＿ だった。",
+   "answer": "だらけ",
+   "options": [
+    "だらけ",
+    "ばかりか",
+    "ずくめ",
+    "っぽい"
+   ],
+   "explanation": "Toàn lỗi sai: 間違いだらけ."
+  },
+  {
+   "id": "try-20-13",
+   "unit": 20,
+   "grammar": "弱気になったりして",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "ゆき、もしかして 弱気に なったりして。",
+   "answer": "Nói nhẹ, trêu về một biểu hiện khác thường",
+   "options": [
+    "Nói nhẹ, trêu về một biểu hiện khác thường",
+    "Ra lệnh",
+    "Xin lỗi",
+    "Kể lại chuyện cũ"
+   ],
+   "explanation": "V た ＋ りして: nói nhẹ nhàng, nửa đùa về một hành vi khác thường hoặc để nhắc khéo."
+  },
+  {
+   "id": "try-20-14",
+   "unit": 20,
+   "grammar": "ゆきらしくないなあ",
+   "kind": "USAGE",
+   "prompt": "らしくない trong câu dưới có nghĩa gì?",
+   "sentence": "最近 雨ばかりで、夏らしくない。",
+   "answer": "Không giống mùa hè (thiếu đặc điểm điển hình)",
+   "options": [
+    "Không giống mùa hè (thiếu đặc điểm điển hình)",
+    "Nghe nói không phải mùa hè",
+    "Có lẽ không phải mùa hè",
+    "Mùa hè đã hết"
+   ],
+   "explanation": "N ＋ らしい: mang đặc điểm điển hình của N (khác với らしい \"nghe nói\")."
+  },
+  {
+   "id": "try-20-15",
+   "unit": 20,
+   "grammar": "ゆきらしくないなあ",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "弱気に なるなんて、君＿＿ ないね。",
+   "answer": "らしく",
+   "options": [
+    "らしく",
+    "らしい",
+    "らしくて",
+    "らしさ"
+   ],
+   "explanation": "Phủ định của らしい: らしく ない."
+  },
+  {
+   "id": "try-21-01",
+   "unit": 21,
+   "grammar": "お母さんかと思った",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "ドアの 音が したので、母かと 思った。",
+   "answer": "Tưởng là… nhưng thực tế khác",
+   "options": [
+    "Tưởng là… nhưng thực tế khác",
+    "Chắc chắn là mẹ",
+    "Muốn gặp mẹ",
+    "Hỏi có phải mẹ không"
+   ],
+   "explanation": "Thể thông thường ＋ かと 思った: đã tưởng là…（N／Aな bỏ だ）."
+  },
+  {
+   "id": "try-21-02",
+   "unit": 21,
+   "grammar": "お母さんかと思った",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "あまりに 静かなので、誰も いない＿＿ 思った。",
+   "answer": "かと",
+   "options": [
+    "かと",
+    "だと",
+    "ことと",
+    "のと"
+   ],
+   "explanation": "Tưởng là không có ai: いないかと 思った."
+  },
+  {
+   "id": "try-21-03",
+   "unit": 21,
+   "grammar": "アイスクリームとかみかんとか",
+   "kind": "USAGE",
+   "prompt": "とか trong câu dưới dùng để làm gì?",
+   "sentence": "アイスクリームとか みかんとか、冷たい ものが 食べたい。",
+   "answer": "Nêu vài ví dụ",
+   "options": [
+    "Nêu vài ví dụ",
+    "Nêu điều kiện",
+    "Nêu lý do",
+    "So sánh"
+   ],
+   "explanation": "N／V る ＋ とか: nêu ví dụ, giống や・など hay 〜たり〜たり."
+  },
+  {
+   "id": "try-21-04",
+   "unit": 21,
+   "grammar": "アイスクリームとかみかんとか",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "週末は 映画を 見る＿＿、買い物を する とか して います。",
+   "answer": "とか",
+   "options": [
+    "とか",
+    "たり",
+    "や",
+    "など"
+   ],
+   "explanation": "V る ＋ とか、V る ＋ とか: liệt kê ví dụ hành động."
+  },
+  {
+   "id": "try-21-05",
+   "unit": 21,
+   "grammar": "買い物のついでに",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "買い物の ついでに、郵便局に 寄った。",
+   "answer": "Nhân tiện đi mua sắm thì ghé bưu điện",
+   "options": [
+    "Nhân tiện đi mua sắm thì ghé bưu điện",
+    "Đi bưu điện thay vì mua sắm",
+    "Vì mua sắm nên không ghé bưu điện",
+    "Mua sắm xong mới nghĩ đến bưu điện"
+   ],
+   "explanation": "V る／V た／N の ＋ ついでに: nhân tiện làm việc chính thì làm thêm việc khác."
+  },
+  {
+   "id": "try-21-06",
+   "unit": 21,
+   "grammar": "買い物のついでに",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "駅へ ＿＿ ついでに、パンを 買って きて。",
+   "answer": "行く",
+   "options": [
+    "行く",
+    "行って",
+    "行き",
+    "行こう"
+   ],
+   "explanation": "ついでに đi sau thể từ điển／た: 行く ついでに."
+  },
+  {
+   "id": "try-21-07",
+   "unit": 21,
+   "grammar": "何かあったに違いない",
+   "kind": "USAGE",
+   "prompt": "に違いない trong câu dưới diễn tả điều gì?",
+   "sentence": "電気が ついて いるから、彼は 家に いる に違いない。",
+   "answer": "Suy đoán với mức độ chắc chắn cao",
+   "options": [
+    "Suy đoán với mức độ chắc chắn cao",
+    "Thông tin nghe được",
+    "Mong muốn",
+    "Không chắc chắn"
+   ],
+   "explanation": "Thể thông thường ＋ に違いない: chắc chắn là…"
+  },
+  {
+   "id": "try-21-08",
+   "unit": 21,
+   "grammar": "何かあったに違いない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "あの 店は いつも 込んで いるから、おいしい＿＿。",
+   "answer": "に違いない",
+   "options": [
+    "に違いない",
+    "に違う",
+    "と違いない",
+    "に違いある"
+   ],
+   "explanation": "Mẫu cố định: 〜に違いない."
+  },
+  {
+   "id": "try-21-09",
+   "unit": 21,
+   "grammar": "これほどつらい風邪はひいたことないよ",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "これほど つらい 風邪は ひいた ことが ない。",
+   "answer": "Chưa từng bị cảm nào khổ như lần này",
+   "options": [
+    "Chưa từng bị cảm nào khổ như lần này",
+    "Lần này cảm nhẹ hơn mọi lần",
+    "Chưa bao giờ bị cảm",
+    "Lần nào cảm cũng khổ như vậy"
+   ],
+   "explanation": "N ＋ ほど…は ない: không có gì… bằng N; nhấn mạnh N ở mức cao nhất."
+  },
+  {
+   "id": "try-21-10",
+   "unit": 21,
+   "grammar": "これほどつらい風邪はひいたことないよ",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "家族＿＿ 大切な ものは ない。",
+   "answer": "ほど",
+   "options": [
+    "ほど",
+    "まで",
+    "だけ",
+    "しか"
+   ],
+   "explanation": "Không có gì quý bằng gia đình: 家族ほど 大切な ものは ない."
+  },
+  {
+   "id": "try-21-11",
+   "unit": 21,
+   "grammar": "ゆきぬきではできない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "今日の 会議は 部長ぬきで 始めましょう。",
+   "answer": "Bắt đầu cuộc họp mà không có trưởng phòng",
+   "options": [
+    "Bắt đầu cuộc họp mà không có trưởng phòng",
+    "Đợi trưởng phòng rồi bắt đầu",
+    "Trưởng phòng bắt đầu cuộc họp",
+    "Họp để bàn về trưởng phòng"
+   ],
+   "explanation": "N ＋ ぬきで: không có (người, thành phần vốn thường có)."
+  },
+  {
+   "id": "try-21-12",
+   "unit": 21,
+   "grammar": "ゆきぬきではできない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "寝坊して、朝ご飯＿＿ 会社へ 行った。",
+   "answer": "ぬきで",
+   "options": [
+    "ぬきで",
+    "ぬいて",
+    "ぬくで",
+    "ぬけで"
+   ],
+   "explanation": "Bỏ bữa sáng: 朝ご飯ぬきで."
+  },
+  {
+   "id": "try-21-13",
+   "unit": 21,
+   "grammar": "練習したくてしょうがない",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "早く 練習したくて しょうがない。",
+   "answer": "Muốn luyện tập đến mức không chịu được",
+   "options": [
+    "Muốn luyện tập đến mức không chịu được",
+    "Không muốn luyện tập",
+    "Luyện tập thì vô ích",
+    "Đã luyện tập xong"
+   ],
+   "explanation": "V て／Aくて／Aなで ＋ しょうがない: cảm giác mạnh đến mức không chịu nổi."
+  },
+  {
+   "id": "try-21-14",
+   "unit": 21,
+   "grammar": "練習したくてしょうがない",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "今日は 暑＿＿ しょうがない。",
+   "answer": "くて",
+   "options": [
+    "くて",
+    "い",
+    "くで",
+    "さ"
+   ],
+   "explanation": "Tính từ い: 暑い → 暑くて しょうがない."
+  },
+  {
+   "id": "try-21-15",
+   "unit": 21,
+   "grammar": "練習したくてしょうがない",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "彼の ことが 心配＿＿ しょうがない。",
+   "answer": "で",
+   "options": [
+    "で",
+    "に",
+    "な",
+    "くて"
+   ],
+   "explanation": "Tính từ な: 心配 → 心配で しょうがない."
+  },
+  {
+   "id": "try-01-match",
+   "unit": 1,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜始める",
+     "meaning": "bắt đầu làm"
+    },
+    {
+     "pattern": "〜ように言う",
+     "meaning": "truyền đạt lời dặn, yêu cầu"
+    },
+    {
+     "pattern": "〜という N",
+     "meaning": "nêu nội dung của danh từ"
+    },
+    {
+     "pattern": "〜だろうと思う",
+     "meaning": "suy đoán \"chắc là\""
+    },
+    {
+     "pattern": "〜なさそうだ",
+     "meaning": "trông có vẻ không…"
+    }
+   ],
+   "answer": "bắt đầu làm\ntruyền đạt lời dặn, yêu cầu\nnêu nội dung của danh từ\nsuy đoán \"chắc là\"\ntrông có vẻ không…",
+   "options": [
+    "bắt đầu làm",
+    "truyền đạt lời dặn, yêu cầu",
+    "nêu nội dung của danh từ",
+    "suy đoán \"chắc là\"",
+    "trông có vẻ không…"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜始める: bắt đầu làm; 〜ように言う: truyền đạt lời dặn, yêu cầu; 〜という N: nêu nội dung của danh từ; 〜だろうと思う: suy đoán \"chắc là\"; 〜なさそうだ: trông có vẻ không…."
+  },
+  {
+   "id": "try-02-match",
+   "unit": 2,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "Vると、〜た",
+     "meaning": "làm… thì nhận ra"
+    },
+    {
+     "pattern": "〜ほど",
+     "meaning": "đến mức…"
+    },
+    {
+     "pattern": "〜ていく",
+     "meaning": "… dần đi, xa dần"
+    },
+    {
+     "pattern": "〜続ける",
+     "meaning": "tiếp tục làm"
+    },
+    {
+     "pattern": "〜なら",
+     "meaning": "nếu… (giả định rồi khuyên)"
+    }
+   ],
+   "answer": "làm… thì nhận ra\nđến mức…\n… dần đi, xa dần\ntiếp tục làm\nnếu… (giả định rồi khuyên)",
+   "options": [
+    "làm… thì nhận ra",
+    "đến mức…",
+    "… dần đi, xa dần",
+    "tiếp tục làm",
+    "nếu… (giả định rồi khuyên)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: Vると、〜た: làm… thì nhận ra; 〜ほど: đến mức…; 〜ていく: … dần đi, xa dần; 〜続ける: tiếp tục làm; 〜なら: nếu… (giả định rồi khuyên)."
+  },
+  {
+   "id": "try-03-match",
+   "unit": 3,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "N1って N2",
+     "meaning": "tên là… (= という)"
+    },
+    {
+     "pattern": "〜させてもらう",
+     "meaning": "được cho phép làm"
+    },
+    {
+     "pattern": "〜させられる",
+     "meaning": "bị bắt làm"
+    },
+    {
+     "pattern": "〜がる／〜たがる",
+     "meaning": "(người khác) tỏ ra, muốn"
+    },
+    {
+     "pattern": "〜たとたん",
+     "meaning": "vừa… thì ngay lập tức"
+    },
+    {
+     "pattern": "〜出す",
+     "meaning": "đột nhiên bắt đầu"
+    }
+   ],
+   "answer": "tên là… (= という)\nđược cho phép làm\nbị bắt làm\n(người khác) tỏ ra, muốn\nvừa… thì ngay lập tức\nđột nhiên bắt đầu",
+   "options": [
+    "tên là… (= という)",
+    "được cho phép làm",
+    "bị bắt làm",
+    "(người khác) tỏ ra, muốn",
+    "vừa… thì ngay lập tức",
+    "đột nhiên bắt đầu"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: N1って N2: tên là… (= という); 〜させてもらう: được cho phép làm; 〜させられる: bị bắt làm; 〜がる／〜たがる: (người khác) tỏ ra, muốn; 〜たとたん: vừa… thì ngay lập tức; 〜出す: đột nhiên bắt đầu."
+  },
+  {
+   "id": "try-04-match",
+   "unit": 4,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜ようとする",
+     "meaning": "định làm, cố làm"
+    },
+    {
+     "pattern": "〜こともある",
+     "meaning": "thỉnh thoảng cũng có khi"
+    },
+    {
+     "pattern": "〜させておく",
+     "meaning": "để mặc cho ai làm"
+    },
+    {
+     "pattern": "〜られてしまう",
+     "meaning": "bị người khác làm mất (tiếc nuối)"
+    }
+   ],
+   "answer": "định làm, cố làm\nthỉnh thoảng cũng có khi\nđể mặc cho ai làm\nbị người khác làm mất (tiếc nuối)",
+   "options": [
+    "định làm, cố làm",
+    "thỉnh thoảng cũng có khi",
+    "để mặc cho ai làm",
+    "bị người khác làm mất (tiếc nuối)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜ようとする: định làm, cố làm; 〜こともある: thỉnh thoảng cũng có khi; 〜させておく: để mặc cho ai làm; 〜られてしまう: bị người khác làm mất (tiếc nuối)."
+  },
+  {
+   "id": "try-05-match",
+   "unit": 5,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜による／によって",
+     "meaning": "bằng (phương pháp)"
+    },
+    {
+     "pattern": "〜に対して",
+     "meaning": "đối với (hướng tới)"
+    },
+    {
+     "pattern": "〜ため",
+     "meaning": "vì (nguyên nhân)"
+    },
+    {
+     "pattern": "〜につき",
+     "meaning": "cho mỗi (đơn vị)"
+    },
+    {
+     "pattern": "〜とおり",
+     "meaning": "đúng như"
+    }
+   ],
+   "answer": "bằng (phương pháp)\nđối với (hướng tới)\nvì (nguyên nhân)\ncho mỗi (đơn vị)\nđúng như",
+   "options": [
+    "bằng (phương pháp)",
+    "đối với (hướng tới)",
+    "vì (nguyên nhân)",
+    "cho mỗi (đơn vị)",
+    "đúng như"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜による／によって: bằng (phương pháp); 〜に対して: đối với (hướng tới); 〜ため: vì (nguyên nhân); 〜につき: cho mỗi (đơn vị); 〜とおり: đúng như."
+  },
+  {
+   "id": "try-06-match",
+   "unit": 6,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜を通して",
+     "meaning": "thông qua"
+    },
+    {
+     "pattern": "〜のような",
+     "meaning": "như là (ví dụ)"
+    },
+    {
+     "pattern": "〜によれば",
+     "meaning": "theo (nguồn tin)"
+    },
+    {
+     "pattern": "〜ということだ",
+     "meaning": "nghe nói, truyền đạt lại"
+    },
+    {
+     "pattern": "〜について",
+     "meaning": "về (chủ đề)"
+    }
+   ],
+   "answer": "thông qua\nnhư là (ví dụ)\ntheo (nguồn tin)\nnghe nói, truyền đạt lại\nvề (chủ đề)",
+   "options": [
+    "thông qua",
+    "như là (ví dụ)",
+    "theo (nguồn tin)",
+    "nghe nói, truyền đạt lại",
+    "về (chủ đề)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜を通して: thông qua; 〜のような: như là (ví dụ); 〜によれば: theo (nguồn tin); 〜ということだ: nghe nói, truyền đạt lại; 〜について: về (chủ đề)."
+  },
+  {
+   "id": "try-07-match",
+   "unit": 7,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜てる／〜とく",
+     "meaning": "dạng rút gọn của ている／ておく"
+    },
+    {
+     "pattern": "〜なきゃ（lược cuối câu）",
+     "meaning": "nói lửng phần cuối câu"
+    },
+    {
+     "pattern": "〜っけ",
+     "meaning": "hỏi lại điều đã quên"
+    },
+    {
+     "pattern": "〜たりして",
+     "meaning": "không chừng…"
+    }
+   ],
+   "answer": "dạng rút gọn của ている／ておく\nnói lửng phần cuối câu\nhỏi lại điều đã quên\nkhông chừng…",
+   "options": [
+    "dạng rút gọn của ている／ておく",
+    "nói lửng phần cuối câu",
+    "hỏi lại điều đã quên",
+    "không chừng…"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜てる／〜とく: dạng rút gọn của ている／ておく; 〜なきゃ（lược cuối câu）: nói lửng phần cuối câu; 〜っけ: hỏi lại điều đã quên; 〜たりして: không chừng…."
+  },
+  {
+   "id": "try-08-match",
+   "unit": 8,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜たって",
+     "meaning": "dù có… thì cũng"
+    },
+    {
+     "pattern": "〜に決まっている",
+     "meaning": "chắc chắn là (cảm nhận mạnh)"
+    },
+    {
+     "pattern": "〜じゃない↘",
+     "meaning": "chẳng phải… sao (xác nhận)"
+    },
+    {
+     "pattern": "N って",
+     "meaning": "nêu chủ đề (= は)"
+    },
+    {
+     "pattern": "〜みたいだ",
+     "meaning": "hình như (văn nói)"
+    },
+    {
+     "pattern": "〜ばよかった",
+     "meaning": "giá mà đã… (hối hận)"
+    },
+    {
+     "pattern": "〜ばかり",
+     "meaning": "chỉ toàn… (chê)"
+    }
+   ],
+   "answer": "dù có… thì cũng\nchắc chắn là (cảm nhận mạnh)\nchẳng phải… sao (xác nhận)\nnêu chủ đề (= は)\nhình như (văn nói)\ngiá mà đã… (hối hận)\nchỉ toàn… (chê)",
+   "options": [
+    "dù có… thì cũng",
+    "chắc chắn là (cảm nhận mạnh)",
+    "chẳng phải… sao (xác nhận)",
+    "nêu chủ đề (= は)",
+    "hình như (văn nói)",
+    "giá mà đã… (hối hận)",
+    "chỉ toàn… (chê)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜たって: dù có… thì cũng; 〜に決まっている: chắc chắn là (cảm nhận mạnh); 〜じゃない↘: chẳng phải… sao (xác nhận); N って: nêu chủ đề (= は); 〜みたいだ: hình như (văn nói); 〜ばよかった: giá mà đã… (hối hận); 〜ばかり: chỉ toàn… (chê)."
+  },
+  {
+   "id": "try-09-match",
+   "unit": 9,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜のように／ような",
+     "meaning": "giống như (so sánh)"
+    },
+    {
+     "pattern": "N1 はもちろん N2 も",
+     "meaning": "N1 thì đương nhiên, N2 cũng"
+    },
+    {
+     "pattern": "〜ほど〜ない",
+     "meaning": "không… bằng"
+    },
+    {
+     "pattern": "〜かわりに",
+     "meaning": "thay cho"
+    }
+   ],
+   "answer": "giống như (so sánh)\nN1 thì đương nhiên, N2 cũng\nkhông… bằng\nthay cho",
+   "options": [
+    "giống như (so sánh)",
+    "N1 thì đương nhiên, N2 cũng",
+    "không… bằng",
+    "thay cho"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜のように／ような: giống như (so sánh); N1 はもちろん N2 も: N1 thì đương nhiên, N2 cũng; 〜ほど〜ない: không… bằng; 〜かわりに: thay cho."
+  },
+  {
+   "id": "try-10-match",
+   "unit": 10,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜ずに",
+     "meaning": "không… mà (= ないで)"
+    },
+    {
+     "pattern": "〜まま",
+     "meaning": "giữ nguyên trạng thái"
+    },
+    {
+     "pattern": "V（bỏ ます）、〜",
+     "meaning": "nối câu kiểu văn viết"
+    },
+    {
+     "pattern": "〜ところへ",
+     "meaning": "đúng lúc… thì"
+    },
+    {
+     "pattern": "〜きる／〜きれない",
+     "meaning": "làm hết / không làm hết được"
+    }
+   ],
+   "answer": "không… mà (= ないで)\ngiữ nguyên trạng thái\nnối câu kiểu văn viết\nđúng lúc… thì\nlàm hết / không làm hết được",
+   "options": [
+    "không… mà (= ないで)",
+    "giữ nguyên trạng thái",
+    "nối câu kiểu văn viết",
+    "đúng lúc… thì",
+    "làm hết / không làm hết được"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜ずに: không… mà (= ないで); 〜まま: giữ nguyên trạng thái; V（bỏ ます）、〜: nối câu kiểu văn viết; 〜ところへ: đúng lúc… thì; 〜きる／〜きれない: làm hết / không làm hết được."
+  },
+  {
+   "id": "try-11-match",
+   "unit": 11,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜おかげで",
+     "meaning": "nhờ có (kết quả tốt)"
+    },
+    {
+     "pattern": "〜を通じて（thời gian）",
+     "meaning": "suốt (khoảng thời gian)"
+    },
+    {
+     "pattern": "〜ませんか／〜じゃないですか",
+     "meaning": "hỏi để tìm sự đồng tình"
+    },
+    {
+     "pattern": "〜というと／といえば",
+     "meaning": "nói đến… thì"
+    },
+    {
+     "pattern": "〜べきだ",
+     "meaning": "nên (theo lẽ phải)"
+    },
+    {
+     "pattern": "〜にとって",
+     "meaning": "đối với (lập trường)"
+    }
+   ],
+   "answer": "nhờ có (kết quả tốt)\nsuốt (khoảng thời gian)\nhỏi để tìm sự đồng tình\nnói đến… thì\nnên (theo lẽ phải)\nđối với (lập trường)",
+   "options": [
+    "nhờ có (kết quả tốt)",
+    "suốt (khoảng thời gian)",
+    "hỏi để tìm sự đồng tình",
+    "nói đến… thì",
+    "nên (theo lẽ phải)",
+    "đối với (lập trường)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜おかげで: nhờ có (kết quả tốt); 〜を通じて（thời gian）: suốt (khoảng thời gian); 〜ませんか／〜じゃないですか: hỏi để tìm sự đồng tình; 〜というと／といえば: nói đến… thì; 〜べきだ: nên (theo lẽ phải); 〜にとって: đối với (lập trường)."
+  },
+  {
+   "id": "try-12-match",
+   "unit": 12,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜ば〜ほど",
+     "meaning": "càng… càng…"
+    },
+    {
+     "pattern": "〜による（nguyên nhân）",
+     "meaning": "do (nguyên nhân)"
+    },
+    {
+     "pattern": "〜ばかりでなく〜も",
+     "meaning": "không chỉ… mà cả"
+    },
+    {
+     "pattern": "〜たびに",
+     "meaning": "mỗi lần… lại"
+    },
+    {
+     "pattern": "〜はず",
+     "meaning": "chắc chắn là (có căn cứ)"
+    }
+   ],
+   "answer": "càng… càng…\ndo (nguyên nhân)\nkhông chỉ… mà cả\nmỗi lần… lại\nchắc chắn là (có căn cứ)",
+   "options": [
+    "càng… càng…",
+    "do (nguyên nhân)",
+    "không chỉ… mà cả",
+    "mỗi lần… lại",
+    "chắc chắn là (có căn cứ)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜ば〜ほど: càng… càng…; 〜による（nguyên nhân）: do (nguyên nhân); 〜ばかりでなく〜も: không chỉ… mà cả; 〜たびに: mỗi lần… lại; 〜はず: chắc chắn là (có căn cứ)."
+  },
+  {
+   "id": "try-13-match",
+   "unit": 13,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜ですと",
+     "meaning": "nếu là… (điều kiện lịch sự)"
+    },
+    {
+     "pattern": "〜ようなら",
+     "meaning": "nếu có vẻ…"
+    },
+    {
+     "pattern": "〜てくる",
+     "meaning": "… dần lên (xuất hiện, đến nay)"
+    },
+    {
+     "pattern": "〜ものですから",
+     "meaning": "vì… (giải thích, xin lỗi)"
+    },
+    {
+     "pattern": "〜なんか（gợi ý）",
+     "meaning": "chẳng hạn như (gợi ý nhẹ)"
+    },
+    {
+     "pattern": "〜かと思う",
+     "meaning": "tôi nghĩ là… (dè dặt)"
+    }
+   ],
+   "answer": "nếu là… (điều kiện lịch sự)\nnếu có vẻ…\n… dần lên (xuất hiện, đến nay)\nvì… (giải thích, xin lỗi)\nchẳng hạn như (gợi ý nhẹ)\ntôi nghĩ là… (dè dặt)",
+   "options": [
+    "nếu là… (điều kiện lịch sự)",
+    "nếu có vẻ…",
+    "… dần lên (xuất hiện, đến nay)",
+    "vì… (giải thích, xin lỗi)",
+    "chẳng hạn như (gợi ý nhẹ)",
+    "tôi nghĩ là… (dè dặt)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜ですと: nếu là… (điều kiện lịch sự); 〜ようなら: nếu có vẻ…; 〜てくる: … dần lên (xuất hiện, đến nay); 〜ものですから: vì… (giải thích, xin lỗi); 〜なんか（gợi ý）: chẳng hạn như (gợi ý nhẹ); 〜かと思う: tôi nghĩ là… (dè dặt)."
+  },
+  {
+   "id": "try-14-match",
+   "unit": 14,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜ているうちに",
+     "meaning": "trong lúc… thì dần dần"
+    },
+    {
+     "pattern": "〜たばかり",
+     "meaning": "vừa mới"
+    },
+    {
+     "pattern": "〜ばいいのに",
+     "meaning": "giá mà… (ước, trách nhẹ)"
+    },
+    {
+     "pattern": "〜てもらってもいいですか",
+     "meaning": "nhờ làm giúp (mềm mỏng)"
+    }
+   ],
+   "answer": "trong lúc… thì dần dần\nvừa mới\ngiá mà… (ước, trách nhẹ)\nnhờ làm giúp (mềm mỏng)",
+   "options": [
+    "trong lúc… thì dần dần",
+    "vừa mới",
+    "giá mà… (ước, trách nhẹ)",
+    "nhờ làm giúp (mềm mỏng)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜ているうちに: trong lúc… thì dần dần; 〜たばかり: vừa mới; 〜ばいいのに: giá mà… (ước, trách nhẹ); 〜てもらってもいいですか: nhờ làm giúp (mềm mỏng)."
+  },
+  {
+   "id": "try-15-match",
+   "unit": 15,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "お〜いただく／ご〜くださる",
+     "meaning": "được (người trên) làm cho"
+    },
+    {
+     "pattern": "〜てます／〜ちゃいます",
+     "meaning": "dạng rút gọn trong câu lịch sự"
+    },
+    {
+     "pattern": "存じ上げる・お目にかかる…",
+     "meaning": "khiêm nhường ngữ đặc biệt"
+    },
+    {
+     "pattern": "お〜です",
+     "meaning": "kính ngữ của 〜ている"
+    },
+    {
+     "pattern": "〜でしょうか",
+     "meaning": "hỏi, nhờ rất lịch sự"
+    },
+    {
+     "pattern": "〜でいらっしゃる",
+     "meaning": "kính ngữ của です"
+    },
+    {
+     "pattern": "〜させていただく",
+     "meaning": "xin phép được làm"
+    }
+   ],
+   "answer": "được (người trên) làm cho\ndạng rút gọn trong câu lịch sự\nkhiêm nhường ngữ đặc biệt\nkính ngữ của 〜ている\nhỏi, nhờ rất lịch sự\nkính ngữ của です\nxin phép được làm",
+   "options": [
+    "được (người trên) làm cho",
+    "dạng rút gọn trong câu lịch sự",
+    "khiêm nhường ngữ đặc biệt",
+    "kính ngữ của 〜ている",
+    "hỏi, nhờ rất lịch sự",
+    "kính ngữ của です",
+    "xin phép được làm"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: お〜いただく／ご〜くださる: được (người trên) làm cho; 〜てます／〜ちゃいます: dạng rút gọn trong câu lịch sự; 存じ上げる・お目にかかる…: khiêm nhường ngữ đặc biệt; お〜です: kính ngữ của 〜ている; 〜でしょうか: hỏi, nhờ rất lịch sự; 〜でいらっしゃる: kính ngữ của です; 〜させていただく: xin phép được làm."
+  },
+  {
+   "id": "try-16-match",
+   "unit": 16,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜てからでなければ",
+     "meaning": "phải… rồi mới"
+    },
+    {
+     "pattern": "〜かのように",
+     "meaning": "như thể"
+    },
+    {
+     "pattern": "〜ないうちに／〜うちに",
+     "meaning": "tranh thủ trước khi thay đổi"
+    },
+    {
+     "pattern": "〜向け",
+     "meaning": "dành cho"
+    },
+    {
+     "pattern": "〜によって（tùy）",
+     "meaning": "tùy theo"
+    }
+   ],
+   "answer": "phải… rồi mới\nnhư thể\ntranh thủ trước khi thay đổi\ndành cho\ntùy theo",
+   "options": [
+    "phải… rồi mới",
+    "như thể",
+    "tranh thủ trước khi thay đổi",
+    "dành cho",
+    "tùy theo"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜てからでなければ: phải… rồi mới; 〜かのように: như thể; 〜ないうちに／〜うちに: tranh thủ trước khi thay đổi; 〜向け: dành cho; 〜によって（tùy）: tùy theo."
+  },
+  {
+   "id": "try-17-match",
+   "unit": 17,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜最中に",
+     "meaning": "đang giữa lúc"
+    },
+    {
+     "pattern": "〜かけ",
+     "meaning": "đang làm dở"
+    },
+    {
+     "pattern": "〜ずにはいられない",
+     "meaning": "không thể không"
+    }
+   ],
+   "answer": "đang giữa lúc\nđang làm dở\nkhông thể không",
+   "options": [
+    "đang giữa lúc",
+    "đang làm dở",
+    "không thể không"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜最中に: đang giữa lúc; 〜かけ: đang làm dở; 〜ずにはいられない: không thể không."
+  },
+  {
+   "id": "try-18-match",
+   "unit": 18,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜わけがない",
+     "meaning": "không thể nào có chuyện (phủ định mạnh)"
+    },
+    {
+     "pattern": "〜しかない",
+     "meaning": "chỉ còn cách"
+    },
+    {
+     "pattern": "〜からこそ",
+     "meaning": "chính vì"
+    },
+    {
+     "pattern": "〜なんか（xem nhẹ）",
+     "meaning": "… như thế (xem nhẹ)"
+    },
+    {
+     "pattern": "〜っこない",
+     "meaning": "không đời nào (văn nói)"
+    },
+    {
+     "pattern": "〜からといって",
+     "meaning": "chỉ vì… mà"
+    },
+    {
+     "pattern": "〜とは限らない",
+     "meaning": "chưa chắc đã"
+    }
+   ],
+   "answer": "không thể nào có chuyện (phủ định mạnh)\nchỉ còn cách\nchính vì\n… như thế (xem nhẹ)\nkhông đời nào (văn nói)\nchỉ vì… mà\nchưa chắc đã",
+   "options": [
+    "không thể nào có chuyện (phủ định mạnh)",
+    "chỉ còn cách",
+    "chính vì",
+    "… như thế (xem nhẹ)",
+    "không đời nào (văn nói)",
+    "chỉ vì… mà",
+    "chưa chắc đã"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜わけがない: không thể nào có chuyện (phủ định mạnh); 〜しかない: chỉ còn cách; 〜からこそ: chính vì; 〜なんか（xem nhẹ）: … như thế (xem nhẹ); 〜っこない: không đời nào (văn nói); 〜からといって: chỉ vì… mà; 〜とは限らない: chưa chắc đã."
+  },
+  {
+   "id": "try-19-match",
+   "unit": 19,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜ことといったら",
+     "meaning": "… thì thật là (nhấn mạnh)"
+    },
+    {
+     "pattern": "〜くせに",
+     "meaning": "đã… vậy mà (trách)"
+    },
+    {
+     "pattern": "〜っぽい",
+     "meaning": "có vẻ, hay…"
+    },
+    {
+     "pattern": "〜せい",
+     "meaning": "tại (kết quả xấu)"
+    },
+    {
+     "pattern": "〜のことだから",
+     "meaning": "vì là người đó nên chắc"
+    }
+   ],
+   "answer": "… thì thật là (nhấn mạnh)\nđã… vậy mà (trách)\ncó vẻ, hay…\ntại (kết quả xấu)\nvì là người đó nên chắc",
+   "options": [
+    "… thì thật là (nhấn mạnh)",
+    "đã… vậy mà (trách)",
+    "có vẻ, hay…",
+    "tại (kết quả xấu)",
+    "vì là người đó nên chắc"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜ことといったら: … thì thật là (nhấn mạnh); 〜くせに: đã… vậy mà (trách); 〜っぽい: có vẻ, hay…; 〜せい: tại (kết quả xấu); 〜のことだから: vì là người đó nên chắc."
+  },
+  {
+   "id": "try-20-match",
+   "unit": 20,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜気味",
+     "meaning": "hơi có vẻ"
+    },
+    {
+     "pattern": "〜てなんかいられない",
+     "meaning": "không thể cứ… được"
+    },
+    {
+     "pattern": "〜さえ",
+     "meaning": "ngay cả"
+    },
+    {
+     "pattern": "〜くらい",
+     "meaning": "đến mức"
+    },
+    {
+     "pattern": "〜っぱなし",
+     "meaning": "để nguyên, không xử lý"
+    },
+    {
+     "pattern": "〜だらけ",
+     "meaning": "đầy (thứ không tốt)"
+    },
+    {
+     "pattern": "〜たりして（nhắc khéo）",
+     "meaning": "nói nhẹ, trêu"
+    },
+    {
+     "pattern": "N らしい",
+     "meaning": "đúng chất, điển hình"
+    }
+   ],
+   "answer": "hơi có vẻ\nkhông thể cứ… được\nngay cả\nđến mức\nđể nguyên, không xử lý\nđầy (thứ không tốt)\nnói nhẹ, trêu\nđúng chất, điển hình",
+   "options": [
+    "hơi có vẻ",
+    "không thể cứ… được",
+    "ngay cả",
+    "đến mức",
+    "để nguyên, không xử lý",
+    "đầy (thứ không tốt)",
+    "nói nhẹ, trêu",
+    "đúng chất, điển hình"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜気味: hơi có vẻ; 〜てなんかいられない: không thể cứ… được; 〜さえ: ngay cả; 〜くらい: đến mức; 〜っぱなし: để nguyên, không xử lý; 〜だらけ: đầy (thứ không tốt); 〜たりして（nhắc khéo）: nói nhẹ, trêu; N らしい: đúng chất, điển hình."
+  },
+  {
+   "id": "try-21-match",
+   "unit": 21,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜かと思った",
+     "meaning": "cứ tưởng là"
+    },
+    {
+     "pattern": "〜とか",
+     "meaning": "… chẳng hạn (nêu ví dụ)"
+    },
+    {
+     "pattern": "〜ついでに",
+     "meaning": "nhân tiện"
+    },
+    {
+     "pattern": "〜に違いない",
+     "meaning": "chắc chắn là (suy đoán)"
+    },
+    {
+     "pattern": "〜ほど〜はない",
+     "meaning": "không gì… bằng"
+    },
+    {
+     "pattern": "〜ぬきで",
+     "meaning": "không có, bỏ qua"
+    },
+    {
+     "pattern": "〜てしょうがない",
+     "meaning": "… không chịu nổi"
+    }
+   ],
+   "answer": "cứ tưởng là\n… chẳng hạn (nêu ví dụ)\nnhân tiện\nchắc chắn là (suy đoán)\nkhông gì… bằng\nkhông có, bỏ qua\n… không chịu nổi",
+   "options": [
+    "cứ tưởng là",
+    "… chẳng hạn (nêu ví dụ)",
+    "nhân tiện",
+    "chắc chắn là (suy đoán)",
+    "không gì… bằng",
+    "không có, bỏ qua",
+    "… không chịu nổi"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜かと思った: cứ tưởng là; 〜とか: … chẳng hạn (nêu ví dụ); 〜ついでに: nhân tiện; 〜に違いない: chắc chắn là (suy đoán); 〜ほど〜はない: không gì… bằng; 〜ぬきで: không có, bỏ qua; 〜てしょうがない: … không chịu nổi."
+  }
+ ]
+}

@@ -1,0 +1,4055 @@
+{
+ "id": "minna-no-nihongo-2-grammar",
+ "title": "Minna no Nihongo Sơ cấp II – Kiểm tra ngữ pháp bài 26–50",
+ "level": "N4",
+ "totalQuestions": 225,
+ "lessons": [
+  {
+   "unit": 26,
+   "name": "ごみは どこに 出したら いいですか"
+  },
+  {
+   "unit": 27,
+   "name": "何でも 作れるんですね"
+  },
+  {
+   "unit": 28,
+   "name": "出張も 多いし、試験も あるし……"
+  },
+  {
+   "unit": 29,
+   "name": "忘れ物を して しまったんです"
+  },
+  {
+   "unit": 30,
+   "name": "非常袋を 準備して おかないと"
+  },
+  {
+   "unit": 31,
+   "name": "料理を 習おうと 思って います"
+  },
+  {
+   "unit": 32,
+   "name": "無理を しない ほうが いいですよ"
+  },
+  {
+   "unit": 33,
+   "name": "これは どういう 意味ですか"
+  },
+  {
+   "unit": 34,
+   "name": "わたしが した とおりに、して ください"
+  },
+  {
+   "unit": 35,
+   "name": "どこか いい 所、ありませんか"
+  },
+  {
+   "unit": 36,
+   "name": "毎日 運動するように して います"
+  },
+  {
+   "unit": 37,
+   "name": "金閣寺は 14世紀に 建てられました"
+  },
+  {
+   "unit": 38,
+   "name": "片づけるのが 好きなんです"
+  },
+  {
+   "unit": 39,
+   "name": "遅れて、すみません"
+  },
+  {
+   "unit": 40,
+   "name": "友達が できたか どうか、心配です"
+  },
+  {
+   "unit": 41,
+   "name": "ご結婚 おめでとう ございます"
+  },
+  {
+   "unit": 42,
+   "name": "ボーナスは 何に 使いますか"
+  },
+  {
+   "unit": 43,
+   "name": "毎日 楽しそうです"
+  },
+  {
+   "unit": 44,
+   "name": "この 写真みたいに して ください"
+  },
+  {
+   "unit": 45,
+   "name": "コースを まちがえた 場合は、どう したら いいですか"
+  },
+  {
+   "unit": 46,
+   "name": "先週 直して もらった ばかりなのに、また……"
+  },
+  {
+   "unit": 47,
+   "name": "婚約したそうです"
+  },
+  {
+   "unit": 48,
+   "name": "休ませて いただけませんか"
+  },
+  {
+   "unit": 49,
+   "name": "よろしく お伝え ください"
+  },
+  {
+   "unit": 50,
+   "name": "心から 感謝いたします"
+  }
+ ],
+ "questions": [
+  {
+   "id": "26-01",
+   "unit": 26,
+   "grammar": "〜んです（giải thích, hỏi lý do, nhấn mạnh）",
+   "kind": "USAGE",
+   "prompt": "Trong câu dưới, 〜んです dùng để làm gì?",
+   "sentence": "どうして 遅れたんですか。",
+   "answer": "Hỏi lý do, muốn biết rõ hoàn cảnh",
+   "options": [
+    "Hỏi lý do, muốn biết rõ hoàn cảnh",
+    "Ra lệnh cho người nghe",
+    "Rủ người nghe cùng làm",
+    "Xin phép người nghe"
+   ],
+   "explanation": "〜んですか dùng khi người nói thấy một sự việc và muốn hỏi rõ lý do, hoàn cảnh phía sau."
+  },
+  {
+   "id": "26-02",
+   "unit": 26,
+   "grammar": "〜んです（giải thích, hỏi lý do, nhấn mạnh）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あしたから 旅行＿＿。",
+   "answer": "なんです",
+   "options": [
+    "なんです",
+    "だんです",
+    "んです",
+    "なです"
+   ],
+   "explanation": "Danh từ và tính từ な nối với んです qua な: 旅行 → 旅行なんです."
+  },
+  {
+   "id": "26-03",
+   "unit": 26,
+   "grammar": "〜んです（giải thích, hỏi lý do, nhấn mạnh）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "すみません、頭が 痛＿＿。",
+   "answer": "いんです",
+   "options": [
+    "いんです",
+    "いなんです",
+    "くんです",
+    "いだんです"
+   ],
+   "explanation": "Tính từ い giữ nguyên thể thông thường rồi thêm んです: 痛い → 痛いんです."
+  },
+  {
+   "id": "26-04",
+   "unit": 26,
+   "grammar": "〜んですが、〜て いただけませんか（nhờ vả lịch sự）",
+   "kind": "USAGE",
+   "prompt": "Bạn muốn nhờ một người Nhật viết giúp địa chỉ, nêu hoàn cảnh trước rồi mới nhờ thật lịch sự. Câu nào phù hợp nhất?",
+   "sentence": "",
+   "answer": "日本語で 住所が 書けないんですが、書いて いただけませんか。",
+   "options": [
+    "日本語で 住所が 書けないんですが、書いて いただけませんか。",
+    "住所を 書いて。",
+    "住所を 書いても いいですか。",
+    "住所を 書かなければ なりません。"
+   ],
+   "explanation": "〜んですが nêu hoàn cảnh để mở đầu, 〜て いただけませんか là cách nhờ vả rất lịch sự."
+  },
+  {
+   "id": "26-05",
+   "unit": 26,
+   "grammar": "〜んですが、〜て いただけませんか（nhờ vả lịch sự）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 漢字の 読み方が わからないんですが、＿＿ いただけませんか。",
+   "answer": "教えて",
+   "options": [
+    "教えて",
+    "教え",
+    "教える",
+    "教えた"
+   ],
+   "explanation": "いただけませんか đi sau thể て của động từ: 教える → 教えて いただけませんか."
+  },
+  {
+   "id": "26-06",
+   "unit": 26,
+   "grammar": "疑問詞 ＋ V たら いいですか（xin lời khuyên, chỉ dẫn）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "ごみは どこに 出したら いいですか。",
+   "answer": "Xin lời khuyên, chỉ dẫn nên làm thế nào",
+   "options": [
+    "Xin lời khuyên, chỉ dẫn nên làm thế nào",
+    "Kể lại việc mình đã làm",
+    "Bày tỏ mong muốn của bản thân",
+    "Từ chối lời đề nghị"
+   ],
+   "explanation": "Từ để hỏi ＋ V たら いいですか dùng để hỏi xin chỉ dẫn, lời khuyên."
+  },
+  {
+   "id": "26-07",
+   "unit": 26,
+   "grammar": "疑問詞 ＋ V たら いいですか（xin lời khuyên, chỉ dẫn）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 書類は だれに ＿＿ いいですか。",
+   "answer": "渡したら",
+   "options": [
+    "渡したら",
+    "渡し",
+    "渡す",
+    "渡しません"
+   ],
+   "explanation": "Mẫu xin lời khuyên dùng thể たら: 渡す → 渡したら いいですか."
+  },
+  {
+   "id": "27-01",
+   "unit": 27,
+   "grammar": "可能動詞（thể khả năng）：〜が V（e）ます",
+   "kind": "USAGE",
+   "prompt": "Thể khả năng trong câu dưới diễn tả điều gì?",
+   "sentence": "わたしは 漢字が 100ぐらい 読めます。",
+   "answer": "Năng lực, khả năng làm được việc",
+   "options": [
+    "Năng lực, khả năng làm được việc",
+    "Ý định sẽ làm",
+    "Việc bị người khác làm",
+    "Mệnh lệnh"
+   ],
+   "explanation": "Thể khả năng (読む → 読める) diễn tả năng lực hoặc điều kiện cho phép làm một việc. Tân ngữ thường đi với が."
+  },
+  {
+   "id": "27-02",
+   "unit": 27,
+   "grammar": "可能動詞（thể khả năng）：〜が V（e）ます",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "わたしは 日本語で 手紙が ＿＿。",
+   "answer": "書けます",
+   "options": [
+    "書けます",
+    "書かれます",
+    "書かせます",
+    "書きられます"
+   ],
+   "explanation": "Động từ nhóm I đổi đuôi う sang え rồi thêm る: 書く → 書ける → 書けます."
+  },
+  {
+   "id": "27-03",
+   "unit": 27,
+   "grammar": "可能動詞（thể khả năng）：〜が V（e）ます",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ミラーさんは 刺身が ＿＿。",
+   "answer": "食べられます",
+   "options": [
+    "食べられます",
+    "食べます",
+    "食べさせます",
+    "食べけます"
+   ],
+   "explanation": "Động từ nhóm II thêm られる: 食べる → 食べられる. Khi dùng thể khả năng, tân ngữ đi với が."
+  },
+  {
+   "id": "27-04",
+   "unit": 27,
+   "grammar": "可能動詞（thể khả năng）：〜が V（e）ます",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ワットさんは ピアノが ＿＿。",
+   "answer": "できます",
+   "options": [
+    "できます",
+    "します",
+    "されます",
+    "しられます"
+   ],
+   "explanation": "Thể khả năng của する là できる: ピアノが できます."
+  },
+  {
+   "id": "27-05",
+   "unit": 27,
+   "grammar": "見えます・聞こえます",
+   "kind": "USAGE",
+   "prompt": "Câu nào diễn tả một cảnh tự nhiên lọt vào tầm mắt, không do mình chủ động nhìn?",
+   "sentence": "",
+   "answer": "窓から 富士山が 見えます。",
+   "options": [
+    "窓から 富士山が 見えます。",
+    "窓から 富士山を 見ます。",
+    "窓から 富士山を 見せます。",
+    "窓から 富士山を 見て います。"
+   ],
+   "explanation": "見えます／聞こえます diễn tả hình ảnh, âm thanh tự nhiên đến với người nói; đối tượng đi với が."
+  },
+  {
+   "id": "27-06",
+   "unit": 27,
+   "grammar": "見えます・聞こえます",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "隣の 部屋から ピアノの 音が ＿＿。",
+   "answer": "聞こえます",
+   "options": [
+    "聞こえます",
+    "聞きます",
+    "聞かれます",
+    "聞かせます"
+   ],
+   "explanation": "Âm thanh tự nhiên vọng đến tai dùng 聞こえます, đi với が."
+  },
+  {
+   "id": "27-07",
+   "unit": 27,
+   "grammar": "できます（được xây dựng, hoàn thành, mở ra）",
+   "kind": "USAGE",
+   "prompt": "できました trong câu dưới mang nghĩa gì?",
+   "sentence": "駅の 前に 大きい スーパーが できました。",
+   "answer": "Được xây xong, được mở ra",
+   "options": [
+    "Được xây xong, được mở ra",
+    "Có khả năng làm siêu thị",
+    "Được phép vào siêu thị",
+    "Siêu thị bị đóng cửa"
+   ],
+   "explanation": "Ngoài nghĩa \"có thể\", N が できます còn nghĩa là một công trình, cửa hàng được xây, được mở."
+  },
+  {
+   "id": "27-08",
+   "unit": 27,
+   "grammar": "しか 〜ない（chỉ…）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "日曜日しか 休めません。",
+   "answer": "Chỉ nghỉ được vào chủ nhật",
+   "options": [
+    "Chỉ nghỉ được vào chủ nhật",
+    "Chủ nhật không nghỉ được",
+    "Chủ nhật cũng nghỉ được",
+    "Nghỉ được cả tuần"
+   ],
+   "explanation": "しか đi với thể phủ định, nghĩa là \"chỉ\", nhấn mạnh sự ít ỏi, không đủ."
+  },
+  {
+   "id": "27-09",
+   "unit": 27,
+   "grammar": "しか 〜ない（chỉ…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "財布に 500円 ＿＿。",
+   "answer": "しか ありません",
+   "options": [
+    "しか ありません",
+    "しか あります",
+    "しかに ありません",
+    "を しか ありません"
+   ],
+   "explanation": "しか luôn đi cùng động từ phủ định: 500円しか ありません."
+  },
+  {
+   "id": "28-01",
+   "unit": 28,
+   "grammar": "V1ますながら V2（vừa… vừa…）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "働きながら 日本語を 勉強して います。",
+   "answer": "Một người làm hai việc song song, việc chính là vế sau",
+   "options": [
+    "Một người làm hai việc song song, việc chính là vế sau",
+    "Làm xong việc này rồi mới làm việc kia",
+    "Vì đi làm nên phải học",
+    "Mặc dù đi làm nhưng vẫn học"
+   ],
+   "explanation": "V1ます ながら V2: một chủ thể làm hai hành động cùng lúc hoặc trong cùng giai đoạn; V2 là hành động chính."
+  },
+  {
+   "id": "28-02",
+   "unit": 28,
+   "grammar": "V1ますながら V2（vừa… vừa…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "音楽を ＿＿ 勉強します。",
+   "answer": "聞きながら",
+   "options": [
+    "聞きながら",
+    "聞いながら",
+    "聞くながら",
+    "聞いてながら"
+   ],
+   "explanation": "ながら đi sau thể ます bỏ ます: 聞きます → 聞きながら."
+  },
+  {
+   "id": "28-03",
+   "unit": 28,
+   "grammar": "Vて います（thói quen）",
+   "kind": "USAGE",
+   "prompt": "Vて います trong câu dưới diễn tả điều gì?",
+   "sentence": "毎朝 ジョギングを して います。",
+   "answer": "Thói quen lặp lại",
+   "options": [
+    "Thói quen lặp lại",
+    "Hành động đang diễn ra ngay lúc nói",
+    "Trạng thái do kết quả để lại",
+    "Kế hoạch trong tương lai"
+   ],
+   "explanation": "Với trạng từ chỉ tần suất (毎朝、よく…), Vて います diễn tả thói quen."
+  },
+  {
+   "id": "28-04",
+   "unit": 28,
+   "grammar": "普通形し、普通形し（vừa… lại vừa…, liệt kê lý do）",
+   "kind": "USAGE",
+   "prompt": "〜し、〜し trong câu dưới dùng để làm gì?",
+   "sentence": "雨も 降って いるし、もう 遅いし、帰ります。",
+   "answer": "Liệt kê nhiều lý do",
+   "options": [
+    "Liệt kê nhiều lý do",
+    "Diễn tả hai việc làm cùng lúc",
+    "Nêu điều kiện giả định",
+    "So sánh hai sự việc"
+   ],
+   "explanation": "普通形 ＋ し dùng để liệt kê nhiều lý do (ngụ ý còn lý do khác) hoặc nhiều đặc điểm cùng chiều."
+  },
+  {
+   "id": "28-05",
+   "unit": 28,
+   "grammar": "普通形し、普通形し（vừa… lại vừa…, liệt kê lý do）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 店は 安い＿＿、おいしいし、よく 来ます。",
+   "answer": "し",
+   "options": [
+    "し",
+    "だし",
+    "くし",
+    "なし"
+   ],
+   "explanation": "Tính từ い ở thể thông thường thêm し trực tiếp: 安い → 安いし."
+  },
+  {
+   "id": "28-06",
+   "unit": 28,
+   "grammar": "普通形し、普通形し（vừa… lại vừa…, liệt kê lý do）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この アパートは 駅から 近いし、部屋も きれい＿＿、とても いいです。",
+   "answer": "だし",
+   "options": [
+    "だし",
+    "し",
+    "なし",
+    "でし"
+   ],
+   "explanation": "Tính từ な và danh từ phải thêm だ ở thể thông thường: きれい → きれいだし."
+  },
+  {
+   "id": "29-01",
+   "unit": 29,
+   "grammar": "N が Vて います（trạng thái）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "この いすは 壊れて います。",
+   "answer": "Trạng thái là kết quả của một sự thay đổi",
+   "options": [
+    "Trạng thái là kết quả của một sự thay đổi",
+    "Hành động đang diễn ra",
+    "Thói quen của người nói",
+    "Người nói đang làm hỏng cái ghế"
+   ],
+   "explanation": "N が 自動詞て います diễn tả trạng thái còn lại sau khi sự việc xảy ra, không chú ý người làm."
+  },
+  {
+   "id": "29-02",
+   "unit": 29,
+   "grammar": "N が Vて います（trạng thái）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "窓が ＿＿ います。",
+   "answer": "割れて",
+   "options": [
+    "割れて",
+    "割って",
+    "割れる",
+    "割れ"
+   ],
+   "explanation": "Diễn tả trạng thái dùng tự động từ: 割れる → 窓が 割れて います. 割る là tha động từ, cần を."
+  },
+  {
+   "id": "29-03",
+   "unit": 29,
+   "grammar": "Vて しまいました／しまいます（xong hết）",
+   "kind": "USAGE",
+   "prompt": "Vて しまいます trong câu dưới diễn tả điều gì?",
+   "sentence": "この 本は 今晩 読んで しまいます。",
+   "answer": "Sẽ làm cho xong hết",
+   "options": [
+    "Sẽ làm cho xong hết",
+    "Lỡ đọc mất",
+    "Đọc thử xem sao",
+    "Đọc sẵn để chuẩn bị"
+   ],
+   "explanation": "Vて しまいます nhấn mạnh việc sẽ làm cho xong trọn vẹn trong một thời hạn."
+  },
+  {
+   "id": "29-04",
+   "unit": 29,
+   "grammar": "Vて しまいました／しまいます（xong hết）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "宿題は もう ＿＿。",
+   "answer": "やって しまいました",
+   "options": [
+    "やって しまいました",
+    "やる しまいました",
+    "やり しまいました",
+    "やって しまう ました"
+   ],
+   "explanation": "しまいます đi sau thể て: やる → やって しまいました."
+  },
+  {
+   "id": "29-05",
+   "unit": 29,
+   "grammar": "Vて しまいました（lỡ… mất, tiếc nuối）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện cảm xúc gì của người nói?",
+   "sentence": "電車に 傘を 忘れて しまいました。",
+   "answer": "Tiếc nuối vì đã lỡ làm",
+   "options": [
+    "Tiếc nuối vì đã lỡ làm",
+    "Tự hào về việc mình làm",
+    "Chuẩn bị trước cho việc sau",
+    "Thử làm một việc mới"
+   ],
+   "explanation": "Vて しまいました còn thể hiện sự tiếc nuối, hối hận khi lỡ làm điều không mong muốn."
+  },
+  {
+   "id": "29-06",
+   "unit": 29,
+   "grammar": "Vて しまいました（lỡ… mất, tiếc nuối）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "パスポートを ＿＿ しまいました。",
+   "answer": "なくして",
+   "options": [
+    "なくして",
+    "なくなって",
+    "なくす",
+    "なくし"
+   ],
+   "explanation": "Có trợ từ を nên dùng tha động từ なくす ở thể て: なくして しまいました."
+  },
+  {
+   "id": "30-01",
+   "unit": 30,
+   "grammar": "N が Vて あります（trạng thái có chủ ý）",
+   "kind": "USAGE",
+   "prompt": "Câu nào cho biết ai đó đã cố ý làm và kết quả vẫn còn đó?",
+   "sentence": "",
+   "answer": "机の 上に メモが 置いて あります。",
+   "options": [
+    "机の 上に メモが 置いて あります。",
+    "机の 上に メモが あります。",
+    "机の 上に メモが 落ちて います。",
+    "机の 上で メモを 書いて います。"
+   ],
+   "explanation": "N が 他動詞て あります diễn tả trạng thái do một người cố ý tạo ra và vẫn giữ nguyên."
+  },
+  {
+   "id": "30-02",
+   "unit": 30,
+   "grammar": "N が Vて あります（trạng thái có chủ ý）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "壁に カレンダーが ＿＿ あります。",
+   "answer": "掛けて",
+   "options": [
+    "掛けて",
+    "掛かって",
+    "掛ける",
+    "掛け"
+   ],
+   "explanation": "Vて あります dùng tha động từ: 掛ける → 掛けて あります. 掛かる là tự động từ, đi với て います."
+  },
+  {
+   "id": "30-03",
+   "unit": 30,
+   "grammar": "Vて おきます（làm sẵn, để nguyên）",
+   "kind": "USAGE",
+   "prompt": "Vて おきます trong câu dưới diễn tả điều gì?",
+   "sentence": "旅行の 前に ホテルを 予約して おきます。",
+   "answer": "Làm trước để chuẩn bị cho việc sau",
+   "options": [
+    "Làm trước để chuẩn bị cho việc sau",
+    "Lỡ làm điều không mong muốn",
+    "Thử làm xem kết quả",
+    "Việc đang làm dở"
+   ],
+   "explanation": "Vて おきます: làm sẵn một việc để chuẩn bị, hoặc làm xong việc cần thiết, hoặc để nguyên trạng thái."
+  },
+  {
+   "id": "30-04",
+   "unit": 30,
+   "grammar": "Vて おきます（làm sẵn, để nguyên）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "会議の 前に 資料を ＿＿ おいて ください。",
+   "answer": "コピーして",
+   "options": [
+    "コピーして",
+    "コピーし",
+    "コピーする",
+    "コピーした"
+   ],
+   "explanation": "おきます đi sau thể て: コピーする → コピーして おいて ください."
+  },
+  {
+   "id": "30-05",
+   "unit": 30,
+   "grammar": "まだ ＋ khẳng định（vẫn còn）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "まだ 雨が 降って います。",
+   "answer": "Trời vẫn còn đang mưa",
+   "options": [
+    "Trời vẫn còn đang mưa",
+    "Trời vẫn chưa mưa",
+    "Trời sắp mưa",
+    "Trời đã tạnh mưa"
+   ],
+   "explanation": "まだ đi với câu khẳng định nghĩa là \"vẫn còn\"; đi với phủ định mới là \"vẫn chưa\"."
+  },
+  {
+   "id": "30-06",
+   "unit": 30,
+   "grammar": "まだ ＋ khẳng định（vẫn còn）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "まだ 仕事が ＿＿ ので、先に 帰って ください。",
+   "answer": "残って いる",
+   "options": [
+    "残って いる",
+    "残って いない",
+    "残して いる",
+    "残った"
+   ],
+   "explanation": "まだ ＋ khẳng định: công việc vẫn còn (残って いる) nên người nói chưa về được."
+  },
+  {
+   "id": "31-01",
+   "unit": 31,
+   "grammar": "意向形（thể ý chí）",
+   "kind": "USAGE",
+   "prompt": "Thể ý chí trong câu dưới được dùng để làm gì?",
+   "sentence": "疲れたね。ちょっと 休もう。",
+   "answer": "Rủ rê thân mật (dạng thông thường của 〜ましょう)",
+   "options": [
+    "Rủ rê thân mật (dạng thông thường của 〜ましょう)",
+    "Ra lệnh cho người nghe",
+    "Nói về việc bị người khác làm",
+    "Xin phép người nghe"
+   ],
+   "explanation": "Thể ý chí (休む → 休もう) là dạng thông thường của 〜ましょう, dùng khi rủ rê thân mật hoặc tự nhủ."
+  },
+  {
+   "id": "31-02",
+   "unit": 31,
+   "grammar": "意向形（thể ý chí）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "疲れたね。ちょっと ＿＿。",
+   "answer": "休もう",
+   "options": [
+    "休もう",
+    "休みよう",
+    "休ろう",
+    "休むう"
+   ],
+   "explanation": "Động từ nhóm I đổi đuôi う sang お rồi thêm う: 休む → 休もう."
+  },
+  {
+   "id": "31-03",
+   "unit": 31,
+   "grammar": "意向形（thể ý chí）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あした 一緒に テニスを ＿＿。",
+   "answer": "しよう",
+   "options": [
+    "しよう",
+    "すろう",
+    "しろう",
+    "するよう"
+   ],
+   "explanation": "Thể ý chí của する là しよう, của 来る là 来よう."
+  },
+  {
+   "id": "31-04",
+   "unit": 31,
+   "grammar": "V意向形と 思って います（định làm）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "週末は 部屋を 掃除しようと 思って います。",
+   "answer": "Ý định của người nói, đã có từ trước",
+   "options": [
+    "Ý định của người nói, đã có từ trước",
+    "Suy đoán về người khác",
+    "Lời khuyên cho người nghe",
+    "Việc đã làm xong"
+   ],
+   "explanation": "V（thể ý chí）＋ と 思って います bày tỏ ý định của người nói, ý định đó đã có và vẫn đang tiếp tục."
+  },
+  {
+   "id": "31-05",
+   "unit": 31,
+   "grammar": "V意向形と 思って います（định làm）",
+   "kind": "FORM",
+   "prompt": "Bạn muốn nói: \"Năm sau tôi định đi du học Nhật\". Chọn dạng đúng.",
+   "sentence": "来年 日本へ 留学＿＿と 思って います。",
+   "answer": "しよう",
+   "options": [
+    "しよう",
+    "しろう",
+    "するよう",
+    "しましょう"
+   ],
+   "explanation": "Ý định dùng thể ý chí ＋ と 思って います: 留学する → 留学しよう."
+  },
+  {
+   "id": "31-06",
+   "unit": 31,
+   "grammar": "Vる／Vない つもりです（có ý định）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あしたは 会社を 休む＿＿。",
+   "answer": "つもりです",
+   "options": [
+    "つもりです",
+    "つもりします",
+    "のつもりです",
+    "つもりなります"
+   ],
+   "explanation": "V（thể từ điển）＋ つもりです diễn tả ý định đã quyết."
+  },
+  {
+   "id": "31-07",
+   "unit": 31,
+   "grammar": "Vる／Vない つもりです（có ý định）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "もう たばこは ＿＿ つもりです。",
+   "answer": "吸わない",
+   "options": [
+    "吸わない",
+    "吸いない",
+    "吸わなく",
+    "吸わません"
+   ],
+   "explanation": "Ý định không làm dùng V ない ＋ つもりです: 吸う → 吸わない."
+  },
+  {
+   "id": "31-08",
+   "unit": 31,
+   "grammar": "Vる／Nの 予定です（dự kiến）",
+   "kind": "USAGE",
+   "prompt": "Câu nào nói về một lịch trình đã được định sẵn, không hẳn do ý muốn của người nói?",
+   "sentence": "",
+   "answer": "来月 大阪へ 出張する 予定です。",
+   "options": [
+    "来月 大阪へ 出張する 予定です。",
+    "来月 大阪へ 行こう。",
+    "来月 大阪へ 行きたいです。",
+    "来月 大阪へ 行って ください。"
+   ],
+   "explanation": "〜予定です nói về kế hoạch, lịch trình đã được sắp xếp."
+  },
+  {
+   "id": "31-09",
+   "unit": 31,
+   "grammar": "Vる／Nの 予定です（dự kiến）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "来週は 出張＿＿ 予定です。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "が",
+    "に"
+   ],
+   "explanation": "Danh từ nối với 予定 bằng の: 出張の 予定です."
+  },
+  {
+   "id": "32-01",
+   "unit": 32,
+   "grammar": "Vた ほうが いいです／Vない ほうが いいです（nên / không nên）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "お酒を 飲まない ほうが いいですよ。",
+   "answer": "Khuyên người nghe không nên làm",
+   "options": [
+    "Khuyên người nghe không nên làm",
+    "Cấm tuyệt đối",
+    "Xin phép người nghe",
+    "Kể lại kinh nghiệm của mình"
+   ],
+   "explanation": "V ない ほうが いいです là lời khuyên không nên làm; V た ほうが いいです là lời khuyên nên làm."
+  },
+  {
+   "id": "32-02",
+   "unit": 32,
+   "grammar": "Vた ほうが いいです／Vない ほうが いいです（nên / không nên）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "熱が ありますね。きょうは 早く ＿＿ ほうが いいですよ。",
+   "answer": "寝た",
+   "options": [
+    "寝た",
+    "寝て",
+    "寝ます",
+    "寝よう"
+   ],
+   "explanation": "Khuyên nên làm dùng thể た: 寝る → 寝た ほうが いいです."
+  },
+  {
+   "id": "32-03",
+   "unit": 32,
+   "grammar": "Vた ほうが いいです／Vない ほうが いいです（nên / không nên）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "無理を ＿＿ ほうが いいですよ。",
+   "answer": "しない",
+   "options": [
+    "しない",
+    "しないで",
+    "しません",
+    "しなくて"
+   ],
+   "explanation": "Khuyên không nên làm dùng thể ない: 無理を しない ほうが いいです."
+  },
+  {
+   "id": "32-04",
+   "unit": 32,
+   "grammar": "普通形 でしょう（có lẽ, chắc là）",
+   "kind": "USAGE",
+   "prompt": "でしょう trong câu dưới diễn tả điều gì?",
+   "sentence": "あしたは 晴れるでしょう。",
+   "answer": "Dự đoán của người nói, khá chắc chắn",
+   "options": [
+    "Dự đoán của người nói, khá chắc chắn",
+    "Mệnh lệnh",
+    "Mong muốn của người nói",
+    "Sự việc đã xảy ra"
+   ],
+   "explanation": "普通形 ＋ でしょう diễn tả phán đoán, dự đoán của người nói (hay dùng trong dự báo thời tiết)."
+  },
+  {
+   "id": "32-05",
+   "unit": 32,
+   "grammar": "普通形 でしょう（có lẽ, chắc là）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あしたは 雨＿＿。",
+   "answer": "でしょう",
+   "options": [
+    "でしょう",
+    "だでしょう",
+    "なでしょう",
+    "のでしょう"
+   ],
+   "explanation": "Danh từ và tính từ な bỏ だ trước でしょう: 雨でしょう."
+  },
+  {
+   "id": "32-06",
+   "unit": 32,
+   "grammar": "普通形 かも しれません（có thể, không chừng）",
+   "kind": "USAGE",
+   "prompt": "Câu nào cho thấy người nói không chắc chắn, khả năng xảy ra thấp hơn?",
+   "sentence": "",
+   "answer": "午後 雨が 降るかも しれません。",
+   "options": [
+    "午後 雨が 降るかも しれません。",
+    "午後 雨が 降るでしょう。",
+    "午後 雨が 降ります。",
+    "午後 雨が 降って います。"
+   ],
+   "explanation": "〜かも しれません: \"có thể, không chừng\", mức độ chắc chắn thấp hơn 〜でしょう."
+  },
+  {
+   "id": "32-07",
+   "unit": 32,
+   "grammar": "普通形 かも しれません（có thể, không chừng）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "約束の 時間に 間に合わない＿＿。",
+   "answer": "かも しれません",
+   "options": [
+    "かも しれません",
+    "かも しりません",
+    "かも しれます",
+    "だかも しれません"
+   ],
+   "explanation": "Mẫu cố định: 普通形 ＋ かも しれません."
+  },
+  {
+   "id": "32-08",
+   "unit": 32,
+   "grammar": "普通形 かも しれません（có thể, không chừng）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あの 公園は 夜は 静か＿＿。",
+   "answer": "かも しれません",
+   "options": [
+    "かも しれません",
+    "だかも しれません",
+    "なかも しれません",
+    "でかも しれません"
+   ],
+   "explanation": "Tính từ な bỏ だ rồi thêm かも しれません: 静かかも しれません."
+  },
+  {
+   "id": "33-01",
+   "unit": 33,
+   "grammar": "命令形・禁止形（mệnh lệnh / cấm đoán）",
+   "kind": "USAGE",
+   "prompt": "Biển báo 「入るな」 có nghĩa là gì?",
+   "sentence": "入るな",
+   "answer": "Cấm vào",
+   "options": [
+    "Cấm vào",
+    "Hãy vào",
+    "Có thể vào",
+    "Đã vào rồi"
+   ],
+   "explanation": "Thể cấm đoán: V（thể từ điển）＋ な. Thường dùng trên biển báo, khẩu hiệu hoặc khi nói mạnh, gấp."
+  },
+  {
+   "id": "33-02",
+   "unit": 33,
+   "grammar": "命令形・禁止形（mệnh lệnh / cấm đoán）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng mệnh lệnh đúng.",
+   "sentence": "危ない！ ＿＿！",
+   "answer": "止まれ",
+   "options": [
+    "止まれ",
+    "止まれる",
+    "止まろう",
+    "止まりな"
+   ],
+   "explanation": "Thể mệnh lệnh nhóm I đổi đuôi う sang え: 止まる → 止まれ."
+  },
+  {
+   "id": "33-03",
+   "unit": 33,
+   "grammar": "命令形・禁止形（mệnh lệnh / cấm đoán）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng mệnh lệnh đúng.",
+   "sentence": "遅刻するよ。早く ＿＿！",
+   "answer": "起きろ",
+   "options": [
+    "起きろ",
+    "起きれ",
+    "起け",
+    "起きよう"
+   ],
+   "explanation": "Thể mệnh lệnh nhóm II thay る bằng ろ: 起きる → 起きろ."
+  },
+  {
+   "id": "33-04",
+   "unit": 33,
+   "grammar": "命令形・禁止形（mệnh lệnh / cấm đoán）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ここで たばこを 吸う＿＿。",
+   "answer": "な",
+   "options": [
+    "な",
+    "ない",
+    "なさい",
+    "れ"
+   ],
+   "explanation": "Cấm đoán: thể từ điển ＋ な: 吸うな."
+  },
+  {
+   "id": "33-05",
+   "unit": 33,
+   "grammar": "X は Y と いう 意味です（X nghĩa là Y）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "この マークは どういう 意味ですか。",
+   "answer": "Hỏi ý nghĩa của ký hiệu, từ ngữ",
+   "options": [
+    "Hỏi ý nghĩa của ký hiệu, từ ngữ",
+    "Hỏi cách đọc",
+    "Hỏi ai đã làm",
+    "Hỏi vị trí đặt"
+   ],
+   "explanation": "X は どういう 意味ですか dùng để hỏi nghĩa; trả lời bằng X は Y と いう 意味です."
+  },
+  {
+   "id": "33-06",
+   "unit": 33,
+   "grammar": "X は Y と いう 意味です（X nghĩa là Y）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "「立入禁止」は 入るな＿＿ 意味です。",
+   "answer": "と いう",
+   "options": [
+    "と いう",
+    "と いうの",
+    "と いって",
+    "の"
+   ],
+   "explanation": "X は Y と いう 意味です: と いう nối nội dung Y với danh từ 意味."
+  },
+  {
+   "id": "33-07",
+   "unit": 33,
+   "grammar": "普通形 と 言って いました／伝えて いただけませんか（truyền đạt lời nói）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "田中さんは あした 来ないと 言って いました。",
+   "answer": "Truyền đạt lại lời của người khác",
+   "options": [
+    "Truyền đạt lại lời của người khác",
+    "Nêu ý kiến của mình",
+    "Ra lệnh cho Tanaka",
+    "Hỏi lý do Tanaka không đến"
+   ],
+   "explanation": "普通形 ＋ と 言って いました dùng để kể lại lời người thứ ba đã nói."
+  },
+  {
+   "id": "33-08",
+   "unit": 33,
+   "grammar": "普通形 と 言って いました／伝えて いただけませんか（truyền đạt lời nói）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "部長に 会議に 少し 遅れる＿＿ 伝えて いただけませんか。",
+   "answer": "と",
+   "options": [
+    "と",
+    "を",
+    "に",
+    "が"
+   ],
+   "explanation": "Nội dung lời nhắn đi với と: 〜と 伝えて いただけませんか."
+  },
+  {
+   "id": "33-09",
+   "unit": 33,
+   "grammar": "普通形 と 言って いました／伝えて いただけませんか（truyền đạt lời nói）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ミラーさんは 来週 京都へ ＿＿と 言って いました。",
+   "answer": "行く",
+   "options": [
+    "行く",
+    "行き",
+    "行けて",
+    "行くの"
+   ],
+   "explanation": "Lời kể lại dùng thể thông thường trước と: 行く と 言って いました."
+  },
+  {
+   "id": "34-01",
+   "unit": 34,
+   "grammar": "V1る／V1た／Nの とおりに、V2（làm đúng như）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "説明書の とおりに 組み立てます。",
+   "answer": "Lắp ráp đúng như sách hướng dẫn",
+   "options": [
+    "Lắp ráp đúng như sách hướng dẫn",
+    "Lắp ráp xong rồi mới đọc hướng dẫn",
+    "Lắp ráp mà không xem hướng dẫn",
+    "Lắp ráp vì đã có sách hướng dẫn"
+   ],
+   "explanation": "N の とおりに／V た とおりに: làm đúng y như điều đã nghe, thấy, đọc."
+  },
+  {
+   "id": "34-02",
+   "unit": 34,
+   "grammar": "V1る／V1た／Nの とおりに、V2（làm đúng như）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "先生が ＿＿ とおりに、書いて ください。",
+   "answer": "言った",
+   "options": [
+    "言った",
+    "言って",
+    "言い",
+    "言わ"
+   ],
+   "explanation": "Làm theo điều đã nghe dùng V た ＋ とおりに: 言った とおりに."
+  },
+  {
+   "id": "34-03",
+   "unit": 34,
+   "grammar": "V1る／V1た／Nの とおりに、V2（làm đúng như）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "地図＿＿ とおりに 行きましょう。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "が",
+    "に"
+   ],
+   "explanation": "Danh từ nối với とおりに bằng の: 地図の とおりに."
+  },
+  {
+   "id": "34-04",
+   "unit": 34,
+   "grammar": "V1た／Nの あとで、V2（sau khi）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "授業の あとで、図書館へ 行きます。",
+   "answer": "Sau giờ học thì đi thư viện",
+   "options": [
+    "Sau giờ học thì đi thư viện",
+    "Trước giờ học thì đi thư viện",
+    "Trong giờ học thì đi thư viện",
+    "Vì có giờ học nên đi thư viện"
+   ],
+   "explanation": "N の あとで／V た あとで: sau khi; nhấn mạnh thứ tự thời gian."
+  },
+  {
+   "id": "34-05",
+   "unit": 34,
+   "grammar": "V1た／Nの あとで、V2（sau khi）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "仕事が ＿＿ あとで、飲みに 行きませんか。",
+   "answer": "終わった",
+   "options": [
+    "終わった",
+    "終わる",
+    "終わって",
+    "終わり"
+   ],
+   "explanation": "あとで đi sau thể た: 終わる → 終わった あとで."
+  },
+  {
+   "id": "34-06",
+   "unit": 34,
+   "grammar": "V1た／Nの あとで、V2（sau khi）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "食事＿＿ あとで、薬を 飲んで ください。",
+   "answer": "の",
+   "options": [
+    "の",
+    "に",
+    "を",
+    "が"
+   ],
+   "explanation": "Danh từ nối với あとで bằng の: 食事の あとで."
+  },
+  {
+   "id": "34-07",
+   "unit": 34,
+   "grammar": "V1て／V1ないで V2（cách thức đi kèm）",
+   "kind": "USAGE",
+   "prompt": "Vế 傘を 持って trong câu dưới diễn tả điều gì?",
+   "sentence": "傘を 持って 出かけます。",
+   "answer": "Trạng thái đi kèm khi làm hành động chính",
+   "options": [
+    "Trạng thái đi kèm khi làm hành động chính",
+    "Nguyên nhân của hành động",
+    "Mục đích của hành động",
+    "Điều kiện của hành động"
+   ],
+   "explanation": "V1て V2: V1 chỉ cách thức, trạng thái đi kèm khi làm V2 (mang ô rồi đi ra ngoài)."
+  },
+  {
+   "id": "34-08",
+   "unit": 34,
+   "grammar": "V1て／V1ないで V2（cách thức đi kèm）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ゆうべは 歯を ＿＿ 寝て しまいました。",
+   "answer": "磨かないで",
+   "options": [
+    "磨かないで",
+    "磨かないと",
+    "磨かなければ",
+    "磨かない"
+   ],
+   "explanation": "Làm V2 trong trạng thái không làm V1 dùng V1 ない で: 磨かないで 寝ました."
+  },
+  {
+   "id": "35-01",
+   "unit": 35,
+   "grammar": "条件形 〜ば（nếu）",
+   "kind": "USAGE",
+   "prompt": "〜ば trong câu dưới diễn tả điều gì?",
+   "sentence": "ボタンを 押せば、切符が 出ます。",
+   "answer": "Điều kiện để có kết quả ở vế sau",
+   "options": [
+    "Điều kiện để có kết quả ở vế sau",
+    "Hai hành động nối tiếp nhau",
+    "Mục đích của hành động",
+    "Kết quả trái với mong đợi"
+   ],
+   "explanation": "Thể điều kiện 〜ば nêu điều kiện cần để sự việc ở vế sau xảy ra."
+  },
+  {
+   "id": "35-02",
+   "unit": 35,
+   "grammar": "条件形 〜ば（nếu）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "時間が ＿＿、手伝います。",
+   "answer": "あれば",
+   "options": [
+    "あれば",
+    "あれれば",
+    "あるば",
+    "あったば"
+   ],
+   "explanation": "Nhóm I đổi đuôi う sang え rồi thêm ば: ある → あれば."
+  },
+  {
+   "id": "35-03",
+   "unit": 35,
+   "grammar": "条件形 〜ば（nếu）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "もう 少し 安＿＿、買います。",
+   "answer": "ければ",
+   "options": [
+    "ければ",
+    "いれば",
+    "くば",
+    "なれば"
+   ],
+   "explanation": "Tính từ い bỏ い thêm ければ: 安い → 安ければ."
+  },
+  {
+   "id": "35-04",
+   "unit": 35,
+   "grammar": "条件形 〜ば（nếu）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "急が＿＿、間に合いませんよ。",
+   "answer": "なければ",
+   "options": [
+    "なければ",
+    "ないば",
+    "ないれば",
+    "なくて"
+   ],
+   "explanation": "Thể phủ định ない đổi thành なければ: 急がない → 急がなければ."
+  },
+  {
+   "id": "35-05",
+   "unit": 35,
+   "grammar": "N なら、〜（nếu là…, về… thì）",
+   "kind": "USAGE",
+   "prompt": "なら trong câu trả lời dùng để làm gì?",
+   "sentence": "温泉に 行きたいんですが……。……温泉なら、箱根が いいですよ。",
+   "answer": "Tiếp nhận chủ đề người kia nêu rồi đưa lời khuyên",
+   "options": [
+    "Tiếp nhận chủ đề người kia nêu rồi đưa lời khuyên",
+    "So sánh hai địa điểm",
+    "Giả định trái với thực tế",
+    "Liệt kê nhiều lựa chọn"
+   ],
+   "explanation": "N なら、〜 tiếp nhận chủ đề người nghe vừa nói và đưa ra thông tin, lời khuyên về chủ đề đó."
+  },
+  {
+   "id": "35-06",
+   "unit": 35,
+   "grammar": "N なら、〜（nếu là…, về… thì）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "カメラを 買いたいんですが。……カメラ＿＿、駅の 前の 店が 安いですよ。",
+   "answer": "なら",
+   "options": [
+    "なら",
+    "だら",
+    "ば",
+    "たら"
+   ],
+   "explanation": "Danh từ ＋ なら để tiếp nhận chủ đề: カメラなら."
+  },
+  {
+   "id": "35-07",
+   "unit": 35,
+   "grammar": "疑問詞＋Vば いいですか（nên làm thế nào）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 機械は どう ＿＿ いいですか。",
+   "answer": "使えば",
+   "options": [
+    "使えば",
+    "使ば",
+    "使えれば",
+    "使うば"
+   ],
+   "explanation": "Từ để hỏi ＋ V ば いいですか: 使う → 使えば いいですか."
+  },
+  {
+   "id": "35-08",
+   "unit": 35,
+   "grammar": "疑問詞＋Vば いいですか（nên làm thế nào）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "パスポートを なくしたんですが、どう すれば いいですか。",
+   "answer": "Hỏi xin hướng dẫn nên làm thế nào",
+   "options": [
+    "Hỏi xin hướng dẫn nên làm thế nào",
+    "Báo rằng mình đã tìm thấy hộ chiếu",
+    "Từ chối giúp đỡ",
+    "Kể kinh nghiệm làm hộ chiếu"
+   ],
+   "explanation": "Từ để hỏi ＋ V ば いいですか hỏi lời khuyên về cách làm, nghĩa giống 〜たら いいですか."
+  },
+  {
+   "id": "36-01",
+   "unit": 36,
+   "grammar": "V1る／V1ない ように、V2（để, để không）",
+   "kind": "USAGE",
+   "prompt": "ように trong câu dưới diễn tả điều gì?",
+   "sentence": "早く 泳げるように、毎日 練習して います。",
+   "answer": "Mục tiêu, trạng thái mong muốn đạt được",
+   "options": [
+    "Mục tiêu, trạng thái mong muốn đạt được",
+    "So sánh \"giống như\"",
+    "Suy đoán \"hình như\"",
+    "Truyền đạt điều nghe được"
+   ],
+   "explanation": "V1（thể từ điển, thể khả năng, thể ない）ように、V2: V2 là hành động có chủ ý để đạt trạng thái V1."
+  },
+  {
+   "id": "36-02",
+   "unit": 36,
+   "grammar": "V1る／V1ない ように、V2（để, để không）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "忘れない＿＿、手帳に メモして おきます。",
+   "answer": "ように",
+   "options": [
+    "ように",
+    "ような",
+    "ようで",
+    "ように する"
+   ],
+   "explanation": "Mục đích \"để không…\" dùng V ない ＋ ように."
+  },
+  {
+   "id": "36-03",
+   "unit": 36,
+   "grammar": "V1る／V1ない ように、V2（để, để không）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "後ろの 人も よく 見える＿＿、字を 大きく 書きます。",
+   "answer": "ように",
+   "options": [
+    "ように",
+    "ような",
+    "ようで",
+    "ようと"
+   ],
+   "explanation": "V（không ý chí）＋ ように、V2: viết chữ to để người phía sau cũng nhìn thấy rõ."
+  },
+  {
+   "id": "36-04",
+   "unit": 36,
+   "grammar": "Vる ように なります（đã có thể, đã bắt đầu）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "最近 野菜を よく 食べるように なりました。",
+   "answer": "Sự thay đổi: đã bắt đầu có thói quen mới",
+   "options": [
+    "Sự thay đổi: đã bắt đầu có thói quen mới",
+    "Cố gắng duy trì một thói quen",
+    "Lời khuyên nên ăn rau",
+    "Dự định sẽ ăn rau"
+   ],
+   "explanation": "V る ように なりました: sự thay đổi về khả năng hoặc thói quen so với trước."
+  },
+  {
+   "id": "36-05",
+   "unit": 36,
+   "grammar": "Vる ように なります（đã có thể, đã bắt đầu）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "毎日 練習して、日本語が 話せる＿＿。",
+   "answer": "ように なりました",
+   "options": [
+    "ように なりました",
+    "ように しました",
+    "ようで なりました",
+    "ように ありました"
+   ],
+   "explanation": "Thể khả năng ＋ ように なりました: đã có thể làm được việc trước đây không làm được."
+  },
+  {
+   "id": "36-06",
+   "unit": 36,
+   "grammar": "Vる ように なります（đã có thể, đã bắt đầu）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "年を とって、小さい 字が ＿＿ なりました。",
+   "answer": "見えなく",
+   "options": [
+    "見えなく",
+    "見えない",
+    "見えなくて",
+    "見えなかった"
+   ],
+   "explanation": "Thay đổi theo chiều phủ định dùng V ない → なく なりました: 見えなく なりました."
+  },
+  {
+   "id": "36-07",
+   "unit": 36,
+   "grammar": "Vる／Vない ように します（cố gắng, chú ý để）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "毎日 野菜を 食べるように して います。",
+   "answer": "Cố gắng duy trì một thói quen",
+   "options": [
+    "Cố gắng duy trì một thói quen",
+    "Đã có thể ăn rau",
+    "Nghe nói phải ăn rau",
+    "Bị người khác bắt ăn rau"
+   ],
+   "explanation": "V る ように して います: cố gắng, chú ý để duy trì một thói quen."
+  },
+  {
+   "id": "36-08",
+   "unit": 36,
+   "grammar": "Vる／Vない ように します（cố gắng, chú ý để）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "あしたは 遅れない＿＿ して ください。",
+   "answer": "ように",
+   "options": [
+    "ように",
+    "ような",
+    "ようで",
+    "ようと"
+   ],
+   "explanation": "V ない ように して ください: yêu cầu người nghe chú ý để không làm điều gì."
+  },
+  {
+   "id": "37-01",
+   "unit": 37,
+   "grammar": "受身形・受身文（câu bị động: N1 は N2 に V られます）",
+   "kind": "USAGE",
+   "prompt": "Trong câu dưới, わたし là ai?",
+   "sentence": "わたしは 部長に 呼ばれました。",
+   "answer": "Người chịu tác động của hành động gọi",
+   "options": [
+    "Người chịu tác động của hành động gọi",
+    "Người gọi trưởng phòng",
+    "Người được nhờ đi gọi",
+    "Người cho phép trưởng phòng gọi"
+   ],
+   "explanation": "Câu bị động N1 は N2 に V られます: N1 chịu tác động, N2 (đi với に) là người thực hiện hành động."
+  },
+  {
+   "id": "37-02",
+   "unit": 37,
+   "grammar": "受身形・受身文（câu bị động: N1 は N2 に V られます）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "わたしは 先生に ＿＿。",
+   "answer": "褒められました",
+   "options": [
+    "褒められました",
+    "褒めさせました",
+    "褒めれました",
+    "褒めるられました"
+   ],
+   "explanation": "Bị động nhóm II thêm られる: 褒める → 褒められる."
+  },
+  {
+   "id": "37-03",
+   "unit": 37,
+   "grammar": "受身形・受身文（câu bị động: N1 は N2 に V られます）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "駅で 知らない 人に 道を ＿＿。",
+   "answer": "聞かれました",
+   "options": [
+    "聞かれました",
+    "聞かせました",
+    "聞けました",
+    "聞きられました"
+   ],
+   "explanation": "Bị động nhóm I đổi đuôi う sang あ rồi thêm れる: 聞く → 聞かれる."
+  },
+  {
+   "id": "37-04",
+   "unit": 37,
+   "grammar": "N1 は N2 に N3 を V受身（bị ảnh hưởng đến đồ vật, bộ phận của mình）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "わたしは 泥棒に 財布を 盗まれました。",
+   "answer": "Người nói bị thiệt hại vì người khác tác động lên đồ của mình",
+   "options": [
+    "Người nói bị thiệt hại vì người khác tác động lên đồ của mình",
+    "Người nói đã lấy cắp ví",
+    "Người nói cho tên trộm mượn ví",
+    "Người nói nhờ tên trộm giữ ví"
+   ],
+   "explanation": "N1 は N2 に N3 を V受身: N1 bị làm phiền, chịu thiệt khi N2 tác động lên đồ vật, bộ phận của N1."
+  },
+  {
+   "id": "37-05",
+   "unit": 37,
+   "grammar": "N1 は N2 に N3 を V受身（bị ảnh hưởng đến đồ vật, bộ phận của mình）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "電車の 中で 足を ＿＿。",
+   "answer": "踏まれました",
+   "options": [
+    "踏まれました",
+    "踏ませました",
+    "踏めました",
+    "踏みられました"
+   ],
+   "explanation": "Bị người khác giẫm vào chân mình: 踏む → 踏まれる → 足を 踏まれました."
+  },
+  {
+   "id": "37-06",
+   "unit": 37,
+   "grammar": "N が／は V受身（bị động khách quan）",
+   "kind": "USAGE",
+   "prompt": "Vì sao câu dưới dùng thể bị động?",
+   "sentence": "オリンピックは 4年に 1回 開かれます。",
+   "answer": "Người thực hiện không quan trọng, chỉ nói khách quan về sự việc",
+   "options": [
+    "Người thực hiện không quan trọng, chỉ nói khách quan về sự việc",
+    "Người nói bị làm phiền",
+    "Người nói tự tổ chức",
+    "Để ra lệnh tổ chức"
+   ],
+   "explanation": "N が／は V受身 dùng khi không cần nêu người làm, nói khách quan về sự kiện, công trình, sản phẩm."
+  },
+  {
+   "id": "37-07",
+   "unit": 37,
+   "grammar": "N が／は V受身（bị động khách quan）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 寺は 600年前に ＿＿。",
+   "answer": "建てられました",
+   "options": [
+    "建てられました",
+    "建たれました",
+    "建てれました",
+    "建ちられました"
+   ],
+   "explanation": "Bị động của 建てる (nhóm II) là 建てられる."
+  },
+  {
+   "id": "37-08",
+   "unit": 37,
+   "grammar": "N から／N で 造られます（làm từ…）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "ワインは ぶどう＿＿ 造られます。",
+   "answer": "から",
+   "options": [
+    "から",
+    "で",
+    "に",
+    "を"
+   ],
+   "explanation": "Nguyên liệu đã biến đổi, không còn nhìn thấy trong sản phẩm dùng から: ぶどうから 造られます."
+  },
+  {
+   "id": "37-09",
+   "unit": 37,
+   "grammar": "N から／N で 造られます（làm từ…）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "この 机は 木＿＿ 造られて います。",
+   "answer": "で",
+   "options": [
+    "で",
+    "から",
+    "に",
+    "を"
+   ],
+   "explanation": "Vật liệu vẫn nhìn thấy được trong sản phẩm dùng で: 木で 造られて います."
+  },
+  {
+   "id": "38-01",
+   "unit": 38,
+   "grammar": "V普通形のは Aです（việc… thì…）",
+   "kind": "USAGE",
+   "prompt": "の trong câu dưới có tác dụng gì?",
+   "sentence": "朝 早く 起きるのは 大変です。",
+   "answer": "Biến cụm động từ thành danh từ để làm chủ đề",
+   "options": [
+    "Biến cụm động từ thành danh từ để làm chủ đề",
+    "Chỉ lý do",
+    "Chỉ sự sở hữu",
+    "Biến câu thành câu hỏi"
+   ],
+   "explanation": "V（thể thông thường）＋ のは ＋ tính từ: danh từ hóa một hành động rồi đánh giá nó."
+  },
+  {
+   "id": "38-02",
+   "unit": 38,
+   "grammar": "V普通形のは Aです（việc… thì…）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "一人で 旅行する＿＿ 楽しいです。",
+   "answer": "のは",
+   "options": [
+    "のは",
+    "のを",
+    "のに",
+    "のと"
+   ],
+   "explanation": "Hành động được đánh giá bằng tính từ đi với のは: 旅行するのは 楽しいです."
+  },
+  {
+   "id": "38-03",
+   "unit": 38,
+   "grammar": "V普通形のが Aです（thích / giỏi / nhanh… việc）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "わたしは 絵を ＿＿のが 好きです。",
+   "answer": "かく",
+   "options": [
+    "かく",
+    "かき",
+    "かいて",
+    "かけ"
+   ],
+   "explanation": "の đi sau thể thông thường của động từ: かく ＋ のが 好きです."
+  },
+  {
+   "id": "38-04",
+   "unit": 38,
+   "grammar": "V普通形のが Aです（thích / giỏi / nhanh… việc）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "妹は 歌を 歌う＿＿ 上手です。",
+   "answer": "のが",
+   "options": [
+    "のが",
+    "のを",
+    "のに",
+    "ので"
+   ],
+   "explanation": "Với 好き／嫌い／上手／下手／速い…, hành động danh từ hóa đi với のが."
+  },
+  {
+   "id": "38-05",
+   "unit": 38,
+   "grammar": "V普通形のを 忘れました／知っていますか",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "田中さんが 結婚したのを 知って いますか。",
+   "answer": "Hỏi người nghe có biết một sự việc hay không",
+   "options": [
+    "Hỏi người nghe có biết một sự việc hay không",
+    "Hỏi lý do Tanaka kết hôn",
+    "Báo tin mình sắp kết hôn",
+    "Mời người nghe dự đám cưới"
+   ],
+   "explanation": "V（thể thông thường）＋ のを 知って いますか: danh từ hóa sự việc làm tân ngữ của 知る."
+  },
+  {
+   "id": "38-06",
+   "unit": 38,
+   "grammar": "V普通形のを 忘れました／知っていますか",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "すみません、宿題を 持って 来る＿＿ 忘れました。",
+   "answer": "のを",
+   "options": [
+    "のを",
+    "のが",
+    "のに",
+    "ので"
+   ],
+   "explanation": "Quên làm việc gì: V（thể từ điển）＋ のを 忘れました."
+  },
+  {
+   "id": "38-07",
+   "unit": 38,
+   "grammar": "V普通形のは N です（nhấn mạnh）",
+   "kind": "USAGE",
+   "prompt": "Cấu trúc 〜のは N です trong câu dưới dùng để làm gì?",
+   "sentence": "わたしが 生まれたのは 北海道です。",
+   "answer": "Nhấn mạnh thông tin đặt ở cuối câu",
+   "options": [
+    "Nhấn mạnh thông tin đặt ở cuối câu",
+    "So sánh hai địa điểm",
+    "Hỏi nơi sinh của người nghe",
+    "Liệt kê nhiều địa điểm"
+   ],
+   "explanation": "〜のは N です đưa thông tin người nói muốn nhấn mạnh (thời gian, nơi chốn, người…) xuống cuối câu."
+  },
+  {
+   "id": "38-08",
+   "unit": 38,
+   "grammar": "V普通形のは N です（nhấn mạnh）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "田中さんが 結婚した＿＿ 去年の 3月です。",
+   "answer": "のは",
+   "options": [
+    "のは",
+    "のが",
+    "のを",
+    "のに"
+   ],
+   "explanation": "Nhấn mạnh thời điểm: 〜のは 去年の 3月です."
+  },
+  {
+   "id": "39-01",
+   "unit": 39,
+   "grammar": "〜て／〜なくて／Aくて／Aなで、〜（vì…, nên…）",
+   "kind": "USAGE",
+   "prompt": "Vế 話が 複雑で trong câu dưới đóng vai trò gì?",
+   "sentence": "話が 複雑で、よく わかりませんでした。",
+   "answer": "Nguyên nhân dẫn đến kết quả ở vế sau",
+   "options": [
+    "Nguyên nhân dẫn đến kết quả ở vế sau",
+    "Điều kiện giả định",
+    "Mục đích của hành động",
+    "Thời điểm xảy ra"
+   ],
+   "explanation": "て／なくて／くて／で chỉ nguyên nhân; vế sau là cảm xúc, khả năng hoặc trạng thái (không phải ý chí)."
+  },
+  {
+   "id": "39-02",
+   "unit": 39,
+   "grammar": "〜て／〜なくて／Aくて／Aなで、〜（vì…, nên…）",
+   "kind": "FORM",
+   "prompt": "Chọn vế sau phù hợp.",
+   "sentence": "ニュースを 聞いて、＿＿。",
+   "answer": "びっくりしました",
+   "options": [
+    "びっくりしました",
+    "びっくりしましょう",
+    "びっくりして ください",
+    "びっくりしたいです"
+   ],
+   "explanation": "Với て chỉ nguyên nhân, vế sau phải là cảm xúc, trạng thái, không dùng ý chí, mời rủ, yêu cầu."
+  },
+  {
+   "id": "39-03",
+   "unit": 39,
+   "grammar": "〜て／〜なくて／Aくて／Aなで、〜（vì…, nên…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 問題は ＿＿、わかりません。",
+   "answer": "難しくて",
+   "options": [
+    "難しくて",
+    "難しいで",
+    "難しくで",
+    "難しいくて"
+   ],
+   "explanation": "Tính từ い chỉ nguyên nhân: bỏ い thêm くて: 難しい → 難しくて."
+  },
+  {
+   "id": "39-04",
+   "unit": 39,
+   "grammar": "〜て／〜なくて／Aくて／Aなで、〜（vì…, nên…）",
+   "kind": "FORM",
+   "prompt": "Chọn vế sau phù hợp.",
+   "sentence": "家族に 会えなくて、＿＿。",
+   "answer": "寂しいです",
+   "options": [
+    "寂しいです",
+    "会いに 行きましょう",
+    "電話して ください",
+    "もう 帰りなさい"
+   ],
+   "explanation": "V なくて chỉ nguyên nhân, vế sau là cảm xúc như 寂しい; không dùng mời rủ hay mệnh lệnh."
+  },
+  {
+   "id": "39-05",
+   "unit": 39,
+   "grammar": "N で（vì N: sự cố, hiện tượng）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "地震＿＿ ビルが 倒れました。",
+   "answer": "で",
+   "options": [
+    "で",
+    "に",
+    "を",
+    "が"
+   ],
+   "explanation": "Danh từ chỉ sự kiện, thiên tai, tai nạn ＋ で chỉ nguyên nhân: 地震で."
+  },
+  {
+   "id": "39-06",
+   "unit": 39,
+   "grammar": "普通形 ので、〜（vì…, nên…）",
+   "kind": "USAGE",
+   "prompt": "Bạn muốn xin về sớm một cách nhẹ nhàng, lịch sự. Câu nào phù hợp nhất?",
+   "sentence": "",
+   "answer": "頭が 痛いので、早く 帰っても いいですか。",
+   "options": [
+    "頭が 痛いので、早く 帰っても いいですか。",
+    "頭が 痛くて、早く 帰っても いいですか。",
+    "頭が 痛いのに、早く 帰っても いいですか。",
+    "頭が 痛いし、早く 帰れ。"
+   ],
+   "explanation": "ので nêu lý do khách quan, nhẹ nhàng và dùng được trước lời xin phép; て chỉ nguyên nhân thì không đi với lời xin phép."
+  },
+  {
+   "id": "39-07",
+   "unit": 39,
+   "grammar": "普通形 ので、〜（vì…, nên…）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "用事が ある＿＿、お先に 失礼します。",
+   "answer": "ので",
+   "options": [
+    "ので",
+    "のに",
+    "なので",
+    "のを"
+   ],
+   "explanation": "Động từ thể thông thường ＋ ので: ある ので."
+  },
+  {
+   "id": "39-08",
+   "unit": 39,
+   "grammar": "普通形 ので、〜（vì…, nên…）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 辺は 静か＿＿、住みやすいです。",
+   "answer": "なので",
+   "options": [
+    "なので",
+    "ので",
+    "だので",
+    "でので"
+   ],
+   "explanation": "Tính từ な và danh từ dùng な ＋ ので: 静かなので."
+  },
+  {
+   "id": "40-01",
+   "unit": 40,
+   "grammar": "疑問詞＋普通形か、〜（câu hỏi có từ để hỏi lồng trong câu）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "会議が 何時に 始まる＿＿、わかりません。",
+   "answer": "か",
+   "options": [
+    "か",
+    "か どうか",
+    "と",
+    "が"
+   ],
+   "explanation": "Câu hỏi có từ để hỏi (何時) lồng vào câu: 疑問詞 ＋ 普通形 ＋ か. Không dùng か どうか khi đã có từ để hỏi."
+  },
+  {
+   "id": "40-02",
+   "unit": 40,
+   "grammar": "疑問詞＋普通形か、〜（câu hỏi có từ để hỏi lồng trong câu）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 言葉は どういう 意味＿＿、辞書で 調べて ください。",
+   "answer": "か",
+   "options": [
+    "か",
+    "だか",
+    "なか",
+    "のか"
+   ],
+   "explanation": "Danh từ bỏ だ trước か: どういう 意味か."
+  },
+  {
+   "id": "40-03",
+   "unit": 40,
+   "grammar": "普通形か どうか、〜（có… hay không）",
+   "kind": "USAGE",
+   "prompt": "Câu nào lồng một câu hỏi \"có… hay không\" vào trong câu?",
+   "sentence": "",
+   "answer": "パーティーに 行くか どうか、まだ 決めて いません。",
+   "options": [
+    "パーティーに 行くか どうか、まだ 決めて いません。",
+    "パーティーに いつ 行くか、まだ 決めて いません。",
+    "パーティーに 行くかも しれません。",
+    "パーティーに 行こうと 思って います。"
+   ],
+   "explanation": "普通形 ＋ か どうか dùng cho câu hỏi có/không (không có từ để hỏi) lồng vào câu."
+  },
+  {
+   "id": "40-04",
+   "unit": 40,
+   "grammar": "普通形か どうか、〜（có… hay không）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "忘れ物が ない＿＿、もう 一度 確かめて ください。",
+   "answer": "か どうか",
+   "options": [
+    "か どうか",
+    "か",
+    "か なにか",
+    "どうか"
+   ],
+   "explanation": "Không có từ để hỏi nên dùng か どうか: 忘れ物が ないか どうか."
+  },
+  {
+   "id": "40-05",
+   "unit": 40,
+   "grammar": "Vて みます（thử làm）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "一度 着物を 着て みたいです。",
+   "answer": "Muốn thử làm một việc",
+   "options": [
+    "Muốn thử làm một việc",
+    "Đã từng làm việc đó",
+    "Bắt buộc phải làm",
+    "Làm sẵn để chuẩn bị"
+   ],
+   "explanation": "V て みます: làm thử để biết thế nào; V て みたいです: muốn thử làm."
+  },
+  {
+   "id": "40-06",
+   "unit": 40,
+   "grammar": "Vて みます（thử làm）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 靴を ＿＿ みても いいですか。",
+   "answer": "履いて",
+   "options": [
+    "履いて",
+    "履き",
+    "履く",
+    "履いた"
+   ],
+   "explanation": "みます đi sau thể て: 履く → 履いて みます."
+  },
+  {
+   "id": "41-01",
+   "unit": 41,
+   "grammar": "いただきます／くださいます／やります（cho – nhận đồ vật）",
+   "kind": "USAGE",
+   "prompt": "Khi thầy giáo cho mình một cuốn sách, câu nào dùng đúng?",
+   "sentence": "",
+   "answer": "先生が わたしに 本を くださいました。",
+   "options": [
+    "先生が わたしに 本を くださいました。",
+    "先生が わたしに 本を いただきました。",
+    "先生が わたしに 本を やりました。",
+    "わたしが 先生に 本を くださいました。"
+   ],
+   "explanation": "くださいます là dạng kính trọng của くれます: người trên (chủ ngữ, đi với が) cho mình."
+  },
+  {
+   "id": "41-02",
+   "unit": 41,
+   "grammar": "いただきます／くださいます／やります（cho – nhận đồ vật）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ đúng điền vào chỗ trống.",
+   "sentence": "わたしは 先生に 辞書を ＿＿。",
+   "answer": "いただきました",
+   "options": [
+    "いただきました",
+    "くださいました",
+    "やりました",
+    "くれました"
+   ],
+   "explanation": "Mình nhận từ người trên: わたしは（目上）に N を いただきます (khiêm nhường của もらいます)."
+  },
+  {
+   "id": "41-03",
+   "unit": 41,
+   "grammar": "いただきます／くださいます／やります（cho – nhận đồ vật）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ đúng điền vào chỗ trống.",
+   "sentence": "社長が わたしに お土産を ＿＿。",
+   "answer": "くださいました",
+   "options": [
+    "くださいました",
+    "いただきました",
+    "やりました",
+    "もらいました"
+   ],
+   "explanation": "Người trên là chủ ngữ cho mình: （目上）が わたしに N を くださいます."
+  },
+  {
+   "id": "41-04",
+   "unit": 41,
+   "grammar": "いただきます／くださいます／やります（cho – nhận đồ vật）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ đúng điền vào chỗ trống.",
+   "sentence": "毎朝 花に 水を ＿＿。",
+   "answer": "やります",
+   "options": [
+    "やります",
+    "くださいます",
+    "いただきます",
+    "くれます"
+   ],
+   "explanation": "Cho người dưới, con vật, cây cối dùng やります."
+  },
+  {
+   "id": "41-05",
+   "unit": 41,
+   "grammar": "Vて いただきます／くださいます／やります（nhận / được làm cho）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới thể hiện điều gì?",
+   "sentence": "先生が 作文を 直して くださいました。",
+   "answer": "Lòng biết ơn vì được người trên làm cho",
+   "options": [
+    "Lòng biết ơn vì được người trên làm cho",
+    "Lời nhờ thầy sửa bài",
+    "Lời xin phép sửa bài",
+    "Việc mình tự sửa bài"
+   ],
+   "explanation": "V て くださいます: người trên làm cho mình một việc có lợi; thể hiện sự biết ơn."
+  },
+  {
+   "id": "41-06",
+   "unit": 41,
+   "grammar": "Vて いただきます／くださいます／やります（nhận / được làm cho）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ đúng điền vào chỗ trống.",
+   "sentence": "部長に 駅まで 車で 送って ＿＿。",
+   "answer": "いただきました",
+   "options": [
+    "いただきました",
+    "くださいました",
+    "やりました",
+    "あげました"
+   ],
+   "explanation": "Chủ ngữ là mình (ẩn), người trên đi với に: 部長に 送って いただきました."
+  },
+  {
+   "id": "41-07",
+   "unit": 41,
+   "grammar": "Vて いただきます／くださいます／やります（nhận / được làm cho）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ đúng điền vào chỗ trống.",
+   "sentence": "寝る 前に 息子に 本を 読んで ＿＿。",
+   "answer": "やりました",
+   "options": [
+    "やりました",
+    "いただきました",
+    "くださいました",
+    "くれました"
+   ],
+   "explanation": "Làm cho người dưới (con mình) dùng V て やります."
+  },
+  {
+   "id": "41-08",
+   "unit": 41,
+   "grammar": "Vて くださいませんか（nhờ vả lịch sự）",
+   "kind": "USAGE",
+   "prompt": "Khi nhờ người trên, cách nói nào lịch sự nhất?",
+   "sentence": "",
+   "answer": "すみませんが、もう 一度 説明して くださいませんか。",
+   "options": [
+    "すみませんが、もう 一度 説明して くださいませんか。",
+    "もう 一度 説明して。",
+    "もう 一度 説明して くれ。",
+    "もう 一度 説明しろ。"
+   ],
+   "explanation": "V て くださいませんか lịch sự hơn Vて ください và Vて くれませんか."
+  },
+  {
+   "id": "41-09",
+   "unit": 41,
+   "grammar": "Vて くださいませんか（nhờ vả lịch sự）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "すみませんが、この 荷物を ＿＿ くださいませんか。",
+   "answer": "預かって",
+   "options": [
+    "預かって",
+    "預かり",
+    "預かる",
+    "預かった"
+   ],
+   "explanation": "くださいませんか đi sau thể て: 預かる → 預かって."
+  },
+  {
+   "id": "42-01",
+   "unit": 42,
+   "grammar": "Vる／Nの ために、〜（để, vì）",
+   "kind": "USAGE",
+   "prompt": "Câu nào dùng ために đúng? (Động từ trước ために phải là hành động có chủ ý.)",
+   "sentence": "",
+   "answer": "日本の 大学に 入る ために、勉強して います。",
+   "options": [
+    "日本の 大学に 入る ために、勉強して います。",
+    "日本語が 上手に なる ために、毎日 話します。",
+    "よく 見える ために、前に 座ります。",
+    "忘れない ために、メモします。"
+   ],
+   "explanation": "V る ために dùng với động từ ý chí (入る, 買う…). Với động từ không ý chí (なる, 見える, 忘れない) dùng ように."
+  },
+  {
+   "id": "42-02",
+   "unit": 42,
+   "grammar": "Vる／Nの ために、〜（để, vì）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "家を 買う＿＿、貯金して います。",
+   "answer": "ために",
+   "options": [
+    "ために",
+    "ように",
+    "のに",
+    "ためで"
+   ],
+   "explanation": "Mục đích với động từ ý chí 買う dùng ために."
+  },
+  {
+   "id": "42-03",
+   "unit": 42,
+   "grammar": "Vる／Nの ために、〜（để, vì）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "健康＿＿ ために、毎朝 走って います。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "に",
+    "が"
+   ],
+   "explanation": "Danh từ nối với ために bằng の: 健康の ために."
+  },
+  {
+   "id": "42-04",
+   "unit": 42,
+   "grammar": "Vる の／N に 使います・いいです・便利です（dùng để, tốt cho）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "この 袋は 雨の 日に 傘を 入れるのに 使います。",
+   "answer": "Công dụng của đồ vật",
+   "options": [
+    "Công dụng của đồ vật",
+    "Lý do mua đồ vật",
+    "Thời gian dùng đồ vật",
+    "Người đã làm ra đồ vật"
+   ],
+   "explanation": "V る のに 使います／便利です／いいです: nói về công dụng, sự tiện lợi của đồ vật cho một việc."
+  },
+  {
+   "id": "42-05",
+   "unit": 42,
+   "grammar": "Vる の／N に 使います・いいです・便利です（dùng để, tốt cho）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この はさみは 花を 切る＿＿ 使います。",
+   "answer": "のに",
+   "options": [
+    "のに",
+    "ので",
+    "のを",
+    "のは"
+   ],
+   "explanation": "Công dụng: V る ＋ のに 使います."
+  },
+  {
+   "id": "42-06",
+   "unit": 42,
+   "grammar": "Vる の／N に 使います・いいです・便利です（dùng để, tốt cho）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 辞書は 漢字を 調べる＿＿ 便利です。",
+   "answer": "のに",
+   "options": [
+    "のに",
+    "ので",
+    "ように",
+    "のが"
+   ],
+   "explanation": "V る ＋ のに 便利です: tiện cho việc gì."
+  },
+  {
+   "id": "42-07",
+   "unit": 42,
+   "grammar": "Vる の に ＋ thời gian／tiền が かかります",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "東京から 大阪まで 行くのに 2時間半 かかります。",
+   "answer": "Thời gian cần để làm một việc",
+   "options": [
+    "Thời gian cần để làm một việc",
+    "Lý do đi Osaka",
+    "Mục đích của chuyến đi",
+    "Kinh nghiệm đã đi Osaka"
+   ],
+   "explanation": "V る ＋ のに ＋ thời gian／tiền が かかります: cần bao nhiêu thời gian, chi phí để làm việc đó."
+  },
+  {
+   "id": "42-08",
+   "unit": 42,
+   "grammar": "Vる の に ＋ thời gian／tiền が かかります",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "この 家を 建てる＿＿ 2年 かかりました。",
+   "answer": "のに",
+   "options": [
+    "のに",
+    "ので",
+    "のを",
+    "のが"
+   ],
+   "explanation": "Thời gian cần để làm việc gì: V る ＋ のに かかります."
+  },
+  {
+   "id": "43-01",
+   "unit": 43,
+   "grammar": "Vます そうです（sắp, có vẻ sắp）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "あっ、荷物が 落ちそうです。",
+   "answer": "Dự đoán việc sắp xảy ra dựa vào cái nhìn thấy",
+   "options": [
+    "Dự đoán việc sắp xảy ra dựa vào cái nhìn thấy",
+    "Nghe nói hành lý bị rơi",
+    "Hành lý đã rơi rồi",
+    "Người nói muốn làm rơi hành lý"
+   ],
+   "explanation": "V ます（bỏ ます）＋ そうです: nhìn tình hình mà dự đoán một việc sắp xảy ra."
+  },
+  {
+   "id": "43-02",
+   "unit": 43,
+   "grammar": "Vます そうです（sắp, có vẻ sắp）",
+   "kind": "FORM",
+   "prompt": "Nhìn bầu trời, bạn muốn nói \"trông như sắp mưa đến nơi\". Chọn dạng đúng.",
+   "sentence": "今にも 雨が ＿＿ そうです。",
+   "answer": "降り",
+   "options": [
+    "降り",
+    "降る",
+    "降った",
+    "降って"
+   ],
+   "explanation": "Dự đoán qua quan sát dùng thể ます bỏ ます: 降ります → 降りそうです. 降るそうです lại là \"nghe nói\"."
+  },
+  {
+   "id": "43-03",
+   "unit": 43,
+   "grammar": "Vます そうです（sắp, có vẻ sắp）",
+   "kind": "FORM",
+   "prompt": "Thấy cúc áo của bạn sắp rơi, bạn nhắc. Chọn dạng đúng.",
+   "sentence": "シャツの ボタンが ＿＿ そうですよ。",
+   "answer": "取れ",
+   "options": [
+    "取れ",
+    "取る",
+    "取れる",
+    "取って"
+   ],
+   "explanation": "取れます → 取れそうです: trông như sắp tuột ra."
+  },
+  {
+   "id": "43-04",
+   "unit": 43,
+   "grammar": "Aい／Aな そうです（trông có vẻ）",
+   "kind": "USAGE",
+   "prompt": "Câu nào nói về cảm nhận khi nhìn thấy (trông có vẻ vui)?",
+   "sentence": "",
+   "answer": "みんな 楽しそうですね。",
+   "options": [
+    "みんな 楽しそうですね。",
+    "みんな 楽しいそうですね。",
+    "みんな 楽しいでしょう。",
+    "みんな 楽しいかも しれません。"
+   ],
+   "explanation": "Aい bỏ い ＋ そうです: trông có vẻ. 楽しいそうです lại là \"nghe nói vui\"."
+  },
+  {
+   "id": "43-05",
+   "unit": 43,
+   "grammar": "Aい／Aな そうです（trông có vẻ）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この ケーキは ＿＿ そうですね。",
+   "answer": "おいし",
+   "options": [
+    "おいし",
+    "おいしい",
+    "おいしく",
+    "おいしいな"
+   ],
+   "explanation": "Tính từ い bỏ い rồi thêm そうです: おいしい → おいしそうです."
+  },
+  {
+   "id": "43-06",
+   "unit": 43,
+   "grammar": "Aい／Aな そうです（trông có vẻ）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "あの 人は とても 親切＿＿ ですね。",
+   "answer": "そう",
+   "options": [
+    "そう",
+    "なそう",
+    "にそう",
+    "のそう"
+   ],
+   "explanation": "Tính từ な bỏ な rồi thêm そうです: 親切そうです."
+  },
+  {
+   "id": "43-07",
+   "unit": 43,
+   "grammar": "Aい／Aな そうです（trông có vẻ）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 辞書は ＿＿ そうですね。",
+   "answer": "よさ",
+   "options": [
+    "よさ",
+    "い",
+    "よ",
+    "いさ"
+   ],
+   "explanation": "Trường hợp đặc biệt: いい → よさそうです, ない → なさそうです."
+  },
+  {
+   "id": "43-08",
+   "unit": 43,
+   "grammar": "Vて 来ます（đi làm gì rồi quay lại）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "ちょっと たばこを 買って 来ます。",
+   "answer": "Đi làm một việc rồi quay lại",
+   "options": [
+    "Đi làm một việc rồi quay lại",
+    "Mua thuốc lá để mang tặng",
+    "Đã mua thuốc lá về rồi",
+    "Nhờ người khác mua giúp"
+   ],
+   "explanation": "V て 来ます: đi đến một nơi, làm một việc rồi quay về chỗ cũ."
+  },
+  {
+   "id": "43-09",
+   "unit": 43,
+   "grammar": "Vて 来ます（đi làm gì rồi quay lại）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ちょっと 郵便局で 切手を ＿＿ 来ます。",
+   "answer": "買って",
+   "options": [
+    "買って",
+    "買い",
+    "買う",
+    "買った"
+   ],
+   "explanation": "来ます đi sau thể て: 買う → 買って 来ます."
+  },
+  {
+   "id": "44-01",
+   "unit": 44,
+   "grammar": "〜すぎます（quá…）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "この 服は 大きすぎます。",
+   "answer": "Mức độ vượt quá, thường mang ý không tốt",
+   "options": [
+    "Mức độ vượt quá, thường mang ý không tốt",
+    "Rất vừa ý người nói",
+    "Hơi nhỏ một chút",
+    "So sánh với áo khác"
+   ],
+   "explanation": "V ます／Aい（bỏ い）／Aな ＋ すぎます: quá mức, thường hàm ý không tốt."
+  },
+  {
+   "id": "44-02",
+   "unit": 44,
+   "grammar": "〜すぎます（quá…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "ゆうべ お酒を ＿＿ すぎました。",
+   "answer": "飲み",
+   "options": [
+    "飲み",
+    "飲む",
+    "飲んで",
+    "飲ま"
+   ],
+   "explanation": "Động từ thể ます bỏ ます ＋ すぎます: 飲みすぎました."
+  },
+  {
+   "id": "44-03",
+   "unit": 44,
+   "grammar": "〜すぎます（quá…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 問題は ＿＿ すぎます。",
+   "answer": "難し",
+   "options": [
+    "難し",
+    "難しい",
+    "難しく",
+    "難しくて"
+   ],
+   "explanation": "Tính từ い bỏ い ＋ すぎます: 難しすぎます."
+  },
+  {
+   "id": "44-04",
+   "unit": 44,
+   "grammar": "〜すぎます（quá…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この 部屋は ＿＿ すぎて、寂しいです。",
+   "answer": "静か",
+   "options": [
+    "静か",
+    "静かな",
+    "静かに",
+    "静かで"
+   ],
+   "explanation": "Tính từ な bỏ な ＋ すぎます: 静かすぎます."
+  },
+  {
+   "id": "44-05",
+   "unit": 44,
+   "grammar": "Vます やすいです／にくいです（dễ / khó làm）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "この 薬は 飲みにくいです。",
+   "answer": "Thuốc này khó uống",
+   "options": [
+    "Thuốc này khó uống",
+    "Thuốc này dễ uống",
+    "Thuốc này không được uống",
+    "Thuốc này phải uống ngay"
+   ],
+   "explanation": "V ます ＋ にくいです: khó làm; V ます ＋ やすいです: dễ làm."
+  },
+  {
+   "id": "44-06",
+   "unit": 44,
+   "grammar": "Vます やすいです／にくいです（dễ / khó làm）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "この ペンは 軽くて、＿＿ やすいです。",
+   "answer": "書き",
+   "options": [
+    "書き",
+    "書く",
+    "書いて",
+    "書け"
+   ],
+   "explanation": "やすい đi sau thể ます bỏ ます: 書きやすいです."
+  },
+  {
+   "id": "44-07",
+   "unit": 44,
+   "grammar": "Aく／Aなに／Nに します（làm cho…）",
+   "kind": "USAGE",
+   "prompt": "Câu nào cho biết người nói chủ động làm cho sự vật thay đổi?",
+   "sentence": "",
+   "answer": "カーテンを 開けて、部屋を 明るく しました。",
+   "options": [
+    "カーテンを 開けて、部屋を 明るく しました。",
+    "春に なって、部屋が 明るく なりました。",
+    "この 部屋は 明るいです。",
+    "この 部屋は 明るそうです。"
+   ],
+   "explanation": "Aく／Aなに／Nに します: chủ thể tác động để làm thay đổi đối tượng; 〜く なります chỉ sự thay đổi tự nhiên."
+  },
+  {
+   "id": "44-08",
+   "unit": 44,
+   "grammar": "Aく／Aなに／Nに します（làm cho…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "テレビの 音を 少し ＿＿ して ください。",
+   "answer": "小さく",
+   "options": [
+    "小さく",
+    "小さい",
+    "小さに",
+    "小さくて"
+   ],
+   "explanation": "Tính từ い đổi い thành く rồi thêm します: 小さく します."
+  },
+  {
+   "id": "44-09",
+   "unit": 44,
+   "grammar": "Aく／Aなに／Nに します（làm cho…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "お客さんが 来るので、部屋を ＿＿ して ください。",
+   "answer": "きれいに",
+   "options": [
+    "きれいに",
+    "きれく",
+    "きれいく",
+    "きれいな"
+   ],
+   "explanation": "Tính từ な thêm に rồi します: きれいに します."
+  },
+  {
+   "id": "44-10",
+   "unit": 44,
+   "grammar": "N に します（chọn, quyết định）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới có nghĩa là gì?",
+   "sentence": "わたしは コーヒーに します。",
+   "answer": "Tôi chọn cà phê",
+   "options": [
+    "Tôi chọn cà phê",
+    "Tôi pha cà phê",
+    "Tôi biến thành cà phê",
+    "Tôi không thích cà phê"
+   ],
+   "explanation": "N に します: chọn, quyết định (thường khi gọi món, chọn ngày giờ)."
+  },
+  {
+   "id": "44-11",
+   "unit": 44,
+   "grammar": "N に します（chọn, quyết định）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "次の 会議は 金曜日＿＿ しましょう。",
+   "answer": "に",
+   "options": [
+    "に",
+    "を",
+    "が",
+    "で"
+   ],
+   "explanation": "Quyết định chọn N: N に します."
+  },
+  {
+   "id": "45-01",
+   "unit": 45,
+   "grammar": "〜場合は、〜（trường hợp…, khi…）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "カードを なくした 場合は、すぐ 銀行に 連絡して ください。",
+   "answer": "Giả định một tình huống có thể xảy ra và nêu cách xử lý",
+   "options": [
+    "Giả định một tình huống có thể xảy ra và nêu cách xử lý",
+    "Kể lại việc đã làm mất thẻ",
+    "Hỏi lý do mất thẻ",
+    "Bày tỏ sự tiếc nuối"
+   ],
+   "explanation": "〜場合は、〜: \"trường hợp…, khi…\", hay dùng trong hướng dẫn, quy định."
+  },
+  {
+   "id": "45-02",
+   "unit": 45,
+   "grammar": "〜場合は、〜（trường hợp…, khi…）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "火事の 場合＿＿、エレベーターを 使わないで ください。",
+   "answer": "は",
+   "options": [
+    "は",
+    "が",
+    "を",
+    "の"
+   ],
+   "explanation": "Mẫu cố định: N の 場合は、〜."
+  },
+  {
+   "id": "45-03",
+   "unit": 45,
+   "grammar": "〜場合は、〜（trường hợp…, khi…）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "会議に ＿＿ 場合は、連絡して ください。",
+   "answer": "遅れる",
+   "options": [
+    "遅れる",
+    "遅れて",
+    "遅れ",
+    "遅れるの"
+   ],
+   "explanation": "Động từ thể từ điển／ない／た ＋ 場合は: 遅れる 場合は."
+  },
+  {
+   "id": "45-04",
+   "unit": 45,
+   "grammar": "普通形のに、〜（vậy mà, thế mà）",
+   "kind": "USAGE",
+   "prompt": "のに trong câu dưới thể hiện điều gì?",
+   "sentence": "約束したのに、彼は 来ませんでした。",
+   "answer": "Kết quả trái với mong đợi, người nói bất mãn",
+   "options": [
+    "Kết quả trái với mong đợi, người nói bất mãn",
+    "Lý do của việc không đến",
+    "Mục đích của lời hứa",
+    "Điều kiện để đến"
+   ],
+   "explanation": "普通形 ＋ のに、〜: \"vậy mà, thế mà\", vế sau trái với điều đương nhiên mong đợi."
+  },
+  {
+   "id": "45-05",
+   "unit": 45,
+   "grammar": "普通形のに、〜（vậy mà, thế mà）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "きょうは 日曜日＿＿、会社へ 行かなければ なりません。",
+   "answer": "なのに",
+   "options": [
+    "なのに",
+    "のに",
+    "だのに",
+    "でのに"
+   ],
+   "explanation": "Danh từ và tính từ な dùng な ＋ のに: 日曜日なのに."
+  },
+  {
+   "id": "45-06",
+   "unit": 45,
+   "grammar": "普通形のに、〜（vậy mà, thế mà）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "一生懸命 ＿＿のに、試験に 落ちました。",
+   "answer": "勉強した",
+   "options": [
+    "勉強した",
+    "勉強して",
+    "勉強し",
+    "勉強したな"
+   ],
+   "explanation": "のに đi sau thể thông thường: 勉強した のに."
+  },
+  {
+   "id": "46-01",
+   "unit": 46,
+   "grammar": "Vる／Vて いる／Vた ところです（sắp / đang / vừa xong）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "今 帰った ところです。",
+   "answer": "Vừa mới làm xong, ngay trước lúc nói",
+   "options": [
+    "Vừa mới làm xong, ngay trước lúc nói",
+    "Sắp về",
+    "Đang trên đường về",
+    "Đã về từ lâu"
+   ],
+   "explanation": "V た ところです: vừa xong; V る ところです: sắp làm; V て いる ところです: đang làm dở."
+  },
+  {
+   "id": "46-02",
+   "unit": 46,
+   "grammar": "Vる／Vて いる／Vた ところです（sắp / đang / vừa xong）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "今から 昼ご飯を ＿＿ ところです。",
+   "answer": "食べる",
+   "options": [
+    "食べる",
+    "食べた",
+    "食べて",
+    "食べ"
+   ],
+   "explanation": "Ngay trước khi bắt đầu làm dùng V る ＋ ところです."
+  },
+  {
+   "id": "46-03",
+   "unit": 46,
+   "grammar": "Vる／Vて いる／Vた ところです（sắp / đang / vừa xong）",
+   "kind": "FORM",
+   "prompt": "Bạn đang photo tài liệu dở thì có người hỏi. Chọn dạng đúng.",
+   "sentence": "今 会議の 資料を ＿＿ ところです。",
+   "answer": "コピーして いる",
+   "options": [
+    "コピーして いる",
+    "コピーした",
+    "コピーして",
+    "コピーし"
+   ],
+   "explanation": "Đang làm dở dùng V て いる ＋ ところです."
+  },
+  {
+   "id": "46-04",
+   "unit": 46,
+   "grammar": "Vる／Vて いる／Vた ところです（sắp / đang / vừa xong）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "たった今 駅に ＿＿ ところです。",
+   "answer": "着いた",
+   "options": [
+    "着いた",
+    "着く",
+    "着いて",
+    "着き"
+   ],
+   "explanation": "Vừa mới xong dùng V た ＋ ところです."
+  },
+  {
+   "id": "46-05",
+   "unit": 46,
+   "grammar": "Vた ばかりです（vừa mới）",
+   "kind": "USAGE",
+   "prompt": "Cụm 買った ばかり trong câu dưới thể hiện điều gì?",
+   "sentence": "この パソコンは 先週 買った ばかりなのに、もう 壊れました。",
+   "answer": "Người nói cảm thấy thời gian từ lúc mua còn rất ngắn",
+   "options": [
+    "Người nói cảm thấy thời gian từ lúc mua còn rất ngắn",
+    "Người nói mua máy từ rất lâu",
+    "Người nói chỉ mua đúng một máy",
+    "Người nói định mua máy mới"
+   ],
+   "explanation": "V た ばかりです: \"vừa mới\", theo cảm nhận của người nói là chưa lâu (có thể vài ngày, vài tháng)."
+  },
+  {
+   "id": "46-06",
+   "unit": 46,
+   "grammar": "Vた ばかりです（vừa mới）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "先月 日本に ＿＿ ばかりです。",
+   "answer": "来た",
+   "options": [
+    "来た",
+    "来る",
+    "来て",
+    "来"
+   ],
+   "explanation": "ばかりです đi sau thể た: 来た ばかりです."
+  },
+  {
+   "id": "46-07",
+   "unit": 46,
+   "grammar": "普通形 はずです（chắc chắn là, lẽ ra）",
+   "kind": "USAGE",
+   "prompt": "はずです trong câu dưới diễn tả điều gì?",
+   "sentence": "田中さんは 今 大阪に いる はずです。",
+   "answer": "Phán đoán chắc chắn dựa trên căn cứ",
+   "options": [
+    "Phán đoán chắc chắn dựa trên căn cứ",
+    "Thông tin nghe được từ người khác",
+    "Phỏng đoán không chắc chắn",
+    "Mong muốn của người nói"
+   ],
+   "explanation": "普通形 ＋ はずです: người nói tin chắc dựa trên lý lẽ, căn cứ (ví dụ đã biết lịch trình)."
+  },
+  {
+   "id": "46-08",
+   "unit": 46,
+   "grammar": "普通形 はずです（chắc chắn là, lẽ ra）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "ミラーさんは 来る＿＿。きのう 電話が ありましたから。",
+   "answer": "はずです",
+   "options": [
+    "はずです",
+    "はずが あります",
+    "のはずです",
+    "はずなります"
+   ],
+   "explanation": "Động từ thể thông thường ＋ はずです."
+  },
+  {
+   "id": "46-09",
+   "unit": 46,
+   "grammar": "普通形 はずです（chắc chắn là, lẽ ra）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "あの 店は 日曜日は 休み＿＿ はずです。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "だ",
+    "で"
+   ],
+   "explanation": "Danh từ nối với はず bằng の: 休みの はずです."
+  },
+  {
+   "id": "47-01",
+   "unit": 47,
+   "grammar": "普通形 そうです（nghe nói）",
+   "kind": "USAGE",
+   "prompt": "Câu nào truyền đạt lại thông tin nghe được từ người khác?",
+   "sentence": "",
+   "answer": "田中さんは 来月 結婚するそうです。",
+   "options": [
+    "田中さんは 来月 結婚するそうです。",
+    "田中さんは 結婚しそうです。",
+    "田中さんは 結婚するでしょう。",
+    "田中さんは 結婚したいです。"
+   ],
+   "explanation": "普通形 ＋ そうです: \"nghe nói\", truyền đạt thông tin, không thêm ý kiến. Vます bỏ ます ＋ そうです là \"trông như sắp\"."
+  },
+  {
+   "id": "47-02",
+   "unit": 47,
+   "grammar": "普通形 そうです（nghe nói）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "天気予報に よると、あしたは 雪が ＿＿ そうです。",
+   "answer": "降る",
+   "options": [
+    "降る",
+    "降り",
+    "降った",
+    "降って"
+   ],
+   "explanation": "そうです \"nghe nói\" đi sau thể thông thường: 降る そうです. 降りそうです là \"trông như sắp rơi\"."
+  },
+  {
+   "id": "47-03",
+   "unit": 47,
+   "grammar": "普通形 そうです（nghe nói）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "田中さんの お父さんは 医者＿＿ そうです。",
+   "answer": "だ",
+   "options": [
+    "だ",
+    "な",
+    "の",
+    "で"
+   ],
+   "explanation": "Danh từ và tính từ な giữ だ trước そうです \"nghe nói\": 医者だ そうです."
+  },
+  {
+   "id": "47-04",
+   "unit": 47,
+   "grammar": "普通形 ようです（hình như, có vẻ như）",
+   "kind": "USAGE",
+   "prompt": "ようです trong câu dưới diễn tả điều gì?",
+   "sentence": "人が 大勢 集まって いますね。事故の ようです。",
+   "answer": "Phán đoán dựa trên dấu hiệu quan sát được",
+   "options": [
+    "Phán đoán dựa trên dấu hiệu quan sát được",
+    "Thông tin nghe từ tin tức",
+    "Mệnh lệnh",
+    "Mong muốn của người nói"
+   ],
+   "explanation": "普通形 ＋ ようです: \"hình như, có vẻ như\", người nói phán đoán từ những gì thấy, nghe, cảm nhận."
+  },
+  {
+   "id": "47-05",
+   "unit": 47,
+   "grammar": "普通形 ようです（hình như, có vẻ như）",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "パトカーが 来て いますね。事故＿＿ ようです。",
+   "answer": "の",
+   "options": [
+    "の",
+    "な",
+    "だ",
+    "が"
+   ],
+   "explanation": "Danh từ nối với ようです bằng の: 事故の ようです."
+  },
+  {
+   "id": "47-06",
+   "unit": 47,
+   "grammar": "普通形 ようです（hình như, có vẻ như）",
+   "kind": "FORM",
+   "prompt": "Chọn từ đúng điền vào chỗ trống.",
+   "sentence": "隣の 部屋は 静か＿＿ ようです。誰も いない ようです。",
+   "answer": "な",
+   "options": [
+    "な",
+    "の",
+    "だ",
+    "に"
+   ],
+   "explanation": "Tính từ な nối với ようです bằng な: 静かな ようです."
+  },
+  {
+   "id": "47-07",
+   "unit": 47,
+   "grammar": "声／音／におい／味が します",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "隣の 部屋で 変な 音が します。",
+   "answer": "Người nói cảm nhận một âm thanh bằng giác quan",
+   "options": [
+    "Người nói cảm nhận một âm thanh bằng giác quan",
+    "Người nói đang tạo ra âm thanh",
+    "Người nói muốn nghe âm thanh",
+    "Người nói đoán sẽ có âm thanh"
+   ],
+   "explanation": "N（声、音、におい、味）が します: cảm nhận được âm thanh, mùi, vị bằng giác quan."
+  },
+  {
+   "id": "47-08",
+   "unit": 47,
+   "grammar": "声／音／におい／味が します",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "台所から いい におい＿＿ しますね。",
+   "answer": "が",
+   "options": [
+    "が",
+    "を",
+    "に",
+    "で"
+   ],
+   "explanation": "Mẫu cố định: におい が します."
+  },
+  {
+   "id": "48-01",
+   "unit": 48,
+   "grammar": "使役形（thể sai khiến）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới diễn tả điều gì?",
+   "sentence": "部長は 部下を 出張に 行かせました。",
+   "answer": "Người trên bắt hoặc cho phép người dưới làm",
+   "options": [
+    "Người trên bắt hoặc cho phép người dưới làm",
+    "Trưởng phòng tự đi công tác",
+    "Cấp dưới nhờ trưởng phòng đi",
+    "Trưởng phòng bị cấp dưới bắt đi"
+   ],
+   "explanation": "Thể sai khiến (行く → 行かせる): người trên bắt, ra lệnh hoặc cho phép người dưới làm."
+  },
+  {
+   "id": "48-02",
+   "unit": 48,
+   "grammar": "使役形（thể sai khiến）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "先生は 学生に 作文を ＿＿。",
+   "answer": "書かせました",
+   "options": [
+    "書かせました",
+    "書かれました",
+    "書けました",
+    "書きさせました"
+   ],
+   "explanation": "Sai khiến nhóm I đổi đuôi う sang あ rồi thêm せる: 書く → 書かせる."
+  },
+  {
+   "id": "48-03",
+   "unit": 48,
+   "grammar": "使役形（thể sai khiến）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "母は 子どもに 野菜を ＿＿。",
+   "answer": "食べさせました",
+   "options": [
+    "食べさせました",
+    "食べられました",
+    "食べらせました",
+    "食べせました"
+   ],
+   "explanation": "Sai khiến nhóm II thêm させる: 食べる → 食べさせる."
+  },
+  {
+   "id": "48-04",
+   "unit": 48,
+   "grammar": "N を V（tự động từ）させます／N に N を V（tha động từ）させます",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "部長は 田中さん＿＿ 大阪へ 出張させました。",
+   "answer": "を",
+   "options": [
+    "を",
+    "が",
+    "で",
+    "と"
+   ],
+   "explanation": "Với tự động từ (出張する, 行く…), người bị sai khiến thường đi với を."
+  },
+  {
+   "id": "48-05",
+   "unit": 48,
+   "grammar": "N を V（tự động từ）させます／N に N を V（tha động từ）させます",
+   "kind": "FORM",
+   "prompt": "Chọn trợ từ đúng điền vào chỗ trống.",
+   "sentence": "わたしは 娘＿＿ ピアノを 習わせて います。",
+   "answer": "に",
+   "options": [
+    "に",
+    "を",
+    "が",
+    "で"
+   ],
+   "explanation": "Với tha động từ đã có tân ngữ を (ピアノを), người bị sai khiến đi với に."
+  },
+  {
+   "id": "48-06",
+   "unit": 48,
+   "grammar": "Vさせて いただけませんか（xin phép lịch sự）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "すみません、あしたは 休ませて いただけませんか。",
+   "answer": "Xin phép người trên một cách rất lịch sự cho mình được làm",
+   "options": [
+    "Xin phép người trên một cách rất lịch sự cho mình được làm",
+    "Nhờ người trên nghỉ giúp",
+    "Bắt người khác nghỉ",
+    "Thông báo đã nghỉ"
+   ],
+   "explanation": "V（使役）て いただけませんか: xin phép rất lịch sự cho bản thân được làm gì."
+  },
+  {
+   "id": "48-07",
+   "unit": 48,
+   "grammar": "Vさせて いただけませんか（xin phép lịch sự）",
+   "kind": "FORM",
+   "prompt": "Bạn muốn xin phép được dùng phòng này. Chọn dạng đúng.",
+   "sentence": "すみませんが、この 部屋を ＿＿ いただけませんか。",
+   "answer": "使わせて",
+   "options": [
+    "使わせて",
+    "使われて",
+    "使えて",
+    "使わせ"
+   ],
+   "explanation": "Xin phép cho mình làm: thể sai khiến dạng て ＋ いただけませんか: 使わせて."
+  },
+  {
+   "id": "49-01",
+   "unit": 49,
+   "grammar": "尊敬語 V（ら）れます（tôn kính dạng bị động）",
+   "kind": "USAGE",
+   "prompt": "行かれます trong câu dưới là gì?",
+   "sentence": "部長は あした 大阪へ 行かれます。",
+   "answer": "Tôn kính ngữ, nâng cao hành động của trưởng phòng",
+   "options": [
+    "Tôn kính ngữ, nâng cao hành động của trưởng phòng",
+    "Thể bị động",
+    "Thể khả năng",
+    "Thể sai khiến"
+   ],
+   "explanation": "Tôn kính ngữ dạng V（ら）れます có hình thức giống bị động, dùng để nâng cao hành động của người trên."
+  },
+  {
+   "id": "49-02",
+   "unit": 49,
+   "grammar": "尊敬語 V（ら）れます（tôn kính dạng bị động）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng tôn kính đúng.",
+   "sentence": "社長は もう ＿＿。",
+   "answer": "帰られました",
+   "options": [
+    "帰られました",
+    "帰りられました",
+    "帰られれました",
+    "帰るられました"
+   ],
+   "explanation": "Nhóm I đổi đuôi う sang あ rồi thêm れる: 帰る → 帰られる."
+  },
+  {
+   "id": "49-03",
+   "unit": 49,
+   "grammar": "お Vます に なります（tôn kính）",
+   "kind": "USAGE",
+   "prompt": "Câu nào là tôn kính ngữ, nâng cao hành động của người khác?",
+   "sentence": "",
+   "answer": "社長は 新聞を お読みに なって います。",
+   "options": [
+    "社長は 新聞を お読みに なって います。",
+    "わたしが 新聞を お読みします。",
+    "社長が 新聞を 読ませました。",
+    "新聞が 読まれて います。"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ に なります là tôn kính; お ＋ V ます ＋ します là khiêm nhường."
+  },
+  {
+   "id": "49-04",
+   "unit": 49,
+   "grammar": "お Vます に なります（tôn kính）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng tôn kính đúng.",
+   "sentence": "先生は もう ＿＿。",
+   "answer": "お帰りに なりました",
+   "options": [
+    "お帰りに なりました",
+    "お帰りに しました",
+    "お帰りしました",
+    "お帰るに なりました"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ に なります: 帰ります → お帰りに なります."
+  },
+  {
+   "id": "49-05",
+   "unit": 49,
+   "grammar": "特別な 尊敬語（động từ tôn kính đặc biệt）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ tôn kính đúng.",
+   "sentence": "先生は 今 研究室に ＿＿。",
+   "answer": "いらっしゃいます",
+   "options": [
+    "いらっしゃいます",
+    "おります",
+    "参ります",
+    "伺います"
+   ],
+   "explanation": "Tôn kính của いる／行く／来る là いらっしゃる; おる, 参る, 伺う là khiêm nhường."
+  },
+  {
+   "id": "49-06",
+   "unit": 49,
+   "grammar": "特別な 尊敬語（động từ tôn kính đặc biệt）",
+   "kind": "FORM",
+   "prompt": "Mời khách dùng món. Chọn từ đúng.",
+   "sentence": "どうぞ ＿＿ ください。",
+   "answer": "召し上がって",
+   "options": [
+    "召し上がって",
+    "いただいて",
+    "召し上がる",
+    "食べられ"
+   ],
+   "explanation": "Tôn kính của 食べる／飲む là 召し上がる: 召し上がって ください."
+  },
+  {
+   "id": "49-07",
+   "unit": 49,
+   "grammar": "特別な 尊敬語（động từ tôn kính đặc biệt）",
+   "kind": "FORM",
+   "prompt": "Chọn động từ tôn kính đúng.",
+   "sentence": "部長は 何と ＿＿か。",
+   "answer": "おっしゃいました",
+   "options": [
+    "おっしゃいました",
+    "申しました",
+    "申し上げました",
+    "伺いました"
+   ],
+   "explanation": "Tôn kính của 言う là おっしゃる; 申す là khiêm nhường."
+  },
+  {
+   "id": "49-08",
+   "unit": 49,
+   "grammar": "特別な 尊敬語（động từ tôn kính đặc biệt）",
+   "kind": "USAGE",
+   "prompt": "ご覧に なります là tôn kính ngữ của động từ nào?",
+   "sentence": "この 写真を ご覧に なりましたか。",
+   "answer": "見る",
+   "options": [
+    "見る",
+    "来る",
+    "言う",
+    "知る"
+   ],
+   "explanation": "見る → ご覧に なる（tôn kính）, 拝見する（khiêm nhường）."
+  },
+  {
+   "id": "49-09",
+   "unit": 49,
+   "grammar": "お Vます ください（mời, xin hãy – tôn kính）",
+   "kind": "USAGE",
+   "prompt": "Câu dưới được dùng để làm gì?",
+   "sentence": "どうぞ お入り ください。",
+   "answer": "Mời, yêu cầu khách một cách lịch sự",
+   "options": [
+    "Mời, yêu cầu khách một cách lịch sự",
+    "Xin phép được vào",
+    "Cấm vào",
+    "Kể lại việc đã vào"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ ください là dạng tôn kính của Vて ください."
+  },
+  {
+   "id": "49-10",
+   "unit": 49,
+   "grammar": "お Vます ください（mời, xin hãy – tôn kính）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng đúng điền vào chỗ trống.",
+   "sentence": "こちらで 少々 ＿＿ ください。",
+   "answer": "お待ち",
+   "options": [
+    "お待ち",
+    "お待って",
+    "お待つ",
+    "お待ちに"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ ください: 待ちます → お待ち ください."
+  },
+  {
+   "id": "50-01",
+   "unit": 50,
+   "grammar": "お Vます します／ご N します（khiêm nhường）",
+   "kind": "USAGE",
+   "prompt": "Câu nào là khiêm nhường ngữ, hạ thấp hành động của mình?",
+   "sentence": "",
+   "answer": "駅まで お送りします。",
+   "options": [
+    "駅まで お送りします。",
+    "駅まで お送りに なります。",
+    "駅まで 送られます。",
+    "駅まで 送って ください。"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ します: khiêm nhường, dùng khi mình làm gì cho người trên, khách."
+  },
+  {
+   "id": "50-02",
+   "unit": 50,
+   "grammar": "お Vます します／ご N します（khiêm nhường）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng khiêm nhường đúng.",
+   "sentence": "重そうですね。荷物を ＿＿ しましょうか。",
+   "answer": "お持ち",
+   "options": [
+    "お持ち",
+    "お持って",
+    "お持つ",
+    "お持ちに"
+   ],
+   "explanation": "お ＋ V ます（bỏ ます）＋ します: 持ちます → お持ちします."
+  },
+  {
+   "id": "50-03",
+   "unit": 50,
+   "grammar": "お Vます します／ご N します（khiêm nhường）",
+   "kind": "FORM",
+   "prompt": "Chọn dạng khiêm nhường đúng.",
+   "sentence": "部長に 新しい 計画を ＿＿ します。",
+   "answer": "ご説明",
+   "options": [
+    "ご説明",
+    "お説明",
+    "ご説明に",
+    "説明ご"
+   ],
+   "explanation": "Danh từ Hán (説明, 案内, 連絡…) dùng ご ＋ N ＋ します: ご説明します."
+  },
+  {
+   "id": "50-04",
+   "unit": 50,
+   "grammar": "特別な 謙譲語（động từ khiêm nhường đặc biệt）",
+   "kind": "FORM",
+   "prompt": "Bạn tự giới thiệu tên mình. Chọn từ đúng.",
+   "sentence": "はじめまして。マリアと ＿＿。",
+   "answer": "申します",
+   "options": [
+    "申します",
+    "おっしゃいます",
+    "言われます",
+    "申し上げます"
+   ],
+   "explanation": "Khiêm nhường của 言う khi giới thiệu tên là 申します; おっしゃる là tôn kính."
+  },
+  {
+   "id": "50-05",
+   "unit": 50,
+   "grammar": "特別な 謙譲語（động từ khiêm nhường đặc biệt）",
+   "kind": "FORM",
+   "prompt": "Chọn từ khiêm nhường đúng.",
+   "sentence": "あした お宅に ＿＿も よろしいでしょうか。",
+   "answer": "伺って",
+   "options": [
+    "伺って",
+    "いらっしゃって",
+    "参られて",
+    "伺い"
+   ],
+   "explanation": "Khiêm nhường của 訪ねる／聞く là 伺う: 伺っても よろしいでしょうか."
+  },
+  {
+   "id": "50-06",
+   "unit": 50,
+   "grammar": "特別な 謙譲語（động từ khiêm nhường đặc biệt）",
+   "kind": "FORM",
+   "prompt": "Có người gọi điện hỏi bố bạn. Chọn từ đúng.",
+   "sentence": "父は 今 家に ＿＿。",
+   "answer": "おります",
+   "options": [
+    "おります",
+    "いらっしゃいます",
+    "おいでに なります",
+    "ご覧に なります"
+   ],
+   "explanation": "Nói về người nhà mình với người ngoài dùng khiêm nhường: いる → おる."
+  },
+  {
+   "id": "50-07",
+   "unit": 50,
+   "grammar": "特別な 謙譲語（động từ khiêm nhường đặc biệt）",
+   "kind": "USAGE",
+   "prompt": "拝見します là khiêm nhường ngữ của động từ nào?",
+   "sentence": "お手紙を 拝見しました。",
+   "answer": "見る",
+   "options": [
+    "見る",
+    "会う",
+    "行く",
+    "する"
+   ],
+   "explanation": "見る → 拝見する（khiêm nhường）, ご覧に なる（tôn kính）."
+  },
+  {
+   "id": "50-08",
+   "unit": 50,
+   "grammar": "特別な 謙譲語（động từ khiêm nhường đặc biệt）",
+   "kind": "USAGE",
+   "prompt": "お目に かかります là khiêm nhường ngữ của động từ nào?",
+   "sentence": "一度 社長に お目に かかりたいです。",
+   "answer": "会う",
+   "options": [
+    "会う",
+    "見る",
+    "聞く",
+    "知る"
+   ],
+   "explanation": "会う → お目に かかる（khiêm nhường）."
+  },
+  {
+   "id": "26-match",
+   "unit": 26,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜んです",
+     "meaning": "giải thích, hỏi lý do, nhấn mạnh"
+    },
+    {
+     "pattern": "〜んですが、〜て いただけませんか",
+     "meaning": "nhờ vả lịch sự"
+    },
+    {
+     "pattern": "疑問詞 ＋ V たら いいですか",
+     "meaning": "xin lời khuyên, chỉ dẫn"
+    }
+   ],
+   "answer": "giải thích, hỏi lý do, nhấn mạnh\nnhờ vả lịch sự\nxin lời khuyên, chỉ dẫn",
+   "options": [
+    "giải thích, hỏi lý do, nhấn mạnh",
+    "nhờ vả lịch sự",
+    "xin lời khuyên, chỉ dẫn"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜んです: giải thích, hỏi lý do, nhấn mạnh; 〜んですが、〜て いただけませんか: nhờ vả lịch sự; 疑問詞 ＋ V たら いいですか: xin lời khuyên, chỉ dẫn."
+  },
+  {
+   "id": "27-match",
+   "unit": 27,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "可能動詞 〜が Vえます",
+     "meaning": "thể khả năng: có thể làm"
+    },
+    {
+     "pattern": "見えます・聞こえます",
+     "meaning": "nhìn thấy, nghe thấy (tự nhiên)"
+    },
+    {
+     "pattern": "N が できます",
+     "meaning": "được xây dựng, hoàn thành, mở ra"
+    },
+    {
+     "pattern": "しか 〜ない",
+     "meaning": "chỉ…"
+    }
+   ],
+   "answer": "thể khả năng: có thể làm\nnhìn thấy, nghe thấy (tự nhiên)\nđược xây dựng, hoàn thành, mở ra\nchỉ…",
+   "options": [
+    "thể khả năng: có thể làm",
+    "nhìn thấy, nghe thấy (tự nhiên)",
+    "được xây dựng, hoàn thành, mở ra",
+    "chỉ…"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 可能動詞 〜が Vえます: thể khả năng: có thể làm; 見えます・聞こえます: nhìn thấy, nghe thấy (tự nhiên); N が できます: được xây dựng, hoàn thành, mở ra; しか 〜ない: chỉ…."
+  },
+  {
+   "id": "28-match",
+   "unit": 28,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "V1ますながら V2",
+     "meaning": "vừa… vừa…"
+    },
+    {
+     "pattern": "Vて います",
+     "meaning": "thói quen"
+    },
+    {
+     "pattern": "普通形し、普通形し",
+     "meaning": "vừa… lại vừa…, liệt kê lý do"
+    }
+   ],
+   "answer": "vừa… vừa…\nthói quen\nvừa… lại vừa…, liệt kê lý do",
+   "options": [
+    "vừa… vừa…",
+    "thói quen",
+    "vừa… lại vừa…, liệt kê lý do"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: V1ますながら V2: vừa… vừa…; Vて います: thói quen; 普通形し、普通形し: vừa… lại vừa…, liệt kê lý do."
+  },
+  {
+   "id": "29-match",
+   "unit": 29,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "N が Vて います",
+     "meaning": "trạng thái (kết quả của sự thay đổi)"
+    },
+    {
+     "pattern": "Vて しまいました／しまいます",
+     "meaning": "làm xong hết"
+    },
+    {
+     "pattern": "Vて しまいました",
+     "meaning": "lỡ… mất, tiếc nuối"
+    }
+   ],
+   "answer": "trạng thái (kết quả của sự thay đổi)\nlàm xong hết\nlỡ… mất, tiếc nuối",
+   "options": [
+    "trạng thái (kết quả của sự thay đổi)",
+    "làm xong hết",
+    "lỡ… mất, tiếc nuối"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: N が Vて います: trạng thái (kết quả của sự thay đổi); Vて しまいました／しまいます: làm xong hết; Vて しまいました: lỡ… mất, tiếc nuối."
+  },
+  {
+   "id": "30-match",
+   "unit": 30,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "N が Vて あります",
+     "meaning": "trạng thái do ai đó cố ý tạo ra"
+    },
+    {
+     "pattern": "Vて おきます",
+     "meaning": "làm sẵn, để nguyên"
+    },
+    {
+     "pattern": "まだ ＋ khẳng định",
+     "meaning": "vẫn còn"
+    }
+   ],
+   "answer": "trạng thái do ai đó cố ý tạo ra\nlàm sẵn, để nguyên\nvẫn còn",
+   "options": [
+    "trạng thái do ai đó cố ý tạo ra",
+    "làm sẵn, để nguyên",
+    "vẫn còn"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: N が Vて あります: trạng thái do ai đó cố ý tạo ra; Vて おきます: làm sẵn, để nguyên; まだ ＋ khẳng định: vẫn còn."
+  },
+  {
+   "id": "31-match",
+   "unit": 31,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "意向形",
+     "meaning": "thể ý chí: rủ rê thân mật, tự nhủ"
+    },
+    {
+     "pattern": "V意向形と 思って います",
+     "meaning": "định làm (ý định đang ấp ủ)"
+    },
+    {
+     "pattern": "Vる／Vない つもりです",
+     "meaning": "có ý định (đã quyết)"
+    },
+    {
+     "pattern": "Vる／Nの 予定です",
+     "meaning": "dự kiến (lịch trình định sẵn)"
+    }
+   ],
+   "answer": "thể ý chí: rủ rê thân mật, tự nhủ\nđịnh làm (ý định đang ấp ủ)\ncó ý định (đã quyết)\ndự kiến (lịch trình định sẵn)",
+   "options": [
+    "thể ý chí: rủ rê thân mật, tự nhủ",
+    "định làm (ý định đang ấp ủ)",
+    "có ý định (đã quyết)",
+    "dự kiến (lịch trình định sẵn)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 意向形: thể ý chí: rủ rê thân mật, tự nhủ; V意向形と 思って います: định làm (ý định đang ấp ủ); Vる／Vない つもりです: có ý định (đã quyết); Vる／Nの 予定です: dự kiến (lịch trình định sẵn)."
+  },
+  {
+   "id": "32-match",
+   "unit": 32,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "Vた ほうが いいです／Vない ほうが いいです",
+     "meaning": "nên / không nên"
+    },
+    {
+     "pattern": "普通形 でしょう",
+     "meaning": "có lẽ, chắc là"
+    },
+    {
+     "pattern": "普通形 かも しれません",
+     "meaning": "có thể, không chừng"
+    }
+   ],
+   "answer": "nên / không nên\ncó lẽ, chắc là\ncó thể, không chừng",
+   "options": [
+    "nên / không nên",
+    "có lẽ, chắc là",
+    "có thể, không chừng"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: Vた ほうが いいです／Vない ほうが いいです: nên / không nên; 普通形 でしょう: có lẽ, chắc là; 普通形 かも しれません: có thể, không chừng."
+  },
+  {
+   "id": "33-match",
+   "unit": 33,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "命令形・禁止形",
+     "meaning": "mệnh lệnh / cấm đoán"
+    },
+    {
+     "pattern": "X は Y と いう 意味です",
+     "meaning": "X nghĩa là Y"
+    },
+    {
+     "pattern": "普通形 と 言って いました／伝えて いただけませんか",
+     "meaning": "truyền đạt lời nói"
+    }
+   ],
+   "answer": "mệnh lệnh / cấm đoán\nX nghĩa là Y\ntruyền đạt lời nói",
+   "options": [
+    "mệnh lệnh / cấm đoán",
+    "X nghĩa là Y",
+    "truyền đạt lời nói"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 命令形・禁止形: mệnh lệnh / cấm đoán; X は Y と いう 意味です: X nghĩa là Y; 普通形 と 言って いました／伝えて いただけませんか: truyền đạt lời nói."
+  },
+  {
+   "id": "34-match",
+   "unit": 34,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "V1る／V1た／Nの とおりに、V2",
+     "meaning": "làm đúng như"
+    },
+    {
+     "pattern": "V1た／Nの あとで、V2",
+     "meaning": "sau khi"
+    },
+    {
+     "pattern": "V1て／V1ないで V2",
+     "meaning": "cách thức đi kèm"
+    }
+   ],
+   "answer": "làm đúng như\nsau khi\ncách thức đi kèm",
+   "options": [
+    "làm đúng như",
+    "sau khi",
+    "cách thức đi kèm"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: V1る／V1た／Nの とおりに、V2: làm đúng như; V1た／Nの あとで、V2: sau khi; V1て／V1ないで V2: cách thức đi kèm."
+  },
+  {
+   "id": "35-match",
+   "unit": 35,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "条件形 〜ば",
+     "meaning": "nếu"
+    },
+    {
+     "pattern": "N なら、〜",
+     "meaning": "nếu là…, về… thì"
+    },
+    {
+     "pattern": "疑問詞＋Vば いいですか",
+     "meaning": "nên làm thế nào"
+    }
+   ],
+   "answer": "nếu\nnếu là…, về… thì\nnên làm thế nào",
+   "options": [
+    "nếu",
+    "nếu là…, về… thì",
+    "nên làm thế nào"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 条件形 〜ば: nếu; N なら、〜: nếu là…, về… thì; 疑問詞＋Vば いいですか: nên làm thế nào."
+  },
+  {
+   "id": "36-match",
+   "unit": 36,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "V1る／V1ない ように、V2",
+     "meaning": "để, để không"
+    },
+    {
+     "pattern": "Vる ように なります",
+     "meaning": "đã có thể, đã bắt đầu (thay đổi)"
+    },
+    {
+     "pattern": "Vる／Vない ように します",
+     "meaning": "cố gắng, chú ý để"
+    }
+   ],
+   "answer": "để, để không\nđã có thể, đã bắt đầu (thay đổi)\ncố gắng, chú ý để",
+   "options": [
+    "để, để không",
+    "đã có thể, đã bắt đầu (thay đổi)",
+    "cố gắng, chú ý để"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: V1る／V1ない ように、V2: để, để không; Vる ように なります: đã có thể, đã bắt đầu (thay đổi); Vる／Vない ように します: cố gắng, chú ý để."
+  },
+  {
+   "id": "37-match",
+   "unit": 37,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "受身形 N1 は N2 に V られます",
+     "meaning": "câu bị động: bị, được người khác làm"
+    },
+    {
+     "pattern": "N1 は N2 に N3 を V受身",
+     "meaning": "bị ảnh hưởng đến đồ vật, bộ phận của mình"
+    },
+    {
+     "pattern": "N が／は V受身",
+     "meaning": "bị động khách quan"
+    },
+    {
+     "pattern": "N から／N で 造られます",
+     "meaning": "làm từ…"
+    }
+   ],
+   "answer": "câu bị động: bị, được người khác làm\nbị ảnh hưởng đến đồ vật, bộ phận của mình\nbị động khách quan\nlàm từ…",
+   "options": [
+    "câu bị động: bị, được người khác làm",
+    "bị ảnh hưởng đến đồ vật, bộ phận của mình",
+    "bị động khách quan",
+    "làm từ…"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 受身形 N1 は N2 に V られます: câu bị động: bị, được người khác làm; N1 は N2 に N3 を V受身: bị ảnh hưởng đến đồ vật, bộ phận của mình; N が／は V受身: bị động khách quan; N から／N で 造られます: làm từ…."
+  },
+  {
+   "id": "38-match",
+   "unit": 38,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "V普通形のは Aです",
+     "meaning": "việc… thì…"
+    },
+    {
+     "pattern": "V普通形のが Aです",
+     "meaning": "thích / giỏi / nhanh… việc"
+    },
+    {
+     "pattern": "V普通形のを 忘れました／知っていますか",
+     "meaning": "quên làm việc… / có biết việc…"
+    },
+    {
+     "pattern": "V普通形のは N です",
+     "meaning": "nhấn mạnh"
+    }
+   ],
+   "answer": "việc… thì…\nthích / giỏi / nhanh… việc\nquên làm việc… / có biết việc…\nnhấn mạnh",
+   "options": [
+    "việc… thì…",
+    "thích / giỏi / nhanh… việc",
+    "quên làm việc… / có biết việc…",
+    "nhấn mạnh"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: V普通形のは Aです: việc… thì…; V普通形のが Aです: thích / giỏi / nhanh… việc; V普通形のを 忘れました／知っていますか: quên làm việc… / có biết việc…; V普通形のは N です: nhấn mạnh."
+  },
+  {
+   "id": "39-match",
+   "unit": 39,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜て／〜なくて／Aくて／Aなで、〜",
+     "meaning": "vì… (vế sau là cảm xúc, trạng thái)"
+    },
+    {
+     "pattern": "N で",
+     "meaning": "vì N: sự cố, hiện tượng"
+    },
+    {
+     "pattern": "普通形 ので、〜",
+     "meaning": "vì… (lý do khách quan, nhẹ nhàng)"
+    }
+   ],
+   "answer": "vì… (vế sau là cảm xúc, trạng thái)\nvì N: sự cố, hiện tượng\nvì… (lý do khách quan, nhẹ nhàng)",
+   "options": [
+    "vì… (vế sau là cảm xúc, trạng thái)",
+    "vì N: sự cố, hiện tượng",
+    "vì… (lý do khách quan, nhẹ nhàng)"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜て／〜なくて／Aくて／Aなで、〜: vì… (vế sau là cảm xúc, trạng thái); N で: vì N: sự cố, hiện tượng; 普通形 ので、〜: vì… (lý do khách quan, nhẹ nhàng)."
+  },
+  {
+   "id": "40-match",
+   "unit": 40,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "疑問詞＋普通形か、〜",
+     "meaning": "câu hỏi có từ để hỏi lồng trong câu"
+    },
+    {
+     "pattern": "普通形か どうか、〜",
+     "meaning": "có… hay không"
+    },
+    {
+     "pattern": "Vて みます",
+     "meaning": "thử làm"
+    }
+   ],
+   "answer": "câu hỏi có từ để hỏi lồng trong câu\ncó… hay không\nthử làm",
+   "options": [
+    "câu hỏi có từ để hỏi lồng trong câu",
+    "có… hay không",
+    "thử làm"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 疑問詞＋普通形か、〜: câu hỏi có từ để hỏi lồng trong câu; 普通形か どうか、〜: có… hay không; Vて みます: thử làm."
+  },
+  {
+   "id": "41-match",
+   "unit": 41,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "いただきます／くださいます／やります",
+     "meaning": "cho – nhận đồ vật (kính ngữ)"
+    },
+    {
+     "pattern": "Vて いただきます／くださいます／やります",
+     "meaning": "được làm cho / làm cho (kính ngữ)"
+    },
+    {
+     "pattern": "Vて くださいませんか",
+     "meaning": "nhờ vả lịch sự"
+    }
+   ],
+   "answer": "cho – nhận đồ vật (kính ngữ)\nđược làm cho / làm cho (kính ngữ)\nnhờ vả lịch sự",
+   "options": [
+    "cho – nhận đồ vật (kính ngữ)",
+    "được làm cho / làm cho (kính ngữ)",
+    "nhờ vả lịch sự"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: いただきます／くださいます／やります: cho – nhận đồ vật (kính ngữ); Vて いただきます／くださいます／やります: được làm cho / làm cho (kính ngữ); Vて くださいませんか: nhờ vả lịch sự."
+  },
+  {
+   "id": "42-match",
+   "unit": 42,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "Vる／Nの ために、〜",
+     "meaning": "để, vì"
+    },
+    {
+     "pattern": "Vる の／N に 使います・いいです・便利です",
+     "meaning": "dùng để, tốt cho"
+    },
+    {
+     "pattern": "Vる のに ＋ thời gian／tiền が かかります",
+     "meaning": "mất (thời gian, tiền) để làm"
+    }
+   ],
+   "answer": "để, vì\ndùng để, tốt cho\nmất (thời gian, tiền) để làm",
+   "options": [
+    "để, vì",
+    "dùng để, tốt cho",
+    "mất (thời gian, tiền) để làm"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: Vる／Nの ために、〜: để, vì; Vる の／N に 使います・いいです・便利です: dùng để, tốt cho; Vる のに ＋ thời gian／tiền が かかります: mất (thời gian, tiền) để làm."
+  },
+  {
+   "id": "43-match",
+   "unit": 43,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "Vます そうです",
+     "meaning": "sắp, có vẻ sắp"
+    },
+    {
+     "pattern": "Aい／Aな そうです",
+     "meaning": "trông có vẻ"
+    },
+    {
+     "pattern": "Vて 来ます",
+     "meaning": "đi làm gì rồi quay lại"
+    }
+   ],
+   "answer": "sắp, có vẻ sắp\ntrông có vẻ\nđi làm gì rồi quay lại",
+   "options": [
+    "sắp, có vẻ sắp",
+    "trông có vẻ",
+    "đi làm gì rồi quay lại"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: Vます そうです: sắp, có vẻ sắp; Aい／Aな そうです: trông có vẻ; Vて 来ます: đi làm gì rồi quay lại."
+  },
+  {
+   "id": "44-match",
+   "unit": 44,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜すぎます",
+     "meaning": "quá…"
+    },
+    {
+     "pattern": "Vます やすいです／にくいです",
+     "meaning": "dễ / khó làm"
+    },
+    {
+     "pattern": "Aく／Aなに／Nに します",
+     "meaning": "làm cho…"
+    },
+    {
+     "pattern": "N に します",
+     "meaning": "chọn, quyết định"
+    }
+   ],
+   "answer": "quá…\ndễ / khó làm\nlàm cho…\nchọn, quyết định",
+   "options": [
+    "quá…",
+    "dễ / khó làm",
+    "làm cho…",
+    "chọn, quyết định"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜すぎます: quá…; Vます やすいです／にくいです: dễ / khó làm; Aく／Aなに／Nに します: làm cho…; N に します: chọn, quyết định."
+  },
+  {
+   "id": "45-match",
+   "unit": 45,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "〜場合は、〜",
+     "meaning": "trường hợp…, khi…"
+    },
+    {
+     "pattern": "普通形のに、〜",
+     "meaning": "vậy mà, thế mà"
+    }
+   ],
+   "answer": "trường hợp…, khi…\nvậy mà, thế mà",
+   "options": [
+    "trường hợp…, khi…",
+    "vậy mà, thế mà"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 〜場合は、〜: trường hợp…, khi…; 普通形のに、〜: vậy mà, thế mà."
+  },
+  {
+   "id": "46-match",
+   "unit": 46,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "Vる／Vて いる／Vた ところです",
+     "meaning": "sắp / đang / vừa xong (thời điểm hành động)"
+    },
+    {
+     "pattern": "Vた ばかりです",
+     "meaning": "vừa mới"
+    },
+    {
+     "pattern": "普通形 はずです",
+     "meaning": "chắc chắn là, lẽ ra"
+    }
+   ],
+   "answer": "sắp / đang / vừa xong (thời điểm hành động)\nvừa mới\nchắc chắn là, lẽ ra",
+   "options": [
+    "sắp / đang / vừa xong (thời điểm hành động)",
+    "vừa mới",
+    "chắc chắn là, lẽ ra"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: Vる／Vて いる／Vた ところです: sắp / đang / vừa xong (thời điểm hành động); Vた ばかりです: vừa mới; 普通形 はずです: chắc chắn là, lẽ ra."
+  },
+  {
+   "id": "47-match",
+   "unit": 47,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "普通形 そうです",
+     "meaning": "nghe nói"
+    },
+    {
+     "pattern": "普通形 ようです",
+     "meaning": "hình như, có vẻ như"
+    },
+    {
+     "pattern": "声／音／におい／味が します",
+     "meaning": "nghe thấy tiếng, ngửi thấy mùi, cảm thấy vị"
+    }
+   ],
+   "answer": "nghe nói\nhình như, có vẻ như\nnghe thấy tiếng, ngửi thấy mùi, cảm thấy vị",
+   "options": [
+    "nghe nói",
+    "hình như, có vẻ như",
+    "nghe thấy tiếng, ngửi thấy mùi, cảm thấy vị"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 普通形 そうです: nghe nói; 普通形 ようです: hình như, có vẻ như; 声／音／におい／味が します: nghe thấy tiếng, ngửi thấy mùi, cảm thấy vị."
+  },
+  {
+   "id": "48-match",
+   "unit": 48,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "使役形",
+     "meaning": "thể sai khiến"
+    },
+    {
+     "pattern": "人を V（自動詞）させます／人に N を V させます",
+     "meaning": "bắt / cho ai làm (を với tự động từ, に với tha động từ)"
+    },
+    {
+     "pattern": "Vさせて いただけませんか",
+     "meaning": "xin phép lịch sự"
+    }
+   ],
+   "answer": "thể sai khiến\nbắt / cho ai làm (を với tự động từ, に với tha động từ)\nxin phép lịch sự",
+   "options": [
+    "thể sai khiến",
+    "bắt / cho ai làm (を với tự động từ, に với tha động từ)",
+    "xin phép lịch sự"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: 使役形: thể sai khiến; 人を V（自動詞）させます／人に N を V させます: bắt / cho ai làm (を với tự động từ, に với tha động từ); Vさせて いただけませんか: xin phép lịch sự."
+  },
+  {
+   "id": "49-match",
+   "unit": 49,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "V（ら）れます（尊敬語）",
+     "meaning": "tôn kính dạng bị động"
+    },
+    {
+     "pattern": "お Vます に なります",
+     "meaning": "tôn kính"
+    },
+    {
+     "pattern": "特別な 尊敬語",
+     "meaning": "động từ tôn kính đặc biệt"
+    },
+    {
+     "pattern": "お Vます ください",
+     "meaning": "mời, xin hãy – tôn kính"
+    }
+   ],
+   "answer": "tôn kính dạng bị động\ntôn kính\nđộng từ tôn kính đặc biệt\nmời, xin hãy – tôn kính",
+   "options": [
+    "tôn kính dạng bị động",
+    "tôn kính",
+    "động từ tôn kính đặc biệt",
+    "mời, xin hãy – tôn kính"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: V（ら）れます（尊敬語）: tôn kính dạng bị động; お Vます に なります: tôn kính; 特別な 尊敬語: động từ tôn kính đặc biệt; お Vます ください: mời, xin hãy – tôn kính."
+  },
+  {
+   "id": "50-match",
+   "unit": 50,
+   "grammar": "Tổng hợp mẫu ngữ pháp của bài",
+   "kind": "MATCH",
+   "prompt": "Ghép mỗi mẫu ngữ pháp của bài với ý nghĩa đúng của nó.",
+   "sentence": "",
+   "pairs": [
+    {
+     "pattern": "お Vます します／ご N します",
+     "meaning": "khiêm nhường"
+    },
+    {
+     "pattern": "特別な 謙譲語",
+     "meaning": "động từ khiêm nhường đặc biệt"
+    }
+   ],
+   "answer": "khiêm nhường\nđộng từ khiêm nhường đặc biệt",
+   "options": [
+    "khiêm nhường",
+    "động từ khiêm nhường đặc biệt"
+   ],
+   "explanation": "Ôn lại toàn bộ mẫu ngữ pháp của bài: お Vます します／ご N します: khiêm nhường; 特別な 謙譲語: động từ khiêm nhường đặc biệt."
+  }
+ ]
+}
