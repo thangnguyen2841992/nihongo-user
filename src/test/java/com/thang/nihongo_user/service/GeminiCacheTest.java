@@ -22,6 +22,7 @@ class GeminiCacheTest {
                 .exchangeFunction(exchange).build(), new ObjectMapper());
         ReflectionTestUtils.setField(service, "geminiKey", "test-key");
         ReflectionTestUtils.setField(service, "model", "test-model");
+        service.retryDelay = java.time.Duration.ofMillis(1);
         return service;
     }
 
@@ -54,11 +55,13 @@ class GeminiCacheTest {
     void failureDoesNotPreventNextSearchFromRecovering() throws Exception {
         var calls = new AtomicInteger();
         ClientResponse success = answer();
-        var service = service(request -> Mono.defer(() -> Mono.just(calls.incrementAndGet() == 1
+        // The first search fails on its initial attempt and both overload retries.
+        var service = service(request -> Mono.defer(() -> Mono.just(calls.incrementAndGet() <= 3
                 ? ClientResponse.create(HttpStatus.SERVICE_UNAVAILABLE).body("{}").build() : success)));
         assertThrows(ResponseStatusException.class, () -> service.analyzeJapanese("学校").block());
+        assertEquals(3, calls.get());
         assertEquals("Trường học", service.analyzeJapanese("学校").block().getTranslation());
-        assertEquals(2, calls.get());
+        assertEquals(4, calls.get());
     }
 
     @Test

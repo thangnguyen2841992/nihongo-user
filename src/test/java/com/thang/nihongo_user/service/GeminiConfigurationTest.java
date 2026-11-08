@@ -19,7 +19,7 @@ class GeminiConfigurationTest {
         sources.remove(StandardEnvironment.SYSTEM_ENVIRONMENT_PROPERTY_SOURCE_NAME);
         sources.addLast(new SystemEnvironmentPropertySource("environment", variables));
         sources.addLast(new MapPropertySource("local", local));
-        for (var source : new YamlPropertySourceLoader().load("application", new ClassPathResource("application.yaml"))) {
+        for (var source : new YamlPropertySourceLoader().load("application", new ClassPathResource("application.yml"))) {
             sources.addLast(source);
         }
         return environment;
